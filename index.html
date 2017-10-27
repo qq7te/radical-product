@@ -18,28 +18,41 @@
         <ul class="cards">
             <li>
                 <img class="icon" src="img/talk.png">
-                <h3><a href="https://docs.google.com/presentation/d/1NXQRa1JcPKKRu8q9_jtRnt1fpwYBiM2i_EyVmPD2M4Q/edit?usp=sharing">The Talk</a></h3>
+                <h3><a id="download-slides" href="https://docs.google.com/presentation/d/1NXQRa1JcPKKRu8q9_jtRnt1fpwYBiM2i_EyVmPD2M4Q/edit?usp=sharing">The Talk</a></h3>
                 <p>Slides for the TiE StartupCon 2017 presentation that introduced Radical Product to the community.</p>
             </li>
             <li>
                 <img class="icon" src="img/tool.png">
-                <h3><a href="RadicalProductCanvas_v1.0.pdf">The Tool</a></h3>
+                <h3><a id="download-tool" href="RadicalProductCanvas_v1.0.pdf">The Tool</a></h3>
                 <p>Download the Radical Product Toolkit in PDF format, including templates and instructions for each exercise.</p>
             </li>
             <li>
                     <img class="icon" src="img/blog.png">
-                <h3><a href="https://medium.com/radical-product">The Blog</a></h3>
+                <h3><a id="visit-blog" href="https://medium.com/radical-product">The Blog</a></h3>
                 <p>Follow Radical Product on Medium for the latest updates.</p>
             </li>
         </ul>
         <section>
             <h2>Sign up for updates</h2>
-            <form name="contact" action="thank-you" netlify>
+            <form id="sign-up" name="contact" action="thank-you" netlify>
                 <label>Your Email: <input type="email" name="email"></label>
                 <button type="submit">Sign Up</button>
             </form>
             <p>You can also reach us as <a href="mailto:hello@radicalproduct.com">hello@radicalproduct.com</a>. We can't wait to hear from you!</p>
         </section>
     </section>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-31853780-7"></script>
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    
+    gtag('config', 'UA-31853780-7');
+    gtag('require', 'outboundLinkTracker');
+    gtag('require', 'outboundFormTracker');
+    </script>
+
 </body>
 </html>
