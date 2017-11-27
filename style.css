@@ -91,7 +91,7 @@ form input {
     font-size: 18px;
 }
 
-form button {
+form .button {
     font-size: 18px;
     display: inline-block;
     width: 100px;
