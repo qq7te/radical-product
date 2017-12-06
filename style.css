@@ -19,6 +19,10 @@ header {
     padding: 2em 0.5em;
 }
 
+strong {
+    font-weight: 700;
+}
+
 @media screen and (max-width: 650px) {
     header {
         font-size: 0.8em;
@@ -49,6 +53,15 @@ section {
         font-weight: 700;
         color: #FF1A4D;
         margin-bottom: 1em;
+    }
+
+    section h3 {
+        font-size: 1.25em;
+        font-weight: 400;
+        color: #000000;
+        margin: 0 auto;
+        margin-bottom: 1em;
+        max-width: 600px;
     }
 
     section a {
