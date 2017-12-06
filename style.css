@@ -146,3 +146,11 @@ form button:hover {
     display: inline-block;
     margin: 10px;
 }
+
+#signup {
+    transition: 1s all;
+}
+
+#signup.highlight {
+    background-color: rgba(255,0,0,0.2);
+}

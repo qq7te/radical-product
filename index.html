@@ -45,6 +45,7 @@
         drift.load('apsdgisc25f5');
     </script>
     <!-- End of Async Drift Code -->
+
 </head>
 <body>
     <header>
@@ -88,6 +89,14 @@
             <p>You can also reach us as <a href="mailto:hello@radicalproduct.com">hello@radicalproduct.com</a>. We can't wait to hear from you!</p>
         </section>
     </section>
-    
+    <script>
+        document.getElementById('download-tool').addEventListener('click', function (e) {
+            e.preventDefault();
+            document.getElementById('signup').scrollIntoView({ 
+              behavior: 'smooth' 
+            });
+            document.getElementById('signup').classList.add('highlight');
+        });
+    </script>
 </body>
 </html>
