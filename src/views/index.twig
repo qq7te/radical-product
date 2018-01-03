@@ -1,0 +1,86 @@
+
+{% extends "_layouts/base.twig" %}
+
+{% block page_header %}
+	<header class="header header--landing bg-overlay bg-overlay--ra bottom-slice">
+		<div class="container">
+			{% include '_partials/nav.twig' with {'logo_type': 'inverted'} %}
+			<div class="container container--tight">
+				<h1 class="headline"><span class="headline__sub">Become a product</span> visionary</h1>
+				<p>Radical Product is a practical toolkit that helps founders and product managers build vision-driven products.</p>
+				<a class="cta" data-action-hook="download-toolkit" href="/toolkit/#download">Get the free toolkit</a>
+			</div>
+		</div>
+	</header>
+	<div class="iso-cards">
+		<div class="iso-card">
+			<div class="cover"><img src="img/tk-5.svg" alt=""></div>
+		</div>
+		<div class="iso-card">
+			<div class="cover"><img src="img/tk-4.svg" alt=""></div>
+		</div>
+		<div class="iso-card">
+			<div class="cover"><img src="img/tk-3.svg" alt=""></div>
+		</div>
+		<div class="iso-card">
+			<div class="cover"><img src="img/tk-2.svg" alt=""></div>
+		</div>
+		<div class="iso-card">
+			<div class="cover"><img src="img/tk-1.svg" alt=""></div>
+		</div>
+	</div>
+	<section class="content content--primary">
+		<div class="container container--content">
+			<img class="section-token" src="img/token-vision.svg" alt="">
+			<h2 class="section-header">Behind every great product is a radical vision.</h2>
+			<p>It's more important than ever to have a clear vision for your product. But creating and executing on a powerful product vision isn't easy.</p>
+			<p>Radical Product is a practical toolkit to help founders and product managers stay focused, align their teams, and build world-changing products.</p>
+			<p>To get started, just <a href="#" data-action-hook="download-toolkit">download the free Radical Product Toolkit</a> and work through the strategic exercises with your team. If you need hands-on help, we're <a href="#custom-workshops">here for you.</a></p>
+			<a href="/toolkit" class="read-more">What's in the toolkit?</a>
+		</div>
+	</section>
+{# 	<section class="content content--secondary bg-overlay bg-overlay--ev top-slice">
+		<div class="container container--content">
+			<img src="{{ site.image_path('token-events.svg') }}" alt="" class="section-token">
+			<h2 class="section-header">Events &amp; Workshops</h2>
+			<p>Get practical experience with Radical Product thinking at one of our upcoming workshops:</p>
+			<ol class="events-list">
+				{% for post in events %}
+					<li class="events-list__event">
+						<span class="event-date">{{post.date}}</span>
+						<span class="event-title"><a href="{{post.ticket_link}}">{{post.title}}</a></span>
+						<span class="event-location">Pivotal Labs, Cambridge MA</span>
+					</li>
+				{% endfor %}
+			</ol>
+			<a href="#" class="read-more">See all workshops</a>
+		</div>
+	</section> #}
+	<section class="content content--cta" id="custom-workshops">
+		<div class="container container--content">
+			<h2 class="section-header">Get Hands-On Help</h2>
+			<p>If you'd like an on-site workshop or private webinar to learn how to implement the Radical Product Toolkit in your organization, we’re happy to set you up! Drop your email here, and we’ll get in touch immediately to discuss pricing, logistics, and other details.</p>
+			<form action="https://radicalproduct.us10.list-manage.com/subscribe/post?u=5559a62245d86aeeefd822705&amp;id=7fc7e415ad" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate signup" target="_blank" novalidate>
+				<label for="mce-email">My Email</label>
+				<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+				<div style="position: absolute; left: -5000px;" aria-hidden="true">
+					<input type="text" name="b_5559a62245d86aeeefd822705_7fc7e415ad" tabindex="-1" value=""></div>
+    			<div class="clear">
+    				<button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">Let's Chat</button>
+    			</div>
+    </div>
+			</form>
+		</div>
+	</section>
+	<section class="content content--primary">
+		<div class="container container--content">
+			<img class="section-token" src="img/token-about.svg" alt="">
+			<h2 class="section-header">Who is Radical Product?</h2>
+			<p>Radical Product is a collaboration between Radhika Dutt, Nidhi Aggarwal, and Geordie Kaytes — three Boston-area digital product leaders who have been in the trenches more than once.</p>
+			<p>We came together because we saw too many good products become bloated, fragmented, directionless, and driven by irrelevant metrics. We called these recurring issues <a href="https://medium.com/radical-product/three-diseases-your-product-can-catch-and-how-you-can-prevent-them-77a9500d5f07">"product diseases"</a>. We think that vision-driven product management is the cure.</p>
+			<p>We created the <a href="/toolkit">Radical Product Toolkit</a> because our industry didn’t need another big-idea manifesto — we needed an instruction manual. We’re leading workshops and events to show people that that there’s a better way.</p>
+			<p>We’re excited to bring the world a practical new approach to product management, and we hope you are too. Please don’t hesistate to <a href="mailto:hello@radicalproduct.com">get in touch</a> with any feedback, thoughts, or comments.</p>
+		</div>
+	</section>
+
+{% endblock %}
