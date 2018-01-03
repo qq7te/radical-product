@@ -63,4 +63,4 @@ gulp.task('watch', function() {
 });
 
 gulp.task('default', ['views', 'styles', 'images', 'js', 'pdf', 'watch']);
-gulp.task('netlify', ['views', 'prod-styles', 'pdf']);
+gulp.task('netlify', ['views', 'images', 'prod-styles', 'pdf']);
