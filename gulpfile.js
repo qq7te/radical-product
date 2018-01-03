@@ -60,17 +60,17 @@ gulp.task('favicons', () =>
     .pipe(gulp.dest('./dist'))
 );
 
-gulp.task('critical', ['netlify'], function (cb) {
-    critical.generate({
-        inline: true,
-        base: 'dist/',
-        src: 'index.html',
-        dest: 'index.html',
-        minify: true,
-        width: 320,
-        height: 480
-    });
-});
+// gulp.task('critical', ['netlify'], function (cb) {
+//     critical.generate({
+//         inline: true,
+//         base: 'dist/',
+//         src: 'index.html',
+//         dest: 'index.html',
+//         minify: true,
+//         width: 320,
+//         height: 480
+//     });
+// });
 
 gulp.task('watch', function() {
   return gulp
