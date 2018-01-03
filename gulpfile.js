@@ -54,6 +54,11 @@ gulp.task('pdf', () =>
     .pipe(gulp.dest('./dist/pdf'))
 );
 
+gulp.task('favicons', () =>
+  gulp.src('./src/favicons/*')
+    .pipe(gulp.dest('./dist'))
+);
+
 gulp.task('watch', function() {
   return gulp
     .watch("./src/**/*.*", ['views', 'styles', 'images', 'js', 'pdf'])
@@ -62,5 +67,5 @@ gulp.task('watch', function() {
     });
 });
 
-gulp.task('default', ['views', 'styles', 'images', 'js', 'pdf', 'watch']);
-gulp.task('netlify', ['views', 'prod-styles', 'images', 'js', 'pdf']);
+gulp.task('default', ['views', 'styles', 'images', 'js', 'pdf', 'favicons', 'watch']);
+gulp.task('netlify', ['views', 'prod-styles', 'images', 'js', 'pdf', 'favicons']);
