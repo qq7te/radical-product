@@ -6,7 +6,6 @@ const imagemin = require('gulp-imagemin');
 const babel = require('gulp-babel');
 const cssNano = require('gulp-cssnano');
 const twig = require('gulp-twig');
-const critical = require('critical');
 
 const sassOptions = {
   errLogToConsole: true,
@@ -60,17 +59,10 @@ gulp.task('favicons', () =>
     .pipe(gulp.dest('./dist'))
 );
 
-// gulp.task('critical', ['netlify'], function (cb) {
-//     critical.generate({
-//         inline: true,
-//         base: 'dist/',
-//         src: 'index.html',
-//         dest: 'index.html',
-//         minify: true,
-//         width: 320,
-//         height: 480
-//     });
-// });
+gulp.task('redirects', () =>
+  gulp.src('./src/config/_redirects')
+      .pipe(gulp.dest('./dist'))
+);
 
 gulp.task('watch', function() {
   return gulp
@@ -81,4 +73,4 @@ gulp.task('watch', function() {
 });
 
 gulp.task('default', ['views', 'styles', 'images', 'js', 'pdf', 'favicons', 'watch']);
-gulp.task('netlify', ['views', 'prod-styles', 'images', 'js', 'pdf', 'favicons']);
+gulp.task('netlify', ['views', 'prod-styles', 'images', 'js', 'pdf', 'redirects', 'favicons']);
