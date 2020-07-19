@@ -1,10 +1,14 @@
-
-{% extends "_layouts/base.twig" %}
-
-{% block page_header %}
+---
+title: Toolkit
+layout: default
+logo_type: normal
+redirect_from:
+  - /RadicalProductCanvas_v1.0.pdf/
+  - /RDCLToolkit_v2.0.pdf/
+---
 	<header class="header header--inner">
 		<div class="container">
-			{% include '_partials/nav.twig' %}
+			{% include nav.html %}
 			<div class="container container--tight">
 				<h1 class="headline"><span class="headline__sub">The Radical Product</span> Toolkit</h1>
 			</div>
@@ -29,9 +33,7 @@
 			</div>
 		</div>
 	</div>
-{% endblock %}
 
-{% block content %}
 	<section class="content content--primary">
 		<div class="container container--content">
 			<h2 class="section-header">Get your product vision out of your head.</h2>
@@ -105,4 +107,3 @@
 		</div>
 		<a class="cta" data-action-hook="download-toolkit" href="/toolkit/#download">Get the free toolkit</a>
 	</section>
-{% endblock %}

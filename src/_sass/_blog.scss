@@ -1,0 +1,20 @@
+.blog-header__teaser
+{
+    position: relative;
+
+    color: $white;
+}
+
+.teaser__headline
+{
+    margin-bottom: .5em;
+
+    letter-spacing: .5px;
+    text-transform: uppercase;
+}
+
+.teaser__content
+{
+    font-size: .8em;
+    font-weight: 300;
+}

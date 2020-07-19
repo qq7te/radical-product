@@ -1,0 +1,19 @@
+
+// THEME COLORS
+
+$red: rgba(255, 26, 77, 1);
+$pink: rgba(255, 71, 142,1);
+$orange: rgba(244, 121, 62, 1);
+$blue: rgba(59, 93, 239, 1);
+$green: rgba(97, 189, 104, 1);
+$brightgreen: rgba(107, 241, 117, 1);
+$darkgray: rgba(41, 45, 61, 1);
+$lightgray: rgba(81, 105, 101, 1);
+$white: rgba(255, 255, 255, 1);
+
+// GRADIENTS
+$linear-gradient__orange-red-pink: linear-gradient(150deg, $orange -40%, $red 40%, $red 60%, $pink 140%);
+
+// SHADOWS
+$button-boxshadow: 0 2px 2px 0 rgba(0,0,0,.15);
+$button-boxshadow-elevated: 0 4px 4px 1px rgba(0,0,0,.15);

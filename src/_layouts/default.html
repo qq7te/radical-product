@@ -1,0 +1,24 @@
+---
+lang: "en"
+---
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<head>
+	{% include html-header.html %}
+</head>
+
+	<body class="{{body_class}}">
+		<main role="main" class="site-main">
+			<div class="wrapper">
+				{{ content }}
+			</div>
+		</main>
+
+		<footer class="site-footer">
+				<div class="wrapper">
+					{% include footer.html %}
+				</div>
+		</footer>
+	<script src="/js/main.js"></script>
+	</body>
+</html>

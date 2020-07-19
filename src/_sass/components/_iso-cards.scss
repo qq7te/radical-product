@@ -1,0 +1,42 @@
+.iso-cards
+{
+    display: none;
+    flex-direction: row-reverse;
+
+    padding: 30px 0;
+
+    justify-content: center;
+}
+
+.iso-card img
+{
+    display: block;
+
+    max-width: 100%;
+    height: auto;
+}
+
+.iso-card
+{
+    position: relative;
+
+    width: 300px;
+    height: 200px;
+    margin: 0 calc(-175px + 10%);
+
+    transition: .5s all;
+    transform: rotateZ(25deg) rotateY(-45deg) rotateX(45deg);
+
+    box-shadow: 15px 40px 25px 5px rgba(0,0,0,.3);
+
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
+
+.iso-card .cover
+{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,46 @@
+body {
+    position: relative;
+}
+
+.container
+{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.container--content
+{
+    max-width: 650px;
+}
+
+.container--tight
+{
+    max-width: 500px;
+}
+
+.header
+{
+    padding: 10px 1em 60px 1em;
+}
+
+.content
+{
+    padding: 40px 1em;
+}
+
+
+.bottom-slice
+{
+    margin-bottom: -1em;
+
+    -webkit-clip-path: polygon(0 0, 100% 0%, 100% calc(100% - 40px), 0% 100%);
+}
+
+.top-slice
+{
+    /* Without negative margin-bottom there is a thin line shown after the block */
+    margin-bottom: -1px;
+    padding-top: 4em;
+
+    -webkit-clip-path: polygon(0 40px, 100% 0%, 100% 100%, 0% 100%);
+}
