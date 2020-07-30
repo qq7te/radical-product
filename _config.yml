@@ -23,7 +23,7 @@ email: hello@radicalproduct.com
 description: >- # this means to ignore newlines until "baseurl:"
   Join the movement that's building vision-driven products
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://radicalproduct.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://radicalproduct.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: radhikadutt
 
 
