@@ -1,0 +1,26 @@
+/* Contact */
+.contact {
+  text-align: center;
+  .contact__item {
+    display: inline-block;
+    margin-left: 20px;
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+
+  .contact__link {
+    font-size: 18px;
+    line-height: 30px;
+    color: $dark;
+    &:hover {
+      color: $brand-color;
+    }
+  }
+
+  @media only screen and (max-width: $tablet) {
+    .contact__item {
+      margin-left: 15px;
+    }
+  }
+}

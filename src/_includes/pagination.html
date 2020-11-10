@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="row">
+    <div class="col col-12">
+      {% assign postCount = site.posts | size %}
+      {% assign postsCovered = site.paginate | plus:offset %}
+      {% if postsCovered < postCount %}
+      <div class="load-more-section">
+        <button class="load-more-posts button button--primary button--brand">Load More Posts <i class="ion ion-ios-arrow-down"></i></button>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</div>

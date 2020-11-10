@@ -1,4 +1,88 @@
-<footer>
-	<img src="../../img/logo-markonly.svg" alt="">
-	<a href="mailto:hello@radicalproduct.com">hello@radicalproduct.com</a>
+<!-- begin footer-widgets -->
+<section class="footer-widgets">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12 col-d-10 push-d-1 col-m-12 push-m-0">
+        <div class="widgets-box">
+          <div class="row">
+            <div class="col col-4 col-d-12 col-m-12">
+              <div class="widget widget-recent">
+                <div class="widget__head">
+                  <h4 class="widget__title">Recent Posts</h4>
+                </div>
+                {% for post in site.posts limit:3 %}
+                <div class="recent-posts">
+                  {% if post.image %}
+                    <a class="recent-posts__image" href="{{ post.url }}" style="background-image: url({{site.baseurl}}{{post.image}})"></a>
+                  {% else %}
+                  {% endif %}
+                  <span class="recent-posts__count">{{ forloop.index }}</span>
+                  <div class="recent-posts__content">
+                    <div class="recent-posts__date">
+                      <time datetime="{{ post.date | date_to_xmlschema }}">{{post.date | date: "%b %-d, %Y"}}</time>
+                    </div>
+                    <h6 class="recent-posts__title"><a href="{{ post.url }}">{{ post.title }}</a></h6>
+                  </div>
+                </div>
+                {% endfor %}
+              </div>
+            </div>
+            <div class="col col-4 col-d-12 col-m-12">
+            {% if site.gallery %}
+            <div class="widget widget-gallery">
+              <div class="widget__head">
+                <h4 class="widget__title">{% if site.gallery.name %}{{site.gallery.name}}{% else %}Gallery{% endif %}</h4>
+              </div>
+              <div class="gallery-box">
+                <div class="gallery">
+                  {% for image in site.gallery.images %}
+                  <img src="{{site.baseurl}}{{image.url}}" alt="{{image.alt}}">
+                  {% endfor %}
+                </div>
+              </div>
+            </div>
+            {% endif %}
+            </div>
+            <div class="col col-4 col-d-12 col-m-12">
+              {% if site.mailchimp %}
+              <div class="widget widget-newsletter">
+                <div class="widget__head">
+                  <h4 class="widget__title">Newsletter</h4>
+                </div>
+                <h3 class="newsletter-title">Get Interesting News</h3>
+                <p class="newsletter-subtitle">Subscribe to our newsletter and we’ll send you the emails of latest posts.</p>
+                <form class="newsletter-form validate" action="{% if site.mailchimp-identifier %}//{{site.mailchimp-identifier}}{% else %}#{% endif %}"
+                  method="POST" id="membedded-subscribe-form" name="membedded-subscribe-form" target="_blank" novalidate>
+                  <div class="newsletter-group">
+                    <div class="newsletter-group-top">
+                      <label class="screen-reader-text" for="mce-EMAIL">Email address</label>
+                      <input class="newsletter-email required email" id="mce-EMAIL" type="text" name="EMAIL" placeholder="Email Address">
+                    </div>
+                    <button class="button button--primary button--big" id="membedded-subscribe" type="submit" name="subscribe">Subscribe</button>
+                  </div>
+                </form>
+              </div>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end footer-widgets -->
+
+<!-- begin footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12 col-d-10 push-d-1 col-m-12 push-m-0">
+      <div class="footer__inner">
+        {% include contact-link.html %}
+        <div class="copyright">{{site.time | date: '%Y'}} &copy; <a href="/"><strong>{{site.title}}</strong></a>. Crafted & Designed by <a href="https://jekyllthemes.io/developers/artem-sheludko">Artem Sheludko</a>.</div>
+        </div>
+      </div>
+    </div>
+  </div>
 </footer>
+<!-- end footer -->

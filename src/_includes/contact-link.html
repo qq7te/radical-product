@@ -1,0 +1,11 @@
+{% if site.contact %}
+<div class="contact">
+  <ul class="contact__list list-reset">
+    {% for contact in site.contact %}
+    <li class="contact__item">
+      <a class="contact__link" href="{{contact.link}}"><i class="ion {{contact.icon}}"></i></a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}

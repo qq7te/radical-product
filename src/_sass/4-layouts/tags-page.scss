@@ -1,0 +1,28 @@
+/* Tags Page */
+.archive-box {
+  margin: 0 0 50px;
+  text-align: center;
+}
+
+.archive-title {
+  position: relative;
+  margin: 0;
+  padding-bottom: 20px;
+  font-size: 47px;
+  line-height: 57px;
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    width: 10px;
+    height: 2px;
+    background-color: $dark;
+  }
+  @media only screen and (max-width: $mobile) {
+    font-size: 40px;
+    line-height: 52px;
+  }
+}

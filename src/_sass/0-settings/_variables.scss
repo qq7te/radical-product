@@ -1,0 +1,51 @@
+// *****************
+// Global Variables
+// *****************
+
+// Spaces
+$base-spacing-unit: 20px;
+
+// Transition
+$global-transition: all .35s;
+
+
+// *****************
+// Color Variables
+// *****************
+$brand-color: rgb(255, 26, 77);
+//#3584f3;
+$dark: #232527;
+$gray: #f0f0f0;
+$blue-gray: #b7b9c2;
+
+// Body Color
+$text-color: $dark;
+
+// Background Colors
+$background-color: #fff;
+
+
+// *****************
+// Typography
+// *****************
+$base-font-size: 16px;
+$base-font-style: normal;
+$base-font-variant: normal;
+$base-font-weight: normal;
+$base-font-family: 'Domine', "Times New Roman", serif;
+$base-line-height: 32px;
+
+// Headings
+$heading-font-weight: 700;
+//$heading-font-family: 'Domine', "Times New Roman", serif;
+$heading-font-family: Montserrat, sans-serif;
+$heading-color: $dark;
+
+$font-size-h1:  36px;
+$font-size-h2:  28px;
+$font-size-h3:  24px;
+$font-size-h4:  20px;
+$font-size-h5:  18px;
+$font-size-h6:  16px;
+
+$heading-line-height: 1.3;

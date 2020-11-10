@@ -1,0 +1,102 @@
+<!-- begin header -->
+<header class="header">
+  <div class="container">
+    <div class="row">
+      <div class="header__inner col col-12 col-d-10 push-d-1 col-m-12 push-m-0">
+
+      <div class="logo">
+        <a class="logo__link" href="{{ site.baseurl }}/">
+        {%if site.logo %}
+          <img class="logo__image" src="{{ site.baseurl }}{{ site.logo }}" alt="{{ site.title }}">
+        {% else %}
+          {{ site.title }}
+        {% endif %}
+        </a>
+      </div>
+        
+      <div class="menu-overlay">
+        <nav class="main-nav">
+          <div class="main-nav__box">
+            <div class="nav__icon-close">
+              <i class="ion ion-md-close"></i>
+            </div>
+            <div class="nav-grid">
+
+              <div class="nav-grid__item">
+                <h2 class="nav-grid__title">Menu</h2>
+                <div class="left-nav">
+                  {%include navigation.html%}
+                </div>
+              </div>
+
+              <div class="nav-grid__item">
+                <h2 class="nav-grid__title">Hey!</h2>
+                <div class="widget-about">
+                  <div class="avatar"><a href="{{site.baseurl}}/about" class="avatar__image"
+                      style="background-image: url({{site.baseurl}}{{site.author.avatar}})"></a></div>
+                  <p class="author-bio">{{site.author.bio}}</p>
+                  <a href="{{site.baseurl}}/about" class="author-btn">Read more <i class="ion ion-ios-arrow-forward"></i></a>
+                </div>
+              </div>
+
+              <div class="nav-grid__item">
+                <h2 class="nav-grid__title">Recent Posts</h2>
+                <div class="widget-story">
+                  {% for post in site.posts limit:6 %}
+                    <div class="widget-story__posts">
+                      {% if post.image %}
+                      <div class="widget-story__header">
+                        <a class="widget-story__image" href="{{ post.url }}" style="background-image: url({{site.baseurl}}{{post.image}})"></a>
+                      </div>
+                      {% endif %}
+                      <div class="widget-story__content">
+                        <h6 class="widget-story__title"><a href="{{ post.url }}">{{ post.title }}</a></h6>
+                      </div>
+                    </div>
+                  {% endfor %}
+                </div>
+              </div>
+
+              {% if site.mailchimp %}
+              <div class="nav-grid__item">
+                <h2 class="nav-grid__title">Newsletter</h2>
+                <div class="widget widget-newsletter">
+                  <h3 class="newsletter-title">Get Interesting News</h3>
+                  <p class="newsletter-subtitle">Subscribe to our newsletter and we’ll send you the emails of latest posts.</p>
+                  <form class="newsletter-form validate" action="{% if site.mailchimp-identifier %}//{{site.mailchimp-identifier}}{% else %}#{% endif %}"
+                    method="POST" id="membedded-subscribe-form" name="membedded-subscribe-form" target="_blank" novalidate>
+                    <div class="newsletter-group">
+                      <div class="newsletter-group-top">
+                        <label class="screen-reader-text" for="mce-EMAIL">Email address</label>
+                        <input class="newsletter-email required email" id="mce-EMAIL" type="text" name="EMAIL" placeholder="Email Address">
+                      </div>
+                      <button class="button button--primary button--big" id="membedded-subscribe" type="submit" name="subscribe">Subscribe</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              {% endif %}
+
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <div class="navigation">
+        <div class="top-nav">
+          {%include navigation.html%}
+        </div>
+        <div class="nav-buttons">
+          <i class="nav__icon nav__icon-menu ion ion-md-menu"></i>
+          <i class="nav__icon nav__icon-search ion ion-md-search"></i>
+        </div>
+      </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="header__overlay"></div>
+</header>
+<!-- end header -->
+
+{% include search.html %}
