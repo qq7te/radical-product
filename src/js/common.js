@@ -99,7 +99,7 @@ $(document).ready(function() {
   $load_posts_button.click(function(e) {
     e.preventDefault();
     var loadMore = $('.load-more-section');
-    var request_next_link = pagination_next_url.split('/page')[0] + '/page/' + pagination_next_page_number + '/';
+    var request_next_link = pagination_next_url.split('/page')[0] + '/blog/page' + pagination_next_page_number + '/';
 
     $.ajax({
       url: request_next_link,

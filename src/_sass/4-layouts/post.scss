@@ -257,3 +257,27 @@
 .show-comments {
   text-align: center;
 }
+
+strong {
+  font-weight: bold;
+  //font-size: larger;
+}
+
+.post__content a {
+  text-underline: $brand-color;
+  text-decoration-line: underline;
+  text-decoration-color: $brand-color;
+}
+
+.post__content ul {
+  margin-left: 40px;
+}
+
+.post__content figcaption {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  margin-top: -30px;
+  margin-bottom: 50px;
+  font-size: 14px;
+  max-width: 728px;
+}
