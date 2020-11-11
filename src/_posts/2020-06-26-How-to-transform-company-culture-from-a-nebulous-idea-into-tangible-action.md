@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How To transform company culture from a nebulous idea into tangible action
+title: How to transform company culture from a nebulous idea into tangible action
 image: /img/1*olecM7DBrNYRJtlIWSui5Q.jpeg
 ---
 
