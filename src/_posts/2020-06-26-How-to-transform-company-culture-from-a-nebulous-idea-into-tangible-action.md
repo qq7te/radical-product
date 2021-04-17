@@ -4,8 +4,7 @@ title: How to transform company culture from a nebulous idea into tangible actio
 image: /img/1*olecM7DBrNYRJtlIWSui5Q.jpeg
 ---
 
-Many years ago, I was excited to join a tech company to lead product management.
-The product and its underlying technology was complex and promised immense intellectual satisfaction. My manager recruited me saying he had never led a product organization before and would give me autonomy. It sounded perfect.
+Many years ago, I was excited to join a tech company to lead product management. The product and its underlying technology was complex and promised immense intellectual satisfaction. My manager recruited me saying he had never led a product organization before and would give me autonomy. It sounded perfect.
 
 On my second day into the job, I got my first clue that the toxic culture would get in the way. The CEO and a couple of his loyalists bullied an executive at the meeting, berating him publicly that his engineers weren’t working hard enough.
 
@@ -28,7 +27,7 @@ Until now, culture was typically defined as an organization’s experiences, phi
 In the course of your workday, you intuitively engage in work and interactions based on what you find fulfilling versus what floats to the top because it seems urgent. If we visualize this balance in a 2x2 shown below, the culture you experience is the sum total of how you distribute your mental and emotional bandwidth across these four quadrants:
 
 ![The four quadrants](https://miro.medium.com/max/700/1*Qa_Qf2111BLSbFWwHPyOSg.png)
-<figcaption>The Radical Prodict Thiking framework for culture</figcaption>
+<figcaption>The Radical Product Thinking framework for culture</figcaption>
 
 
 **Strategic work**: If you spend a lot of your day working in this quadrant, your workplace culture feels meaningful and fulfilling. You’re able to make deliberate progress towards your vision of creating a positive change in the world through your product/ business. You’re not under critical time pressure and can think long-term. The systematic approach to creating vision-driven change through [Radical Product Thinking](/) fits predominantly in this quadrant.
