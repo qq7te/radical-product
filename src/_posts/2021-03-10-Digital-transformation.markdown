@@ -4,7 +4,7 @@ title:  Why Pivots and Transformations Go Wrong
 Subtitle: Navigating turbulent waters as you create change in your organization
 date:   2021-03-10 15:01:35 +0300
 image:  /img/shift.jpg
-tags:   Organizational culture, pivots, vision
+tags:   Culture transformation
 To Fix: Add links to Strategy, Priorities and Plan for measuring success
 ---
 
