@@ -33,13 +33,25 @@
               <div class="widget__head">
                 <h4 class="widget__title">{% if site.gallery.name %}{{site.gallery.name}}{% else %}Gallery{% endif %}</h4>
               </div>
-              <div class="gallery-box">
-                <div class="gallery">
-                  {% for image in site.gallery.images %}
-                  <img src="{{site.baseurl}}{{image.url}}" alt="{{image.alt}}">
-                  {% endfor %}
+              {% for post in site.posts  %}
+              {% if post.title == "A Good Vision Doesn’t Have to Be Big and Hairy" or
+                    post.title == "The Three Most Common Diseases Your Product Can Catch" or
+                    post.title == "The Hippocratic Oath of Product"
+              %}
+              <div class="recent-posts">
+                {% if post.image %}
+                <a class="recent-posts__image" href="{{ post.url }}" style="background-image: url({{site.baseurl}}{{post.image}})"></a>
+                {% else %}
+                {% endif %}
+                <div class="recent-posts__content">
+                  <div class="recent-posts__date">
+                    <time datetime="{{ post.date | date_to_xmlschema }}">{{post.date | date: "%b %-d, %Y"}}</time>
+                  </div>
+                  <h6 class="recent-posts__title"><a href="{{ post.url }}">{{ post.title }}</a></h6>
                 </div>
               </div>
+              {% endif %}
+              {% endfor %}
             </div>
             {% endif %}
             </div>
@@ -79,7 +91,7 @@
       <div class="col col-12 col-d-10 push-d-1 col-m-12 push-m-0">
       <div class="footer__inner">
         {% include contact-link.html %}
-        <div class="copyright">{{site.time | date: '%Y'}} &copy; <a href="/"><strong>{{site.title}}</strong></a>. Crafted & Designed by <a href="https://jekyllthemes.io/developers/artem-sheludko">Artem Sheludko</a>.</div>
+        <div class="copyright">{{site.time | date: '%Y'}} &copy; <a href="/"><strong>{{site.title}}</strong></a>.</div>
         </div>
       </div>
     </div>

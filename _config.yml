@@ -74,7 +74,7 @@ disqus-identifier: mr-brown # add your shortname for Disqus Comment. For example
 #-------------------------------
 # Gallery section (Footer)
 gallery:
-  name: Gallery
+  name: Most Read
   images:
     - alt: 'Minimalism'
       url: '/images/17.jpg'
