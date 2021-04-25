@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A good vision doesn’t have to be big and hairy"
+title:  "A Good Vision Doesn’t Have to Be Big and Hairy"
 Subtitle: Unpacking myths about what makes a good vision so we can adopt a new, radical approach.
 image: /img/lion.jpg
 date:   2021-03-19 17:51:14 +0800

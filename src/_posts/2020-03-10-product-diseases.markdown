@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  The three most common diseases your product can catch
+title:  The Three Most Common Diseases Your Product Can Catch
 Subtitle: How to prevent or overcome these diseases
 date:   2020-03-10 15:01:35 +0300
 image:  /img/bacteria.jpg

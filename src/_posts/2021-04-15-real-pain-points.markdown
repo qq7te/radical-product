@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Are the pain points you're solving Real?
+title: Are the Pain Points You're Solving Real?
 Subtitle: The radical formula for telling real pain points from imaginary ones
 date:   2021-04-15 15:01:35 +0300
 image:  /img/pain.jpg
