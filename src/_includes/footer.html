@@ -63,15 +63,22 @@
                 </div>
                 <h3 class="newsletter-title">Get Interesting News</h3>
                 <p class="newsletter-subtitle">Subscribe to our newsletter and we’ll send you the emails of latest posts.</p>
-                <form class="newsletter-form validate" action="{% if site.mailchimp-identifier %}//{{site.mailchimp-identifier}}{% else %}#{% endif %}"
-                  method="POST" id="membedded-subscribe-form" name="membedded-subscribe-form" target="_blank" novalidate>
+
+                <form action="https://radicalproduct.us10.list-manage.com/subscribe/post?u=5559a62245d86aeeefd822705&amp;id=7fc7e415ad"
+                      method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"  class="newsletter-form validate"
+                      target="_blank" novalidate>
                   <div class="newsletter-group">
                     <div class="newsletter-group-top">
-                      <label class="screen-reader-text" for="mce-EMAIL">Email address</label>
-                      <input class="newsletter-email required email" id="mce-EMAIL" type="text" name="EMAIL" placeholder="Email Address">
-                    </div>
-                    <button class="button button--primary button--big" id="membedded-subscribe" type="submit" name="subscribe">Subscribe</button>
+                  <label class="screen-reader-text" for="mce-email">My Email</label>
+                  <input type="email" value="" name="EMAIL" class="newsletter-email required email" id="mce-EMAIL" placeholder="Email Address">
+                  <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                    <input type="text" name="b_5559a62245d86aeeefd822705_7fc7e415ad" tabindex="-1" value="">
                   </div>
+                      </div>
+                    <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button button&#45;&#45;primary button&#45;&#45;big">Subscribe
+                    </button>
+                  </div>
+
                 </form>
               </div>
               {% endif %}
