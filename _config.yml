@@ -56,14 +56,14 @@ author-social:
 # Footer section
 # Example of adding a new link to the footer - {icon: "ion-logo-github", link: "https://github.com"}
 # Other icons can be found at https://ionicons.com
-contact:
-- {icon: "ion-logo-twitter", link: "https://twitter.com"}
-- {icon: "ion-logo-facebook", link: "https://facebook.com"}
-- {icon: "ion-logo-dribbble", link: "https://dribbble.com"}
-- {icon: "ion-logo-instagram", link: "https://instagram.com"}
-- {icon: "ion-logo-pinterest", link: "https://pinterest.com"}
-- {icon: "ion ion-logo-github", link: "https://github.com"}
-- {icon: "ion-logo-linkedin", link: "https://linkedin.com"}
+#contact:
+#- {icon: "ion-logo-twitter", link: "https://twitter.com"}
+#- {icon: "ion-logo-facebook", link: "https://facebook.com"}
+#- {icon: "ion-logo-dribbble", link: "https://dribbble.com"}
+#- {icon: "ion-logo-instagram", link: "https://instagram.com"}
+#- {icon: "ion-logo-pinterest", link: "https://pinterest.com"}
+#- {icon: "ion ion-logo-github", link: "https://github.com"}
+#- {icon: "ion-logo-linkedin", link: "https://linkedin.com"}
 
 
 #-------------------------------
