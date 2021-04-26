@@ -4,7 +4,7 @@ title:  How Focusing on Delighting Customers Can Lead You Astray
 Subtitle: Why you need a clear purpose before you delight customers
 image: /img/coffee.jpeg
 date:   2020-11-19 16:48:14 +0800
-tags: vision measurement
+categories: vision measurement
 categories: strategy
 ---
 

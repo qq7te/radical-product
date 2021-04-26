@@ -4,7 +4,7 @@ title:  Why Product Thinking Is a Life Skill and How You Can Develop It
 subtitle:  Product isn't just a job title or a function
 date:   2021-04-19 15:01:35 +0300
 image:  /img/books.jpg
-tags:   Case_Study transformation
+categories:   Case_Study transformation
 ---
 
 In a job interview when you talk about yourself, you're using your sales skills; _sales_ isn't just a job title or a function. Similarly, product thinking is also an important life skill.

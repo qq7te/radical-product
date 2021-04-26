@@ -4,7 +4,7 @@ title:  The Hippocratic Oath of Product
 Subtitle: With the power of building great products, comes great responsibility
 date:   2020-04-30 15:01:35 +0300
 image:  /img/hippocratic.jpeg
-tags:   Ethics Digital_Pollution
+categories:   Ethics Digital_Pollution
 ---
 
 When you build a product, you observe the problem your user has and set out to solve it. A medical doctor does something similar: diagnose the root cause of the patient’s condition and treat it. But imagine your doctor says to you, “I see that you’re sick, so I’m going to prescribe this medicine. It may have terrible side effects for you, but that’s not my responsibility.” Most likely you’d find this attitude appalling. A doctor who can’t take responsibility for your well-being has no business treating you.
