@@ -4,7 +4,7 @@ title:  The Three Most Common Diseases Your Product Can Catch
 Subtitle: How to prevent or overcome these diseases
 date:   2020-03-10 15:01:35 +0300
 image:  /img/bacteria.jpg
-tags:   Product_Disease
+categories:   Product_Disease
 ---
 Without a clear vision and strategy behind iterations, products become bloated, fragmented, directionless, and driven by irrelevant metrics.
 
