@@ -5,7 +5,7 @@ This repo holds the code for [the radical product website](https://www.radicalpr
 This website is built with Jekyll and the content is mostly written in markdown. Some of the
 technologies it uses are:
 
-- Jekyll
+- [Jekyll](https://jekyllrb.com)
 - CSS
 - HTML
 - JS
