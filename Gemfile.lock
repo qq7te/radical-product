@@ -72,7 +72,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (~> 2.0.2)
+  bundler
   jekyll (~> 4.1.1)
   jekyll-feed (~> 0.12)
   jekyll-paginate
