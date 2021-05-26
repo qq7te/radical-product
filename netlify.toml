@@ -1,2 +1,2 @@
 [build]
-  command = "jekyll b"
+  command = "bundle install && jekyll b"

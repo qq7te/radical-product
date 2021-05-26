@@ -72,7 +72,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler
+  bundler (= 2.2.18)
   jekyll (~> 4.1.1)
   jekyll-feed (~> 0.12)
   jekyll-paginate
@@ -80,3 +80,6 @@ DEPENDENCIES
   jekyll-sitemap
   jekyll-tagging
   webrick
+
+BUNDLED WITH
+   2.2.18
