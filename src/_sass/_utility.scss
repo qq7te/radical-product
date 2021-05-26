@@ -62,7 +62,6 @@
     height: 45px;
     box-shadow: none;
     display: inline-block;
-    max-width: 400px;
 }
 
 .primary-button {
@@ -70,6 +69,8 @@
     border-radius: 6px;
     padding: 11px 30px;
     height: 45px;
+    font-size: 0.9rem;
+    line-height: 1;
 }
 
 .secondary-button {
@@ -101,4 +102,11 @@
     background-repeat: no-repeat;
     background-position-y: bottom;
     background-size: cover;
+}
+
+.landing-banner {
+    background-image: url("/images/cover-bg.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: 100%;
 }

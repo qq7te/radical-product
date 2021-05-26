@@ -36,20 +36,20 @@ workshopTitle: "VIDEOS FROM PAST EVENTS"
 workshopLinkCopy: "Check our workshops"
 workshopLink: "/workshop"
 
-workshop1Link: "/"
+workshop1Link: "https://www.youtube.com/watch?v=A5pqsuwM1BM"
 workshop1Date: "October 22, 2019"
 workshop1Title: "Radical Product Thinking: How to Iterate Less and Achieve More"
 workshop1Copy: "Leading the Product, Sydney, Australia"
 
-workshop2Link: "/"
-workshop2Date: "June 17, 2019"
-workshop2Title: "Radical Product Thinking: How to Iterate Less and Achieve More"
-workshop2Copy: "Product Management Festival, Singapore"
+workshop2Link: "https://www.youtube.com/watch?v=MMX5dVN-DjU"
+workshop2Date: "April 6, 2021 June 17, 2019"
+workshop2Title: "Singapore as an example of a Radical Product"
+workshop2Copy: ""
 
-workshop3Link: "/"
-workshop3Date: "October 22, 2019"
+workshop3Link: "https://vimeo.com/347501752/844bad2ef9"
+workshop3Date: "June 17, 2019"
 workshop3Title: "From Product Leader to Visionary"
-workshop3Copy: "Leading the Product, Sydney, Australia"
+workshop3Copy: "Product Management Festival, Singapore"
 
 helpTitle: "GET HANDS-ON HELP"
 helpCopy: "If you want hands-on help integrating Radical Product thinking into your organization. We offer coaching, training, and workshops to individuals and teams. Please get in touch below to start the conversation."
@@ -66,8 +66,8 @@ helpCTA: "Let's chat"
         <p class="big-text light tight-container mb-4">{{page.tagline}}</p>
         <div>
             <form action="">
-                <fieldset class="d-flex align-items-end justify-content-center">
-                    <input type="email" name="" id="" class="text-input text light me-1" placeholder="{{page.emailInputPlaceholder}}">
+                <fieldset class="d-flex flex-column flex-md-row justify-content-center">
+                    <input type="email" name="" id="" class="text-input text light me-1 mb-2" placeholder="{{page.emailInputPlaceholder}}">
                     <button class="primary-button text-white uppercase bg-pink">{{page.toolkitCTA}}</button>   
                 </fieldset>
             </form>
@@ -76,22 +76,24 @@ helpCTA: "Let's chat"
 </section>
 
 <section class="py-2 bg-gray">
-    <div class="container-xxl">
+    <div class="container-xxl text-center text-sm-start">
         <div class="row d-flex align-items-center">
-            <div class="col-auto">
+            <div class="col-12 col-sm-auto">
                 <img src="/images/book.png" alt="Book Cover" class="book-image">
             </div>
     
-            <div class="col">
+            <div class="col-12 col-sm-8">
                 <h6 class="handwritten-text">{{page.bookTagline}}</h6>
                 <h2 class="subtitle pink-text uppercase bold">{{page.bookTitle}}</h2>
             </div>
     
-            <div class="col-auto">
-                <span class="text d-block mb-2 light">{{page.bookCTA}}</span>
-                <a href="{{page.bookshopLink}}"><img src="/images/bookshop.png" alt="Bookshop" class="bookstore"></a>
-                <a href="{{page.barnesLink}}"><img src="images/barnes.png" alt="Barnes and Noble" class="bookstore mx-2"></a>
-                <a href="{{page.amazonLink}}"><img src="images/amazon.png" alt="Amazon" class="bookstore"></a>
+            <div class="col-12 col-md-auto">
+                <span class="text d-none d-md-block mb-2 light">{{page.bookCTA}}</span>
+                <div class="text-center">
+                    <a href="{{page.bookshopLink}}"><img src="/images/bookshop.png" alt="Bookshop" class="bookstore"></a>
+                    <a href="{{page.barnesLink}}"><img src="images/barnes.png" alt="Barnes and Noble" class="bookstore mx-2"></a>
+                    <a href="{{page.amazonLink}}"><img src="images/amazon.png" alt="Amazon" class="bookstore"></a>
+                </div>
             </div>
         </div>
     </div>
@@ -100,10 +102,10 @@ helpCTA: "Let's chat"
 <section class="section-padding">
     <div class="container-xxl">
         <div class="row">
-            <div class="col">
-
+            <div class="col-12 col-md-6 mb-3">
+                <iframe width="100%" height="320" src="https://www.youtube.com/embed/6wWspnApNdU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <div class="col">
+            <div class="col-12 col-md-6">
                 <h6 class="handwritten-text purple-text">{{page.aboutTagline}}</h6>
                 <h2 class="subtitle uppercase">{{page.aboutTitle}}</h2>
                 <p class="text light">{{page.aboutCopy}}</p>
@@ -115,15 +117,15 @@ helpCTA: "Let's chat"
 
 <section class="bg-gray section-padding">
     <div class="container-xxl">
-        <div class="row">
-            <div class="col">
+        <div class="row align-items-center">
+            <div class="col-12 col-md-6">
                 <h6 class="text uppercase purple-text">{{page.resourcesTag}}</h6>
                 <h2 class="subtitle uppercase">{{page.resourcesTitle}}</h2>
                 <p class="text light">{{page.resourcesCopy}}</p>
                 <a class="link pink-text uppercase" href="{{page.resourcesLink}}">{{page.resourcesLinkCopy}}</a>
             </div>
-            <div class="col">
-                <img src="/images/resources.png" alt="">
+            <div class="col-12 col-md-6">
+                <img src="/images/resources.png" alt="" width="100%">
             </div>
         </div>
         <div class="py-5"></div>
@@ -133,11 +135,11 @@ helpCTA: "Let's chat"
 <section class="pull-up">
     <div class="container-xxl">
         <div class="row bg-purple wavy-bg-img round py-2">
-            <div class="col white-text p-4">
+            <div class="col-12 col-md-6 white-text p-4">
                 <p class="text light">{{page.testimonial1}}</p>
                 <span class="small-text light fst-italic">{{page.testimonial1Author}}</span>
             </div>
-            <div class="col white-text p-4">
+            <div class="col-12 col-md-6 white-text p-4">
                 <p class="text light">{{page.testimonial2}}</p>
                 <span class="small-text light italic">{{page.testimonial2Author}}</span>
             </div>
@@ -151,24 +153,27 @@ helpCTA: "Let's chat"
         <h2 class="subtitle uppercase text-center">{{page.workshopTitle}}</h2>
 
         <div class="row">
-            <div class="col">
+            <div class="col-12 col-md-4">
                 <a href="{{page.workshop1Link}}" class="link black-text">
+                    <img src="/images/video1.png" alt="" width="100%" class="d-block mb-2">
                     <span class="gray-text light">{{page.workshop1Date}}</span>
                     <p class="text bold">{{page.workshop1Title}}</p>
                     <span class="light">{{page.workshop1Copy}}</span>
                 </a>
             </div>
 
-            <div class="col">
+            <div class="col-12 col-md-4">
                 <a href="{{page.workshop2Link}}" class="link black-text">
+                    <img src="/images/video3.png" alt="" width="100%" class="d-block mb-2">
                     <span class="gray-text light">{{page.workshop2Date}}</span>
                     <p class="text bold">{{page.workshop2Title}}</p>
                     <span class="light">{{page.workshop2Copy}}</span>
                 </a>
             </div>
 
-            <div class="col">
+            <div class="col-12 col-md-4">
                 <a href="{{page.workshop3Link}}" class="link black-text">
+                    <img src="/images/video2.png" alt="" width="100%" class="d-block mb-2">
                     <span class="gray-text light">{{page.workshop3Date}}</span>
                     <p class="text bold">{{page.workshop3Title}}</p>
                     <span class="light">{{page.workshop3Copy}}</span>
@@ -189,8 +194,8 @@ helpCTA: "Let's chat"
         <p class="text light">{{page.helpCopy}}</p>
         <div>
             <form action="">
-                <fieldset class="d-flex align-items-end">
-                    <input type="email" name="" id="" class="text-input text light me-1" placeholder="{{page.emailInputPlaceholder}}">
+                <fieldset class="d-flex flex-column flex-md-row">
+                    <input type="email" name="" id="" class="text-input text light me-1 mb-2" placeholder="{{page.emailInputPlaceholder}}">
                     <button class="primary-button text-white uppercase bg-pink">{{page.helpCTA}}</button>   
                 </fieldset>
             </form>
