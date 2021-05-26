@@ -1,0 +1,104 @@
+//Spacing
+
+.banner-padding {
+    padding: 100px 0;
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.tight-container {
+    max-width: 780px;
+    margin: 0 auto;
+}
+
+.pull-up {
+    margin-top: -120px;
+}
+
+//colors
+
+.bg-pink {
+    background-color: #FF0058;
+}
+
+.bg-gray {
+ background-color: #F4F4F5;
+}
+
+.bg-purple {
+    background-color: #3B5DEF
+}
+
+.black-text {
+    color: #13131B;
+}
+
+.gray-text{
+    color: #8A8A8A;
+}
+
+.pink-text {
+    color: #FF0058;
+}
+
+.purple-text {
+    color: #3B5DEF;
+}
+
+.white-text {
+    color: #FFFFFF;
+}
+
+
+//form 
+
+.text-input {
+    background: #FFFFFF;
+    border: 1px solid #D2D2D2;
+    border-radius: 6px;
+    padding: 10px 20px;
+    height: 45px;
+    box-shadow: none;
+    display: inline-block;
+    max-width: 400px;
+}
+
+.primary-button {
+    background-image: linear-gradient(221deg, #FF3784 0%, #FF0058 93%);
+    border-radius: 6px;
+    padding: 11px 30px;
+    height: 45px;
+}
+
+.secondary-button {
+    background: rgba(255,0,88,0.10);
+    border-radius: 6px;
+    padding: 11px 30px;
+    height: 45px;
+}
+
+.primary-button:hover {
+    box-shadow: 1px 1px 20px 0 #FF6184;
+}
+
+//assets
+.round {
+    border-radius: 12px;
+}
+
+.book-image {
+    max-height: 160px;
+}
+
+.bookstore {
+    width: 50px;
+}
+
+.wavy-bg-img {
+    background-image: url("/images/waves.png");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-size: cover;
+}

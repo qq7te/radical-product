@@ -1,116 +1,199 @@
 ---
 title: Radical Product
 layout: default
-logo_type: inverted
----
-<!-- TODO: need clarity on all those ... includes -->
-<!-- TODO: do we need those old redirects?  -->
 
-<header class="header header--landing bg-overlay bg-overlay--ra bottom-slice">
-    <div class="container">
-        {% include nav.html %}
-        <div class="container container--tight">
-            <h1 class="headline"><span class="headline__sub">Join the movement that's building</span> vision-driven
-                products</h1>
-            <p>Radical Product is a new way of thinking about creating world-changing products. The free Radical Product
-                Toolkit helps product leaders define their vision and strategy, prioritize their roadmap, and execute
-                intelligently.</p>
-            <a class="cta" data-action-hook="download-toolkit" href="/toolkit/#download">Get the free toolkit</a>
-        </div>
-    </div>
+tagline: "Radical Product Thinking is a methodology for building visionary products. Learn how you can innovate smarter by iterating less to achieve more."
+toolkitCTA: "Get the free toolkit"
+emailInputPlaceholder: "Enter your email"
+
+bookTagline: "Create purpose-driven change through your product."
+bookTitle: "RADICAL PRODUCT THINKING"
+bookCTA: "Get the book"
+bookshopLink: "/"
+barnesLink: "/"
+amazonLink: "/"
+
+aboutTagline: "Join the movement that’s building"
+aboutTitle: "Vision-Driven Products"
+aboutCopy: "Iteration rules product development, but it isn’t enough to produce dramatic results. Too many good products become bloated, fragmented, directionless, and driven by irrelevant metrics. Vision-driven products avoid these “product diseases” by having a clear reason for being, which drives strategy, prioritization, and execution."
+aboutLinkCopy: "Learn more about Radical Product Thinking"
+aboutLink: "/about"
+
+resourcesTag: "Radical Product Resources"
+resourcesTitle: "Innovate Smarter"
+resourcesCopy: "Start working with the radical product methodology, the book and the toolkit will guide you through strategic exercises with your team. If you need hands-on help, we're here for you."
+resourcesLinkCopy: "Get all Resources for Radical product thinking"
+resourcesLink: "/toolkit"
+
+testimonial1: "This book belongs on the shelf of every leader innovator"
+testimonial1Author: "- Daniel H. Pink, Author of “DRIVE, WHEN, and TO SELL IS HUMAN”"
+
+testimonial2: A great methodical process for radical product innovation so you can avoid the trap of making incremental optimizations that lead to local, myopic maxima.
+testimonial2Author: "- Giorgos Zacharia, President, Kayak"
+
+workshopTagline: "Radical Product Talks"
+workshopTitle: "VIDEOS FROM PAST EVENTS"
+workshopLinkCopy: "Check our workshops"
+workshopLink: "/workshop"
+
+workshop1Link: "/"
+workshop1Date: "October 22, 2019"
+workshop1Title: "Radical Product Thinking: How to Iterate Less and Achieve More"
+workshop1Copy: "Leading the Product, Sydney, Australia"
+
+workshop2Link: "/"
+workshop2Date: "June 17, 2019"
+workshop2Title: "Radical Product Thinking: How to Iterate Less and Achieve More"
+workshop2Copy: "Product Management Festival, Singapore"
+
+workshop3Link: "/"
+workshop3Date: "October 22, 2019"
+workshop3Title: "From Product Leader to Visionary"
+workshop3Copy: "Leading the Product, Sydney, Australia"
+
+helpTitle: "GET HANDS-ON HELP"
+helpCopy: "If you want hands-on help integrating Radical Product thinking into your organization. We offer coaching, training, and workshops to individuals and teams. Please get in touch below to start the conversation."
+helpCTA: "Let's chat"
+---
+
+<header>
+    {% include nav.html %}
 </header>
 
-<div class="iso-cards">
-    <div class="iso-card">
-        <div class="cover"><img src="img/tk-5.svg" alt=""></div>
-    </div>
-    <div class="iso-card">
-        <div class="cover"><img src="img/tk-4.svg" alt=""></div>
-    </div>
-    <div class="iso-card">
-        <div class="cover"><img src="img/tk-3.svg" alt=""></div>
-    </div>
-    <div class="iso-card">
-        <div class="cover"><img src="img/tk-2.svg" alt=""></div>
-    </div>
-    <div class="iso-card">
-        <div class="cover"><img src="img/tk-1.svg" alt=""></div>
-    </div>
-</div>
-<section class="content content--primary">
-    <div class="container container--content">
-        <img class="section-token" src="img/token-vision.svg" alt="">
-        <h2 class="section-header">Why Radical Product?</h2>
-        <p>Too many good products become bloated, fragmented, directionless, and driven by irrelevant metrics.
-            Vision-driven products avoid these “product diseases” by having a clear reason for being, which drives
-            strategy, prioritization, and execution.</p>
-        <p>The Radical Product Toolkit is being used today by product managers, CEOs, founders, and enterprise
-            innovators at all levels to keep their teams on track, make smarter decisions, and build products with
-            purpose.</p>
-        <p>To get started, just <a href="#" data-action-hook="download-toolkit">download the free Radical Product
-            Toolkit</a> and work through the strategic exercises with your team. If you need hands-on help, we're <a
-                href="#custom-workshops">here for you.</a></p>
-        <figure class="testimonial">
-            <blockquote>
-                The Radical Product Toolkit has really helped us clarify our product vision and strategy. We’ve used it
-                to prioritize features, track “vision debt”, and keep the team aligned as we’ve grown!
-            </blockquote>
-            <footer>
-                — <cite class="author">Adam Honig</cite>, <cite class="company">Co-Founder and CEO, Spiro Technologies
-                Inc.</cite>
-            </footer>
-        </figure>
-    </div>
-     <div class="container container--content">
-        <img class="section-token" src="img/token-about.svg" alt="">
-        <h2 class="section-header">Who's Behind Radical Product?</h2>
-
-        <p>
-What started as a framework for building successful products has now become a global movement of leaders creating purpose-driven change through their products. Radhika Dutt is a product leader and entrepreneur who created the toolkit together with Geordie Kaytes and Nidhi Aggarwal in 2017.
-        </p><p>
-        Learn more about <a href="/about">how this new way of thinking started</a>.
-        </p>
-         <a href="/toolkit" class="read-more">What's in the toolkit?</a>
+<section class="landing-banner banner-padding">
+    <div class="container-xxl text-center">
+        <h1 class="uppercase bold title mb-3">Create <span class="pink-text">World-Changing</span>  products, Transforming your <span class="pink-text">vision</span> into <span class="pink-text">reality</span>.</h1>
+        <p class="big-text light tight-container mb-4">{{page.tagline}}</p>
+        <div>
+            <form action="">
+                <fieldset class="d-flex align-items-end justify-content-center">
+                    <input type="email" name="" id="" class="text-input text light me-1" placeholder="{{page.emailInputPlaceholder}}">
+                    <button class="primary-button text-white uppercase bg-pink">{{page.toolkitCTA}}</button>   
+                </fieldset>
+            </form>
+        </div>
     </div>
 </section>
-<section class="content content--secondary bg-overlay bg-overlay--ev top-slice">
-    <div class="container container--content">
-        <img src="img/token-events.svg" alt="" class="section-token">
-        <h2 class="section-header">Videos from Past Events</h2>
-        <ol class="events-list">
 
-            <li class="events-list__event">
-                <span class="event-date">October 22, 2019</span>
-                <span class="event-title"><a href="https://youtu.be/A5pqsuwM1BM">Radical Product Thinking: How to Iterate Less and Achieve More</a></span>
-                <span class="event-location">Leading the Product, Sydney, Australia</span>
-            </li>
-
-            <li class="events-list__event">
-                <span class="event-date">June 17, 2019</span>
-                <span class="event-title"><a href="https://vimeo.com/347501752/844bad2ef9">From Product Leader to Visionary</a></span>
-                <span class="event-location">Product Management Festival, Singapore</span>
-            </li>
-
-        </ol>
+<section class="py-2 bg-gray">
+    <div class="container-xxl">
+        <div class="row d-flex align-items-center">
+            <div class="col-auto">
+                <img src="/images/book.png" alt="Book Cover" class="book-image">
+            </div>
+    
+            <div class="col">
+                <h6 class="handwritten-text">{{page.bookTagline}}</h6>
+                <h2 class="subtitle pink-text uppercase bold">{{page.bookTitle}}</h2>
+            </div>
+    
+            <div class="col-auto">
+                <span class="text d-block mb-2 light">{{page.bookCTA}}</span>
+                <a href="{{page.bookshopLink}}"><img src="/images/bookshop.png" alt="Bookshop" class="bookstore"></a>
+                <a href="{{page.barnesLink}}"><img src="images/barnes.png" alt="Barnes and Noble" class="bookstore mx-2"></a>
+                <a href="{{page.amazonLink}}"><img src="images/amazon.png" alt="Amazon" class="bookstore"></a>
+            </div>
+        </div>
     </div>
 </section>
-<section class="content content--cta" id="custom-workshops">
-    <div class="container container--content">
-        <h2 class="section-header">Get Hands-On Help</h2>
-        <p>If you want hands-on help integrating Radical Product thinking into your organization, we offer coaching,
-            training, and workshops to individuals and teams. Please get in touch below to start the conversation.</p>
-        <form action="https://radicalproduct.us10.list-manage.com/subscribe/post?u=5559a62245d86aeeefd822705&amp;id=7fc7e415ad"
-              method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate signup"
-              target="_blank" novalidate>
-            <label for="mce-email">My Email</label>
-            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-            <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                <input type="text" name="b_5559a62245d86aeeefd822705_7fc7e415ad" tabindex="-1" value="">
+
+<section class="section-padding">
+    <div class="container-xxl">
+        <div class="row">
+            <div class="col">
+
             </div>
-            <div class="clear">
-                <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">Let's Chat
-                </button>
+            <div class="col">
+                <h6 class="handwritten-text purple-text">{{page.aboutTagline}}</h6>
+                <h2 class="subtitle uppercase">{{page.aboutTitle}}</h2>
+                <p class="text light">{{page.aboutCopy}}</p>
+                <a class="link pink-text uppercase" href="{{page.aboutLink}}">{{page.aboutLinkCopy}}</a>
             </div>
-        </form>
+        </div>
+    </div>
+</section>
+
+<section class="bg-gray section-padding">
+    <div class="container-xxl">
+        <div class="row">
+            <div class="col">
+                <h6 class="text uppercase purple-text">{{page.resourcesTag}}</h6>
+                <h2 class="subtitle uppercase">{{page.resourcesTitle}}</h2>
+                <p class="text light">{{page.resourcesCopy}}</p>
+                <a class="link pink-text uppercase" href="{{page.resourcesLink}}">{{page.resourcesLinkCopy}}</a>
+            </div>
+            <div class="col">
+                <img src="/images/resources.png" alt="">
+            </div>
+        </div>
+        <div class="py-5"></div>
+    </div>
+</section>
+
+<section class="pull-up">
+    <div class="container-xxl">
+        <div class="row bg-purple wavy-bg-img round py-2">
+            <div class="col white-text p-4">
+                <p class="text light">{{page.testimonial1}}</p>
+                <span class="small-text light fst-italic">{{page.testimonial1Author}}</span>
+            </div>
+            <div class="col white-text p-4">
+                <p class="text light">{{page.testimonial2}}</p>
+                <span class="small-text light italic">{{page.testimonial2Author}}</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-padding">
+    <div class="container-xxl">
+        <h6 class="text uppercase purple-text text-center">{{page.workshopTagline}}</h6>
+        <h2 class="subtitle uppercase text-center">{{page.workshopTitle}}</h2>
+
+        <div class="row">
+            <div class="col">
+                <a href="{{page.workshop1Link}}" class="link black-text">
+                    <span class="gray-text light">{{page.workshop1Date}}</span>
+                    <p class="text bold">{{page.workshop1Title}}</p>
+                    <span class="light">{{page.workshop1Copy}}</span>
+                </a>
+            </div>
+
+            <div class="col">
+                <a href="{{page.workshop2Link}}" class="link black-text">
+                    <span class="gray-text light">{{page.workshop2Date}}</span>
+                    <p class="text bold">{{page.workshop2Title}}</p>
+                    <span class="light">{{page.workshop2Copy}}</span>
+                </a>
+            </div>
+
+            <div class="col">
+                <a href="{{page.workshop3Link}}" class="link black-text">
+                    <span class="gray-text light">{{page.workshop3Date}}</span>
+                    <p class="text bold">{{page.workshop3Title}}</p>
+                    <span class="light">{{page.workshop3Copy}}</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="text-center mt-3">
+            <a href="{{page.workshopLink}}" class="pink-text link uppercase">{{page.workshopLinkCopy}}</a>
+        </div>
+    </div>
+</section>
+
+
+<section class="bg-purple wavy-bg-img py-5">
+    <div class="container-xxl white-text">
+        <h2 class="subtitle uppercase">{{page.helpTitle}}</h2>
+        <p class="text light">{{page.helpCopy}}</p>
+        <div>
+            <form action="">
+                <fieldset class="d-flex align-items-end">
+                    <input type="email" name="" id="" class="text-input text light me-1" placeholder="{{page.emailInputPlaceholder}}">
+                    <button class="primary-button text-white uppercase bg-pink">{{page.helpCTA}}</button>   
+                </fieldset>
+            </form>
+        </div>
     </div>
 </section>

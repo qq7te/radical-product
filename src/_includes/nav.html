@@ -1,17 +1,28 @@
-<div class="topbar">
-	<a href="/">
-		{% if page.logo_type == "inverted" %}
-		<img class="topbar__logo" src="../../img/logo-inverted.svg" alt="" class="logo">
-		{% else %}
-	    	<img class="topbar__logo" src="../../img/logo.svg" alt="" class="logo">
-		{% endif %}
-	</a>
-	<nav id="main-nav" class="main-nav nav-collapse">
-		<ul>
-			<li><a href="/">Home</a></li>
-			<li><a href="/toolkit">Toolkit</a></li>
-            <li><a href="/about">About</a></li>
-			<li><a href="/blog">Blog</a></li>
-		</ul>
-	</nav>
-</div>
+<nav class="navbar navbar-expand-lg navbar-light py-3">
+	<div class="container-xxl d-flex justify-content-between">
+		<a class="navbar-brand" href="#">
+			<img src="../../img/logo.svg" alt="" class="logo">
+	  	</a>
+
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link uppercase link" href="/toolkit">Toolkit</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link uppercase link" href="/workshops">Workshops</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link uppercase link" href="/about">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link uppercase link" href="/blog">Blog</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>

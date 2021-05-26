@@ -1,11 +1,8 @@
-html
-{
-    font-size: 16px;
-}
-
-body
-{
-    font-family: Montserrat, sans-serif;
+@font-face {
+    font-family: 'Chalkduster Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url('/fonts/Chalkduster.woff') format('woff');
 }
 
 h1,
@@ -14,18 +11,6 @@ h3
 {
     font-weight: 500;
 }
-
-///
-//   Fonts we have
-//
-//    font-family: 'Merriweather', serif;
-//
-//    font-family: 'Monserrat', sans-serif;
-//    font-family: 'Roboto', sans-serif;
-///
-
-
-// HEADER SECTION
 
 .header .headline
 {
@@ -79,4 +64,55 @@ h3
 .content--cta .section-header
 {
     text-align: left;
+}
+
+//New Style
+html {
+    font-size: 16px;
+}
+
+body * {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.title {
+    size: 3.125rem;
+}
+
+.subtitle {
+    size: 1.25rem;
+    font-weight: 700;
+}
+
+.big-text {
+    size: 1.375rem;
+}
+
+.text {
+    font-size: 1.125rem;
+}
+
+.small-text {
+    font-size: 1rem;
+}
+
+.handwritten-text{
+    font-family: 'Chalkduster Regular' !important;
+}
+
+.link {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.light {
+    font-weight: 300;
+}
+
+.uppercase {
+    text-transform: uppercase;
 }
