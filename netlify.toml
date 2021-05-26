@@ -1,2 +1,2 @@
 [build]
-  command = "bundle install && jekyll b"
+  command = "gem install bundler -v 2.2.18 && jekyll b"
