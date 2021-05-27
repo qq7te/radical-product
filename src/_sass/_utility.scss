@@ -71,6 +71,7 @@
     height: 45px;
     font-size: 0.9rem;
     line-height: 1;
+    transition: all 0.50s;
 }
 
 .secondary-button {
@@ -91,18 +92,34 @@
     text-decoration: none;
     border-radius: 3px;
     display: inline-block;
+
+    &:hover {
+        color: #FFFFFF;
+    }
 }
 
 .amazon {
     background-color: #FF9900;
+    transition: all 0.35s;
+    &:hover {
+        background-color: #FF8800;
+    }
 }
 
 .bookshop {
     background-color: #573BA3;
+    transition: all 0.35s;
+    &:hover {
+        background-color: #421DA7;
+    }
 }
 
 .barnes {
     background-color: #34614A;
+    transition: all 0.35s;
+    &:hover {
+        background-color: #0F5532;
+    }
 }
 
 
