@@ -25,31 +25,10 @@ resourcesCopy: "Start working with the radical product methodology, the book and
 resourcesLinkCopy: "Get all Resources for Radical product thinking"
 resourcesLink: "/toolkit"
 
-testimonial1: "This book belongs on the shelf of every leader innovator"
-testimonial1Author: "- Daniel H. Pink, Author of “DRIVE, WHEN, and TO SELL IS HUMAN”"
-
-testimonial2: A great methodical process for radical product innovation so you can avoid the trap of making incremental optimizations that lead to local, myopic maxima.
-testimonial2Author: "- Giorgos Zacharia, President, Kayak"
-
 workshopTagline: "Radical Product Talks"
 workshopTitle: "VIDEOS FROM PAST EVENTS"
 workshopLinkCopy: "Check our workshops"
-workshopLink: "/workshop"
-
-workshop1Link: "https://www.youtube.com/watch?v=A5pqsuwM1BM"
-workshop1Date: "October 22, 2019"
-workshop1Title: "Radical Product Thinking: How to Iterate Less and Achieve More"
-workshop1Copy: "Leading the Product, Sydney, Australia"
-
-workshop2Link: "https://www.youtube.com/watch?v=MMX5dVN-DjU"
-workshop2Date: "April 6, 2021 June 17, 2019"
-workshop2Title: "Singapore as an example of a Radical Product"
-workshop2Copy: ""
-
-workshop3Link: "https://vimeo.com/347501752/844bad2ef9"
-workshop3Date: "June 17, 2019"
-workshop3Title: "From Product Leader to Visionary"
-workshop3Copy: "Product Management Festival, Singapore"
+workshopLink: "/workshops"
 
 helpTitle: "GET HANDS-ON HELP"
 helpCopy: "If you want hands-on help integrating Radical Product thinking into your organization. We offer coaching, training, and workshops to individuals and teams. Please get in touch below to start the conversation."
@@ -65,10 +44,17 @@ helpCTA: "Let's chat"
         <h1 class="uppercase bold title mb-3">Create <span class="pink-text">World-Changing</span>  products, Transforming your <span class="pink-text">vision</span> into <span class="pink-text">reality</span>.</h1>
         <p class="big-text light tight-container mb-4">{{page.tagline}}</p>
         <div>
-            <form action="">
+            <form action="https://radicalproduct.us10.list-manage.com/subscribe/post?u=5559a62245d86aeeefd822705&amp;id=7fc7e415ad"
+                method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate signup"
+                target="_blank" novalidate>
                 <fieldset class="d-flex flex-column flex-md-row justify-content-center">
-                    <input type="email" name="" id="" class="text-input text light me-1 mb-2" placeholder="{{page.emailInputPlaceholder}}">
-                    <button class="primary-button text-white uppercase bg-pink">{{page.toolkitCTA}}</button>   
+                    <input type="email" value="" name="EMAIL" class="required email text-input text light me-1 mb-2" id="mce-EMAIL" placeholder="{{page.emailInputPlaceholder}}">
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                        <input type="text" name="b_5559a62245d86aeeefd822705_7fc7e415ad" tabindex="-1" value="">
+                    </div>
+                    <div class="clear">
+                        <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="primary-button text-white uppercase bg-pink">{{page.toolkitCTA}}</button>
+                    </div>
                 </fieldset>
             </form>
         </div>
@@ -76,23 +62,23 @@ helpCTA: "Let's chat"
 </section>
 
 <section class="py-2 bg-gray">
-    <div class="container-xxl text-center text-sm-start">
+    <div class="container-xxl text-center text-md-start">
         <div class="row d-flex align-items-center">
-            <div class="col-12 col-sm-auto">
+            <div class="col-12 col-md-2 text-center">
                 <img src="/images/book.png" alt="Book Cover" class="book-image">
             </div>
     
-            <div class="col-12 col-sm-8">
+            <div class="col-12 col-md-7">
                 <h6 class="handwritten-text">{{page.bookTagline}}</h6>
                 <h2 class="subtitle pink-text uppercase bold">{{page.bookTitle}}</h2>
             </div>
     
-            <div class="col-12 col-md-auto">
-                <span class="text d-none d-md-block mb-2 light">{{page.bookCTA}}</span>
-                <div class="text-center">
-                    <a href="{{page.bookshopLink}}"><img src="/images/bookshop.png" alt="Bookshop" class="bookstore"></a>
-                    <a href="{{page.barnesLink}}"><img src="images/barnes.png" alt="Barnes and Noble" class="bookstore mx-2"></a>
-                    <a href="{{page.amazonLink}}"><img src="images/amazon.png" alt="Amazon" class="bookstore"></a>
+            <div class="col-12 col-md-3">
+                <span class="text d-none d-md-block m b-1 light">{{page.bookCTA}}</span>
+                <div>
+                    <a href="{{page.bookshopLink}}" class="bookshop white-text mb-1">Bookshop</a>
+                    <a href="{{page.amazonLink}}" class="amazon white-text mb-1">Amazon</a> <br class="d-none d-md-block">
+                    <a href="{{page.barnesLink}}" class="barnes white-text">Barnes & Noble</a>
                 </div>
             </div>
         </div>
@@ -135,14 +121,12 @@ helpCTA: "Let's chat"
 <section class="pull-up">
     <div class="container-xxl">
         <div class="row bg-purple wavy-bg-img round py-2">
+            {% for testimonial in site.data.testimonials %}
             <div class="col-12 col-md-6 white-text p-4">
-                <p class="text light">{{page.testimonial1}}</p>
-                <span class="small-text light fst-italic">{{page.testimonial1Author}}</span>
+                <p class="text light">{{testimonial.testimonial}}</p>
+                <span class="small-text light fst-italic">{{testimonial.author}}</span>
             </div>
-            <div class="col-12 col-md-6 white-text p-4">
-                <p class="text light">{{page.testimonial2}}</p>
-                <span class="small-text light italic">{{page.testimonial2Author}}</span>
-            </div>
+            {% endfor %}
         </div>
     </div>
 </section>
@@ -153,32 +137,16 @@ helpCTA: "Let's chat"
         <h2 class="subtitle uppercase text-center">{{page.workshopTitle}}</h2>
 
         <div class="row">
+            {% for workshop in site.data.workshops %}
             <div class="col-12 col-md-4">
-                <a href="{{page.workshop1Link}}" class="link black-text">
-                    <img src="/images/video1.png" alt="" width="100%" class="d-block mb-2">
-                    <span class="gray-text light">{{page.workshop1Date}}</span>
-                    <p class="text bold">{{page.workshop1Title}}</p>
-                    <span class="light">{{page.workshop1Copy}}</span>
+                <a href="{{workshop.link}}" class="link black-text" target="_blank">
+                    <img src="{{workshop.thumbnail}}" alt="" width="100%" class="d-block mb-2">
+                    <span class="gray-text light">{{workshop.date}}</span>
+                    <p class="text bold">{{workshop.title}}</p>
+                    <span class="light">{{workshop.copy}}</span>
                 </a>
             </div>
-
-            <div class="col-12 col-md-4">
-                <a href="{{page.workshop2Link}}" class="link black-text">
-                    <img src="/images/video3.png" alt="" width="100%" class="d-block mb-2">
-                    <span class="gray-text light">{{page.workshop2Date}}</span>
-                    <p class="text bold">{{page.workshop2Title}}</p>
-                    <span class="light">{{page.workshop2Copy}}</span>
-                </a>
-            </div>
-
-            <div class="col-12 col-md-4">
-                <a href="{{page.workshop3Link}}" class="link black-text">
-                    <img src="/images/video2.png" alt="" width="100%" class="d-block mb-2">
-                    <span class="gray-text light">{{page.workshop3Date}}</span>
-                    <p class="text bold">{{page.workshop3Title}}</p>
-                    <span class="light">{{page.workshop3Copy}}</span>
-                </a>
-            </div>
+            {% endfor %}
         </div>
 
         <div class="text-center mt-3">
@@ -193,10 +161,18 @@ helpCTA: "Let's chat"
         <h2 class="subtitle uppercase">{{page.helpTitle}}</h2>
         <p class="text light">{{page.helpCopy}}</p>
         <div>
-            <form action="">
+
+            <form action="https://radicalproduct.us10.list-manage.com/subscribe/post?u=5559a62245d86aeeefd822705&amp;id=7fc7e415ad"
+                method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate signup"
+                target="_blank" novalidate>
                 <fieldset class="d-flex flex-column flex-md-row">
-                    <input type="email" name="" id="" class="text-input text light me-1 mb-2" placeholder="{{page.emailInputPlaceholder}}">
-                    <button class="primary-button text-white uppercase bg-pink">{{page.helpCTA}}</button>   
+                    <input type="email" value="" name="EMAIL" class="required email text-input text light me-1 mb-2" id="mce-EMAIL" placeholder="{{page.emailInputPlaceholder}}">
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                        <input type="text" name="b_5559a62245d86aeeefd822705_7fc7e415ad" tabindex="-1" value="">
+                    </div>
+                    <div class="clear">
+                        <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="primary-button text-white uppercase bg-pink">{{page.helpCTA}}</button>
+                    </div>
                 </fieldset>
             </form>
         </div>

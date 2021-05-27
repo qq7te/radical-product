@@ -84,6 +84,28 @@
     box-shadow: 1px 1px 20px 0 #FF6184;
 }
 
+.amazon, .bookshop, .barnes {
+    padding: 5px 10px;
+    font-size: 0.875;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.amazon {
+    background-color: #FF9900;
+}
+
+.bookshop {
+    background-color: #573BA3;
+}
+
+.barnes {
+    background-color: #34614A;
+}
+
+
 //assets
 .round {
     border-radius: 12px;
