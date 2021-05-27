@@ -1,5 +1,3 @@
-# Radical Product Website
-This repo holds the code for [the radical product website](https://www.radicalproduct.com).
 
 ## Stack
 This website is built with Jekyll and the content is mostly written in markdown. Some of the
@@ -19,5 +17,5 @@ To develop on this website you need a few things installed in your machine, plea
 - Start the app with `bundle exec jekyll serve`
 
 ## Deploying
-[Ask Radhika/Danielle]
+
 
