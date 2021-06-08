@@ -17,6 +17,11 @@
     margin-top: -120px;
 }
 
+.text-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 //colors
 
 .bg-pink {
@@ -41,6 +46,8 @@
 
 .pink-text {
     color: #FF0058;
+
+    &:hover {color: #FF0058; }
 }
 
 .purple-text {
@@ -79,10 +86,17 @@
     border-radius: 6px;
     padding: 11px 30px;
     height: 45px;
+    font-size: 0.9rem;
+    line-height: 1.3;
+    text-decoration: none;
+    transition: all 0.50s;
 }
 
-.primary-button:hover {
+.primary-button:hover , .secondary-button:hover{
     box-shadow: 1px 1px 20px 0 #FF6184;
+    background-color: #FF0058;
+    background-image: none;
+    color: #FFF;
 }
 
 .amazon, .bookshop, .barnes {
@@ -124,6 +138,12 @@
 
 
 //assets
+.box {
+    background: #FFFFFF;
+    box-shadow: 0 2px 14px 0 rgba(0,0,0,0.10);
+    border-radius: 10px;
+}
+
 .round {
     border-radius: 12px;
 }
@@ -148,4 +168,84 @@
     background-repeat: no-repeat;
     background-position-y: center;
     background-size: 100%;
+}
+
+//workshops
+.talks {
+    .carousel-indicators button {
+        width: 15px;
+        height: 15px;
+        background-color: #3B5DEF;
+        border-radius: 50%;
+    }
+
+    .box {
+        min-height: 100%;
+    }
+}
+
+.sessions {
+    
+    .carousel-indicators button {
+        width: 50px;
+        height: 50px;
+        background-color: #FAE0E9;
+        border-radius: 50%;
+        background-size: 50%;
+        background-repeat: no-repeat;
+        background-position: center;
+        opacity: 1;
+
+        &.active {
+            background-color: #FF0058;
+        }
+    }
+
+    .vision {
+        background-image: url("/images/session-icons-pink/telescope.png");
+
+        &.active {
+            background-image: url("/images/session-icons-white/telescope.png");
+        }
+    }
+
+    .strategy {
+        background-image: url("/images/session-icons-pink/chess.png");
+
+        &.active {
+            background-image: url("/images/session-icons-white/chess.png");
+        }
+    }
+
+    .priorities {
+        background-image: url("/images/session-icons-pink/route.png");
+
+        &.active {
+            background-image: url("/images/session-icons-white/route.png");
+        }
+    }
+
+    .execution {
+        background-image: url("/images/session-icons-pink/list.png");
+
+        &.active {
+            background-image: url("/images/session-icons-white/list.png");
+        }
+    }
+
+    .culture {
+        background-image: url("/images/session-icons-pink/team.png");
+
+        &.active {
+            background-image: url("/images/session-icons-white/team.png");
+        }
+    }
+
+    .hippocratic {
+        background-image: url("/images/session-icons-pink/oath.png");
+
+        &.active {
+            background-image: url("/images/session-icons-white/oath.png");
+        }
+    }
 }

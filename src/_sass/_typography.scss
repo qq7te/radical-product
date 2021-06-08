@@ -1,9 +1,3 @@
-@font-face {
-    font-family: 'Chalkduster Regular';
-    font-style: normal;
-    font-weight: normal;
-    src: url('/fonts/Chalkduster.woff') format('woff');
-}
 
 h1,
 h2,
@@ -71,8 +65,9 @@ html {
     font-size: 16px;
 }
 
-body * {
+body {
     font-family: 'Poppins', sans-serif !important;
+    font-size: 16px;
 }
 
 .title {
@@ -88,17 +83,16 @@ body * {
     size: 1.375rem;
 }
 
-
-.small-text {
+.text{
     font-size: 1rem;
 }
 
-.handwritten-text{
-    font-family: 'Chalkduster Regular' !important;
+.small-text {
+    font-size: 0.875rem;
 }
 
 .link {
-    font-size: 16px;
+    font-size: 1rem;
     text-decoration: none;
 }
 

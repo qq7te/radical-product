@@ -1,0 +1,96 @@
+- title: Introduction and Vision
+  copy: In this first session, we’ll learn how to diagnose product diseases. We’ll then talk about how we can overcome or prevent these diseases by taking a vision-driven approach to building products instead of being iteration-led. 
+  copy2: Being vision-driven requires starting with a compelling vision and getting the team to buy into it. In this session, you’ll learn how to do exactly that. We’ll challenge conventional wisdom that a vision must be broad and a BHAG (Big Hairy Audacious Goal). You’ll craft a Radical Vision Statement and gain practical tools to get buy-in on the vision and spread your thinking across the organization. 
+  prerequisites:
+    - None
+  outcomes: 
+    - Where Lean and Agile fall short
+    - Diagnosing product diseases
+    - Ability to write a good vision
+    - Getting your team and stakeholders to buy into the vision 
+  img: "/images/vision.jpeg"
+
+- title: Negotiating priorities
+  copy: Most product teams pick out prioritization as one of their hardest challenges -- remote working only exacerbates this. Not only do you have to make difficult decisions, but you also have to persuade your team and stakeholders on your priorities… that too, on video calls. If you have expertise in your product and market, priorities may at times seem obvious because you’ve developed an intuition for making the right decisions. How do you develop the same intuition in your team? How do you make prioritization discussions more productive and less contentious with stakeholders?
+  copy2: In this session, you’ll learn a powerful approach using a simple 2x2 framework and a shared vocabulary that you can use with the team and with stakeholders to prioritize both strategic initiatives and tactical activities. In the previous session, you crafted a powerful vision. In this hands-on session, you’ll learn how you can apply your vision in everyday decision-making while balancing short-term business needs. You’ll learn to use this as a powerful communication tool to align your team and stakeholders. 
+  prerequisites: 
+    - Completing the Introduction and Vision session
+  outcomes: 
+    - Communicating  trade-offs and your decision-making rationale. 
+    - Aligning stakeholders and your team on priorities.
+    - Getting your team and others in the organization to evaluate opportunities, decisions, and features like you would.
+  img: "/images/priority.jpeg"
+
+- title: Strategy Part 1
+  copy: 'A comprehensive product strategy means asking the following four questions with the mnemonic RDCL (pronounced "radical"):'
+  hasList: true
+  list: 
+    - "Real pain point: What's the pain that triggers someone to engage with your product?"
+    - "Design: What functionality in your product solves that pain?"
+    - "Capabilities: What capabilities do you need to deliver on the promise of the solution?"
+    - "Logistics: How do you deliver the solution to your users? How do you price it, deliver and support it?"
+  copy2: 'In this session we’ll work through the first two questions above: Real pain points and Design. At the end of this session you’ll have a list of prioritized pain points and corresponding functionality that addresses those pains. While Design Thinking itself is out of the scope of this curriculum, in this session you’ll develop a clear sense of how Design Thinking relates to your RDCL Strategy. You’ll learn a formula to evaluate if a pain point is real. You’ll learn about different approaches to user research and testing and when we need to apply each method.'
+  has2List: true
+  list2: 
+    - How do you do user testing?
+    - Focus groups
+    - User interviews 
+    - A/B testing
+    - When do you use each of these testing methods?
+  prerequisites: 
+    - Completing the Introduction and Vision session
+  outcomes:
+    - Getting the team to prioritize pain points you want to solve for users so you’re not trying to solve everything at once
+    - Ability to validate pain points so your strategy has a solid foundation. 
+  img: "/images/strategy1.jpeg"
+
+- title: Strategy Part 2
+  copy: 'In this second session on RDCL strategy we’ll work through C & L:'
+  hasList: true
+  list: 
+    - "Capabilities: What capabilities do you need to deliver on the promise of the solution?"
+    - "Logistics: How do you deliver the solution to your users? How do you price it, deliver and support it?"
+  copy2: Once we have a complete RDCL strategy, it’s time to ask, “In what order will we deliver this strategy?” Delivering RDCL all at once may be an overwhelming task. We will use the techniques we’ve learnt on prioritization using the 2x2 rubric and begin to craft a roadmap that distributes our strategy over time. 
+  prerequisites: 
+    - Completing Strategy Part 1
+  outcomes:
+    - Facilitating a strategy discussion with stakeholders and teams
+    - Prioritizing the elements of your strategy and communicating it to stakeholders 
+    - Crafting a roadmap using the priorities you identified
+  img: "/images/strategy2.jpeg"
+
+
+- title: Execution and Measurement
+  copy: In the previous sessions you developed a powerful vision, a comprehensive strategy, and a clear approach to evaluate and communicate priorities. In this session you’ll be translating the work done so far into execution and measurement. Execution helps you make incremental progress towards your vision. You’ll learn about hypothesis-driven execution and how you can use Lean and Agile techniques for execution. 
+  copy2: Measurement helps you evaluate if you are making progress towards the vision. This in turn means your measurement should be aligned with your vision and strategy. Popular metrics such as the number of users or revenues may not always be the right indicators of progress. Product teams are more successful when teams and stakeholders are aligned on how you’ll measure success. This session covers how you can derive measurement from your product strategy, so you can measure what matters for your product.
+  prerequisites: 
+    - Completing the Introduction and Vision 
+    - Strategy Part 1 and Part 2
+  outcomes:
+    - Crafting hypotheses for Lean and Agile development
+    - Aligning stakeholders and the team on how you’ll measure success
+    - Integrating your vision, strategy, and priorities into your Lean and Agile development
+  img: "/images/analytics.jpeg"
+
+- title: Team and Culture
+  copy: A good culture is not something that happens accidentally and must be carefully engineered. In this session you’ll work through the culture you need to establish in a product team and how you can bring this about. Essentially, even your culture can be treated as a product. Having learned about building products (vision, strategy, prioritization, execution and measurement), you’re ready to apply some of these techniques to culture. In this section you’ll gain practical tools to describe and evaluate the culture in your product team, identify what’s working well, plan strategies to change the culture where it’s needed, and measure progress towards creating a culture that high performing product teams need for innovation. You’ll be able to use these techniques to create a more close-knit culture across your team.
+  copy2: 
+  prerequisites:
+    - None
+  outcomes: 
+    - Facilitating culture discussions, using this approach in retrospectives
+    - Measuring progress towards a good culture
+    - Creating stronger bonds across cross-functional product teams
+  img: "/images/team.jpeg"
+
+- title: The Hippocratic Oath of Product
+  copy: The previous six sessions gave you the superpower to build successful, world-changing products. But although your product may be successful and solving problems for some users, the unintended consequences may also be inflicting collateral damage to society. Just as unregulated industrial growth led to environmental pollution, unregulated tech growth in the digital era is creating digital pollution. We need to recognize the effects of digital pollution and learn to embrace the responsibility that comes with the power of building products. 
+  copy2: This session will help you recognize five types of digital pollution so you can be sensitive to the unintended consequences of your product on society. You’ll learn how to embrace the Hippocratic Oath of Product and walk away with practical tools to manage this responsibility against the reality of your short-term business needs. 
+  prerequisites:
+    - None
+  outcomes:
+    - Awareness of how your product is affecting society
+    - How you can bake responsibility into every step as you build your product
+    - Inspiration to build successful products that also make the world a little more like the one we want to live in
+  img: "/images/oath.jpeg"
+
