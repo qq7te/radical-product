@@ -115,14 +115,14 @@ email: "radhika@radicalproduct.com"
                 <div class="carousel-inner mb-5 overflow-visible">
                     {% for talk in site.data.talks %}
                         <div class="carousel-item box p-5 {% if forloop.first == true %} active{% endif %}">
-                            <div class="row">
+                            <div class="row d-flex align-items-center">
                                 <div class="col-12 col-md-6">
                                     <h5 class="text bold uppercase mb-3">{{talk.title}}</h5>
                                     <p class="small-text light">{{talk.copy}}</p>
                                     <p class="small-text light mb-2">{{talk.copyPart2}}</p>
                                 </div>
                                 <div class="col-12 col-md-6 text-center">
-                                    <img src="{{talk.img}}" alt="" width="80%" class="d-inline-block">
+                                    <img src="{{talk.img}}" alt="" width="100%" class="d-inline-block">
                                 </div>
                             </div>
                         </div>
