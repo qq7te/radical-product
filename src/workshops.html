@@ -62,7 +62,6 @@ email: "radhika@radicalproduct.com"
                             <option selected value="a talk" >{{page.talkSelectPlaceholder}}</option>
                             {% for talk in site.data.talks %}
                                 <option value="{{talk.title}}">{{talk.title}}</option>
-                                <option value="{{talk.title2}}">{{talk.title2}}</option>
                             {% endfor %}
                         </select>
                     </div>
@@ -107,26 +106,23 @@ email: "radhika@radicalproduct.com"
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"  data-bs-interval="10000">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active bg-purple" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="mx-3" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="ms-2" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="ms-2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" class="ms-2" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" class="ms-2" aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" class="ms-2" aria-label="Slide 6"></button>
                 </div>
-                <div class="carousel-inner mb-5">
+                <div class="carousel-inner mb-5 overflow-visible">
                     {% for talk in site.data.talks %}
-                        <div class="carousel-item {% if forloop.first == true %} active{% endif %}">
+                        <div class="carousel-item box p-5 {% if forloop.first == true %} active{% endif %}">
                             <div class="row">
-                                <div class="col-12 col-md-6 p-4">
-                                    <div class="box p-5">
-                                        <h5 class="text bold uppercase mb-3">{{talk.title}}</h5>
-                                        <p class="small-text light">{{talk.copy}}</p>
-                                        <p class="small-text light mb-0">{{talk.copyPart2}}</p>
-                                    </div>
+                                <div class="col-12 col-md-6">
+                                    <h5 class="text bold uppercase mb-3">{{talk.title}}</h5>
+                                    <p class="small-text light">{{talk.copy}}</p>
+                                    <p class="small-text light mb-2">{{talk.copyPart2}}</p>
                                 </div>
-                                <div class="col-12 col-md-6 p-4">
-                                    <div class="box p-5">
-                                        <h5 class="text bold uppercase mb-3">{{talk.title2}}</h5>
-                                        <p class="small-text light">{{talk.copy2 }}</p>
-                                        <p class="small-text light mb-0">{{talk.copy2Part2}}</p>
-                                    </div>
+                                <div class="col-12 col-md-6 text-center">
+                                    <img src="{{talk.img}}" alt="" width="80%" class="d-inline-block">
                                 </div>
                             </div>
                         </div>
@@ -151,19 +147,18 @@ email: "radhika@radicalproduct.com"
                     <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active vision" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" class="priorities" aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" class="strategy" aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="3" class="strategy" aria-label="Slide 4"></button>
-                    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="4" class="execution" aria-label="Slide 5"></button>
-                    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="5" class="culture" aria-label="Slide 6"></button>
-                    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="6" class="hippocratic" aria-label="Slide 7"></button>
+                    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="3" class="execution" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="4" class="culture" aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="5" class="hippocratic" aria-label="Slide 6"></button>
                 </div>
                 <div class="carousel-inner mb-5">
                     {% for session in site.data.sessions %}
                         <div class="carousel-item {% if forloop.first == true %} active{% endif %}">
                             <div class="box p-5">
-                                <div class="row d-flex align-items-center">
+                                <div class="row">
                                     <div class="col-md-6 col-12">
                                         <h5 class="text bold uppercase mb-3">{{session.title}}</h5>
-                                        <p class="small-text light mb-0">{{session.copy}}</p>
+                                        <p class="small-text light">{{session.copy}}</p>
                                         {% if session.hasList %}
                                         <ul class="m-0">
                                             {% for item in session.list %}
@@ -172,34 +167,9 @@ email: "radhika@radicalproduct.com"
                                         </ul>
                                         {% endif %}
                                         <p class="small-text light mb-0">{{session.copy2}}</p>
-                                        {% if session.has2List %}
-                                        <ul class="m-0">
-                                            {% for item in session.list2 %}
-                                            <li class="small-text light mb-0">{{item}}</li>
-                                            {% endfor %}
-                                        </ul>
-                                        {% endif %}
                                     </div>
                                     <div class="col-md-6 col-12">
                                         <img src="{{session.img}}" alt="" width="100%">
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col">
-                                        <span class="small-text bold d-block mt-3 mb-0">Learning outcomes</span>
-                                        <ul class="m-0">
-                                            {% for outcome in session.outcomes %}
-                                            <li class="small-text light mb-0">{{outcome}}</li>
-                                            {% endfor %}
-                                        </ul>
-                                    </div>
-                                    <div class="col">
-                                        <span class="small-text bold d-block mt-3 mb-0">Prerequisites</span>
-                                        <ul class="m-0">
-                                            {% for prerequisite in session.prerequisites %}
-                                            <li class="small-text light mb-0">{{prerequisite}}</li>
-                                            {% endfor %}
-                                        </ul>
                                     </div>
                                 </div>
                             </div>
