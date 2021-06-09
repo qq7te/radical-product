@@ -45,3 +45,11 @@ function setUpDownloadModal() {
 
 setUpDownloadModal();
 
+function bookTalk(){
+	var selectedTalk = document.getElementById("selectedTalk").value;
+	var email = document.getElementById("userEmail").value;
+	var recipient = "radhika@radicalproduct.com"
+	var formattedBody = "Hello I'm Interested in "+ selectedTalk +" \n Let's get in touch " + email ;
+	var mailToLink = "mailto:" + recipient + "?subject=Book a Talk&body=" + encodeURIComponent(formattedBody);
+	window.location.href = mailToLink;
+}

@@ -69,12 +69,16 @@ helpCTA: "Let's chat"
             </div>
     
             <div class="col-12 col-md-10">
-                <h6 class="handwritten-text mb-0">{{page.bookTagline}}</h6>
-                <h2 class="subtitle pink-text uppercase bold mb-2">{{page.bookTitle}}</h2>
-                <div>
-                    <a href="{{page.bookshopLink}}" class="bookshop white-text mb-1">Bookshop</a>
-                    <a href="{{page.amazonLink}}" class="amazon white-text mb-1">Amazon</a>
-                    <a href="{{page.barnesLink}}" class="barnes white-text">Barnes & Noble</a>
+                <div class="row d-flex align-items-center">
+                    <div class="col-12 col-md-12 col-lg-9">
+                        <h6 class="handwritten-text mb-0">{{page.bookTagline}}</h6>
+                        <h2 class="subtitle pink-text uppercase bold mb-2">{{page.bookTitle}}</h2>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-3">
+                        <a href="{{page.bookshopLink}}" class="bookshop white-text mb-1"><img src="/images/bookshop.png" alt="" width="50px"></a>
+                        <a href="{{page.amazonLink}}" class="amazon white-text mb-1"><img src="/images/amazon.png" alt="" width="50px"></a>
+                        <a href="{{page.barnesLink}}" class="barnes white-text"><img src="/images/barnes.png" alt="" width="50px"></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -117,7 +121,7 @@ helpCTA: "Let's chat"
 <section class="pull-up">
     <div class="container-xxl">
         <div class="row bg-purple wavy-bg-img round py-2">
-            {% for testimonial in site.data.testimonials %}
+            {% for testimonial in site.data.testimonials.book %}
             <div class="col-12 col-md-6 white-text p-4">
                 <p class="text light">{{testimonial.testimonial}}</p>
                 <span class="small-text light fst-italic">{{testimonial.author}}</span>

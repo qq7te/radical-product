@@ -149,7 +149,6 @@ $(document).ready(function() {
     } else {
       $(".top").removeClass("is-active");
     }
-  });
-
+  });  
 
 });

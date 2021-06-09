@@ -28,6 +28,11 @@ workshopsCopy: "Radical Product Thinking workshops guide you through exercises t
 speakerTag: "About the speaker"
 speakerTitle: "Radhika Dutt"
 speakerCopy: "Radhika Dutt is the author of the upcoming book Radical Product Thinking: The New Mindset for Innovating Smarter. She is an entrepreneur and product leader who has participated in four acquisitions, two of which were companies that she founded. She is currently Advisor on Product Thinking to the Monetary Authority of Singapore, Singapore’s financial regulator and central bank. She also teaches entrepreneurship and innovation at Northeastern’s D’Amore McKim School of Business, and is an advisor to several startups. Dutt co-founded Radical Product Thinking as a movement of leaders creating vision-driven change and is a frequent speaker at business events and conferences around the world. She serves on the board of the Association of Product Professionals. She graduated from MIT with an SB and M.Eng in Electrical Engineering, and speaks nine languages, currently learning her tenth."
+
+bookTalkTitle: "Book a talk"
+bookTalkCopy: "To inquire about availability or to schedule a talk, email"
+bookTalkCopy2: "We can then plan on a 30 min call to understand your audience, customize the talk to fit your needs, and plan logistics."
+email: "radhika@radicalproduct.com"
 ---
 
 <header>
@@ -43,30 +48,30 @@ speakerCopy: "Radhika Dutt is the author of the upcoming book Radical Product Th
             </div>
 
             <div class="col-12 col-md-6">
-                <form action="" class="box p-5">
+                <form class="box p-5" onsubmit="bookTalk()">
                     <div class="mb-3">
                         <h5 class="text uppercase bold">{{page.bookingTitle}}</h5>
                         <p class="text light">{{page.bookingDescp}}</p>
                     </div>
 
                     <div class="mb-3">
-                        <input type="email" class="form-control text-input text" id="FormControlInput1" placeholder="{{page.emailInputPlaceholder}}">
+                        <input required type="email" class="form-control text-input text light" id="userEmail" placeholder="{{page.emailInputPlaceholder}}">
                     </div>
                     <div class="mb-3">
-                        <select class="form-select text-input text" aria-label="Default select example">
-                            <option selected>{{page.talkSelectPlaceholder}}</option>
+                        <select class="form-select text-input text light" aria-label="Default select example" id="selectedTalk">
+                            <option selected value="a talk" >{{page.talkSelectPlaceholder}}</option>
                             {% for talk in site.data.talks %}
-                                <option value="1">{{talk.title}}</option>
-                                <option value="1">{{talk.title2}}</option>
+                                <option value="{{talk.title}}">{{talk.title}}</option>
+                                <option value="{{talk.title2}}">{{talk.title2}}</option>
                             {% endfor %}
                         </select>
                     </div>
-                    <div class="d-flex justify-content-between">
-                        <a href="#talks" class="secondary-button d-inline-block pink-text uppercase bg-light-pink">{{page.talksLink}}</a>
-                        <button type="submit" value="Book Talk" name="Book Talk" class="primary-button text-white uppercase bg-pink">{{page.talkCTA}}</button>
+                    <div class="d-flex justify-content-between flex-wrap">
+                        <a href="#talks" class="secondary-button d-inline-block pink-text uppercase bg-light-pink mt-2">{{page.talksLink}}</a>
+                        <button type="submit" class="mt-2 primary-button text-white uppercase bg-pink" >{{page.talkCTA}}</button>
                     </div>
-                </form>
-            </div>
+                </div>
+            </form>
         </div>
     </div>
 </section>
@@ -90,11 +95,11 @@ speakerCopy: "Radhika Dutt is the author of the upcoming book Radical Product Th
     </div>
 </section>
 
-<section class="section-padding landing-banner">
+<section class="section-padding banner-thick" id="talks">
     <div class="container-xxl">
         <div class="text-center">
-            <h6 class="purple-text uppercase">{{page.speakingTagline}}</h6>
-            <h2 class="subtitle uppercase">{{page.speakingTitle}}</h2>
+            <h6 class="purple-text uppercase mb-0">{{page.speakingTagline}}</h6>
+            <h2 class="subtitle uppercase mb-3">{{page.speakingTitle}}</h2>
             <p class="text light text-container mb-3">{{page.speakingCopy}}</p>
         </div>
 
@@ -102,7 +107,7 @@ speakerCopy: "Radhika Dutt is the author of the upcoming book Radical Product Th
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"  data-bs-interval="10000">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active bg-purple" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="mx-3" aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner mb-5">
@@ -132,11 +137,11 @@ speakerCopy: "Radhika Dutt is the author of the upcoming book Radical Product Th
     </div>
 </section>
 
-<section class="section-padding bg-gray">
+<section class="section-padding bg-gray" id="workshops">
     <div class="container-xxl">
         <div class="text-center">
-            <h6 class="purple-text uppercase">{{page.workshopsTagline}}</h6>
-            <h2 class="subtitle uppercase">{{page.workshopsTitle}}</h2>
+            <h6 class="purple-text uppercase mb-0">{{page.workshopsTagline}}</h6>
+            <h2 class="subtitle uppercase mb-3">{{page.workshopsTitle}}</h2>
             <p class="text light text-container mb-4">{{page.workshopsCopy}}</p>
         </div>
 
@@ -155,7 +160,7 @@ speakerCopy: "Radhika Dutt is the author of the upcoming book Radical Product Th
                     {% for session in site.data.sessions %}
                         <div class="carousel-item {% if forloop.first == true %} active{% endif %}">
                             <div class="box p-5">
-                                <div class="row">
+                                <div class="row d-flex align-items-center">
                                     <div class="col-md-6 col-12">
                                         <h5 class="text bold uppercase mb-3">{{session.title}}</h5>
                                         <p class="small-text light mb-0">{{session.copy}}</p>
@@ -210,7 +215,7 @@ speakerCopy: "Radhika Dutt is the author of the upcoming book Radical Product Th
 <section class="pull-up">
     <div class="container-xxl">
         <div class="row bg-purple wavy-bg-img round py-2">
-            {% for testimonial in site.data.testimonials %}
+            {% for testimonial in site.data.testimonials.workshops %}
             <div class="col-12 col-md-6 white-text p-4">
                 <p class="text light">{{testimonial.testimonial}}</p>
                 <span class="small-text light fst-italic">{{testimonial.author}}</span>
@@ -222,15 +227,23 @@ speakerCopy: "Radhika Dutt is the author of the upcoming book Radical Product Th
 
 <section class="section-padding">
     <div class="container-xxl">
-        <div class="row">
+        <div class="row d-flex align-items-center">
             <div class="col-12 col-md-6">
-                <h6 class="purple-text uppercase">{{page.speakerTag}}</h6>
-                <h2 class="subtitle uppercase">{{page.speakerTitle}}</h2>
+                <h6 class="purple-text uppercase mb-0">{{page.speakerTag}}</h6>
+                <h2 class="subtitle uppercase mb-3">{{page.speakerTitle}}</h2>
                 <p class="light mb-0">{{page.speakerCopy}}</p>
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 d-flex justify-content-center">
                 <img src="/images/radhika.png" alt="" width="100%">
             </div>
         </div>
+    </div>
+</section>
+
+<section class="bg-purple wavy-bg-img py-5">
+    <div class="container-xxl white-text">
+        <h2 class="subtitle uppercase">{{page.bookTalkTitle}}</h2>
+        <p class="text light mb-0">{{page.bookTalkCopy}} <a href="mailto:{{page.email}}" class="white-text">{{page.email}}</a>.</p>
+        <p class="text light">{{page.bookTalkCopy2}}</p>
     </div>
 </section>
