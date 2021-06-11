@@ -4,7 +4,7 @@ layout: default
 
 tagline: "Translate vision and strategy into everyday actions and avoid common product diseases."
 emailInputPlaceholder: "Enter your email"
-talkSelectPlaceholder: "Select a talk you are interested"
+talkSelectPlaceholder: "Select a talk you are interested in"
 bookingTitle: "Book a Talk or Workshop"
 bookingDescp: "Tell us what you're interested in. We can then learn about your audience, and customize the talk or workshop to fit your needs."
 talkCTA: "Get in touch"
@@ -188,7 +188,7 @@ email: "radhika@radicalproduct.com"
             {% for testimonial in site.data.testimonials.workshops %}
             <div class="col-12 col-md-6 white-text p-4">
                 <p class="text light">{{testimonial.testimonial}}</p>
-                <span class="small-text light fst-italic">{{testimonial.author}}</span>
+                <span class="small-text light fst-italic">- {{testimonial.author}}</span>
             </div>
             {% endfor %}
         </div>
