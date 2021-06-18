@@ -99,7 +99,7 @@ email: "radhika@radicalproduct.com"
         <div class="text-center">
             <h6 class="purple-text uppercase mb-0">{{page.speakingTagline}}</h6>
             <h2 class="subtitle uppercase mb-3">{{page.speakingTitle}}</h2>
-            <p class="text light text-container mb-3">{{page.speakingCopy}}</p>
+            <p class="text light text-container mb-5">{{page.speakingCopy}}</p>
         </div>
 
         <div class="row talks">
@@ -112,7 +112,7 @@ email: "radhika@radicalproduct.com"
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" class="ms-2" aria-label="Slide 5"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" class="ms-2" aria-label="Slide 6"></button>
                 </div>
-                <div class="carousel-inner mb-5 overflow-visible">
+                <div class="carousel-inner mb-5 pb-3 overflow-visible">
                     {% for talk in site.data.talks %}
                         <div class="carousel-item box p-5 {% if forloop.first == true %} active{% endif %}">
                             <div class="row d-flex align-items-center">
@@ -201,7 +201,7 @@ email: "radhika@radicalproduct.com"
             <div class="col-12 col-md-6">
                 <h6 class="purple-text uppercase mb-0">{{page.speakerTag}}</h6>
                 <h2 class="subtitle uppercase mb-3">{{page.speakerTitle}}</h2>
-                <p class="light mb-0">{{page.speakerCopy}}</p>
+                <p class="light mb-0 text">{{page.speakerCopy}}</p>
             </div>
             <div class="col-12 col-md-6 d-flex justify-content-center">
                 <img src="/images/radhika.png" alt="" width="100%">

@@ -59,6 +59,11 @@
     &:hover {color: #FFFFFF; }
 }
 
+//reset
+.reset-list {
+    list-style-type: none;
+    padding-left: 0;
+}
 
 //form 
 
@@ -76,9 +81,7 @@
     background-image: linear-gradient(221deg, #FF3784 0%, #FF0058 93%);
     border-radius: 6px;
     padding: 11px 30px;
-    height: 45px;
     font-size: 0.9rem;
-    line-height: 1;
     transition: all 0.50s;
 }
 
@@ -86,9 +89,7 @@
     background: rgba(255,0,88,0.10);
     border-radius: 6px;
     padding: 11px 30px;
-    height: 45px;
     font-size: 0.9rem;
-    line-height: 1.3;
     text-decoration: none;
     transition: all 0.50s;
 }
@@ -219,4 +220,11 @@
             background-image: url("/images/session-icons-white/oath.png");
         }
     }
+}
+
+
+.toolkit-banner img{
+    max-height: 140px;
+    display: block;
+    margin: 0 auto;
 }
