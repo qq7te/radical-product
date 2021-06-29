@@ -54,6 +54,10 @@
     color: #3B5DEF;
 }
 
+.deep-purple-text {
+    color: #011D95;
+}
+
 .white-text {
     color: #FFFFFF;
     &:hover {color: #FFFFFF; }
@@ -123,6 +127,15 @@
 
 .wavy-bg-img {
     background-image: url("/images/waves.png");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-size: cover;
+}
+
+.bg-light-purple-waves {
+    background-color: #E3E9FF;
+    border-radius: 10px;
+    background-image: url("/images/purple-waves.png");
     background-repeat: no-repeat;
     background-position-y: bottom;
     background-size: cover;
