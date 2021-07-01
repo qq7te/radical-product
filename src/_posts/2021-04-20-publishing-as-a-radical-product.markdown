@@ -5,6 +5,7 @@ subtitle:  Product isn't just a job title or a function
 date:   2021-04-19 15:01:35 +0300
 image:  /img/books.jpg
 categories:   Case_Study transformation
+featured: false
 ---
 
 In a job interview when you talk about yourself, you're using your sales skills; _sales_ isn't just a job title or a function. Similarly, product thinking is also an important life skill.

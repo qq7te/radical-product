@@ -1,20 +1,22 @@
-<!--<nav id="main-nav" class="main-nav nav-collapse">-->
-<ul class="nav__list list-reset">
-  <li class="nav__item">
-    <a href="{{ site.baseurl }}/" class="nav__link">Home</a>
-  </li>
-    <li class="nav__item"><a href="/toolkit" class="nav__link">Toolkit</a></li>
-            <li class="nav__item"><a href="/about" class="nav__link">About</a></li>
-			<li class="nav__item"><a href="/blog" class="nav__link">Blog</a></li>
-<!--  {% for page in site.pages %}-->
-<!--    {% unless page.name == 'tags.html' or page.name == '404.html' %}-->
-<!--      {% if page.title %}-->
-<!--      <li class="nav__item">-->
-<!--        <a href="{{ page.url | prepend: site.baseurl }}" class="nav__link">{{ page.title }}</a>-->
-<!--      </li>-->
-<!--      {% endif %}-->
-<!--    {% endunless %}-->
-<!--  {% endfor %}-->
+<nav class="navbar navbar-expand-lg navbar-light py-3">
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-</ul>
-<!--</nav>-->
+  <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link uppercase small-text light" href="/toolkit">Toolkit</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link uppercase small-text light" href="/workshops">Workshops</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link uppercase small-text light" href="/about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link uppercase small-text light" href="/blog">Blog</a>
+      </li>
+    </ul>
+  </div>
+</nav>

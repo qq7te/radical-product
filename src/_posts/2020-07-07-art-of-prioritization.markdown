@@ -4,6 +4,7 @@ title:  The Visual Art of Prioritization
 date:   2020-07-07 15:01:35 +0300
 image:  /img/mural2.png
 categories:   Travels
+featured: false
 ---
 
 As you and your team build your product, you have forces pulling you in different directions. Your customers may be demanding a feature urgently while your investors want you to hurry up on delivering a different feature to grow revenues. In the reality of these short-term needs, it's easy for your everyday actions to feel disconnected from your vision.

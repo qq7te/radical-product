@@ -6,6 +6,8 @@ image: /img/coffee.jpeg
 date:   2020-11-19 16:48:14 +0800
 categories: vision measurement
 categories: strategy
+featured: false
+
 ---
 
 Paul Haun started his company, [Nack](https://getnack.com/), determined to spread kindness around him through “random acts of coffee”. He was inspired by the tradition of “suspended coffee” that started in Naples, Italy, where you can pay for two coffees — one for yourself and the other paid forward for someone who could use a random act of kindness.

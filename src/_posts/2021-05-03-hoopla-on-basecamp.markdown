@@ -5,6 +5,7 @@ date:   2021-05-03 15:01:35 +0300
 image:  /img/camp.jpg
 categories:   Culture
 published: true
+featured: false
 ---
 
 "Learning from mistakes is overrated," according to the co-founders of Basecamp who wrote the New York Times bestseller _Rework_. Instead you should be "learning from your successes." In a book written by tech bros for tech bros, Jason Fried and David Heinemeier Hansson offer a glimpse into why many women and people of color have left Basecamp over the years.

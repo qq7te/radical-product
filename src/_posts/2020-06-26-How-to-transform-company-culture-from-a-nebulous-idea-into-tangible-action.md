@@ -4,6 +4,7 @@ title: Radical Product Thinking Your Culture
 Subtitle: How to transform company culture from a nebulous idea into tangible action
 image: /img/1*olecM7DBrNYRJtlIWSui5Q.jpeg
 categories: culture
+featured: false
 ---
 
 Many years ago, I was excited to join a tech company to lead product management. The product and its underlying technology was complex and promised immense intellectual satisfaction. My manager recruited me saying he had never led a product organization before and would give me autonomy. It sounded perfect.

@@ -2,7 +2,7 @@
 <script src="{{ site.baseurl }}/js/vendors/simple-jekyll-search.min.js"></script>
 <script>
   SimpleJekyllSearch({
-    searchInput: document.getElementById("js-search-input"),
+    searchInput: document.getElementById("js-search-input-text"),
     resultsContainer: document.getElementById("js-results-container"),
     json: "{{site.baseurl}}/search.json",
     searchResultTemplate: '<div class="search-results__item"><a class="search-results__image" href="{{link}}" style="background-image: url({image})"></a><a class="search-results__link" href="{url}"><span class="search-results-date"> <time datetime="{date}">{date}</time></span> <div class="result-title">{title}</div></a></div>',

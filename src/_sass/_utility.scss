@@ -241,3 +241,44 @@
     display: block;
     margin: 0 auto;
 }
+
+
+// Blog
+.posts-list {
+    .post-list-image {
+        height: 280px;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            min-height: 100%;
+        }
+    }
+}
+
+.featured {
+    border-radius: 10px;
+}
+
+.featured-image {
+    overflow: hidden;
+    border-radius: 10px;
+
+    .cover {
+        position: absolute;
+        width: 710px;
+        height: -webkit-fill-available;
+        top: 0;
+        z-index: 3;
+        bottom: 0;
+        left: 0;
+    }
+}
+
+.bg-dark-purple{
+    background-color: #2C2842;
+}
+
+#modal-popover {
+    z-index: 200;
+}
