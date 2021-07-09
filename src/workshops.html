@@ -48,17 +48,16 @@ email: "radhika@radicalproduct.com"
             </div>
 
             <div class="col-12 col-md-6">
-                <form class="box p-5" onsubmit="bookTalk()">
+                <form class="box p-5" name="BookTalk" netlify>
                     <div class="mb-3">
                         <h5 class="text uppercase bold">{{page.bookingTitle}}</h5>
                         <p class="text light">{{page.bookingDescp}}</p>
                     </div>
-
                     <div class="mb-3">
-                        <input required type="email" class="form-control text-input text light" id="userEmail" placeholder="{{page.emailInputPlaceholder}}">
+                        <input required type="email" class="form-control text-input text light" id="userEmail" placeholder="{{page.emailInputPlaceholder}}" name="userEmail">
                     </div>
                     <div class="mb-3">
-                        <select class="form-select text-input text light" aria-label="Default select example" id="selectedTalk">
+                        <select class="form-select text-input text light" aria-label="Default select example" id="selectedTalk" name="selectedTalk">
                             <option selected value="a talk" >{{page.talkSelectPlaceholder}}</option>
                             {% for talk in site.data.talks %}
                                 <option value="{{talk.title}}">{{talk.title}}</option>
@@ -69,8 +68,8 @@ email: "radhika@radicalproduct.com"
                         <a href="#talks" class="secondary-button d-inline-block pink-text uppercase bg-light-pink mt-2">{{page.talksLink}}</a>
                         <button type="submit" class="mt-2 primary-button text-white uppercase bg-pink" >{{page.talkCTA}}</button>
                     </div>
-                </div>
-            </form>
+                </form>
+            </div>
         </div>
     </div>
 </section>
