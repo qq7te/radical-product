@@ -9,7 +9,7 @@
   img: "/images/priority.jpeg"
 
 - title: Strategy
-  copy: Using the hands-on exercises and examples in this workshop, you’ll develop a comprehensive strategy to translate your vision into action. Product strategy means asking the following four questions with the mnemonic RDCL (pronounced "radical")
+  copy: 'Using the hands-on exercises and examples in this workshop, you’ll develop a comprehensive strategy to translate your vision into action. Product strategy means asking the following four questions with the mnemonic RDCL (pronounced "radical"):'
   hasList: true
   list: 
     - "Real pain point: What's the pain that triggers someone to use your product?"

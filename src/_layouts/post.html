@@ -4,8 +4,8 @@ layout: olania
 {% if page.image %}
 <div class="container">
   <div class="row">
-    <div class="col col-12 col-d-10 push-d-1 col-m-12 push-m-0">
-      <div class="post-head">
+    <div class="col col-12 col-d-10 push-d-1 col-m-12 push-m-0 pt-5">
+      <div class="post-head post-font">
         <div class="post-info">
           {% if page.tags.size >= 1 %}
           <div class="post-tags">
@@ -18,7 +18,7 @@ layout: olania
             <time datetime="{{ page.date | date_to_xmlschema }}">{{page.date | date: '%b %d, %Y'}}</time>
           </span>
         </div>
-        <h1 class="post-title">{{ page.title | escape }}</h1>
+        <h1 class="post-title bold">{{ page.title | escape }}</h1>
       </div>
       <div class="image-box">
         <img class="post-image" src="{{site.baseurl}}{{page.image}}" alt="{{page.title}}">
@@ -29,53 +29,53 @@ layout: olania
 {% endif %}
 
 <div class="container mb-5">
-  <div class="row">
+  <div class="row post-font">
     <div class="col col-8 push-2 col-d-10 col-m-12 push-d-1 push-m-0">
       <!-- begin post -->
       <article class="post">
 
-        <div class="post__content">
+        <div class="post__content post-font">
           {{ content }}
         </div>
 
-        <div class="post__share">
+        <div class="post__share py-3">
           <div class="share__title">Share:</div>
           <ul class="share__list list-reset">
             <li class="share__item">
               <a class="share__link share__facebook"
                 href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}"
                 onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
-                title="Share on Facebook" rel="nofollow"><i class="ion ion-logo-facebook"></i></a>
+                title="Share on Facebook" rel="nofollow"><i class="bi bi-facebook"></i></a>
             </li>
 
             <li class="share__item">
               <a class="share__link share__twitter"
                 href="https://twitter.com/intent/tweet?text={{ page.title | uri_escape }}&url={{ site.url }}{{ site.baseurl }}{{ page.url }}"
                 onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
-                title="Share on Twitter" rel="nofollow"><i class="ion ion-logo-twitter"></i></a>
+                title="Share on Twitter" rel="nofollow"><i class="bi bi-twitter"></i></a>
             </li>
 
             <li class="share__item">
               <a class="share__link share__linkedin"
                 href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ site.baseurl }}{{ page.url }}&title={{ page.title | uri_escape }}&summary={{ page.description | uri_escape }}&source={{ site.title | uri_escape }}"
                 onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
-                title="Share on LinkedIn" rel="nofollow"><i class="ion ion-logo-linkedin"></i></a>
+                title="Share on LinkedIn" rel="nofollow"><i class="bi bi-linkedin"></i></a>
             </li>
 
             <li class="share__item">
-              <a class="share__link share__pinterest"
+              <a class="share__link share__pinterest pink-text"
                 href="http://pinterest.com/pin/create/button/?url={{ site.url }}{{ page.url }}&amp;media={{ site.url }}{{ site.baseurl }}{{ page.image }}&amp;description={{ page.title | uri_escape }}"
                 onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"
-                title="Share on Pinterest" rel="nofollow"><i class="ion ion-logo-pinterest"></i></a>
+                title="Share on Pinterest" rel="nofollow"><i class="fab fa-pinterest"></i></a>
             </li>
           </ul>
         </div>
 
-        <div class="post-author">
+        <div class="post-author py-3">
           <a href="{{site.baseurl}}/about/" class="post-author__image"
             style="background-image: url({{site.baseurl}}{{site.author.avatar}})" aria-label="{{site.author.name}}"></a>
           <div class="post-author__info">
-            <a class="post-author__name" href="{{site.baseurl}}/about/">{{site.author.name}}</a>
+            <a class="post-author__name link pink-text" href="{{site.baseurl}}/about/">{{site.author.name}}</a>
             <p class="post-author__bio">{{site.author.bio}}</p>
             <div class="post-author__meta">
               {% for social in site.author-social %}
@@ -92,7 +92,7 @@ layout: olania
 </div>
 
 <!-- begin footer-widgets -->
-<section class="footer-widgets">
+<section class="footer-widgets post-font">
   <div class="container">
     <div class="row">
       <div class="col col-12 col-d-10 push-d-1 col-m-12 push-m-0">
@@ -114,7 +114,7 @@ layout: olania
                     <div class="recent-posts__date">
                       <time datetime="{{ post.date | date_to_xmlschema }}">{{post.date | date: "%b %-d, %Y"}}</time>
                     </div>
-                    <h6 class="recent-posts__title"><a href="{{ post.url }}">{{ post.title }}</a></h6>
+                    <h6 class="recent-posts__title"><a href="{{ post.url }}" class="link black-text">{{ post.title }}</a></h6>
                   </div>
                 </div>
                 {% endfor %}
@@ -140,7 +140,7 @@ layout: olania
                   <div class="recent-posts__date">
                     <time datetime="{{ post.date | date_to_xmlschema }}">{{post.date | date: "%b %-d, %Y"}}</time>
                   </div>
-                  <h6 class="recent-posts__title"><a href="{{ post.url }}">{{ post.title }}</a></h6>
+                  <h6 class="recent-posts__title"><a href="{{ post.url }}" class="link black-text">{{ post.title }}</a></h6>
                 </div>
               </div>
               {% endif %}
@@ -154,7 +154,7 @@ layout: olania
                 <div class="widget__head">
                   <h4 class="widget__title">Newsletter</h4>
                 </div>
-                <h3 class="newsletter-title">Get Interesting News</h3>
+                <h3 class="newsletter-title">Get Insightful News</h3>
                 <p class="newsletter-subtitle">Subscribe to our newsletter and we’ll send you the emails of latest posts.</p>
                 <form action="https://radicalproduct.us10.list-manage.com/subscribe/post?u=5559a62245d86aeeefd822705&amp;id=8002eca168"
                       method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"  class="newsletter-form validate"
@@ -167,7 +167,7 @@ layout: olania
                         <input type="text" name="b_5559a62245d86aeeefd822705_7fc7e415ad" tabindex="-1" value="">
                       </div>
                     </div>
-                    <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button button--primary button--big">Subscribe
+                    <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="primary-button d-block white-text uppercase w-100">Subscribe
                     </button>
                   </div>
                 </form>

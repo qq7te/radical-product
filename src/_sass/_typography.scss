@@ -1,4 +1,5 @@
-//New Style
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&display=swap');
+
 html {
     font-size: 16px !important;
 }
@@ -43,4 +44,11 @@ body {
 
 .uppercase {
     text-transform: uppercase;
+}
+
+.post-font {
+    font-family: Merriweather,serif;
+    font-size: 17px;
+    line-height: 32px;
+    color: #232527;
 }

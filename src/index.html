@@ -9,6 +9,9 @@ emailInputPlaceholder: "Enter your email"
 bookTagline: "Create purpose-driven change through your product."
 bookTitle: "RADICAL PRODUCT THINKING"
 bookCTA: "Get the book"
+bookPeakCopy: "take a peek at the first few pages"
+bookPeakLink: "/pdf/excerpt.pdf"
+
 bookshopLink: "https://bookshop.org/books/radical-product-thinking-the-new-mindset-for-innovating-smarter/9781523093311"
 barnesLink: "https://www.barnesandnoble.com/s/radical%20product%20thinking"
 amazonLink: "https://www.amazon.com/Radical-Product-Thinking-Mindset-Innovating-ebook/dp/B08ZNV7SW4/ref=sr_1_1?dchild=1&keywords=radical+product&qid=1624988263&sr=8-1"
@@ -69,10 +72,11 @@ helpCTA: "Let's chat"
             </div>
     
             <div class="col-12 col-md-10">
-                <div class="row d-flex align-items-center">
-                    <div class="col-12 col-md-12 col-lg-9">
-                        <h6 class="text light mb-2">{{page.bookTagline}}</h6>
-                        <h2 class="subtitle pink-text uppercase bold mb-2">{{page.bookTitle}}</h2>
+                <div class="row d-flex align-items-center py-3">
+                    <div class="col-12 col-md-12 col-lg-9 mb-4 mb-lg-0">
+                        <h6 class="text light mb-0">{{page.bookTagline}}</h6>
+                        <h2 class="subtitle pink-text uppercase bold mb-0">{{page.bookTitle}}</h2>
+                        <a href="{{page.bookPeakLink}}" class="link pink-text uppercase" download>{{page.bookPeakCopy}} <i class="bi bi-arrow-right"></i></a>
                     </div>
                     <div class="col-12 col-md-12 col-lg-3">
                         <span class="d-block mb-0 text light">Get the book:</span>
