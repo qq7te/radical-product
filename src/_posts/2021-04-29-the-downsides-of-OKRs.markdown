@@ -5,6 +5,7 @@ date:   2021-04-30 15:01:35 +0300
 image:  /img/arrows.jpg
 categories:   OKRs Measurement
 published: true
+featured: false
 ---
 
 OKRs (or Objectives and Key Results) is a framework for setting goals and measuring progress. This approach was popularized by Google and seeing the company’s incredible financial success, organizations around the world have adopted OKRs.

@@ -6,6 +6,8 @@ date:   2021-03-10 15:01:35 +0300
 image:  /img/shift.jpg
 categories:   Culture transformation
 To Fix: Add links to Strategy, Priorities and Plan for measuring success
+featured: false
+
 ---
 
 Whether you’re a founder pivoting your startup or a leader at a larger company driving digital transformation, you have to navigate turbulent waters as you create change in your organization.

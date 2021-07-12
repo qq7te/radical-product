@@ -9,7 +9,9 @@ layout: null
       "tags"     : "{{ post.tags | array_to_sentence_string }}",
       "url"      : "{{ site.baseurl }}{{ post.url }}",
       "date"     : "{{ post.date | date: '%b %-d, %Y' }}",
-      "image": "{{ post.image }}"
+      "image"    : "{{ post.image }}",
+      "published": "{{post.publised}}",
+      "featured" : "{{post.featured}}"
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]

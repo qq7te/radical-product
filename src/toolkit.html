@@ -1,109 +1,173 @@
 ---
 title: Toolkit
 layout: default
-logo_type: normal
-redirect_from:
-  - /RadicalProductCanvas_v1.0.pdf/
-  - /RDCLToolkit_v2.0.pdf/
+
+tagline: "Get the tools you need to start building Radical Products."
+
+bannerBookTag: "Create purpose-driven change through your product."
+bannerBookTitle: "THE RADICAL PRODUCT THINKING BOOK"
+bannerBookCTA: "Get the book:"
+bookshopLink: "https://bookshop.org/books/radical-product-thinking-the-new-mindset-for-innovating-smarter/9781523093311"
+barnesLink: "https://www.barnesandnoble.com/s/radical%20product%20thinking"
+amazonLink: "https://www.amazon.com/Radical-Product-Thinking-Mindset-Innovating-ebook/dp/B08ZNV7SW4/ref=sr_1_1?dchild=1&keywords=radical+product&qid=1624988263&sr=8-1"
+
+bannerToolkitTag: "Worksheets to help you translate your vision into reality."
+bannerToolkitTitle: " THE FREE RADICAL PRODUCT THINKING TOOLKIT"
+bannerToolkitInputPlaceholder: "Your email"
+bannerToolkitCTA: "Get The Free Toolkit"
+bannerToolkitCTA2: "Learn More"
+
+toolkitTag: "The toolkit"
+toolkitTitle: "What is in the toolkit"
+toolkitCopy: "The Radical Product Toolkit is a practical framework that you can use by yourself or with your team. The worksheets guide you through the RPT methodology making it easier to craft a compelling vision for your product, a product strategy to translate your vision into actionable steps, a rubric to evaluate your priorities, and a plan to translate the above into activities and metrics that guide execution."
+
+bookTag: "The Book"
+bookTitle: "Radical Product Thinking: The New Mindset for Innovating Smarter"
+bookCopy: "The Radical Product Thinking book offers a compelling antidote to short-term thinking so prevalent in product development. Through insightful and refreshing examples from around the world, the book guides readers through through the five elements of the methodology (Vision, Strategy, Prioritization, Execution, and Culture) to develop a clear process for achieving their desired change, incorporating it into daily activities, and turning RPT skills into muscle memory."
+bookLink: "/pdf/excerpt.pdf"
+bookLinkCopy: "Take a peak at the first few pages"
+
+resTitle: "The Radical Resources"
+resCopy: "If you have the book, here are resources to help you spread these ideas to your colleagues. Sign up to get the following:"
+resList: ["Book club discussion guide so you can help your organization adopt new a smarter mindset for innovation", "Access to RPT meetups to get tips and share your learning", "Access to short animated videos to help you spread your influence and new way of thinking"]
+
+resPlaceholder: "Enter your email"
+resCTA: "subscribe"
+
 ---
-	<header class="header header--inner">
-		<div class="container">
-			{% include nav.html %}
-			<div class="container container--tight">
-				<h1 class="headline"><span class="headline__sub">The Radical Product</span> Toolkit</h1>
-			</div>
+
+
+<header>
+    {% include nav.html %}
+</header>
+
+<section class="landing-banner section-padding toolkit-banner">
+    <div class="container-xxl">
+		<div class="text-center mb-5">
+			<h2 class="uppercase bold subtitle mb-3">get your product <span class="pink-text">vision</span> out of your head. </h2>
+			<p class="big-text light tight-container mb-4">{{page.tagline}}</p>
 		</div>
-	</header>
-	<div class="hero hero--warm">
-		<div class="iso-cards">
-			<div class="iso-card">
-				<div class="cover"><img src="/img/tk-5.svg" alt=""></div>
+
+		<div class="row d-flex">
+            <div class="col-12 col-md-6 mb-3 mb-md-0">
+                <div class="box p-3 p-md-5 text-center h-100">
+					<img src="/images/book.png" alt="" class="mb-2"> 
+					<span class="text d-block">{{page.bannerBookTag}}</span>
+					<h6 class="text bold uppercase pink-text">{{page.bannerBookTitle}}</h6>
+					<span class="text d-block">{{page.bannerBookCTA}}</span>
+					<div class="d-flex flex-row justify-content-center mb-2">
+						<a href="{{page.bookshopLink}}" class="bookshop white-text mb-1 me-1"><img src="/images/bookshop.png" alt="" width="50px"></a>
+                        <a href="{{page.amazonLink}}" class="amazon white-text mb-1 me-1"><img src="/images/amazon.png" alt="" width="50px"></a>
+                        <a href="{{page.barnesLink}}" class="barnes white-text"><img src="/images/barnes.png" alt="" width="50px"></a>
+					</div>
+					<a href="#book" class="link pink-text uppercase">Take a peak <i class="bi bi-arrow-right"></i> </a>
+				</div>
+            </div>
+
+			<div class="col-12 col-md-6">
+				<div class="box p-3 p-md-5 text-center h-100">
+					<img src="/images/toolkit-tablet.png" alt="" class="mb-2">
+					<span class="text d-block">{{page.bannerToolkitTag}}</span>
+					<h6 class="text bold uppercase pink-text mb-3">{{page.bannerToolkitTitle}}</h6>
+					<div>
+						<form action="https://kayt.us10.list-manage.com/subscribe/post?u=5559a62245d86aeeefd822705&id=8002eca168"
+							method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate signup w-" 
+							target="_blank" novalidate>
+							<fieldset class="d-flex justify-content-center flex-column">
+								<input type="email" value="" name="EMAIL" class="form-control text-input text light d-block" id="mce-EMAIL" placeholder="{{page.bannerToolkitInputPlaceholder}}">
+								<div style="position: absolute; left: -5000px;" aria-hidden="true">
+									<input type="text" name="b_5559a62245d86aeeefd822705_7fc7e415ad" tabindex="-1" value="">
+								</div>
+								<div class="d-flex justify-content-between flex-wrap">
+									<a href="#toolkit" class="secondary-button d-inline-block pink-text uppercase bg-light-pink mt-2">{{page.bannerToolkitCTA2}}</a>
+									<button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="primary-button text-white uppercase bg-pink d-inline-block mt-2">{{page.bannerToolkitCTA}}</button>
+								</div>
+							</fieldset>
+						</form>
+					</div>
+				</div>
 			</div>
-			<div class="iso-card">
-				<div class="cover"><img src="/img/tk-4.svg" alt=""></div>
+        </div>
+    </div>
+</section>
+
+<section class="section-padding bg-gray" id="toolkit">
+    <div class="container-xxl">
+		<div class="text-center">
+            <h6 class="purple-text uppercase mb-0">{{page.toolkitTag}}</h6>
+            <h2 class="subtitle uppercase mb-3">{{page.toolkitTitle}}</h2>
+            <p class="text light text-container mb-5">{{page.toolkitCopy}}</p>
+        </div>
+
+		<div class="row">
+			{% for canvas in site.data.canvas %}
+				<div class="col-12 col-md-6 mb-4">
+					<div class="box p-4 h-100">
+						<img src="{{canvas.img}}" alt="" width="100%" class="mb-3">
+						<h6 class="text bold uppercase">{{canvas.title}}</h6>
+						<p class="text light">{{canvas.copy}}</p>
+					</div>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+</section>
+
+<section class="section-padding" id="book">
+	<div class="container-xxl">
+		<div class="row">
+			<div class="col-12 col-md-6">
+				<iframe width="100%" height="320" src="https://www.youtube.com/embed/3E5whIu6mBY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
-			<div class="iso-card">
-				<div class="cover"><img src="/img/tk-3.svg" alt=""></div>
-			</div>
-			<div class="iso-card">
-				<div class="cover"><img src="/img/tk-2.svg" alt=""></div>
-			</div>
-			<div class="iso-card">
-				<div class="cover"><img src="/img/tk-1.svg" alt=""></div>
+			<div class="col-12 col-md-6">
+				<h6 class="purple-text uppercase mb-0">{{page.bookTag}}</h6>
+				<h2 class="subtitle uppercase mb-3">{{page.bookTitle}}</h2>
+				<p class="text light text-container mb-3">{{page.bookCopy}}</p>
+				<a href="{{page.bookLink}}" class="link pink-text uppercase" download>{{page.bookLinkCopy}} <i class="bi bi-arrow-right"></i></a>
 			</div>
 		</div>
 	</div>
+</section>
 
-	<section class="content content--primary">
-		<div class="container container--content">
-			<h2 class="section-header">Get your product vision out of your head.</h2>
-			<p>The Radical Product Toolkit is a practical framework that you can use on your own or with your team. As you work through it, you will create…</p>
-			<ul class="token-list">
-				<li class="token-list__item">
-					<img src="/img/token-vision.svg" alt="">
-					<p>A clear and powerful vision for your product</p>
-				</li>
-				<li class="token-list__item">
-					<img src="/img/token-strategy.svg" alt="">
-					<p>A cross-functional product strategy based on your vision</p>
-				</li>
-				<li class="token-list__item">
-					<img src="/img/token-roadmap.svg" alt="">
-					<p>A detailed roadmap for delivering on your strategy</p>
-				</li>
-				<li class="token-list__item">
-					<img src="/img/token-execute.svg" alt="">
-					<p>Specific activities and metrics to guide execution</p>
-				</li>
-			</ul>
-			<a href="/pdf/Radical_Product_Toolkit_PREVIEW.pdf" class="read-more">Take a peek at the first few pages</a>
-		</div>
-	</section>
-	<section class="content content--cta" id="download">
-		<div class="container container--content">
-			<h2 class="section-header">Download the whole toolkit!</h2>
-			<p>Subscribe to Radical Product to get immediate, free access to the full Radical Product Toolkit. You’ll receive ongoing Toolkit updates, invitations to upcoming events, and subscriber-only discounts on future books and workshops.</p>
-			<form action="https://kayt.us10.list-manage.com/subscribe/post?u=5559a62245d86aeeefd822705&amp;id=8002eca168" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
-				<label for="email">My Email</label>
-				<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="email@example.com">
-				<div style="position: absolute; left: -5000px;" aria-hidden="true">
-                  <input type="text" name="b_5559a62245d86aeeefd822705_8002eca168" tabindex="-1" value="">
-                </div>
-				<button type="submit" value="Sign Up" name="subscribe" id="mc-embedded-subscribe" class="button">Send me the toolkit</button>
-			</form>
-		</div>
-	</section>
-	<section class="content content--secondary">
-		<h2 class="section-header">What's in the toolkit?</h2>
-		<div class="content__subsection">
-			<div class="iso-card">
-				<div class="cover"><img src="/img/tk-vision-detail.svg" alt=""></div>
+<section class="bg-purple wavy-bg-img py-5">
+    <div class="container-xxl white-text">
+        <div class="row d-flex align-items-center justify-content-around">
+			<div class="col-12 col-md-6">
+				<h2 class="subtitle uppercase mb-3">{{page.resTitle}}</h2>
+				<p class="text light">{{page.resCopy}}</p>
+				<ul class="text light reset-list mb-4">
+					{% for item in page.resList %}
+					<li class="mb-2 d-flex flex-row align-items-center">
+						<div class="me-2"><i class="bi bi-check2"></i></div>
+						<div>{{item}}</div>
+					</li>
+					{% endfor %}
+				</ul>
 			</div>
-			<div class="subsection-content container container--tight">
-				<h3 class="section-subhead">The Vision Worksheet</h3>
-				<p>Define your product vision using our simple "fill-in-the-blanks" worksheet. You'll learn what makes a good vision, and lay the groundwork for your product strategy.</p>
-			</div>
-			<div class="iso-card">
-				<div class="cover"><img src="/img/tk-strategy-detail.svg" alt=""></div>
-			</div>
-			<div class="subsection-content container container--tight">
-				<h3 class="section-subhead">The RDCL Canvas</h3>
-				<p>Build out your cross-functional product strategy by defining your "RDCL": Real Pain Points, Design, Capabilities, and Logistics. You'll learn how to evaluate trade-offs between vision fit and business sustainability, and come up with a strategy to achieve your vision.</p>
-			</div>
-			<div class="iso-card">
-				<div class="cover"><img src="/img/tk-roadmap-detail.svg" alt=""></div>
-			</div>
-			<div class="subsection-content container container--tight">
-				<h3 class="section-subhead">The Integrated Roadmap</h3>
-				<p>Visualize your strategic goals across time, and assign them to the right teams and individuals. This isn't your standard product roadmap — it also includes sales, marketing, and customer support, to ensure alignment across all contributors.</p>
-			</div>
-			<div class="iso-card">
-				<div class="cover"><img src="/img/tk-execution-detail.svg" alt=""></div>
-			</div>
-			<div class="subsection-content container container--tight">
-				<h3 class="section-subhead">The Execution Model</h3>
-				<p>Finally, collaborate with your managers and functional area team leaders to break down your strategic activities into concrete tasks and measurable outcomes. Each metric is tied to a specific change hypothesis — no hand-waving allowed! This results in a detailed execution plan, guiding your team toward achieving the vision and building a truly radical product.</p>
+			<div class="col-12 col-md-4">
+				<!-- Begin Mailchimp Signup Form -->				
+				<div id="mc_embed_signup">
+					<form action="https://radicalproduct.us10.list-manage.com/subscribe/post?u=5559a62245d86aeeefd822705&amp;id=5dda3e9443" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate box p-4" target="_blank" novalidate>
+						<div id="mc_embed_signup_scroll">
+							<span class="big-text bold uppercase black-text mb-3 d-block">ADDITIONAL RESOURCES IF YOU'VE READ THE BOOK</span>
+							<div class="mc-field-group">
+								<input type="email" value="" name="EMAIL" class="email mb-2 text-input text" id="mce-EMAIL" required placeholder="Email">
+								<input type="text" value="" name="FNAME" class="mb-2 text-input text" id="mce-FNAME" required placeholder="Name">
+								<input type="text" value="" name="LNAME" class="mb-2 text-input text" id="mce-LNAME" required placeholder="Last Name">
+							</div>
+							<div id="mce-responses" class="clear">
+								<div class="response" id="mce-error-response" style="display:none"></div>
+								<div class="response" id="mce-success-response" style="display:none"></div>
+							</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+							<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5559a62245d86aeeefd822705_5dda3e9443" tabindex="-1" value=""></div>
+							<div class="clear">
+								<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="primary-button white-text d-inline-block">
+							</div>
+						</div>
+					</form>
+				</div>
+				<!--End mc_embed_signup-->
 			</div>
 		</div>
-		<a class="cta" data-action-hook="download-toolkit" href="/toolkit/#download">Get the free toolkit</a>
-	</section>
+    </div>
+</section>

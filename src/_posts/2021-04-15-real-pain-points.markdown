@@ -5,6 +5,8 @@ Subtitle: The radical formula for telling real pain points from imaginary ones
 date:   2021-04-15 15:01:35 +0300
 image:  /img/pain.jpg
 categories:   Strategy
+featured: false
+
 ---
 
 When the Segway was announced with fanfare on ABC's Good Morning America, the product was intended to solve the problem of commuters who had a long walk to work. But in reality, few in the US had this problem. The [average commute to work](https://www.indexmundi.com/facts/united-states/quick-facts/all-states/average-commute-time#map) in the US was 26.6 minutes, spent in a car or public transportation - most people weren't walking to work. The Segway wasn't solving a _real_ pain point for users.

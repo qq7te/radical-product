@@ -1,34 +1,41 @@
 <!-- begin header -->
-<header class="header">
-  <div class="container">
-    <div class="row">
-      <div class="header__inner col col-12 col-d-10 push-d-1 col-m-12 push-m-0">
-
-      <div class="logo">
-        <a class="logo__link" href="{{ site.baseurl }}/">
-        {%if site.logo %}
-          <img class="logo__image" src="{{ site.baseurl }}{{ site.logo }}" alt="{{ site.title }}">
-        {% else %}
-          {{ site.title }}
-        {% endif %}
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light py-3">
+    <div class="container-xxl d-flex justify-content-between align-items-center">
+      <a class="navbar-brand" href="/">
+        <img src="/img/logo.svg" alt="" class="logo">
         </a>
-      </div>
-
-      <div class="navigation">
-        <div class="top-nav">
-          {%include navigation.html%}
-        </div>
-        <div class="nav-buttons">
-<!--          <i class="nav__icon nav__icon-menu ion ion-md-menu"></i>-->
-          <i class="nav__icon nav__icon-search ion ion-md-search"></i>
-        </div>
-      </div>
-
+  
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link uppercase small-text light" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link uppercase small-text light" href="/toolkit">Toolkit</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link uppercase small-text light" href="/workshops">Workshops</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link uppercase small-text light" href="/about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link uppercase small-text light" href="/blog">Blog</a>
+          </li>
+          <li class="nav-item nav-buttons nav__icon-search">
+            <i class="bi bi-search small-text nav-link"></i>
+          </li>
+        </ul>
       </div>
     </div>
-  </div>
-  <div class="header__overlay"></div>
+  </nav>
 </header>
 <!-- end header -->
 
 {% include search.html %}
+

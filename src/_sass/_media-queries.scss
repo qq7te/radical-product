@@ -76,3 +76,10 @@ html
         padding-left: 3%;
     }
 }
+
+
+@media screen and (min-width: 768px){
+    .mid-input {
+        max-width: 400px;
+    }
+}

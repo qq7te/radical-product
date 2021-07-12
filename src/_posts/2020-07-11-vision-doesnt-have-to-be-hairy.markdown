@@ -5,6 +5,7 @@ Subtitle: Unpacking myths about what makes a good vision so we can adopt a new, 
 image: /img/lion.jpg
 date:   2021-03-19 17:51:14 +0800
 categories: Vision
+featured: true
 ---
 
 We’ve learned that a good vision has to be a BHAG, i.e. a Big, Hairy, Audacious Goal. The problem with having a BHAG for a vision,

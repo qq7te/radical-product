@@ -4,22 +4,47 @@ title: Radical Product Blog
 logo_type: normal
 ---
 
-<div class="container">
-  <div class="row">
-    <div class="col col-12 col-d-10 col-m-12 push-m-0 push-d-1">
-      <div class="container__inner">
-        <div class="contaniner__inner-box">
-          <div class="row grid">
-            {% if site.posts.size > 0 %}
-              {% for post in paginator.posts %}
-                {% include article-content.html %}
-              {% endfor %}
-            {% endif %}
+<section class="section-padding landing-banner">
+  <div class="container-xxl">
+    <h2 class="subtitle uppercase bold mb-3"><i class="bi bi-star-fill pink-text"></i> featured posts </h2>
+    <div class="row">
+      {% for post in site.posts %}
+        {% if post.featured == true %}
+          <div class="col-12 col-md-6 col-lg-4 mb-3">
+            <a href="{{post.url | prepend: site.baseurl}}" class="link">
+              <div class="featured bg-dark-purple h-100">
+                <div class="featured-image position-relative">
+                  <img src="{{post.image}}" alt="" width="100%">
+                  <img src="/images/purple-overflow.png" class="cover" alt="">
+                </div>
+                <div class="white-text p-4">
+                  <span class="small-text light white-text">{{post.date | date_to_long_string}}</span>
+                  <h6 class="uppercase bold big-text my-2 white-text">{{post.title}}</h6>
+                  <p class="text light white-text">{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | truncate: 100 }}{% endif %}</p>
+                  <a href="{{post.url | prepend: site.baseurl}}" class="pink-text uppercase link">Read More <i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </a>
           </div>
-        </div>
-      </div>
+        {% endif %}
+      {% endfor %}
     </div>
   </div>
-</div>
+</section>
 
-{% include pagination.html %}
+<section class="section-padding bg-gray">
+  <div class="container-xxl">
+    <h2 class="subtitle uppercase bold mb-4">recent posts</h2>
+    <div class="row grid">
+      {% if site.posts.size > 0 %}
+        {% for post in paginator.posts %}
+          {% include article-content.html %}
+        {% endfor %}
+      {% endif %}
+    </div>
+    {% include pagination.html %}
+  </div>
+</section>
+
+
+
