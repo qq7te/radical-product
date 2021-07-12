@@ -1,18 +1,18 @@
 <!-- Primary Meta Tags -->
 <title>Create World-Changing products, Transforming your vision into reality.</title>
 <meta name="title" content={{page.title}}>
-<meta name="description" content="Radical Product Thinking is a methodology for building visionary products. Learn how you can innovate smarter by iterating less to achieve more.">
+<meta name="description" content='{% if page.description %}{{ page.description }}{% else if page.layout == "post" %}{{ page.content | strip_html | truncate: 100 }}{% else %} Radical Product Thinking is a methodology for building visionary products. Learn how you can innovate smarter by iterating less to achieve more.{% endif %}'>
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.radicalproduct.com/">
 <meta property="og:title" content={{page.title}}>
-<meta property="og:description" content="Radical Product Thinking is a methodology for building visionary products. Learn how you can innovate smarter by iterating less to achieve more.">
+<meta property="og:description" content='{% if page.description %}{{ page.description }}{% else if page.layout == "post" %}{{ page.content | strip_html | truncate: 100 }}{% else %} Radical Product Thinking is a methodology for building visionary products. Learn how you can innovate smarter by iterating less to achieve more.{% endif %}'>
 <meta property="og:image" content="{{ site.baseurl }}{{page.image}}">
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:url" content="https://www.radicalproduct.com/">
 <meta property="twitter:title" content={{page.title}}>
-<meta property="twitter:description" content="Radical Product Thinking is a methodology for building visionary products. Learn how you can innovate smarter by iterating less to achieve more.">
+<meta property="twitter:description" content='{% if page.description %}{{ page.description }}{% else if page.layout == "post" %}{{ page.content | strip_html | truncate: 100 }}{% else %} Radical Product Thinking is a methodology for building visionary products. Learn how you can innovate smarter by iterating less to achieve more.{% endif %}'>
 <meta property="twitter:image" content="{{ site.baseurl }}{{page.image}}">
