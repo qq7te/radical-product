@@ -51,17 +51,17 @@ To build successful products, we need to avoid Strategic Swelling. This requires
 
 <br>
 
-### 2. A repeatable process for translating a vision into a product  
+### 2. Good chefs have repeatable processes  
 
 To deliver the same taste consistently, day after day, the best stalls have a clear and repeatable process for translating their vision for the dish into a finished product for the customer. It’s mesmerizing to watch chefs in action as they step through a series of choreographed moves.
 
 In delivering products, it’s unlikely that you’re working alone. Most likely you have a product team and the problem of having many cooks in the kitchen. This magnifies the need for a clear process so that you can deliver consistently.
 
-To give product teams a clear process for building products, I use the Radical Product Thinking methodology. The five elements of the methodology ([vision]({% post_url 2020-07-11-vision-doesnt-have-to-be-hairy%}), strategy, [prioritization]({% post_url 2020-07-07-art-of-prioritization%}), execution and measurement, and culture) help teams articulate a vision for the change they want to bring about and systematically translate it into reality. It gives teams a set of choreographed moves that become muscle memory over time so that teams can repeat the process to deliver successful features and products consistently.
+To give product teams a clear process for building products, I use the [Radical Product Thinking](https://www.amazon.com/Radical-Product-Thinking-Mindset-Innovating-ebook/dp/B08ZNV7SW4/ref=sr_1_1?crid=1UCBFCM40PSRP&dchild=1&keywords=radical+product+thinking&qid=1628212221&s=books&sprefix=radical+product+%2Cstripbooks%2C156&sr=1-1) methodology. The five elements of the methodology ([vision]({% post_url 2020-07-11-vision-doesnt-have-to-be-hairy%}), strategy, [prioritization]({% post_url 2020-07-07-art-of-prioritization%}), execution and measurement, and [culture]({% post_url 2020-06-26-How-to-transform-company-culture-from-a-nebulous-idea-into-tangible-action%})) help teams articulate a vision for the change they want to bring about and systematically translate it into reality. It gives teams a set of choreographed moves that become muscle memory over time so that teams can repeat the process to deliver successful features and products consistently.
 
 <br>
 
-### 3. Measuring success on your terms  
+### 3. Good chefs measure success on their own terms  
 
 We’ve learned that a product is successful if we’re seeing explosive growth. In pursuing such growth we often measure success by popular metrics such as the number of users or the time spent on site. A taste of success along these metrics fuels a feedback loop in wanting to optimize for these metrics.  
 
