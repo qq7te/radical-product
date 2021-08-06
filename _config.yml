@@ -39,15 +39,12 @@ source: src
 # Author Settings
 author:
   name: Radhika Dutt
-  bio: Product leader and entrepreneur in the Boston area. Co-author of Radical Product, participated in 4 exits, 2 of which were companies I founded.
+  bio: Product leader and entrepreneur in the Boston area. Author of Radical Product Thinking, participated in 4 exits, 2 of which were companies I founded.
   image: 'https://medium.com/@rdutt?source=follow_footer-------------------------------------/images/01.jpg'
   avatar: 'https://miro.medium.com/fit/c/160/160/1*d2fA3IUJpW_GNDg40ofPmA.jpeg'
 
 # Example of adding a new link to the section author - {name: "Github", link: "https://github.com"}
 author-social:
-- {name: "Twitter", link: "https://twitter.com"}
-- {name: "Facebook", link: "https://facebook.com"}
-- {name: "Pinterest", link: "https://pinterest.com"}
 
 
 
