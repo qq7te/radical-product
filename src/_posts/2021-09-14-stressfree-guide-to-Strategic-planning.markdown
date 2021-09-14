@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  The radical and stress-free guide to strategic planning
+title:  The Radical and Stress-Free Guide to Strategic Planning
 date:   2021-09-14 10:05:55 +0300
 image:  '/img/chesscat.jpg'
 categories:   Vision
