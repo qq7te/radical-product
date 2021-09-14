@@ -56,7 +56,7 @@ With a clear vision and strategy, you can finally measure what matters - your me
 To measure what matters, derive your metrics from your strategy, i.e. for each element of your Design in your RDCL Strategy, what metric(s) will tell you if it’s working? While it’s tempting to measure popular metrics including revenues, daily active users, and time spent on site, the reality is each of these metrics comes with assumptions that may not be right for your business.  
 <br>
 
-## Kickstart a discussion
+## Kickoff a discussion
 My book, Radical Product Thinking, will be on bookshelves on Sept 27th - you can use the book in a book club discussion to introduce this new approach to strategic planning in your organization. If you’re organizing such a book club discussion, I may be able to join your team (schedule permitting) for a Q&A session and to share a behind-the-scenes look at how the book came to be. Feel free to email me at radhika@radicalproduct.com. 
 
 
