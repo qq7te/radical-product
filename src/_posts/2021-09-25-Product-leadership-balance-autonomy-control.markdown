@@ -4,7 +4,7 @@ title:  How effective product leaders manage without micromanaging
 date:   2021-09-25 10:05:55 +0300
 image:  '/img/redcamera.jpg'
 categories:   Culture
-published: true
+published: false
 featured: false
 
 ---
