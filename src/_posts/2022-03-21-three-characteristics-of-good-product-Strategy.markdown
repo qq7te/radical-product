@@ -4,7 +4,7 @@ title:  3 Characteristics of a Good Product Strategy and How to Craft One
 date:   2022-03-11 10:05:55 +0300
 image:  '/img/strategytemplates.jpg'
 categories:   Strategy
-published: False
+published: True
 featured: false
 
 ---
