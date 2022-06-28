@@ -19,11 +19,11 @@
             <li class="nav-item">
               <a class="nav-link uppercase small-text light  
               {% if page.url == item.link %}
-                active
+              custom-active
               {%else%}
                 {% if page.collection == "posts" %}
                   {%if item.title == "Blog"%}
-                    active
+                  custom-active
                   {%endif%}
                 {% endif %}
               {% endif %}" href="{{item.link}}">{{item.title}}</a>

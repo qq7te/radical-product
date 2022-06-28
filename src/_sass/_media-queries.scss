@@ -82,4 +82,26 @@ html
     .mid-input {
         max-width: 400px;
     }
+    
+
+}
+
+@media screen and (max-width: 868px){
+
+    .training-mid-section{
+        max-width: 60px;
+    }
+   
+}
+@media screen and (max-width: 991px){
+
+    .nav-item{
+       display: flex !important;
+
+    }
+    .navbar-nav{
+        margin-left: 20px !important;
+    }
+    
+
 }

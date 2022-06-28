@@ -286,3 +286,25 @@
 #modal-popover {
     z-index: 200;
 }
+
+//training
+
+.training-img{
+    max-width: 534px;
+}
+.card{
+    border-radius: 20px !important;
+    max-width: 310px !important;
+}
+.card-header{
+    border-top-left-radius: 20px !important;
+    border-top-right-radius:20px !important;
+}
+
+
+.training-mid-section{
+    max-width: 80px;
+}
+.mid-section p{
+    font-size: 13px;
+}

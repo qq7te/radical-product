@@ -1,0 +1,174 @@
+---
+title: Training
+image: "/images/team-goals-bro.png"
+layout: default
+
+tagline: "Conventional wisdom is that iteration is key to building successful products. Teams often focus on executing
+fast and over rely on iteration using methodologies such as Lean and Agile. These methodologies are great, they give you
+speed. But speed alone can look like chaos when everyone in your organization is moving fast, but in different
+directions. "
+
+
+trainingTitle: "Trainings"
+trainingSubTitle: "Choose the training that’s right for your team"
+trainingCopy: "Radical Product Thinking workshops guide you through exercises to align your team and systematically
+translate vision into action. The training turns RPT skills into muscle memory so you "
+
+helpTitle: "GET HANDS-ON HELP"
+helpCopy: "If you want hands-on help integrating Radical Product thinking into your organization. \n \n We offer
+coaching, training, and workshops to individuals and teams. Please get in touch below to start the conversation."
+helpCTA: "Let's chat"
+emailInputPlaceholder: Enter your email
+
+midSectionTitle: "Why us?"
+midSectionCopy : "The Radical Product Thinking methodology is being used around the world by organizations of varying
+sizes, from startups to multinationals, to build world-changing products. It's been used across a range of industries
+including:"
+
+midSection2Title: "Build intuition without adding processes!"
+midSection2Copy : "The RPT approach helps you develop that mindset for innovation - the framework helps you build muscle
+memory and cultivate an intuition for building successful products. It doesn’t burden you with additional processes!"
+
+---
+
+
+
+<header>
+    {% include nav.html %}
+</header>
+
+<section class="landing-banner banner-padding  ">
+    <div class="container-xxl ">
+        <div class=" row align-items-center text-center text-md-start">
+            <div class="col-12 col-md-6  pb-4 ">
+                <h1 class="uppercase bold title mb-3 ">Training on Radical Product Thinking gives <span
+                        class="pink-text">direction</span> to your <span class="pink-text">speed.</span> </h1>
+                <p class="big-text light tight-container pe-md-5 me-md-4 fs-5 ">{{page.tagline}}</p>
+            </div>
+            <div class="col-12 col-md-6">
+                <img class="training-img img-fluid" src="{{page.image}}" alt="training-image">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-padding bg-gray" id="toolkit">
+    <div class="container-xxl">
+        <div class="text-center">
+            <h6 class="purple-text uppercase ">{{page.trainingTitle}}</h6>
+            <h2 class="subtitle uppercase my-3 fs-3">{{page.trainingSubTitle}}</h2>
+            <p class="text light text-container mb-5 px-5 px-3">{{page.trainingCopy}} <span class="fw-bolder"> iterate less
+                    and achieve more.</span></p>
+        </div>
+        <div class="row  pb-5 mb-5 justify-content-center">
+            {% for item in site.data.trainings %}
+            <div class=" card text-center p-0 mx-2 mb-3 mb-xxl-5 ">
+                <div class="card-header " style="background-color: #{{item.bg}} !important;">
+                    <p class="text-white m-0 py-3 px-3">{{item.copy}}</p>
+                </div>
+                <div class="card-body pb-5 d-flex flex-column align-items-center justify-content-end pt-0">
+                    <img class="img-fluid py-4" src="{{item.img}}" width="200px" alt="{{item.title}}">
+                    <h5 class="card-title pink-text ">{{item.title}}</h5>
+                    <div class="pb-3">
+                        <p class="card-text  ">{{item.description}}</p>
+                    </div>
+
+                    <a href="#" class="link pink-text ">Learn more <i class="bi bi-arrow-right"></i></a>
+
+                </div>
+
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<section class="pull-up">
+    <div class="container-xxl">
+        <div class="row bg-purple wavy-bg-img round py-2 m-0 p-3">
+            {% for testimonial in site.data.testimonials.workshops %}
+            <div class="col-12 col-md-6 white-text p-4">
+                <p class="text light">{{testimonial.testimonial}}</p>
+                <span class="small-text light fst-italic">- {{testimonial.author}}</span>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+<section class="section-padding">
+    <div class="container-xxl">
+        <div class="row d-flex flex-md-row-reverse align-items-center pb-5">
+            <div class="col-12 col-md-6 mb-5 d-flex justify-content-center justify-content-lg-end">
+                <img src="/images/resources.png" alt="resorces" class="img-fluid" width="533px">
+            </div>
+
+            <div class="col-12 col-md-6 text-center text-md-start ">
+                <h2 class="uppercase bold">{{page.midSectionTitle}}</h2>
+                <p class="text light">{{page.midSectionCopy}}</p>
+                <div class="d-flex text-center  mid-section justify-content-center justify-content-md-start row">
+                    <div class="col-6 col-md-3 col-lg-2">
+                        <img class="training-mid-section" src="/images/group-5.png" alt="...">
+                        <p class="d-block text light ">B2B SaaS</p>
+                    </div>
+                    <div class="col-6 col-md-3 col-lg-2">
+                        <img class="training-mid-section" src="/images/group-9.png" alt="...">
+                        <p class="d-block text light">Consumer<br> Apps</p>
+                    </div>
+
+                    <div class="col-6 col-md-3 col-lg-2">
+                        <img class="training-mid-section" src="/images/group-11.png" alt="...">
+                        <p class="d-block text light">Nonprofits</p>
+                    </div>
+
+                    <div class="col-6 col-md-3 col-lg-2">
+                        <img class="training-mid-section" src="/images/group-12.png" alt="...">
+                        <p class="d-block text light">Government <br>Agencies</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="row d-flex flex-md-row align-items-center pt-5">
+            <div class="col-12 col-md-6 mb-5 text-center text-lg-start">
+                <img src="/images/process-bro.png" alt="resorces" class="img-fluid" width="452px">
+            </div>
+
+            <div class="col-12 col-md-6 text-center text-md-start">
+                <h2 class="uppercase bold">{{page.midSection2Title}}</h2>
+                <p class="text light">{{page.midSection2Copy}}</p>
+                <a href="/toolkit/" class="link pink-text ">Learn more about the framework <i class="bi bi-arrow-right"></i></a>
+
+            </div>
+        </div>
+    </div>
+</section>
+<section class="bg-purple wavy-bg-img py-5">
+    <div class="container-xxl white-text">
+        <h2 class="subtitle uppercase">{{page.helpTitle}}</h2>
+        <p class="text light">If you want hands-on help integrating Radical Product thinking into your organization.
+            <br>
+            We offer coaching, training, and workshops to individuals and teams. Please get in touch below to start the
+            conversation.
+        </p>
+        <div>
+
+            <form
+                action="https://radicalproduct.us10.list-manage.com/subscribe/post?u=5559a62245d86aeeefd822705&amp;id=7fc7e415ad"
+                method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate signup"
+                target="_blank" novalidate>
+                <fieldset class="d-flex flex-column flex-md-row">
+                    <input type="email" name="EMAIL" class="required email text-input mid-input text light me-1 mb-2"
+                        id="mce-EMAIL" placeholder="{{page.emailInputPlaceholder}}">
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                        <input type="text" name="b_5559a62245d86aeeefd822705_7fc7e415ad" tabindex="-1">
+                    </div>
+                    <div class="clear">
+                        <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"
+                            class="primary-button text-white uppercase bg-pink">{{page.helpCTA}}</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</section>
