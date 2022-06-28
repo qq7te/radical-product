@@ -9,22 +9,15 @@
 		</button>
 
 		<div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
-			<ul class="navbar-nav">
+			<ul class="navbar-nav gap-2">
+
+				{% for item in site.data.menu %}
+				
 				<li class="nav-item">
-					<a class="nav-link uppercase small-text light" href="/">Home</a>
+					<a class="nav-link uppercase small-text light  {% if page.url == item.link %}active{% endif %}" href="{{item.link}}">{{item.title}}</a>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link uppercase small-text light" href="/toolkit">Toolkit</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link uppercase small-text light" href="/workshops">Workshops</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link uppercase small-text light" href="/about">About</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link uppercase small-text light" href="/blog">Blog</a>
-				</li>
+				{% endfor %}
+			
 			</ul>
 		</div>
 	</div>
