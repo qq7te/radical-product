@@ -59,24 +59,27 @@ memory and cultivate an intuition for building successful products. It doesn't b
             <p class="text light text-container mb-5 px-5 px-3">{{page.trainingCopy}} <span class="fw-bolder"> iterate less
                     and achieve more.</span></p>
         </div>
-        <div class="row  pb-5 mb-5 justify-content-center">
+        <div class="row  justify-content-center pb-5 mb-5">
             {% for item in site.data.trainings %}
-            <div class=" card text-center p-0 mx-2 mb-3 mb-xxl-5 ">
-                <div class="card-header " style="background-color: #{{item.bg}} !important;">
-                    <p class="text-white m-0 py-3 px-3">{{item.copy}}</p>
-                </div>
-                <div class="card-body pb-5 d-flex flex-column align-items-center justify-content-end pt-0">
-                    <img class="img-fluid py-4 mt-3" src="{{item.img}}" width="86px" alt="{{item.title}}">
-                    <h5 class="card-title pink-text ">{{item.title}}</h5>
-                    <div class="pb-3">
-                        <p class="card-text  ">{{item.description}}</p>
+            <div class="col-md-5 col-lg-5 col-xxl-3 d-flex justify-content-center">
+                <div class="card text-center p-0 mx-2 mb-3 mb-xxl-5 ">
+                    <div class="card-header " style="background-color: #{{item.bg}} !important;">
+                        <p class="text-white m-0 py-3 px-3">{{item.copy}}</p>
                     </div>
-
-                    <a href="#" class="link pink-text ">Learn more <i class="bi bi-arrow-right"></i></a>
-
+                    <div class="card-body pb-5 d-flex flex-column align-items-center justify-content-center pt-0">
+                        <img class="img-fluid py-4 mt-3" src="{{item.img}}" width="86px" alt="{{item.title}}">
+                        <h5 class="card-title pink-text ">{{item.title}}</h5>
+                        <div class="pb-3">
+                            <p class="card-text  ">{{item.description}}</p>
+                        </div>
+    
+                        <a href="#" class="link pink-text ">Learn more <i class="bi bi-arrow-right"></i></a>
+    
+                    </div>
+    
                 </div>
-
             </div>
+           
             {% endfor %}
         </div>
     </div>
