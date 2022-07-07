@@ -60,7 +60,10 @@ memory and cultivate an intuition for building successful products. It doesn't b
                     and achieve more.</span></p>
         </div>
         <div class="row  justify-content-center pb-5 mb-5">
-            {% for item in site.data.trainings %}
+            {% for item in site.posts %}
+           
+            {% if item.layout == "training" %}
+
             <div class="col-md-5 col-lg-5 col-xxl-3 d-flex justify-content-center">
                 <div class="card text-center p-0 mx-2 mb-3 mb-xxl-5 ">
                     <div class="card-header " style="background-color: #{{item.bg}} !important;">
@@ -72,14 +75,13 @@ memory and cultivate an intuition for building successful products. It doesn't b
                         <div class="pb-3">
                             <p class="card-text  ">{{item.description}}</p>
                         </div>
-    
-                        <a href="#" class="link pink-text ">Learn more <i class="bi bi-arrow-right"></i></a>
+                        <a href="{{item.url | prepend: site.baseurl}}" class="link pink-text ">Learn more <i class="bi bi-arrow-right"></i></a>
     
                     </div>
     
                 </div>
             </div>
-           
+            {% endif %}
             {% endfor %}
         </div>
     </div>

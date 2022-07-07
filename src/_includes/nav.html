@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light py-3">
 	<div class="container-xxl d-flex justify-content-between align-items-center">
 		<a class="navbar-brand" href="/">
-			<img src="../../img/logo.svg" alt="" class="logo">
+			<img src="/img/logo.svg" alt="radical-logo" class="logo">
 	  	</a>
 
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -14,10 +14,24 @@
 				{% for item in site.data.menu %}
 				
 				<li class="nav-item">
-					<a class="nav-link uppercase small-text light  {% if page.url == item.link %}custom-active{% endif %}" href="{{item.link}}">{{item.title}}</a>
+					      <a class="nav-link uppercase small-text light  
+              {% if page.url == item.link %}
+              custom-active
+              {%else%}
+                {% if page.collection == "posts" %}
+				{{item.title}}
+                  {% if item.title == "Training" && page.layout == "training" %}
+                  custom-active
+                  {%endif%}
+                {% endif %}
+              {% endif %}" href="{{item.link}}">{{item.title}}</a>
+			  <span>
+				
+			</span>
 				</li>
 				{% endfor %}
-			
+				
+				
 			</ul>
 		</div>
 	</div>

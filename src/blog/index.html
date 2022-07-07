@@ -38,8 +38,12 @@ logo_type: normal
     <h2 class="subtitle uppercase bold mb-4">recent posts</h2>
     <div class="row grid">
       {% if site.posts.size > 0 %}
-        {% for post in paginator.posts %}
+        {% for post in paginator.posts  %}
+       
+         {% if post.layout == "post" %}
+          
           {% include article-content.html %}
+          {% endif %}
         {% endfor %}
       {% endif %}
     </div>

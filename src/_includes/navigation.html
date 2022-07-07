@@ -7,7 +7,7 @@
     <ul class="navbar-nav gap-2">
 
 				{% for item in site.data.menu %}
-		
+        
 				<li class="nav-item">
 					<a class="nav-link uppercase small-text light  {% if page.url == item.link %}custom-active{% endif %}" href="{{item.link}}">{{item.title}}</a>
 				</li>

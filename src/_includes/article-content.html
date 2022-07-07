@@ -1,10 +1,12 @@
 <div class="col-12 col-md-6 col-lg-4 mb-4 d-block grid__post animate">
+
   <a href="{{post.url | prepend: site.baseurl}}" class="link">
     <div class="box h-100 posts-list">
       <div class="post-list-image rounded-top">
         <img src="{{post.image}}" alt="" class="rounded-top">
       </div>
       <div class="p-4">
+        
         <span class="small-text light  black-text">{{post.date | date_to_long_string}}</span>
         <h6 class="uppercase bold big-text my-2 black-text">{{post.title}}</h6>
         <p class="text light black-text">{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | truncate: 100 }}{% endif %}</p>

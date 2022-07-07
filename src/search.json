@@ -2,7 +2,8 @@
 layout: null
 ---
 [
-  {% for post in site.posts %}
+  {% for post in site.posts%}
+    {% if post.layout == "post"%}
     {
       "title"    : "{{ post.title | escape }}",
       "category" : "{{ post.category }}",
@@ -13,5 +14,6 @@ layout: null
       "published": "{{post.publised}}",
       "featured" : "{{post.featured}}"
     } {% unless forloop.last %},{% endunless %}
+    {% endif %}
   {% endfor %}
 ]

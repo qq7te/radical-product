@@ -1,6 +1,7 @@
 - title: Home
   link: /
 
+
 - title: Toolkit
   link: /toolkit/
 
@@ -9,11 +10,13 @@
 
 - title: Training
   link: /training/
+  categories: Training
 
 - title: About
   link: /about/
 
 - title: Blog
   link: /blog/
+  
 
 
