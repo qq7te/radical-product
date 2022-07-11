@@ -1,16 +1,20 @@
 ---
-layout: olania
+layout: default
 ---
+<header>
+    {% include nav.html %}
+</header>
 
 <section class="landing-banner section-padding">
     <div class="container-xxl">
-        <div class="row d-flex align-items-center">
+        <div class="row d-flex align-items-center flex-column-reverse text-center gap-3 flex-md-row text-md-start gap-md-0 " >
             <div class="col-12 col-md-6">
-                <h1 class="uppercase bold pink-text m-0">{{page.title}}</h1>
-                <h1 class="uppercase bold">Training</h1>
-                <p class="pe-5 me-4" >Level up as a team and translate your shared vision into everyday activities. This training helps product teams avoid getting stuck in tactical execution and helps teams think strategically to create tangible outcomes. </p>
-                <div >
-                    <a href="#toolkit" class="primary-button d-inline-block text-white uppercase bg-pink link me-2">book training</a>
+                <h1 class=" title uppercase bold pink-text m-0 ">{{page.title}}</h1>
+                <h1 class=" title uppercase bold ">Training</h1>
+                
+                <p class="big-text light tight-container pe-md-5 me-md-4 fs-5 pb-2 " >{{page.description}}</p>   
+                <div>
+                    <a href="#toolkit" class="primary-button d-inline-block text-white uppercase bg-pink link me-lg-2">book training</a>
                     <a href="/training" class="secondary-button d-inline-block pink-text uppercase bg-light-pink mt-2"  >view all training</a>
                 </div>
             </div>
@@ -21,53 +25,229 @@ layout: olania
     </div>
 </section>
 
-<section class="section-padding bg-gray wavy-bg-img2" id="toolkit">
+<section class="section-padding bg-gray wavy-bg-img2" >
     <div class="container-xxl">
 
-		<div class="text-start">
+		<div class="text-center text-md-start">
             <h2 class="subtitle uppercase mb-3">{{page.titleOne}}</h2>
-            <p class="text light w-75 mb-5">{{page.problemDescription}}</p>
-            <h2 class="subtitle uppercase pt-5">{{page.titleTwo}}</h2>
-            <p class="text light w-75 me-2 pb-3">{{page.descriptionTitleTwo}}</p>
-            <div class="row g-5">
-                <div class="d-flex col-5 ">
-                    <div class="training rounded-3 bg-primary p-2 me-2">
-                            <img src="{{page.iconSubtitleOne}}" alt="{{page.iconSubtitleOne}}">
+            <p class=" mb-5 me-lg-5 pe-lg-5 light fs-5">{{page.problemDescription}}</p>
+            <h2 class="subtitle uppercase ">{{page.titleTwo}}</h2>
+            <p class=" me-2 pb-3 big-text light fs-5">{{page.descriptionTitleTwo}}:</p>
+            <div class="container-xxl ps-0 text-start">
+                <div class="row g-3 align-content-center ">
+                    <div class="d-flex col-12 col-md-5 me-3 gap-1 ps-3 ps-md-2">
+                        <div class="training bg-primary  me-2">
+                                <img class="icon-diagnosis" src="{{page.iconSubtitleOne}}" alt="{{page.iconSubtitleOne}}">
+                        </div>
+                        <div class="pt-1">
+                            <h6 class="fw-bold m-0">{{page.subtitleOne}}</h6>
+                            <p >{{page.descriptionSubtitleOne}}</p>
+                        </div>
                     </div>
-                    <div>
-                        <h6 class="fw-bold m-0">{{page.subtitleOne}}</h6>
-                        <p class="w-75">{{page.descriptionSubtitleOne}}</p>
+                    <div class="d-flex col-12  col-md-5 gap-1 ps-3  mb-3 mb-lg-0">
+                        <div class="training2 bg-primary  me-2">
+                                <img class="icon-diagnosis2" src="{{page.iconSubtitleTwo}}" alt="{{page.iconSubtitleOne}}">
+                        </div>
+                        <div class="pt-1">
+                            <h6 class="fw-bold m-0">{{page.subtitleTwo}}</h6>
+                            <p >{{page.descriptionSubtitleTwo}}</p>
+                        </div>
                     </div>
+                    <div class="d-flex col-12  col-md-5 me-3  gap-1 ps-3 ps-md-2">
+                        <div class="training3 bg-primary  me-2">
+                            <img class="icon-diagnosis3" src="{{page.iconSubtitleThree}}" alt="{{page.iconSubtitleOne}}">
+                        </div>
+                        <div class="pt-1">
+                            <h6 class="fw-bold m-0">{{page.subtitleThree}}</h6>
+                            <p >{{page.descriptionSubtitleThree}}</p>
+                        </div>
+                    </div>
+                    
+                    <div class="d-flex col-12  col-md-5 gap-1 ps-3 {% if page.subtitleFour %}
+                        yes
+                        {%else%}
+                        d-none
+                    {% endif%}">
+                        <div class="training4 bg-primary  me-2">
+                                <img class="icon-diagnosis4" src="{{page.iconSubtitleFour}}" alt="{{page.iconSubtitleOne}}">
+                        </div>
+                        <div class="pt-1">
+                            <h6 class="fw-bold m-0">{{page.subtitleFour}}</h6>
+                            <p >{{page.descriptionSubtitleFour}}</p>
+                        </div>
+                    </div>
+                    
                 </div>
-                <div class="d-flex col-5 ">
-                    <div class="training rounded-3 bg-primary p-2 me-2">
-                            <img src="{{page.iconSubtitleTwo}}" alt="{{page.iconSubtitleOne}}">
-                    </div>
-                    <div>
-                        <h6 class="fw-bold m-0">{{page.subtitleOne}}</h6>
-                        <p class="w-75">{{page.descriptionSubtitleTwo}}</p>
-                    </div>
-                </div>
-                <div class="d-flex col-5  ">
-                    <div class="training rounded-3 bg-primary p-2 me-2">
-                    <img src="{{page.iconSubtitleThree}}" alt="{{page.iconSubtitleOne}}">
-                    </div>
-                    <div>
-                        <h6 class="fw-bold m-0">{{page.subtitleOne}}</h6>
-                        <p class="w-75">{{page.descriptionSubtitleThree}}</p>
-                    </div>
-                </div>
-                <div class="d-flex col-5  ">
-                    <div class="training rounded-3 bg-primary p-2 me-2">
-                            <img src="{{page.iconSubtitleFour}}" alt="{{page.iconSubtitleOne}}">
-                    </div>
-                    <div>
-                        <h6 class="fw-bold m-0">{{page.subtitleOne}}</h6>
-                        <p class="w-75">{{page.descriptionSubtitleFour}}</p>
-                    </div>
-                </div>
-                
-            </div>
+            </div>    
+            
         </div>
 	</div>
+</section>
+
+<section class="section-padding ">
+    <div class="container-xxl">
+        <div class="row d-flex align-items-center pb-5 gap-3 gap-md-0">
+            <div class="col-12 col-md-6 mt-3 d-flex justify-content-center justify-content-md-start">
+                <img src="{{page.image2}}" alt="resorces" class="img-fluid" width="533px">
+            </div>
+
+            <div class="col-12 col-md-6 text-start ">
+                <h2 class="text-center uppercase bold pb-3">{{page.titleThree}}</h2>
+                <div class="d-flex flex-column
+                {% if page.titleThreeSubtitleThree %}
+                    yes
+                    {%else%}
+                    gap-5
+                {% endif%}"  >
+                    <div class="d-flex" >
+                        <div class="me-3" >
+                            <img class="icon-benefits"  src="{{page.iconTitleThreeSubtitleOne}}"  alt="{{page.iconSubtitleOne}}">
+                        </div>
+                            <div>
+                            <h5 class="bold subtitle">
+                                {{page.titleThreeSubtitleOne}}
+                            </h5>
+                            <p>{{page.descriptionTitleThreeSubtitleOne}}</p>
+                        </div>
+                    </div>
+                    <div class="d-flex" >
+                        <div class="me-3" >
+                            <img class="icon-benefits"  src="{{page.iconTitleThreeSubtitleTwo}}"  alt="{{page.iconSubtitleOne}}">
+                        </div>
+                        <div>
+                            <h5 class="title bold">
+                                {{page.titleThreeSubtitleTwo}}
+                            </h5>
+                            <p>{{page.descriptionTitleThreeSubtitleTwo}}</p>
+                        </div>
+                    </div>
+                    <div class="d-flex {% if page.titleThreeSubtitleThree %}
+                    yes
+                    {%else%}
+                    d-none
+                {% endif%}" >
+
+                        <div class="me-3" >
+                            <img class="icon-benefits"  src="{{page.iconTitleThreeSubtitleThree}}"  alt="{{page.iconSubtitleOne}}">
+                        </div>
+                        <div>
+                            <h5 class="bold">
+                                {{page.titleThreeSubtitleThree}}
+                            </h5>
+                            <p>{{page.descriptionTitleThreeSubtitleThree}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       
+    </div>
+</section>
+
+<section class="section-padding bg-gray" >
+    <div class="container-xxl">
+        <div class="text-center">
+            <h2 class="subtitle uppercase mb-3">{{page.titleFour}}</h2>
+            <p class="text light text-container mb-0">{{page.titleFourDescription}}</p>
+            <p class="text light text-container mb-4">{{page.titleFourDescription2}}:</p>
+        </div>
+
+        <div class="sessions">
+            <div id="carouselIndicators" class="carousel slide" data-bs-ride="carousel"  data-bs-interval="10000">
+                <div class="carousel-indicators position-static">
+                    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active vision" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" class="priorities" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" class="strategy 
+                    {% if page.sessions < 4%}
+                        d-none
+                    {% endif %}" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="3" class="execution
+                    {% if page.sessions < 4%}
+                    d-none
+                {% endif %}" aria-label="Slide 4"></button>
+                                  </div>
+                <div class="carousel-inner mb-5">
+                    {% for session in page.list %}
+                        <div class=" carousel-item {% if forloop.first == true %} active{% endif %}">
+                            <div class="box p-5">
+                                <div class="row d-flex flex-column-reverse flex-md-row">
+                                    <div class="col-md-6 col-12">   
+                                        <h6 class="pt-3 pt-md-0 purple-text uppercase mb-2">{{session.session}}</h6>
+                                        <h4 class="text bold uppercase mb-3">{{session.title}}</h4>
+                                        <p class=" light">{{session.copy}}</p>
+                                        {% if session.hasList %}
+                                        <ul class="m-0">
+                                            {% for item in session.list %}
+                                            <li class="small-text light mb-0">{{item}}</li>
+                                            {% endfor %}
+                                        </ul>
+                                        {% endif %}
+                                        <a href="{{session.link | prepend: site.baseurl}}" class="link pink-text ">{{session.learn}} <i class="bi bi-arrow-right"></i></a>
+                                    </div>
+                                    <div class="col-md-6 col-12">
+                                        <img src="{{session.img}}" alt="{{session.img}}" width="100%">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="py-3"></div>
+</section>
+
+<section class="bg-purple wavy-bg-img py-5">
+    <div class="container-xxl">
+        
+            <h2 class="subtitle uppercase text-white text-center text-lg-start">Book this training</h2>
+            <div class="row text-center text-lg-start  mt-2">
+                <div class="col-12 col-lg-8 pb-3 pb-lg-0">
+                    <p class="text light mb-0 text-white">To inquire about availability or to schedule a talk, email radhika@radicalproduct.com. We can then plan on a 30 min call to understand your audience, customize the talk to fit your needs, and plan logistics. </p>
+                    
+                </div>
+                <div class="col-12 col-lg-4 d-flex align-items-center align-items-lg-end flex-column" >
+                    <a href="#" type="buttom" class="uppercase btn button-book py-2">Book training</a>
+                </div>
+            </div>
+            <div class="row py-4 my-1 py-lg-3 text-center text-lg-start">
+                <div class="col-12 col-lg-3">
+                    <h6 class="fw-bold text-white">
+                        Chel out other of the trainings
+                    </h6>
+                </div>
+                <div class="col-12 col-lg-9 d-flex flex-column justify-content-center">
+                    <div class="line-inner"></div>
+                </div>
+            </div>
+            
+            <div class="d-flex  row gap-2  px-2 px-lg-0 align-items-center align-items-sm-stretch justify-content-center ">
+                {% for post in site.training_posts%}
+                
+                        {% if page.url != post.permalink %}
+                        <div class="bg-white rounded-2 d-flex align-items-center col-10 col-md-4  mb-2 mb-md-0 p-3 flex-column flex-sm-row justify-content-between">
+                        
+                            <img src="{{post.img}}" alt="{{post.img}}" width="50px">
+                    
+                            <div class="text-center text-md-start px-md-3">
+                                <h6 class="pink-text fw-bold m-0">{{post.title}}</h6>
+                                <p class="m-0 ">{{post.copy}}</p>
+                            </div>
+                            <div>
+                                <a href="{{post.permalink | prepend: site.baseurl}}" class="link pink-text "><i class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        {% endif %}
+                {% endfor %}
+                
+                
+            </div>
+          
+          
+       
+        
+    </div>
 </section>

@@ -18,8 +18,7 @@
               {% if page.url == item.link %}
               custom-active
               {%else%}
-                {% if page.collection == "posts" %}
-				{{item.title}}
+                {% if page.collection == "training_posts" %}
                   {% if item.title == "Training" && page.layout == "training" %}
                   custom-active
                   {%endif%}

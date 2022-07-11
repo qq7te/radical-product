@@ -51,7 +51,7 @@ memory and cultivate an intuition for building successful products. It doesn't b
         </div>
     </div>
 </section>
-<section class="section-padding bg-gray" id="toolkit">
+<section class="section-padding bg-gray" >
     <div class="container-xxl">
         <div class="text-center">
             <h6 class="purple-text uppercase ">{{page.trainingTitle}}</h6>
@@ -60,10 +60,7 @@ memory and cultivate an intuition for building successful products. It doesn't b
                     and achieve more.</span></p>
         </div>
         <div class="row  justify-content-center pb-5 mb-5">
-            {% for item in site.posts %}
-           
-            {% if item.layout == "training" %}
-
+            {% for item in site.training_posts %}
             <div class="col-md-5 col-lg-5 col-xxl-3 d-flex justify-content-center">
                 <div class="card text-center p-0 mx-2 mb-3 mb-xxl-5 ">
                     <div class="card-header " style="background-color: #{{item.bg}} !important;">
@@ -81,7 +78,6 @@ memory and cultivate an intuition for building successful products. It doesn't b
     
                 </div>
             </div>
-            {% endif %}
             {% endfor %}
         </div>
     </div>

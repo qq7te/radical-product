@@ -24,11 +24,8 @@
                 custom-active
               {%else%}
                 {% if page.collection == "posts" %}
-                  {% if item.title == "Training" and page.url contains "training" %}
-                    custom-active
-                  {%elsif item.title == "Blog" and page.layout == "post"%}
-                      custom-active
-                  
+                  {% if item.title == "Blog" and page.layout == "post" %}
+                    custom-active    
                     {% endif %}  
                 {% endif %}
               {% endif %}" href="{{item.link}}">{{item.title}}</a>
@@ -36,11 +33,10 @@
           {% endfor %}
 
 
-          {% if page.name == "index.html" or page.layout == "post"%}
           <li class="nav-item nav-buttons nav__icon-search">
             <i class="bi bi-search small-text nav-link"></i>
           </li>
-          {% endif %}
+         
         </ul>
       </div>
     </div>

@@ -39,11 +39,9 @@ logo_type: normal
     <div class="row grid">
       {% if site.posts.size > 0 %}
         {% for post in paginator.posts  %}
-       
-         {% if post.layout == "post" %}
-          
+
           {% include article-content.html %}
-          {% endif %}
+        
         {% endfor %}
       {% endif %}
     </div>
