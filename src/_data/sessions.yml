@@ -3,10 +3,12 @@
   copy2: In the process of crafting a Radical Vision Statement, you’ll answer profound questions about your product that help you align the team. You’ll gain practical tools to get buy-in on the vision and spread your thinking across the organization. We’ll challenge conventional wisdom that a vision must be broad and a BHAG (Big Hairy Audacious Goal). 
   img: "/images/vision.jpeg"
 
+
 - title: Negotiating priorities
   copy: Prioritization is a challenge for product teams that’s exacerbated by remote working. When priorities are handed down from above, they can seem arbitrary to individuals. This workshop will make prioritization discussions more productive and less contentious.
   copy2: You’ll learn to apply a simple but powerful approach using a 2x2 framework to prioritize both strategic initiatives and tactical activities. You’ll learn to use your vision in everyday decision-making while balancing the reality of short-term business needs. You’ll learn to use this as a powerful communication tool to align your team and stakeholders.
   img: "/images/priority.jpeg"
+
 
 - title: Strategy
   copy: 'Using the hands-on exercises and examples in this workshop, you’ll develop a comprehensive strategy to translate your vision into action. Product strategy means asking the following four questions with the mnemonic RDCL (pronounced "radical"):'
@@ -17,19 +19,23 @@
     - "Capabilities: What do you need to fulfill the promise of your solution?"
     - "Logistics: How do you deliver the solution to your users? How do you price it, deliver and support it?"
   img: "/images/strategy1.jpeg"
+  url: "/digital-transformation-training/"
 
 - title: Execution and Measurement
   copy: This workshop will help you translate your vision, strategy and priorities into execution and measurement. You’ll learn about hypothesis-driven execution and how you integrate RPT with Lean and Agile techniques for execution.
   copy2: Popular metrics such as the number of users or revenues may not always be the right indicators of progress. Product teams are more successful when teams and stakeholders are aligned on how you’ll measure success. Instead of measuring popular metrics, you’ll derive metrics based on your strategy, so you can measure what matters for your product.
   img: "/images/analytics.jpeg"
+  url: "/digital-transformation-training/"
 
 - title: Team and Culture
   copy: This workshop will transform culture change from a nebulous idea to actionable steps. You’ll work through a repeatable process for engineering the culture you want to establish in your team. 
   copy2: You’ll gain practical tools to structure conversations to evaluate the culture in your product team, identify what’s working well, plan strategies to change the culture where it’s needed, and measure progress towards creating a culture that high performing teams need for innovation. You’ll be able to use these techniques to create a more close-knit culture across your team. 
   img: "/images/team.jpeg"
+  url: "/digital-transformation-training/"
 
 - title: The Hippocratic Oath of Product
   copy: Just as unregulated industrial growth led to environmental pollution, unregulated growth in the digital era is creating digital pollution. This workshop helps you bake responsibility into every step of building your product. 
   copy2: You’ll learn to recognize five types of digital pollution so you can be sensitive to the unintended consequences of your product on society. You’ll learn how to embrace the Hippocratic Oath of Product and gain practical tools to manage this responsibility against the reality of your short-term business needs.
   img: "/images/oath.jpeg"
+  url: "/digital-transformation-training/"
 
