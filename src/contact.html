@@ -1,0 +1,68 @@
+---
+layout: default
+title: Radical Product Contact
+---
+<header>
+    {% include nav.html %}
+</header>
+
+<section class="landing-banner section-padding">
+    <div class="container-xxl">
+        <div class="row d-flex align-items-center">
+            <div class="col-12 col-md-6">
+                <h2 class="uppercase bold subtitle mb-3">GLove to hear from you, 
+                    get in touch.  </h2>
+                <div>
+                    <div>
+                        <h5>/radhika-futt</h5>
+                    </div>
+                    <div>
+                        <h5>@RadhikaDutt</h5>
+                    </div>
+                    <div>
+                        <h5>radhika@radicalproduct.com</h5>
+                    </div>
+                    <div>
+                        <h5>rdutt.medium.com</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6">
+                <form class="box p-5" name="Contact" method="POST" action="https://formspree.io/f/mrgjwjdy">
+                    <input type="hidden" name="_subject" value="Hola" />
+   
+                    <div class="mb-3">
+                        <h5 class="text uppercase bold"> <img src="/images/icon-black/paper-plane-solid.svg" width="20px" class="img-fluid" alt="icon"> Send us an email</h5>
+                    </div>
+                    <div class="mb-3">
+                        <input required type="text" class="form-control text-input text light" id="userName" placeholder="Your Name" name="userName">
+                    </div>
+                    <div class="mb-3">
+                        <input required type="email" class="form-control text-input text light" id="userEmail" placeholder="Your Email" name="userEmail">
+                    </div>
+                    
+                    <div class="mb-3">
+                        <select required class="form-select text-input text light" aria-label="Default select example" id="selectedTalk" name="selectedTalk">
+                            <option selected >Select a talk you're interested in</option>
+                            {% for talk in site.data.talks %}
+                                <option value="{{talk.title}}">{{talk.title}}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <textarea required class="form-control  text light" id="yourMessage" rows="8" placeholder="Your Message" ></textarea>
+                      </div>
+                    
+                           <button type="submit" class="mt-2 primary-button text-white uppercase bg-pink" >Just Send</button>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-padding bg-gray">
+    <div class="container-xxl">
+       
+    </div>
+</section>
