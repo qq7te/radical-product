@@ -7,8 +7,8 @@ copy: If you want to build equitable products.
 img: /images/combined-shape-3.svg
 permalink: /ethics-training/
 
-image1: /product-presentation-bro.png
-
+image: /images/life-in-a-city-bro.png
+image2: /images/save-the-earth-bro.png
 
 titleOne: The problem statement
 problemDescription: Teams are increasingly aware that products often create digital pollution by inflicting collateral damage on society. They want to grow the business while building equitable products that create a positive difference to society and the world. This training will give you a step-by-step approach for building ethical and equitable products while managing the reality of your business needs. 
@@ -46,7 +46,7 @@ list:
 
   - title: You’ll develop a comprehensive strategy
     copy: You’ll develop a comprehensive strategy that helps you build ethical products that bring about a more equitable world. You’ll learn to be deliberate about addressing pain points of marginalized personas, consider whether your solutions are inclusive, and develop a business model that benefits the organization while avoiding collateral damage to society. You’ll then learn how you can measure what matters by deriving metrics from your vision and strategy.  
-    img: "/images/vision.jpeg"
+    img: "/images/ethics-session-2.png"
     learn: Learn why a RDCL Strategy is important
     link: /strategy/2022/03/21/three-characteristics-of-good-product-strategy/ 
     session: session 2

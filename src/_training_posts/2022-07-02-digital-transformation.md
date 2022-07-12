@@ -46,7 +46,7 @@ titleFourDescription2: training to build muscle memory and intuition for buildin
 list: 
   - title: You’ll create a vision for digital transformation.
     copy: Instead of a broad and aspirational vision such as “being customer centric”, you’ll define a compelling vision that aligns the team on the problem you’re setting out to solve through your transformation efforts. You’ll then learn a framework for communicating tradeoffs as you balance progress towards this vision against the reality of short-term business needs. 
-    img: "/images/vision.jpeg"
+    img: "/images/digital-session-1.jpeg"
     learn: Learn why a RDCL Strategy is important
     link: /strategy/2022/03/21/three-characteristics-of-good-product-strategy/ 
     session: session 1
@@ -54,7 +54,7 @@ list:
 
   - title: You’ll learn about user research and create a plan to identify exactly what your customers need.
     copy: You’ll develop a comprehensive product strategy that includes a go-to-market strategy - your RDCL Strategy will help you articulate
-    img: "/images/vision.jpeg"
+    img: "/images/digital-session-2.png"
     learn: Learn why you need a Radical Vision Statement
     link: /vision/2021/03/19/vision-doesnt-have-to-be-hairy/
     session: session 2

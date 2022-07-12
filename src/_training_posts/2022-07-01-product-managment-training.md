@@ -61,7 +61,7 @@ list:
 
   - title: You’ll translate your vision into an actionable plan for a user-centric product by developing a RDCL Strategy that is centered on your user and their pain. 
     copy: You’ll also learn how you can translate your strategy into a set of metrics to measure progress, and how you can integrate Lean and Agile techniques for execution with Radical Product Thinking.  
-    img: "/images/vision.jpeg"
+    img: "/images/product-session-2.jpeg"
     learn: Learn why a RDCL Strategy is important
     link: /strategy/2022/03/21/three-characteristics-of-good-product-strategy/ 
     session: session 2

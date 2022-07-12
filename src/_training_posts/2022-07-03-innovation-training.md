@@ -45,14 +45,14 @@ titleFourDescription2: This training is delivered in the following two sessions
 list:
   - title: This workshop will help you craft a clear.
     copy: This workshop will help you craft a clear, compelling vision. It will help you define the problem you’re setting out to solve, identify why the status quo is unacceptable, and paint a clear picture of the world you want to bring about. You’ll learn how you can use your vision in everyday decision-making to balance progress toward the long-term while managing the reality of short-term business needs. You’ll gain a powerful communication tool to create alignment across your organization. 
-    img: "/images/vision.jpeg"
+    img: "/images/innovation-session-1.png"
     learn: Learn why you need a Radical Vision Statement
     link: /vision/2021/03/19/vision-doesnt-have-to-be-hairy/
     session: session 1
 
   - title: You’ll translate your vision into an actionable.
     copy: You’ll translate your vision into an actionable plan for a user-centric product by developing a RDCL Strategy that is centered on your user and their pain. You’ll also learn how you can translate your strategy into a set of metrics to measure progress, and how you can integrate Lean and Agile techniques for execution with Radical Product Thinking.  
-    img: "/images/vision.jpeg"
+    img: "/images/product-session-2.jpeg"
     learn: Learn why a RDCL Strategy is important
     link: /strategy/2022/03/21/three-characteristics-of-good-product-strategy/ 
     session: session 2
