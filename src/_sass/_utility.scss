@@ -370,3 +370,50 @@
         width: 32.3% !important;
     }
 }
+
+
+//contact pge
+.contact-section{
+    background-image: url("/images/background-contact.png"),linear-gradient(180deg, white 30%, #F4F4F5 70%);  ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.linkedin-icon{
+    border-radius: 5px;
+    width: 60px;
+    text-align: center;
+    background-color: #3B5DEF;
+    
+    transition: all 0.50s;
+    .icon{
+        height: 60px;
+        padding: 15px;
+    }
+}
+
+
+.linkedin-icon:hover{
+        background-color: none;
+        background-image: linear-gradient(251.14deg, #3B5DEF 0%, #3F39DB 100%);;
+        box-shadow: 1px 1px 20px 0 #5A79FD;
+      
+    
+}
+
+.text-icon-contact{
+    font-size: 18px;
+    margin: 0;
+}
+.contact-form-send{
+    padding-left: 11px;
+    padding-right: 11px;
+}
+
+#email-sent{
+    transition: all 1s;
+    h6{
+        font-weight: lighter;
+    }
+}

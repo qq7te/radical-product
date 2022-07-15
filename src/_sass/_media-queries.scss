@@ -4,6 +4,12 @@
         width: 260px;
     }
    
+    
+    .contact-section{
+        
+        background-position-y: 50%;
+    
+    }
 }
 
 @media screen and (min-width: 470px) {
@@ -11,6 +17,8 @@ html
     {
         font-size: 20px;
     }
+
+    
 
 }
 
@@ -93,6 +101,12 @@ html
     .training-mid-section{
         max-width: 60px;
     }
+
+    .contact-section{
+        
+        background-position-y: 50%;
+    
+    }
    
 }
 @media screen and (max-width: 991px){
@@ -106,4 +120,13 @@ html
     }
     
 
+}
+@media screen and (min-width: 1419px){
+
+    .contact-section{
+        
+        background-position-y: 0;
+    
+    }
+   
 }

@@ -16,7 +16,7 @@ descriptionTitleTwo: You need this training if your team is suffering from or at
 
 
 subtitleOne: Strategic Swelling
-descriptionSubtitleOne: Your product feels bloated, team may be stretched thin working on many features without delivering anything at a breakthrough level
+descriptionSubtitleOne: Stretched thin across many features without delivering anything at a breakthrough level.
 iconSubtitleOne: /images/session-icons-white/strategy-svgrepo-com.svg
 
 subtitleTwo: Hypermetricemia
@@ -25,10 +25,10 @@ iconSubtitleTwo: /images/session-icons-white/podium-outline-svgrepo-com.svg
 
 iconSubtitleThree: /images/session-icons-white/money-bag-svgrepo-com.svg
 subtitleThree: Obsessive Sales Disorder
-descriptionSubtitleThree: Borrowing against the long-term vision to close short-term deals
+descriptionSubtitleThree: Borrowing against the long-term vision to close short-term deals.
 
 subtitleFour: Hypometricemia
-descriptionSubtitleFour: not measuring much because it’s unclear how you measure success
+descriptionSubtitleFour: Not measuring much because it's unclear how you should measure success.
 iconSubtitleFour: /images/session-icons-white/protractor-rule-svgrepo-com.svg
 
 
