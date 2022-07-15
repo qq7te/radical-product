@@ -68,7 +68,12 @@ memory and cultivate an intuition for building successful products. It doesn't b
                     </div>
                     <div class="card-body pb-5 d-flex flex-column align-items-center justify-content-center pt-0">
                         <img class="img-fluid py-4 mt-3" src="{{item.img}}" width="86px" alt="{{item.title}}">
-                        <h3 class="card-title pink-text fs-5 ">{{item.title}}</h3>
+                        <h3 class="card-title pink-text fs-5 "> 
+                            {%if item.titleCard %}
+                            {{item.titleCard}}
+                            {%else %}
+                            {{item.title}}
+                            {%endif%}</h3>
                         <div class="pb-3">
                             <p class="card-text  ">{{item.description}}</p>
                         </div>

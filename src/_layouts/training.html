@@ -9,8 +9,8 @@ layout: default
     <div class="container-xxl">
         <div class="row d-flex align-items-center flex-column-reverse text-center gap-3 flex-md-row text-md-start gap-md-0 " >
             <div class="col-12 col-md-6">
-                <h1 class=" title uppercase bold pink-text m-0 ">{{page.title}}</h1>
-                <h1 class=" title uppercase bold ">Training</h1>
+                <h1 class=" title uppercase bold pink-text m-0 ">{{page.title}} <span class="text-dark">Training</span> </h1>
+                
                 
                 <p class="big-text light tight-container pe-md-5 me-md-4 fs-5 pb-2 " >{{page.description}}</p>   
                 <div>
@@ -232,8 +232,13 @@ layout: default
                         
                             <img src="{{post.img}}" alt="{{post.img}}" width="50px">
                     
-                            <div class="text-center text-md-start px-md-3">
-                                <h6 class="pink-text fw-bold m-0">{{post.title}}</h6>
+                            <div class="text-center text-md-start px-md-3 col-lg-8 ">
+                                <h6 class="pink-text fw-bold m-0">
+                                    {%if post.titleCard %}
+                                    {{post.titleCard}}
+                                    {%else %}
+                                    {{post.title}}
+                                    {%endif%}</h6>
                                 <p class="m-0 ">{{post.copy}}</p>
                             </div>
                             <div>
