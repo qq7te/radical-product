@@ -1,39 +1,40 @@
 ---
 layout: default
 title: Radical Product Contact
+linkLinkedin : https://www.linkedin.com/in/radhika-dutt/ 
 ---
 <header>
     {% include nav.html %}
 </header>
 
-<section class="landing-banner section-padding">
+<section class="section-padding contact-section">
     <div class="container-xxl">
-        <div class="row d-flex align-items-center">
-            <div class="col-12 col-md-6">
-                <h2 class="uppercase bold subtitle mb-3">GLove to hear from you, 
-                    get in touch.  </h2>
-                <div>
-                    <div>
-                        <h5>/radhika-futt</h5>
+        <div class="row d-flex align-items-center g-4 ">
+            <div class="col-12 col-lg-6">
+                <h2 class="pe-lg-5 me-lg-5  uppercase bold subtitle mb-3 text-center text-lg-start">Love to hear from you, 
+                   <span class="me-xxl-5 pe-xxl-5"></span> get in touch.  </h2>
+                <div class="row gap-4 justify-content-center">
+            
+                    {% for item in site.data.contact.links %}
+                    <div class="col-5 col-lg-12 d-flex flex-column flex-lg-row align-items-center ">
+                        <a href="{{item.link}}" class="text-decoration-none links">
+                        <button class="linkedin-icon me-3 ">
+                            <img  src="{{item.icon}}"  class="img-fluid icon" alt="icon">
+                        </button>
+                         </a>
+                        <p class="text-icon-contact d-none d-sm-inline">{{item.name}}</p>
                     </div>
-                    <div>
-                        <h5>@RadhikaDutt</h5>
-                    </div>
-                    <div>
-                        <h5>radhika@radicalproduct.com</h5>
-                    </div>
-                    <div>
-                        <h5>rdutt.medium.com</h5>
-                    </div>
+                    {%-endfor -%}
+                        
                 </div>
             </div>
 
-            <div class="col-12 col-md-6">
-                <form class="box p-5" name="Contact" method="POST" action="https://formspree.io/f/mrgjwjdy">
-                    <input type="hidden" name="_subject" value="Hola" />
+            <div class="col-12 col-lg-6 ">
+                <form id="send-us-form" class="box p-5" name="Contact" netlify>
+                    <input type="hidden" name="_subject" value="Contact with us" />
    
                     <div class="mb-3">
-                        <h5 class="text uppercase bold"> <img src="/images/icon-black/paper-plane-solid.svg" width="20px" class="img-fluid" alt="icon"> Send us an email</h5>
+                        <h5 class="text  bold"> <img src="/images/icon-black/paper-plane-solid.svg" width="20px" class="img-fluid" alt="icon"> Send us an email</h5>
                     </div>
                     <div class="mb-3">
                         <input required type="text" class="form-control text-input text light" id="userName" placeholder="Your Name" name="userName">
@@ -51,12 +52,20 @@ title: Radical Product Contact
                         </select>
                     </div>
                     <div class="mb-3">
-                        <textarea required class="form-control  text light" id="yourMessage" rows="8" placeholder="Your Message" ></textarea>
+                        <textarea required class="form-control  text light" id="yourMessage" name="userMessage" rows="8" placeholder="Your Message" ></textarea>
                       </div>
-                    
-                           <button type="submit" class="mt-2 primary-button text-white uppercase bg-pink" >Just Send</button>
-                    
+                    <div class="row contact-form-send  ">
+                        <button id="send-us-button" type="submit" class="mt-2 primary-button text-white col-12 uppercase bg-pink" >Just Send</button>
+                    </div>
                 </form>
+                <div class="box p-5 text-center d-none" id="email-sent">
+                    <img src="/images/email-sent.png" alt="sent" width="400px"  class="p-4 img-fluid pt-5 ">
+                    <div class="text-center pt-4 px-4 pb-3">
+                        <h2 class="uppercase fs-4">Email Sent!</h2>
+                        <h6 class="fs-5 pb-5">We have received your email and will get in touch shortly, thanks.</h6>
+                   
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -66,3 +75,31 @@ title: Radical Product Contact
        
     </div>
 </section>
+<script>
+    let form = document.getElementById('send-us-form');
+    let emailSent = document.getElementById("email-sent");
+    // var selectedTalk = document.getElementById("selectedTalk").value;
+    // var name = document.getElementById("userName").value;
+    // var email = document.getElementById("userEmail").value;
+    // var message = document.getElementById("yourMessage").value;
+    // var recipient = "radhika@radicalproduct.com"
+    // var formattedBody = "Hello, my name is "+name +", I'm Interested in "+ selectedTalk +" \n Let's get in touch " + email +" \n " + message;
+   
+    form.addEventListener('submit', (e)=>{
+        e.preventDefault()
+        Contact() 
+    })
+
+    function Contact() {
+        emailSent.classList.remove("d-none")
+        form.classList.add("d-none")
+        if (form.classList.contains("d-none")) {
+                setTimeout(()=>{
+                    emailSent.classList.add("d-none")
+                    form.classList.remove("d-none")
+                    form.reset()
+                },2000)       
+        }
+    }
+</script>
+

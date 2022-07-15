@@ -41,8 +41,8 @@ memory and cultivate an intuition for building successful products. It doesn't b
     <div class="container-xxl ">
         <div class=" row align-items-center text-center text-md-start">
             <div class="col-12 col-md-6  pb-4 ">
-                <h1 class="uppercase bold title mb-3 ">Training on Radical Product Thinking gives <span
-                        class="pink-text">direction</span> to your <span class="pink-text">speed.</span> </h1>
+                <h2 class="uppercase bold title fs-1 mb-3 ">Training on Radical Product Thinking gives <span
+                        class="pink-text">direction</span> to your <span class="pink-text">speed.</span> </h2>
                 <p class="big-text light tight-container pe-md-5 me-md-4 fs-5 ">{{page.tagline}}</p>
             </div>
             <div class="col-12 col-md-6">
@@ -54,7 +54,7 @@ memory and cultivate an intuition for building successful products. It doesn't b
 <section class="section-padding bg-gray" >
     <div class="container-xxl">
         <div class="text-center">
-            <h6 class="purple-text uppercase ">{{page.trainingTitle}}</h6>
+            <h3 class="purple-text uppercase fs-5 ">{{page.trainingTitle}}</h3>
             <h2 class="subtitle uppercase my-3 fs-3">{{page.trainingSubTitle}}</h2>
             <p class="text light text-container mb-5 px-5 px-3">{{page.trainingCopy}} <span class="fw-bolder"> iterate less
                     and achieve more.</span></p>
@@ -68,7 +68,7 @@ memory and cultivate an intuition for building successful products. It doesn't b
                     </div>
                     <div class="card-body pb-5 d-flex flex-column align-items-center justify-content-center pt-0">
                         <img class="img-fluid py-4 mt-3" src="{{item.img}}" width="86px" alt="{{item.title}}">
-                        <h5 class="card-title pink-text ">{{item.title}}</h5>
+                        <h3 class="card-title pink-text fs-5 ">{{item.title}}</h3>
                         <div class="pb-3">
                             <p class="card-text  ">{{item.description}}</p>
                         </div>
@@ -88,7 +88,7 @@ memory and cultivate an intuition for building successful products. It doesn't b
         <div class="row bg-purple wavy-bg-img round py-2 m-0 p-3">
             {% for testimonial in site.data.testimonials.workshops %}
             <div class="col-12 col-md-6 white-text p-4">
-                <p class="text light">{{testimonial.testimonial}}</p>
+                <h2 class="text light fs-5">{{testimonial.testimonial}}</h2>
                 <span class="small-text light fst-italic">- {{testimonial.author}}</span>
             </div>
             {% endfor %}
