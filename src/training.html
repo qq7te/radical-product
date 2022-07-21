@@ -29,6 +29,12 @@ midSection2Title: "Build intuition without adding processes!"
 midSection2Copy : "The RPT approach helps you develop that mindset for innovation - the framework helps you build muscle
 memory and cultivate an intuition for building successful products. It doesn't burden you with additional processes!"
 
+
+bookTagline: "Create purpose-driven change through your product."
+bookTitle: "RADICAL PRODUCT THINKING"
+bookCTA: "Get the book"
+bookPeakCopy: "take a peek at the first few pages"
+bookPeakLink: "/pdf/excerpt.pdf"
 ---
 
 
@@ -52,7 +58,7 @@ memory and cultivate an intuition for building successful products. It doesn't b
     </div>
 </section>
 <section class="section-padding bg-gray" >
-    <div class="container-xxl">
+    <div class="container-xxl pb-5">
         <div class="text-center">
             <h3 class="purple-text uppercase fs-5 ">{{page.trainingTitle}}</h3>
             <h2 class="subtitle uppercase my-3 fs-3">{{page.trainingSubTitle}}</h2>
@@ -86,12 +92,15 @@ memory and cultivate an intuition for building successful products. It doesn't b
             {% endfor %}
         </div>
     </div>
+    <div class="pb-3"></div>
 </section>
 
-<section class="pull-up">
+<section class="pull-up-training">
     <div class="container-xxl">
+
+        <h2 class="subtitle uppercase fs-3 pb-3 text-center">What our clients say</h2>
         <div class="row bg-purple wavy-bg-img round py-2 m-0 p-3">
-            {% for testimonial in site.data.testimonials.workshops %}
+            {% for testimonial in site.data.testimonials.trainings %}
             <div class="col-12 col-md-6 white-text p-4">
                 <h2 class="text light fs-5">{{testimonial.testimonial}}</h2>
                 <span class="small-text light fst-italic">- {{testimonial.author}}</span>
@@ -102,7 +111,7 @@ memory and cultivate an intuition for building successful products. It doesn't b
 </section>
 <section class="section-padding">
     <div class="container-xxl">
-        <div class="row d-flex flex-md-row-reverse align-items-center pb-5">
+        <div class="row d-flex flex-md-row-reverse align-items-center pb-3">
             <div class="col-12 col-md-6 mb-5 d-flex justify-content-center justify-content-lg-end">
                 <img src="/images/resources.png" alt="resorces" class="img-fluid" width="533px">
             </div>
@@ -149,32 +158,80 @@ memory and cultivate an intuition for building successful products. It doesn't b
         </div>
     </div>
 </section>
-<section class="bg-purple wavy-bg-img py-5">
-    <div class="container-xxl white-text">
-        <h2 class="subtitle uppercase">{{page.helpTitle}}</h2>
-        <p class="text light">If you want hands-on help integrating Radical Product thinking into your organization.
-            <br>
-            We offer coaching, training, and workshops to individuals and teams. Please get in touch below to start the
-            conversation.
-        </p>
-        <div>
-
-            <form
-                action="https://radicalproduct.us10.list-manage.com/subscribe/post?u=5559a62245d86aeeefd822705&amp;id=7fc7e415ad"
-                method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate signup"
-                target="_blank" novalidate>
-                <fieldset class="d-flex flex-column flex-md-row">
-                    <input type="email" name="EMAIL" class="required email text-input mid-input text light me-1 mb-2"
-                        id="mce-EMAIL" placeholder="{{page.emailInputPlaceholder}}">
-                    <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                        <input type="text" name="b_5559a62245d86aeeefd822705_7fc7e415ad" tabindex="-1">
+<section class="py-3 bg-gray">
+    <div class="container-xxl text-center text-md-start">
+        <div class="row d-flex align-items-center">
+            <div class="col-12 col-md-2 col-xl-1 pe-3">
+                <img src="/images/book.png" alt="Book Cover" class="book-image">
+            </div>
+    
+            <div class="col-12 col-md-10 col-xl-11">
+                <div class="row d-flex align-items-center py-3">
+                    <div class="col-12 col-md-12 col-lg-9 mb-4 mb-lg-0">
+                        <h6 class="text light mb-0">{{page.bookTagline}}</h6>
+                        <h2 class="subtitle pink-text uppercase bold mb-0">{{page.bookTitle}}</h2>
+                        <a href="{{page.bookPeakLink}}" class="link pink-text uppercase" download>{{page.bookPeakCopy}} <i class="bi bi-arrow-right"></i></a>
                     </div>
-                    <div class="clear">
-                        <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"
-                            class="primary-button text-white uppercase bg-pink">{{page.helpCTA}}</button>
+                    <div class="col-12 col-md-12 col-lg-3 d-lg-flex justify-content-end ">
+                        <div>
+                            <span class="d-block mb-0 text light">Get the book:</span>
+                            <a href="{{page.bookshopLink}}" class="bookshop white-text mb-1"><img src="/images/bookshop.png" alt="" width="50px"></a>
+                            <a href="{{page.amazonLink}}" class="amazon white-text mb-1"><img src="/images/amazon.png" alt="" width="50px"></a>
+                            <a href="{{page.barnesLink}}" class="barnes white-text"><img src="/images/barnes.png" alt="" width="50px"></a>
+                      
+                        </div>
                     </div>
-                </fieldset>
-            </form>
+                </div>
+            </div>
         </div>
+    </div>
+</section>
+<section class="bg-purple wavy-bg-img py-5">
+    <div class="container-xxl">
+        
+            
+            <div class="row text-center text-lg-start  mt-2">
+                <div class="col-12 col-lg-8 pb-3 pb-lg-0">
+                    <h2 class="subtitle uppercase text-white text-center text-lg-start">Book this training</h2>
+                </div>
+                <div class="col-12 col-lg-4 d-flex align-items-center align-items-lg-end flex-column" >
+                    <a href="#" type="buttom" class="uppercase btn button-book py-2">Book training</a>
+                </div>
+            </div>
+           
+            
+            <div class="d-flex  row gap-3  px-2 px-lg-0 align-items-center align-items-sm-stretch justify-content-center pt-4 ">
+                {% for post in site.training_posts%}
+                        <div class="bg-white rounded-2 d-flex flex-column align-items-center col-10 cards-button  mb-2 mb-md-0 p-3 flex-column ">
+                            
+                            <div class="align-self-xxl-start ps-xxl-3">
+                                <img src="{{post.img}}" alt="{{post.img}}" width="50px">
+                            </div>
+                            <div class="text-center text-xxl-start px-md-3 row pt-3">
+                                <div class="col-12">
+                                    <a href="{{post.permalink | prepend: site.baseurl}}" class="link pink-text ">
+                                    <h6 class="pink-text  m-0">
+                                        {%if post.titleCard %}
+                                        {{post.titleCard}}
+                                        {%else %}
+                                        {{post.title}}
+                                        {%endif%}
+                                        <i class="bi bi-arrow-right"></i>
+                                    </h6>
+                                    </a>
+                                    <p class="m-0 ">{{post.copy}}</p>
+                                </div>
+                        
+                            </div>
+                        
+                        </div>
+                {% endfor %}
+                
+                
+            </div>
+          
+          
+       
+        
     </div>
 </section>

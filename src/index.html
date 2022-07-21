@@ -29,9 +29,9 @@ resourcesCopy: "Start working with the Radical Product Thinking methodology - th
 resourcesLinkCopy: "Get the tools you need"
 resourcesLink: "/toolkit"
 
-workshopTagline: "Radical Product Talks"
-workshopTitle: "VIDEOS FROM PAST EVENTS"
-trainingLinkCopy: "Browse trainigs"
+mediaTagline: "Radical Product Talks"
+mediaTitle: "VIDEOS FROM PAST EVENTS"
+trainingLinkCopy: "Checkout our trainings"
 trainingLink: "/training"
 
 helpTitle: "GET HANDS-ON HELP"
@@ -139,17 +139,17 @@ helpCTA: "Let's chat"
 
 <section class="section-padding">
     <div class="container-xxl">
-        <h6 class="text uppercase purple-text text-center">{{page.workshopTagline}}</h6>
-        <h2 class="subtitle uppercase text-center">{{page.workshopTitle}}</h2>
+        <h6 class="text uppercase purple-text text-center">{{page.mediaTagline}}</h6>
+        <h2 class="subtitle uppercase text-center">{{page.mediaTitle}}</h2>
 
         <div class="row">
-            {% for workshop in site.data.workshops %}
+            {% for media in site.data.media %}
             <div class="col-12 col-md-4">
-                <a href="{{workshop.link}}" class="link black-text" target="_blank">
-                    <img src="{{workshop.thumbnail}}" alt="" width="100%" class="d-block mb-2">
-                    <span class="gray-text light">{{workshop.date}}</span>
-                    <p class="text bold">{{workshop.title}}</p>
-                    <span class="light">{{workshop.copy}}</span>
+                <a href="{{media.link}}" class="link black-text" target="_blank">
+                    <img src="{{media.thumbnail}}" alt="" width="100%" class="d-block mb-2">
+                    <span class="gray-text light">{{media.date}}</span>
+                    <p class="text bold">{{media.title}}</p>
+                    <span class="light">{{media.copy}}</span>
                 </a>
             </div>
             {% endfor %}
