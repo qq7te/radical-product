@@ -30,7 +30,7 @@ linkLinkedin : https://www.linkedin.com/in/radhika-dutt/
             </div>
 
             <div class="col-12 col-lg-6 ">
-                <form id="send-us-form" class="box p-5" name="Contact" netlify>
+                <form id="send-us-form" class="box p-5" name="Contact" netlify >
                     <input type="hidden" name="_subject" value="Contact with us" />
    
                     <div class="mb-3">
@@ -78,28 +78,27 @@ linkLinkedin : https://www.linkedin.com/in/radhika-dutt/
 <script>
     let form = document.getElementById('send-us-form');
     let emailSent = document.getElementById("email-sent");
-    // var selectedTalk = document.getElementById("selectedTalk").value;
-    // var name = document.getElementById("userName").value;
-    // var email = document.getElementById("userEmail").value;
-    // var message = document.getElementById("yourMessage").value;
-    // var recipient = "radhika@radicalproduct.com"
-    // var formattedBody = "Hello, my name is "+name +", I'm Interested in "+ selectedTalk +" \n Let's get in touch " + email +" \n " + message;
-   
+    
     form.addEventListener('submit', (e)=>{
-        e.preventDefault()
+        e.preventDefault();
         Contact() 
+     
     })
 
     function Contact() {
         emailSent.classList.remove("d-none")
+        emailSent.style.animation ="show 1s ease-out"
         form.classList.add("d-none")
         if (form.classList.contains("d-none")) {
                 setTimeout(()=>{
                     emailSent.classList.add("d-none")
                     form.classList.remove("d-none")
+                    form.submit();
                     form.reset()
+
                 },2000)       
         }
+       
     }
 </script>
 
