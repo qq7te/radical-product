@@ -98,10 +98,19 @@ bookPeakLink: "/pdf/excerpt.pdf"
 <section class="pull-up-training">
     <div class="container-xxl">
 
-        <h2 class="subtitle uppercase fs-3 pb-3 text-center">What our clients say</h2>
-        <div class="row bg-purple wavy-bg-img round py-2 m-0 p-3">
+        
+        <div class="row bg-purple wavy-bg-img round m-0 p-3">
+            <div class="row my-1  text-center text-lg-start pt-3">
+                <div class="col-12 col-lg-4 ps-4">
+                    <h2 class="subtitle uppercase fs-3 mt-2 text-white ">What our clients say</h2>
+                </div>
+                <div class="col-12 col-lg-8 d-flex flex-column  justify-content-center ">
+                    <div class="line-inner d-none d-lg-inline"></div>
+                </div>
+            </div>
+          
             {% for testimonial in site.data.testimonials.trainings %}
-            <div class="col-12 col-md-6 white-text p-4">
+            <div class="col-12 col-md-6 white-text p-4 pt-3">
                 <h2 class="text light fs-5">{{testimonial.testimonial}}</h2>
                 <span class="small-text light fst-italic">- {{testimonial.author}}</span>
             </div>

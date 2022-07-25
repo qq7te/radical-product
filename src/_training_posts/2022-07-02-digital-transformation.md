@@ -9,30 +9,30 @@ permalink: /digital-transformation-training/
 image: /images/software-integration-bro.png
 image2: /images/startup-life-bro.png
 titleOne: The problem statement
-problemDescription: Without a clear why and a strategy behind digital transformation, companies often interpret transformation as adopting Agile rituals and asking customers what they want. Teams feel like they’re pulled in different directions and begin to reject change like a human body rejects a foreign object. This training creates alignment around digital transformation and gives you a systematic approach for building customer-centric products to make change management easier. 
+problemDescription: Transformation is often interpreted as adopting Agile rituals and asking customers for feedback. But without a clear vision and strategy, teams feel pulled in different directions and begin to reject change like a human body rejects a foreign object. Digital transformation training gives you a shared vision and a systematic process for building customer-centric products to make change management easier.
 titleTwo: Diagnosis
-descriptionTitleTwo: You need this training if your team is suffering from or at high risk of catching these product diseases
+descriptionTitleTwo: You need this digital transformation program if your team is suffering from or at high risk of catching these product diseases
 
 
 subtitleOne: Locked-In Syndrome
-descriptionSubtitleOne: You’re locked-into what’s been successful in the past and you’re not getting buy-in for transformation because things don’t seem broken
+descriptionSubtitleOne: Locked-into your past success, you're not getting buy-in for change because things don't seem broken.
 iconSubtitleOne: /images/session-icons-white/lock-svgrepo-com.svg
 
 subtitleTwo: Narcissus complex
-descriptionSubtitleTwo: You’re so focused on internal goals and beliefs about what your customer wants that you lose sight of what your user actually needs
+descriptionSubtitleTwo: Focusing on your own goals and needs to the point of losing sight of what your customer needs.
 iconSubtitleTwo: /images/session-icons-white/person-svgrepo-com.svg
 
 iconSubtitleThree: /images/session-icons-white/protractor-rule-svgrepo-com.svg
 subtitleThree: Hypometricemia
-descriptionSubtitleThree: not measuring much or measuring irrelevant metrics
+descriptionSubtitleThree: Not measuring much because it's unclear how you should measure success.
 
 titleThree: Benefits
 titleThreeSubtitleOne: Align your team
-descriptionTitleThreeSubtitleOne: TDigital transformation requires change management and change is always hard. By creating alignment around a shared vision, you’ll get buy-in so you can engage people across the organization on translating your vision into reality.
+descriptionTitleThreeSubtitleOne: Digital transformation requires change management and change is always hard. By creating alignment around a shared vision, you’ll get buy-in so you can engage people across the organization on translating your vision into reality.
 iconTitleThreeSubtitleOne: /images/align-your-team-digital.png
 
 titleThreeSubtitleTwo: Build intuition for creating customer-centric products
-descriptionTitleThreeSubtitleTwo: Even when teams want to build customer-centric products, the know-how may be missing. This training gives teams a step-by-step approach for building transformative products.
+descriptionTitleThreeSubtitleTwo: Even when teams want to build customer-centric products, the know-how may be missing. This digital transformation training gives teams a step-by-step approach for building transformative products.
 iconTitleThreeSubtitleTwo: /images/build-intuition-digital.png
 
 

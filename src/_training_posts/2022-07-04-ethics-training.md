@@ -2,7 +2,7 @@
 layout: training
 title: Ethics
 titleCard: Product Ethics
-description: Build successful products while avoiding digital pollution or collateral damage to society. This training helps you embrace responsibility so you can build products that create the change you intend.
+description: This ethics training helps you build successful products while creating equitable outcomes for society. Learn practical tools to embrace responsibility so you can build products that create the change you intend.
 bg: 3B5DEF
 copy: If you want to build equitable products.
 img: /images/combined-shape-3.svg
@@ -12,10 +12,10 @@ image: /images/life-in-a-city-bro.png
 image2: /images/save-the-earth-bro.png
 
 titleOne: The problem statement
-problemDescription: Teams are increasingly aware that products often create digital pollution by inflicting collateral damage on society. They want to grow the business while building equitable products that create a positive difference to society and the world. This training will give you a step-by-step approach for building ethical and equitable products while managing the reality of your business needs. 
+problemDescription: Teams are increasingly aware that products often create digital pollution by inflicting collateral damage on society. They want to grow the business while building equitable products that create a positive difference to society and the world. This ethics training program will give you a step-by-step approach for building ethical and equitable products while managing the reality of your business needs. 
 
 titleTwo: Diagnosis
-descriptionTitleTwo: Most products contribute to digital pollution. See which of these five types of digital pollution your product might be contributing to
+descriptionTitleTwo: Unintentionally, your product may be contributing to various types of digital pollution. Product ethics training will give you a systematic approach to build products with a cleaner digital footprint
 
 
 titleThree: Benefits
@@ -24,7 +24,7 @@ descriptionTitleThreeSubtitleOne: Your team will be more aligned after this grou
 iconTitleThreeSubtitleOne: /images/bulb-bro.png
 
 titleThreeSubtitleTwo: Methodology for ethical product developmen
-descriptionTitleThreeSubtitleTwo: Even when teams want to build equitable products, it’s often not clear how you can be intentional and deliberate about it. This training will give you a step-by-step guide for baking equity into every step of building your product. 
+descriptionTitleThreeSubtitleTwo: Even when teams want to build equitable products, it’s often not clear how you can be intentional and deliberate about it. This business ethics program will give you a step-by-step guide for baking equity into every step of building your product. 
 iconTitleThreeSubtitleTwo: /images/give-your-bro.png
 
 titleThreeSubtitleThree: Obsessive Sales Disorder
@@ -33,7 +33,7 @@ iconTitleThreeSubtitleThree: /images/icon-training-1.png
 
 
 titleFour: Pricing and structure
-titleFourDescription: Get this training for $ 7,500 for up to 15 people for training
+titleFourDescription: Get this ethics training for $ 7,500 for up to 15 people for training
 titleFourDescription2: This training is delivered in the following two sessions
 
 

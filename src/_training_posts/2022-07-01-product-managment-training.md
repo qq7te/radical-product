@@ -35,7 +35,7 @@ iconSubtitleFour: /images/session-icons-white/protractor-rule-svgrepo-com.svg
 titleThree: Benefits
 
 titleThreeSubtitleOne: Level up your team
-descriptionTitleThreeSubtitleOne: This training will help you and your team level up as a team, rethink your product if you need to.
+descriptionTitleThreeSubtitleOne: This product management workshop wil help you and your team level up as a team, rethink your product if you need to.
 iconTitleThreeSubtitleOne: /images/icon-training-3.png
 
 titleThreeSubtitleTwo: Align your team
@@ -43,7 +43,7 @@ descriptionTitleThreeSubtitleTwo: You’ll create alignment around a shared visi
 iconTitleThreeSubtitleTwo: /images/icon-training-2.png
 
 titleThreeSubtitleThree: Build intuition without adding processes
-descriptionTitleThreeSubtitleThree: This training helps teams build an intuition for making the right product decisions without the burden of additional processes. You’ll learn to systematically translate a shared vision into priorities and metrics to measure success. 
+descriptionTitleThreeSubtitleThree: Without adding more rituals, these product workshops will help your team communicate with stakeholders effectively and develop an intuition for making the right product decisions.
 iconTitleThreeSubtitleThree: /images/icon-training-1.png
 
 titleFour: Pricing and structure

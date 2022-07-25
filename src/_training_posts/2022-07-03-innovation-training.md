@@ -1,7 +1,7 @@
 ---
 layout: training
 title: Innovation
-description: Build successful products systematically so you iterate less and achieve more. You only have 2-3 pivots before you run out of money or momentum - this training helps you use them wisely.
+description: Build successful products systematically so you iterate less and achieve more. You only have 2-3 pivots before you run out of money or momentum - this innovation training helps you use them wisely.
 bg: FF1A4D
 copy: If you're building a new product.
 img: /images/idea-svgrepo-com.svg
@@ -9,7 +9,7 @@ permalink: /innovation-training/
 image2: /images/sharing-ideas-bro.png
 image: /images/designer-life-pana.png
 titleOne: The problem statement
-problemDescription: The innovation mantra of “Iterate till you find product-market fit” leads to an approach that is capital intensive and often demoralizing when you don’t find market success despite several iterations. This training allows you to iterate less and achieve more, giving you and your team a clear, step-by-step process for building successful products.
+problemDescription: The innovation mantra of “Iterate till you find product-market fit” leads to an approach that is capital intensive and often demoralizing when you don’t find market success despite several iterations. This innovation training program allows you to iterate less and achieve more, giving you and your team a clear, step-by-step process for building successful products.
 titleTwo: Diagnosis
 descriptionTitleTwo: You need this training if your team is suffering from or at high risk of catching these product diseases
 
@@ -28,16 +28,16 @@ descriptionSubtitleThree: an excessive focus on scale and being big to the point
 
 titleThree: Benefits
 titleThreeSubtitleOne: Efficient innovation
-descriptionTitleThreeSubtitleOne: This training will help you define the vision and strategy to drive your iterations. You’ll learn to pivot when you need to without catching Pivotitis and how you can listen to customers without catching Obsessive Sales Disorder.  
+descriptionTitleThreeSubtitleOne: This corporate innovation training will help you define the vision and strategy to drive your iterations. You’ll learn to pivot when you need to without catching Pivotitis and how you can listen to customers without catching Obsessive Sales Disorder.  
 iconTitleThreeSubtitleOne: /images/bulb-bro.png
 
 titleThreeSubtitleTwo: Give your team clarity
-descriptionTitleThreeSubtitleTwo: Methodologies such as Lean and Agile are the equivalent of a fast car - they give you speed in execution. This training will help you define your destination and navigate to it so that you can make the best use of your fast car. 
+descriptionTitleThreeSubtitleTwo: Methodologies such as Lean and Agile are the equivalent of a fast car - they give you speed in execution. This innovation training will help you define your destination and navigate to it so that you can make the best use of your fast car. 
 iconTitleThreeSubtitleTwo: /images/give-your-bro.png
 
 
 titleFour: Pricing and structure
-titleFourDescription: Get this training for $ 10,000 for up to 15 people for training
+titleFourDescription: Get this innovation training for $ 10,000 for up to 15 people for training
 titleFourDescription2: This training is delivered in the following two sessions
 
 
