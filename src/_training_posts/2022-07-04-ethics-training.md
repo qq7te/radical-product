@@ -1,7 +1,6 @@
 --- 
 layout: training
-title: Ethics
-titleCard: Product Ethics
+title: Product Ethics
 description: This ethics training helps you build successful products while creating equitable outcomes for society. Learn practical tools to embrace responsibility so you can build products that create the change you intend.
 bg: 3B5DEF
 copy: If you want to build equitable products.

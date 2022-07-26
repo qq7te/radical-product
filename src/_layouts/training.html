@@ -12,7 +12,7 @@ layout: default
                 <h1 class=" title uppercase bold pink-text m-0 ">{{page.title}} <span class="text-dark">Training</span> </h1>
                 
                 
-                <p class="big-text light tight-container pe-md-5 me-md-4 fs-5 pb-2 " >{{page.description}}</p>   
+                <p class="big-text light tight-container pe-md-5 me-md-4 fs-5 py-3" >{{page.description}}</p>   
                 <div>
                     <a href="#toolkit" class="primary-button d-inline-block text-white uppercase bg-pink link me-lg-2">book training</a>
                     <a href="/training" class="secondary-button d-inline-block pink-text uppercase bg-light-pink mt-2"  >view all training</a>
@@ -204,9 +204,9 @@ layout: default
     <div class="container-xxl">
         
             <h2 class="subtitle uppercase text-white text-center text-lg-start">Book this training</h2>
-            <div class="row text-center text-lg-start  mt-2">
-                <div class="col-12 col-lg-8 pb-3 pb-lg-0">
-                    <p class="text light mb-0 text-white">To inquire about availability or to schedule a talk, email radhika@radicalproduct.com. We can then plan on a 30 min call to understand your audience, customize the talk to fit your needs, and plan logistics. </p>
+            <div class="row text-center text-lg-start  mt-2 justify-content-between">
+                <div class="col-12 col-lg-7 pb-3 pb-lg-0">
+                    <p class="text light mb-0 text-white">To inquire about availability or to schedule a talk, email <a class="text-white text-decoration-none" href="mailto:radhika@radicalproduct.com">radhika@radicalproduct.com</a>. We can then plan on a 30 min call to understand your audience, customize the talk to fit your needs, and plan logistics. </p>
                     
                 </div>
                 <div class="col-12 col-lg-4 d-flex align-items-center align-items-lg-end flex-column" >
@@ -234,11 +234,9 @@ layout: default
                     
                             <div class="text-center text-md-start px-md-3 col-lg-8 ">
                                 <h3 class="pink-text fw-bold m-0 fs-6">
-                                    {%if post.titleCard %}
-                                    {{post.titleCard}}
-                                    {%else %}
+                                    
                                     {{post.title}}
-                                    {%endif%}</h3>
+                                   </h3>
                                 <p class="m-0 ">{{post.copy}}</p>
                             </div>
                             <div>
