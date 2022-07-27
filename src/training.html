@@ -3,10 +3,9 @@ title: Radical Product Training
 image: "/images/team-goals-bro.png"
 layout: default
 
-tagline: "Conventional wisdom is that iteration is key to building successful products. Teams often focus on executing
-fast and over rely on iteration using methodologies such as Lean and Agile. These methodologies are great, they give you
-speed. But speed alone can look like chaos when everyone in your organization is moving fast, but in different
-directions. "
+tagline: "You want to innovate fast so you rely on quick iterations using methodologies such as
+ Lean and Agile. But you're finding that speed looks like chaos because everyone is moving fast, but in different directions.
+  Get the training your team needs to align your team and systematically translate your vision into successful products."
 
 
 trainingTitle: "Trainings"
@@ -62,9 +61,10 @@ bookPeakLink: "/pdf/excerpt.pdf"
         <div class="text-center">
             <h3 class="purple-text uppercase fs-5 ">{{page.trainingTitle}}</h3>
             <h2 class="subtitle uppercase my-3 fs-3">{{page.trainingSubTitle}}</h2>
-            <p class="text light text-container mb-5 px-5 px-3">{{page.trainingCopy}} <span class="fw-bolder"> iterate less
+            <p class="text light text-container mb-5 px-5 px-3">{{page.trainingCopy}} <span class="fw-bold"> iterate less
                     and achieve more.</span></p>
-        </div>
+       
+            </div>
         <div class="row  justify-content-center pb-5 mb-5">
             {% for item in site.training_posts %}
             <div class="col-md-5 col-lg-5 col-xxl-3 d-flex justify-content-center">
@@ -81,7 +81,7 @@ bookPeakLink: "/pdf/excerpt.pdf"
                             {{item.title}}
                             {%endif%}</h3>
                         <div class="pb-3">
-                            <p class="card-text  ">{{item.description}}</p>
+                            <p class="card-text  ">{{item.descriptionCard}}</p>
                         </div>
                         <a href="{{item.url | prepend: site.baseurl}}" class="link pink-text ">Learn more <i class="bi bi-arrow-right"></i></a>
     
@@ -102,7 +102,7 @@ bookPeakLink: "/pdf/excerpt.pdf"
         <div class="row bg-purple wavy-bg-img round m-0 p-3">
             <div class="row my-1  text-center text-lg-start pt-3">
                 <div class="col-12 col-lg-4 ps-4">
-                    <h2 class="subtitle uppercase fs-3 mt-2 text-white ">What our clients say</h2>
+                    <h2 class="subtitle uppercase fs-3 mt-2 text-white ">What clients are saying</h2>
                 </div>
                 <div class="col-12 col-lg-8 d-flex flex-column  justify-content-center ">
                     <div class="line-inner d-none d-lg-inline"></div>

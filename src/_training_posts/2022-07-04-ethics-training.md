@@ -2,6 +2,7 @@
 layout: training
 title: Product Ethics
 description: This ethics training helps you build successful products while creating equitable outcomes for society. Learn practical tools to embrace responsibility so you can build products that create the change you intend.
+descriptionCard: Build successful products while avoiding digital pollution. This training helps you embrace responsibility so you can create the change you intend.
 bg: 3B5DEF
 copy: If you want to build equitable products.
 img: /images/combined-shape-3.svg
@@ -17,6 +18,26 @@ titleTwo: Diagnosis
 descriptionTitleTwo: Unintentionally, your product may be contributing to various types of digital pollution. Product ethics training will give you a systematic approach to build products with a cleaner digital footprint
 
 
+subtitleOne: Increasing inequality
+descriptionSubtitleOne: Business models, algorithms, and products that harm marginalized communities increase inequality which erodes confidence in democracy.
+iconSubtitleOne: 
+
+subtitleTwo: Erosion of privacy
+descriptionSubtitleTwo: Democracy requires free speech. Without privacy, dissent and criticism of leadership can be ruthlessly thwarted, bringing us closer to authoritarianism.
+iconSubtitleTwo: 
+
+iconSubtitleThree: 
+subtitleThree: Fueling polarization
+descriptionSubtitleThree: People see each other as enemies and believe they need to win at all costs. Public debates become more hateful deepening polarization and killing democracy.
+
+subtitleFour: Erosion of the information ecosystem
+descriptionSubtitleFour: Knowledge helps democracy thrive. Unfortunately, the spread of misinformation makes it hard to gain knowledge and tell fact from fiction.
+iconSubtitleFour: 
+
+
+
+
+
 titleThree: Benefits
 titleThreeSubtitleOne: Increased alignment
 descriptionTitleThreeSubtitleOne: Your team will be more aligned after this group exercise of crafting a shared purpose as well as an actionable plan for building world-changing products. 
@@ -26,7 +47,7 @@ titleThreeSubtitleTwo: Methodology for ethical product developmen
 descriptionTitleThreeSubtitleTwo: Even when teams want to build equitable products, it’s often not clear how you can be intentional and deliberate about it. This business ethics program will give you a step-by-step guide for baking equity into every step of building your product. 
 iconTitleThreeSubtitleTwo: /images/give-your-bro.png
 
-titleThreeSubtitleThree: Obsessive Sales Disorder
+titleThreeSubtitleThree: Ethical decision-making without altruism
 descriptionTitleThreeSubtitleThree: You’ll learn how you can balance delivering on your vision and strategy while dealing with everyday decisions that require financial considerations and tradeoffs. 
 iconTitleThreeSubtitleThree: /images/icon-training-1.png
 
