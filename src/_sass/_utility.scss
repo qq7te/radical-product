@@ -309,6 +309,9 @@
 .card-header{
     border-top-left-radius: 20px !important;
     border-top-right-radius:20px !important;
+    p{
+        font-size: 14px !important;
+    }
 }
 .card-text{
     font-size: 15px !important;
@@ -333,24 +336,27 @@
 
 .icon-diagnosis, .icon-diagnosis2, .icon-diagnosis3, .icon-diagnosis4 {
     padding: 10px;
+    min-width: auto;
+}
+
+// .icon-diagnosis3{
+//     min-width: 40px;
+// }
+
+.autentic{
     min-width: 120px;
 }
-
-.icon-diagnosis3{
-    min-width: 40px;
-}
-
 .training3{
     min-width: 60px;
 }
 
-.icon-diagnosis2{
-    min-width: 80px;
-}
+// .icon-diagnosis2{
+//     min-width: 80px;
+// }
 
-.icon-diagnosis4{
-    min-width: 80px;
-}
+// .icon-diagnosis4{
+//     min-width: 80px;
+// }
 
 .icon-benefits{
     max-width: 60px;
@@ -366,6 +372,11 @@
     border-top: 1px solid white;
 }
 
+.trainings-covers{
+    border-radius: 10px;
+    box-shadow: 0 2px 14px 0 rgba(0,0,0,0.1);
+  
+} 
 
 
 @media screen and (min-width: 760px) {
@@ -385,6 +396,10 @@
     }
  }
 
+
+.line-height{
+    line-height: 1;
+}
 //contact pge
 .contact-section{
     background-image: url("/images/background-contact.png"),linear-gradient(180deg, white 30%, #F4F4F5 70%);  ;
@@ -445,3 +460,4 @@
     }
     
 }
+

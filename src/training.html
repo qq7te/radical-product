@@ -68,13 +68,13 @@ bookPeakLink: "/pdf/excerpt.pdf"
         <div class="row  justify-content-center pb-5 mb-5">
             {% for item in site.training_posts %}
             <div class="col-md-5 col-lg-5 col-xxl-3 d-flex justify-content-center">
-                <div class="card text-center p-0 mx-2 mb-3 mb-xxl-5 ">
+                <div class="card text-center p-0 mb-3 mb-xxl-5 mx-0">
                     <div class="card-header " style="background-color: #{{item.bg}} !important;">
                         <p class="text-white m-0 py-3 px-3">{{item.copy}}</p>
                     </div>
                     <div class="card-body pb-5 d-flex flex-column align-items-center justify-content-center pt-0">
                         <img class="img-fluid py-4 mt-3" src="{{item.img}}" width="86px" alt="{{item.title}}">
-                        <h3 class="card-title pink-text fs-5 "> 
+                        <h3 class="card-title pink-text fs-5 ">
                             {%if item.titleCard %}
                             {{item.titleCard}}
                             {%else %}
@@ -101,10 +101,10 @@ bookPeakLink: "/pdf/excerpt.pdf"
         
         <div class="row bg-purple wavy-bg-img round m-0 p-3">
             <div class="row my-1  text-center text-lg-start pt-3">
-                <div class="col-12 col-lg-4 ps-4">
+                <div class="col-12 col-lg-5 ps-4">
                     <h2 class="subtitle uppercase fs-3 mt-2 text-white ">What clients are saying</h2>
                 </div>
-                <div class="col-12 col-lg-8 d-flex flex-column  justify-content-center ">
+                <div class="col-12 col-lg-7 d-flex flex-column  justify-content-center ">
                     <div class="line-inner d-none d-lg-inline"></div>
                 </div>
             </div>
