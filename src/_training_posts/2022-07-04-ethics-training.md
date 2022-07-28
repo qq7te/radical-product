@@ -1,12 +1,12 @@
 --- 
 layout: training
 title: Product Ethics
-description: This ethics training helps you build successful products while creating equitable outcomes for society. Learn practical tools to embrace responsibility so you can build products that create the change you intend.
+description: Build successful products while avoiding digital pollution or collateral damage to society. This ethics training helps you build successful products while creating equitable outcomes for society. Learn practical tools to embrace responsibility so you can build products that create the change you intend.
 descriptionCard: Build successful products while avoiding digital pollution. This training helps you embrace responsibility so you can create the change you intend.
 bg: 3B5DEF
 copy: If you want to build equitable products.
 img: /images/combined-shape-3.svg
-permalink: /ethics-training/
+permalink: /training/ethics-training/
 
 image: /images/life-in-a-city-bro.png
 image2: /images/save-the-earth-bro.png
@@ -20,19 +20,19 @@ descriptionTitleTwo: Unintentionally, your product may be contributing to variou
 
 subtitleOne: Increasing inequality
 descriptionSubtitleOne: Business models, algorithms, and products that harm marginalized communities increase inequality which erodes confidence in democracy.
-iconSubtitleOne: 
+iconSubtitleOne: /images/session-icons-white/balance.png
 
 subtitleTwo: Erosion of privacy
 descriptionSubtitleTwo: Democracy requires free speech. Without privacy, dissent and criticism of leadership can be ruthlessly thwarted, bringing us closer to authoritarianism.
-iconSubtitleTwo: 
+iconSubtitleTwo: /images/session-icons-white/no-lock.png
 
-iconSubtitleThree: 
+iconSubtitleThree: /images/session-icons-white/minus-plus.png
 subtitleThree: Fueling polarization
 descriptionSubtitleThree: People see each other as enemies and believe they need to win at all costs. Public debates become more hateful deepening polarization and killing democracy.
 
 subtitleFour: Erosion of the information ecosystem
 descriptionSubtitleFour: Knowledge helps democracy thrive. Unfortunately, the spread of misinformation makes it hard to gain knowledge and tell fact from fiction.
-iconSubtitleFour: 
+iconSubtitleFour: /images/session-icons-white/info.png
 
 
 
@@ -52,26 +52,29 @@ descriptionTitleThreeSubtitleThree: You’ll learn how you can balance deliverin
 iconTitleThreeSubtitleThree: /images/icon-training-1.png
 
 
-titleFour: Pricing and structure
+titleFour: What the training covers
 titleFourDescription: Get this ethics training for $ 7,500 for up to 15 people for training
 titleFourDescription2: This training is delivered in the following two sessions
 
 
 list: 
-  - title: Radical Vision Statements
-    copy: In this session we’ll look at Radical Vision Statements behind a few ethical products. After examining these examples you’ll craft a vision for your product as a team. The vision will help you define the change you want to bring about through your product and identify why the status quo is unacceptable. You’ll also learn how you can use this vision for ethical decision-making while managing the reality of short-term business needs. 
+  - title: Radical Vision Statements behind ethical products
+    copy: The vision will help you define the change you want to bring about through your product and identify why the status quo is unacceptable. You’ll also learn how you can use this vision for ethical decision-making while managing the reality of short-term business needs. 
     img: "/images/vision.jpeg"
     learn: Learn why you need a Radical Vision Statement
     link: /vision/2021/03/19/vision-doesnt-have-to-be-hairy/
     session: session 1
+    sessionicon: /images/session-icons-pink/telescope.png
 
-  - title: You’ll develop a comprehensive strategy
-    copy: You’ll develop a comprehensive strategy that helps you build ethical products that bring about a more equitable world. You’ll learn to be deliberate about addressing pain points of marginalized personas, consider whether your solutions are inclusive, and develop a business model that benefits the organization while avoiding collateral damage to society. You’ll then learn how you can measure what matters by deriving metrics from your vision and strategy.  
+  - title: develop a comprehensive strategy to build ethical products to an equitable world
+    copy: You’ll learn to be deliberate about addressing pain points of marginalized personas, consider whether your solutions are inclusive, and develop a business model that benefits the organization while avoiding collateral damage to society. You’ll then learn how you can measure what matters by deriving metrics from your vision and strategy. 
     img: "/images/ethics-session-2.png"
     learn: Learn why a RDCL Strategy is important
     link: /strategy/2022/03/21/three-characteristics-of-good-product-strategy/ 
     session: session 2
+    sessionicon: /images/session-icons-pink/route.png
 
 sessions: 2
-
+cost: "$ 7,500 "
+guide: Get the Product Ethics Training
 ---

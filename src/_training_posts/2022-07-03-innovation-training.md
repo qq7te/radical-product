@@ -5,9 +5,9 @@ description: Build successful products systematically so you iterate less and ac
 descriptionCard: Iterate less and achieve more. You only have 2-3 pivots before you run out of money or momentum - this training helps you use them wisely.
 
 bg: FF1A4D
-copy: If you're building a new product.
+copy: If you're building a new product or entering a new market.
 img: /images/idea-svgrepo-com.svg
-permalink: /innovation-training/
+permalink: /training/innovation-training/
 image2: /images/sharing-ideas-bro.png
 image: /images/designer-life-pana.png
 titleOne: The problem statement
@@ -17,16 +17,16 @@ descriptionTitleTwo: You need this training if your team is suffering from or at
 
 
 subtitleOne: Pivotitis
-descriptionSubtitleOne: You’re locked-into what’s been successful in the past and you’re not getting buy-in for transformation because things don’t seem broken
+descriptionSubtitleOne: Switching directions often leading to confused customers and demoralized teams.
 iconSubtitleOne: /images/session-icons-white/steering-svgrepo-com.svg
 
 subtitleTwo: Obsessive Sales Disorde
-descriptionSubtitleTwo: borrowing against the long-term vision to close short-term deals
+descriptionSubtitleTwo: Borrowing against the long-term vision to close short-term deals.
 iconSubtitleTwo: /images/session-icons-white/money-bag-svgrepo-com.svg
 
 iconSubtitleThree: /images/session-icons-white/muscle-svgrepo-com.svg
 subtitleThree: Hero Syndrome
-descriptionSubtitleThree: an excessive focus on scale and being big to the point of losing sight of the problem you want to solve
+descriptionSubtitleThree: Focusing excessively on scale and being big to the point of losing sight of the problem you want to solve.
 
 titleThree: Benefits
 titleThreeSubtitleOne: Efficient innovation
@@ -38,27 +38,33 @@ descriptionTitleThreeSubtitleTwo: Methodologies such as Lean and Agile are the e
 iconTitleThreeSubtitleTwo: /images/give-your-bro.png
 
 
-titleFour: Pricing and structure
+titleFour: What the training covers
 titleFourDescription: Get this innovation training for $ 10,000 for up to 15 people for training
 titleFourDescription2: This training is delivered in the following two sessions
 
 
 
 list:
-  - title: This workshop will help you craft a clear.
-    copy: This workshop will help you craft a clear, compelling vision. It will help you define the problem you’re setting out to solve, identify why the status quo is unacceptable, and paint a clear picture of the world you want to bring about. You’ll learn how you can use your vision in everyday decision-making to balance progress toward the long-term while managing the reality of short-term business needs. You’ll gain a powerful communication tool to create alignment across your organization. 
+  - title: align on the problem you’re setting out to solve and why
+    copy: You’ll learn how you can use your vision in everyday decision-making to balance progress toward the long-term while managing the reality of short-term business needs. You’ll gain a powerful communication tool to create alignment across your organization.
     img: "/images/innovation-session-1.png"
     learn: Learn why you need a Radical Vision Statement
     link: /vision/2021/03/19/vision-doesnt-have-to-be-hairy/
     session: session 1
+    sessionicon: /images/session-icons-pink/telescope.png
 
-  - title: You’ll translate your vision into an actionable.
+
+  - title: Translate your vision into an actionable plan
     copy: You’ll translate your vision into an actionable plan for a user-centric product by developing a RDCL Strategy that is centered on your user and their pain. You’ll also learn how you can translate your strategy into a set of metrics to measure progress, and how you can integrate Lean and Agile techniques for execution with Radical Product Thinking.  
     img: "/images/product-session-2.jpeg"
     learn: Learn why a RDCL Strategy is important
     link: /strategy/2022/03/21/three-characteristics-of-good-product-strategy/ 
     session: session 2
-    
+    sessionicon: /images/session-icons-pink/route.png
+  
+cost: $ 10,000
+guide: Get the Innovation Training
+
 sessions : 2
 ---
 
