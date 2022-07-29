@@ -41,15 +41,15 @@ iconSubtitleFour: /images/session-icons-white/info.png
 titleThree: Benefits
 titleThreeSubtitleOne: Increased alignment
 descriptionTitleThreeSubtitleOne: Your team will be more aligned after this group exercise of crafting a shared purpose as well as an actionable plan for building world-changing products. 
-iconTitleThreeSubtitleOne: /images/bulb-bro.png
+iconTitleThreeSubtitleOne: /images/icon-training-2.png
 
 titleThreeSubtitleTwo: Methodology for ethical product developmen
 descriptionTitleThreeSubtitleTwo: Even when teams want to build equitable products, it’s often not clear how you can be intentional and deliberate about it. This business ethics program will give you a step-by-step guide for baking equity into every step of building your product. 
-iconTitleThreeSubtitleTwo: /images/give-your-bro.png
+iconTitleThreeSubtitleTwo: /images/seed.png
 
 titleThreeSubtitleThree: Ethical decision-making without altruism
 descriptionTitleThreeSubtitleThree: You’ll learn how you can balance delivering on your vision and strategy while dealing with everyday decisions that require financial considerations and tradeoffs. 
-iconTitleThreeSubtitleThree: /images/icon-training-1.png
+iconTitleThreeSubtitleThree: /images/directions.png
 
 
 titleFour: What the training covers
