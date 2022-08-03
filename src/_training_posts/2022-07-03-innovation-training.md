@@ -34,7 +34,7 @@ descriptionTitleThreeSubtitleOne: This corporate innovation training will help y
 iconTitleThreeSubtitleOne: /images/bulb-bro.png
 
 titleThreeSubtitleTwo: Give your team clarity
-descriptionTitleThreeSubtitleTwo: Methodologies such as Lean and Agile are the equivalent of a fast car - they give you speed in execution. This innovation training will help you define your destination and navigate to it so that you can make the best use of your fast car. 
+descriptionTitleThreeSubtitleTwo: Methodologies such as Lean and Agile are the equivalent of a fast car - they give you speed. Innovation workshops will help you define your destination and navigate to it so you can harness the power of your fast car.
 iconTitleThreeSubtitleTwo: /images/give-your-bro.png
 
 
@@ -46,7 +46,7 @@ titleFourDescription2: This training is delivered in the following two sessions
 
 list:
   - title: align on the problem you’re setting out to solve and why
-    copy: You’ll learn how you can use your vision in everyday decision-making to balance progress toward the long-term while managing the reality of short-term business needs. You’ll gain a powerful communication tool to create alignment across your organization.
+    copy: You’ll identify why the status quo is unacceptable for users and needs changing - this innovation workshop will help you avoid innovating a solution that’s a nice-to-have. You’ll gain powerful tools to create alignment across your organization and translate your vision for change into reality.
     img: "/images/innovation-session-1.png"
     learn: Learn why you need a Radical Vision Statement
     link: /vision/2021/03/19/vision-doesnt-have-to-be-hairy/

@@ -43,7 +43,7 @@ titleThreeSubtitleOne: Increased alignment
 descriptionTitleThreeSubtitleOne: Your team will be more aligned after this group exercise of crafting a shared purpose as well as an actionable plan for building world-changing products. 
 iconTitleThreeSubtitleOne: /images/icon-training-2.png
 
-titleThreeSubtitleTwo: Methodology for ethical product developmen
+titleThreeSubtitleTwo: Methodology for ethical product development
 descriptionTitleThreeSubtitleTwo: Even when teams want to build equitable products, it’s often not clear how you can be intentional and deliberate about it. This business ethics program will give you a step-by-step guide for baking equity into every step of building your product. 
 iconTitleThreeSubtitleTwo: /images/seed.png
 
@@ -66,7 +66,7 @@ list:
     session: session 1
     sessionicon: /images/session-icons-pink/telescope.png
 
-  - title: develop a comprehensive strategy to build ethical products to an equitable world
+  - title: develop a comprehensive strategy to build ethical products for an equitable world
     copy: You’ll learn to be deliberate about addressing pain points of marginalized personas, consider whether your solutions are inclusive, and develop a business model that benefits the organization while avoiding collateral damage to society. You’ll then learn how you can measure what matters by deriving metrics from your vision and strategy. 
     img: "/images/ethics-session-2.png"
     learn: Learn why a RDCL Strategy is important

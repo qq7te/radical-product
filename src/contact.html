@@ -45,9 +45,9 @@ linkLinkedin : https://www.linkedin.com/in/radhika-dutt/
                     
                     <div class="mb-3">
                         <select required class="form-select text-input text light" aria-label="Default select example" id="selectedTalk" name="selectedTalk">
-                            <option selected >Select a talk you're interested in</option>
-                            {% for talk in site.data.talks %}
-                                <option value="{{talk.title}}">{{talk.title}}</option>
+                            <option selected >Subject</option>
+                            {% for talk in site.data.contact.dropdown %}
+                                <option id="option" value="{{talk.title}}">{{talk.title}}</option>
                             {% endfor %}
                         </select>
                     </div>
@@ -100,5 +100,20 @@ linkLinkedin : https://www.linkedin.com/in/radhika-dutt/
         }
        
     }
+
+    const option = document.getElementById("selectedTalk");
+    const html = `     <div class="mt-3">
+                        <input required type="text" class="form-control text-input text light" id="OtherSubject" placeholder="Write your subject" name="OtherSubject">
+                    </div>`
+    option.addEventListener('change', (e)=>{
+     
+      if (e.target.value == "Other") {
+        document.getElementById("selectedTalk").insertAdjacentHTML('afterend', html)
+      }
+       else {
+        document.getElementById("OtherSubject").remove();
+      }
+    })
+
 </script>
 
