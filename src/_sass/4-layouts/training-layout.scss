@@ -1,0 +1,76 @@
+
+//Layout Trainings
+.training, .training3, .training4, .training2 {
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.icon-diagnosis, .icon-diagnosis2, .icon-diagnosis3, .icon-diagnosis4 {
+    padding: 10px;
+    min-width: auto;
+}
+
+// .icon-diagnosis3{
+//     min-width: 40px;
+// }
+
+.autentic{
+    min-width: 120px;
+}
+.training3{
+    min-width: 60px;
+}
+
+// .icon-diagnosis2{
+//     min-width: 80px;
+// }
+
+// .icon-diagnosis4{
+//     min-width: 80px;
+// }
+
+.icon-benefits{
+    max-width: 60px;
+}
+.button-book{
+    background-color:  #FFFFFF !important;
+    color:#3B5DEF !important;
+    width: 190px !important;
+
+}
+
+.line-inner{
+    border-top: 1px solid white;
+}
+
+.trainings-covers{
+    border-radius: 10px;
+    box-shadow: 0 2px 14px 0 rgba(0,0,0,0.1);
+  
+} 
+
+
+@media screen and (min-width: 760px) {
+    .col-md-4{
+        width: 32.3% !important;
+    }
+    
+}
+@media screen and (min-width: 956px) {
+   .cards-button{
+    width: 35.6% !important;
+   }
+}
+@media screen and (min-width: 1220px) {
+    .cards-button{
+     width: 23.5% !important;
+    }
+ }
+
+
+.line-height{
+    line-height: 1;
+}

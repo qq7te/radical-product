@@ -1,0 +1,65 @@
+.gray-section{
+    width: 700px;
+}
+
+#tag{
+ 
+    padding-left: 15px;
+    height: 43px;
+    padding-right: 20px;
+    border-radius: 0 100px 100px 0;
+
+    position: absolute;
+    top:67.7%;
+    span{
+        color: #fff;
+        font-size: 16px;
+        line-height: 43px;
+        text-align: center;
+    }
+}
+
+.banner-talks{
+    background-image: url("/images/rectangle-1.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: 100%;
+}
+
+.bio{
+    p{
+        font-size: 18px;
+    }
+}
+.download{
+    background-color:#F4F4F5;
+    gap: 16px;
+    border-radius: 10px;
+    flex: 0 0 auto;
+    width: 49%;
+  
+}
+
+.bi-download{
+    font-size: 32px;
+} 
+
+.btn-play{
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+}
+
+@media screen and (max-width: 991px) {
+    .download{
+        width: 100%;
+    }
+    
+}
+
+
+.modal-content{
+    background-color: transparent !important; 
+}
