@@ -1,18 +1,16 @@
-- title: Home
-  link: /
-
-
-- title: Toolkit
-  link: /toolkit/
 
 - title: Training
   link: /training/
 
-- title: About
-  link: /about/
+- title: Speaker
+  link: /speaker/
+
+- title: Toolkit
+  link: /toolkit/
 
 - title: Blog
   link: /blog/
   
-- title: Contact
-  link: /contact/
+- title: About
+  link: /about/
+
