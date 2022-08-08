@@ -11,8 +11,8 @@ image: "/images/speaker-top.png"
 <section class=" section-padding">
     <div class="container-xxl">
         <div class="row d-flex align-items-center justify-content-between gap-3 gap-lg-0">
-            <div class="col-12 col-lg-5 box-start text-center text-lg-start">
-                <h2 class="uppercase bold subtitle mb-3">Book a <span class="pink-text">Keynote speaker</span> for your event </h2>
+            <div class="col-12 col-lg-6 pe-0 pe-lg-5  text-center text-lg-start">
+                <h2 class="uppercase bold subtitle mb-3 fs-1">Book a <span class="pink-text">Keynote speaker</span> for your event. </h2>
                 <p class="big-text light tight-container mb-4">{{page.tagline}}</p>
                 <a href="/contact">
                     <button  class="primary-button text-white uppercase bg-pink" >book keynote speaker</button>
@@ -34,19 +34,19 @@ image: "/images/speaker-top.png"
     <div class="container-xxl">
         <div class="d-flex justify-content-center">
             <div class="text-center gray-section" >
-                <h3 class="purple-text uppercase mb-0 fs-5">Why book a keynote speaker</h3>
-                <h2 class="subtitle uppercase mb-3">Benefits of a corporate keynote talk on Radical Product Thinking.</h2>
+                <h3 class="purple-text uppercase mb-0 fs-">Why book a keynote speaker</h3>
+                <h2 class="subtitle uppercase mb-3 pt-2">Benefits of a corporate keynote talk on Radical Product Thinking.</h2>
             </div>
         </div>
 		
 
             <div class="mt-4" >
                 <div class="row d-flex flex-md-row-reverse align-items-center justify-content-between mb-3 mb-lg-0 ">
-                    <div class="col-12 col-md-6 d-flex justify-content-center justify-content-lg-end pe-0">
+                    <div class="col-12 col-md-6 d-flex justify-content-center justify-content-lg-end pe-xxl-0  ">
                         <img src="/images/thinking.png" alt="resorces" class="img-fluid" width="533px">
                     </div>
         
-                    <div class="col-12 col-md-5 text-center text-md-start ps-0">
+                    <div class="col-12 col-md-5 text-center text-md-start  ps-xxl-0">
                         <h2 class="uppercase bold fs-4">Align your team</h2>
                         <p class="text light">As you set a new direction for your team, a keynote talk helps you align the team. Product diseases arise when people in teams move fast, but in different directions. Speed alone isn't enough. Radical Product Thinking (RPT) gives direction to your speed.</p>
                     </div>
@@ -81,13 +81,13 @@ image: "/images/speaker-top.png"
                 <a href="{{article.link}}" class="link black-text" target="_blank">
                     <img src="{{article.img}}" alt="{{article.img}}" width="100%" class="d-block mb-2">
                 </a>
-                {% if article.tag %}
+            
                 <div id="tag" style="background-color: {{article.bg}};">
                     <span class="uppercase">
                         {{article.title}}
                     </span>
                 </div>
-                {% endif %}
+                
                
             </div>
             {% endfor %}
@@ -158,12 +158,12 @@ image: "/images/speaker-top.png"
         </div>
         <div class="d-flex flex-column flex-lg-row gap-3 gap-lg-0 justify-content-between mt-5 ">
             <a href="/zip/ranhika-headshots.zip" class="text-decoration-none download" download>
-                <div class=" d-flex p-4  justify-content-between align-items-center ">
+                <div class=" d-flex p-4  justify-content-between align-items-center flex-column flex-sm-row ">
                     <div class="d-flex gap-2 pt-2">
                         <i class="bi bi-download pink-text "></i>
                         <div>
-                            <h5 class="fw-bold fs-6 m-0 text-dark">Headshots</h5>
-                            <p class="small-text uppercase pink-text light m-0">download</p>
+                            <h5 class="fw-bold fs-5 m-0 text-dark">Headshots</h5>
+                            <p class="small-text  pink-text light m-0">Download</p>
                         </div>
                     </div>
                     <div>
@@ -173,15 +173,15 @@ image: "/images/speaker-top.png"
             </a>
 
             <a href="/zip/books.zip" class="text-decoration-none download" download>
-                <div class=" d-flex p-4  justify-content-between align-items-center ">
+                <div class=" d-flex p-4  justify-content-between align-items-center flex-column flex-sm-row">
                     <div class="d-flex gap-2 pt-2">
                         <i class="bi bi-download pink-text "></i>
                         <div>
-                            <h5 class="fw-bold fs-6 m-0 text-dark">Book Covers</h5>
-                            <p class="small-text uppercase pink-text light m-0">download</p>
+                            <h5 class="fw-bold fs-5 m-0 text-dark">Book Covers</h5>
+                            <p class="small-text  pink-text light m-0">Download</p>
                         </div>
                     </div>
-                    <div>
+                    <div class="d-flex gap-2 img-fluid">
                         <img src="/images/book1.jpeg" alt="images" class="img-fluid" width="50px">
                         <img src="/images/book2.jpeg" alt="images" class="img-fluid" width="50px">
                     </div>
@@ -200,7 +200,7 @@ image: "/images/speaker-top.png"
             
             <div class="row text-center text-lg-start  mt-2">
                 <div class="col-12 col-lg-8 pb-3 pb-lg-0">
-                    <h2 class="subtitle uppercase text-white text-center text-lg-start">Book this training</h2>
+                    <h2 class="subtitle uppercase text-white text-center text-lg-start">Book this trainings</h2>
                 </div>
                 <div class="col-12 col-lg-4 d-flex align-items-center align-items-lg-end flex-column" >
                     <a href="/contact" type="buttom" class="uppercase btn button-book py-2">Book training</a>
@@ -208,9 +208,9 @@ image: "/images/speaker-top.png"
             </div>
            
             
-            <div class="d-flex  row gap-3  px-2 px-lg-0 align-items-center align-items-sm-stretch justify-content-center pt-4 ">
+            <div class="d-flex gap-md-2 row px-3 px-lg-0 align-items-center align-items-sm-stretch justify-content-center pt-4 ">
                 {% for post in site.training_posts%}
-                        <div class="bg-white rounded-2 d-flex flex-column align-items-center col-10 cards-button  mb-2 mb-md-0 p-3 flex-column ">
+                        <div class="bg-white rounded-2 d-flex flex-column align-items-center  cards-button  mb-2 mb-md-0 p-3 flex-column ">
                             
                             <div class="align-self-xxl-start ps-xxl-3">
                                 <img src="{{post.img}}" alt="{{post.img}}" width="50px">
@@ -243,6 +243,7 @@ image: "/images/speaker-top.png"
         
     </div>
 </section>
+
 
 <section>
     <div class="modal fade" id="ventanaModal" tabindex="-1" role="dialog"  aria-labelledby="ventanaModalLabel" aria-hidden="true" >

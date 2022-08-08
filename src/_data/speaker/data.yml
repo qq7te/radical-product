@@ -3,32 +3,31 @@
 - img: "/images/video-5.png"
   link: "https://youtu.be/4VMOGp8Jp1M"
   title: In-person talk
-  tag: true
   bg: "#FF1A4D"
 
 - img: "/images/video-6.png"
   link: "https://youtu.be/dr5Yup4izMg"
   title: Virtual talk
-  tag: true
   bg: "#3B5DEF"
 
 
-- img: "/images/video-1.png"
+- img: "/images/podcast1.png"
   link: "https://youtu.be/QlTpMmUX6wo"
-
+  bg: "#53B455"
+  title: Podcast
 
 - img: "/images/video-4.png"
   link: "https://youtu.be/oU84fFHVFvY"
   title: In-person talk
-  tag: true
   bg: "#FF1A4D"
 
 - img: "/images/video-3.png"
   link: "https://youtu.be/NYc4Rbgxvog"
   title: Virtual talk
-  tag: true
   bg: "#3B5DEF"
 
-- img: "/images/video-2.png"
+- img: "/images/podcast2.png"
   link: "https://vimeo.com/704668104"
+  bg: "#53B455"
+  title: Podcast
   

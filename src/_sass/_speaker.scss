@@ -5,15 +5,15 @@
 #tag{
  
     padding-left: 15px;
-    height: 43px;
+   
     padding-right: 20px;
     border-radius: 0 100px 100px 0;
 
     position: absolute;
-    top:67.7%;
+    top:57.7%;
     span{
         color: #fff;
-        font-size: 16px;
+        font-size: 12px;
         line-height: 43px;
         text-align: center;
     }
@@ -52,6 +52,69 @@
     margin: -25px 0 0 -25px;
 }
 
+.modal-content{
+    background-color: transparent !important; 
+}
+
+
+
+
+
+//media querys
+
+@media screen and (min-width: 372px) {
+    #tag{
+        top:68.7%;
+        span{
+            font-size: 12px;
+            
+        }
+    }
+}
+
+@media screen and (min-width: 448px) {
+    #tag{
+        top:68.7%;
+        span{
+            font-size: 16px;
+            
+        }
+    }
+}
+@media screen and (min-width: 623px) {
+    #tag{
+        top:72.7%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        span{
+            font-size: 22px;
+            
+        }
+    }
+}
+@media screen and (min-width: 760px) {
+    #tag{
+        top:58.7%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        span{
+            font-size: 12px;
+            
+        }
+    }
+}
+@media screen and (min-width: 1100px) {
+    #tag{
+        top:65.7%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        span{
+            font-size: 16px;
+            
+        }
+    }
+}
+
 @media screen and (max-width: 991px) {
     .download{
         width: 100%;
@@ -59,7 +122,3 @@
     
 }
 
-
-.modal-content{
-    background-color: transparent !important; 
-}
