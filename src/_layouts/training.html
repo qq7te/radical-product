@@ -160,17 +160,12 @@ layout: default
 <section class="section-padding bg-gray">
     <div class="container-xxl">
         <h2 class="subtitle uppercase mb-3">{{page.titleFour}}</h2>
-      
-            
-            <!-- <p class="text light text-container mb-0">{{page.titleFourDescription}}</p>
-            <p class="text light text-container mb-4">{{page.titleFourDescription2}}:</p>
-         -->
-
+    
         <div class="pt-3">
             <div class="bg-white  trainings-covers ">
                 {% for session in page.list %}
                 <div class="row border-bottom mx-1">
-                    <div class=" p-4 text-center col-12 border-bottom col-md-2  py-5 pb-3 pb-mf-5 d-flex flex-column justify-content-center border-end">
+                    <div class=" p-4 text-center col-12  col-md-2  py-5 pb-3 pb-mf-5 d-flex flex-column justify-content-center  covers">
                         <div class="pb-3">
                             <img src="{{session.sessionicon}}" alt="{{session.icon}}" width="50px">
                         </div>
@@ -223,48 +218,6 @@ layout: default
                 </div>
             </div>
 
-
-            <!-- <div id="carouselIndicators" class="carousel slide" data-bs-ride="carousel"  data-bs-interval="10000">
-                <div class="carousel-indicators position-static">
-                    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active vision" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" class="priorities" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" class="strategy 
-                    {% if page.sessions < 4%}
-                        d-none
-                    {% endif %}" aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="3" class="execution
-                    {% if page.sessions < 4%}
-                    d-none
-                {% endif %}" aria-label="Slide 4"></button>
-                                  </div>
-                <div class="carousel-inner mb-5">
-                    {% for session in page.list %}
-                        <div class=" carousel-item {% if forloop.first == true %} active{% endif %}">
-                            <div class="box p-5">
-                                <div class="row d-flex flex-column-reverse flex-md-row align-items-center">
-                                    <div class="col-md-6 col-12">   
-                                        <h6 class="pt-3 pt-md-0 purple-text uppercase mb-2">{{session.session}}</h6>
-                                        <h4 class="text bold uppercase mb-3">{{session.title}}</h4>
-                                        <p class=" light">{{session.copy}}</p>
-                                        {% if session.hasList %}
-                                        <ul class="m-0">
-                                            {% for item in session.list %}
-                                            <li class="small-text light mb-0">{{item}}</li>
-                                            {% endfor %}
-                                        </ul>
-                                        {% endif %}
-                                        <a href="{{session.link | prepend: site.baseurl}}" class="link pink-text ">{{session.learn}} <i class="bi bi-arrow-right"></i></a>
-                                    </div>
-                                    <div class="col-md-6 col-12">
-                                        <img src="{{session.img}}" alt="{{session.img}}" width="100%">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                      
-                    {% endfor %}
-                </div>
-            </div> -->
 
         </div>
         <div class="py-3"></div>
