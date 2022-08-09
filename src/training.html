@@ -7,6 +7,9 @@ tagline: "You want to innovate fast so you rely on quick iterations using method
  Lean and Agile. But you're finding that speed looks like chaos because everyone is moving fast, but in different directions.
   Get the training your team needs to align your team and systematically translate your vision into successful products."
 
+bookshopLink: "https://bookshop.org/books/radical-product-thinking-the-new-mindset-for-innovating-smarter/9781523093311"
+barnesLink: "https://www.barnesandnoble.com/s/radical%20product%20thinking"
+amazonLink: "https://www.amazon.com/Radical-Product-Thinking-Mindset-Innovating-ebook/dp/B08ZNV7SW4/ref=sr_1_1?dchild=1&keywords=radical+product&qid=1624988263&sr=8-1"
 
 trainingTitle: "Trainings"
 trainingSubTitle: "Choose the training that's right for your team"
@@ -74,12 +77,14 @@ bookPeakLink: "/pdf/excerpt.pdf"
                     </div>
                     <div class="card-body pb-5 d-flex flex-column align-items-center justify-content-center pt-0">
                         <img class="img-fluid py-4 mt-3" src="{{item.img}}" width="86px" alt="{{item.title}}">
-                        <h3 class="card-title pink-text fs-5 ">
-                            {%if item.titleCard %}
-                            {{item.titleCard}}
-                            {%else %}
-                            {{item.title}}
-                            {%endif%}</h3>
+                        <a href="{{item.url | prepend: site.baseurl}}" class="text-decoration-none">
+                            <h3 class="card-title pink-text fs-5 ">
+                                {%if item.titleCard %}
+                                {{item.titleCard}}
+                                {%else %}
+                                {{item.title}}
+                                {%endif%}</h3>
+                        </a>
                         <div class="pb-3">
                             <p class="card-text  ">{{item.descriptionCard}}</p>
                         </div>
@@ -102,7 +107,7 @@ bookPeakLink: "/pdf/excerpt.pdf"
         <div class="row bg-purple wavy-bg-img round m-0 p-3">
             <div class="row my-1  text-center text-lg-start pt-3">
                 <div class="col-12 col-lg-5 ps-4">
-                    <h2 class="subtitle uppercase fs-3 mt-2 text-white ">What clients are saying</h2>
+                    <h2 class="subtitle uppercase fs-4 mt-2 text-white ">What clients are saying</h2>
                 </div>
                 <div class="col-12 col-lg-7 d-flex flex-column  justify-content-center ">
                     <div class="line-inner d-none d-lg-inline"></div>
@@ -111,7 +116,7 @@ bookPeakLink: "/pdf/excerpt.pdf"
           
             {% for testimonial in site.data.testimonials.trainings %}
             <div class="col-12 col-md-6 white-text p-4 pt-3">
-                <h2 class="text light fs-5">{{testimonial.testimonial}}</h2>
+                <p class="text light fs-6">{{testimonial.testimonial}}</p>
                 <span class="small-text light fst-italic">- {{testimonial.author}}</span>
             </div>
             {% endfor %}
@@ -126,7 +131,7 @@ bookPeakLink: "/pdf/excerpt.pdf"
             </div>
 
             <div class="col-12 col-md-6 text-center text-md-start ">
-                <h2 class="uppercase bold">{{page.midSectionTitle}}</h2>
+                <h2 class="uppercase bold fs-3">{{page.midSectionTitle}}</h2>
                 <p class="text light">{{page.midSectionCopy}}</p>
                 <div class="d-flex text-center  mid-section justify-content-center justify-content-md-start row">
                     <div class="col-6 col-md-3 col-lg-2">
@@ -159,7 +164,7 @@ bookPeakLink: "/pdf/excerpt.pdf"
             </div>
 
             <div class="col-12 col-md-6 text-center text-md-start">
-                <h2 class="uppercase bold">{{page.midSection2Title}}</h2>
+                <h2 class="uppercase bold fs-3">{{page.midSection2Title}}</h2>
                 <p class="text light">{{page.midSection2Copy}}</p>
                 <a href="/toolkit/" class="link pink-text ">Learn more about the framework <i class="bi bi-arrow-right"></i></a>
 
@@ -178,15 +183,15 @@ bookPeakLink: "/pdf/excerpt.pdf"
                 <div class="row d-flex align-items-center py-3">
                     <div class="col-12 col-md-12 col-lg-9 mb-4 mb-lg-0">
                         <h6 class="text light mb-0">{{page.bookTagline}}</h6>
-                        <h2 class="subtitle pink-text uppercase bold mb-0">{{page.bookTitle}}</h2>
+                        <h2 class="subtitle pink-text uppercase bold mb-0 fs-3">{{page.bookTitle}}</h2>
                         <a href="{{page.bookPeakLink}}" class="link pink-text uppercase" download>{{page.bookPeakCopy}} <i class="bi bi-arrow-right"></i></a>
                     </div>
                     <div class="col-12 col-md-12 col-lg-3 d-lg-flex justify-content-end ">
                         <div>
                             <span class="d-block mb-0 text light">Get the book:</span>
-                            <a href="{{page.bookshopLink}}" class="bookshop white-text mb-1"><img src="/images/bookshop.png" alt="" width="50px"></a>
-                            <a href="{{page.amazonLink}}" class="amazon white-text mb-1"><img src="/images/amazon.png" alt="" width="50px"></a>
-                            <a href="{{page.barnesLink}}" class="barnes white-text"><img src="/images/barnes.png" alt="" width="50px"></a>
+                            <a href="{{page.bookshopLink}}" class="bookshop white-text mb-1"><img src="/images/bookshop.png" alt="/images/bookshop.png" width="50px"></a>
+                            <a href="{{page.amazonLink}}" class="amazon white-text mb-1"><img src="/images/amazon.png" alt="/images/amazon.png" width="50px"></a>
+                            <a href="{{page.barnesLink}}" class="barnes white-text"><img src="/images/barnes.png" alt="/images/barnes.png" width="50px"></a>
                       
                         </div>
                     </div>
@@ -201,7 +206,7 @@ bookPeakLink: "/pdf/excerpt.pdf"
             
             <div class="row text-center text-lg-start  mt-2">
                 <div class="col-12 col-lg-8 pb-3 pb-lg-0">
-                    <h2 class="subtitle uppercase text-white text-center text-lg-start">Book this trainings</h2>
+                    <h2 class="subtitle uppercase text-white text-center text-lg-start fs-3">Book our trainings</h2>
                 </div>
                 <div class="col-12 col-lg-4 d-flex align-items-center align-items-lg-end flex-column" >
                     <a href="/contact" type="buttom" class="uppercase btn button-book py-2">Book training</a>

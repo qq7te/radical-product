@@ -21,7 +21,7 @@ image: "/images/speaker-top.png"
 
             <div class="col-12 col-lg-6 position-relative">
                 <img class="training-img img-fluid" src="{{page.image}}" alt="speaker-image">
-                <button class="btn-play" id="botonVentanaModal" type="button" data-toggle="modal" data-target="#videoModal" data-theVideo="http://www.youtube.com/embed/loFtozxZG0s">
+                <button class="btn-play" id="botonVentanaModal" type="button" data-toggle="modal" data-target="#videoModal" data-theVideo="https://www.youtube.com/embed/oU84fFHVFvY">
                     <img class="speaker-img" src="/images/session-icons-pink/play.png" alt="play" width="70px">
                 </button>
             </div>
@@ -34,8 +34,8 @@ image: "/images/speaker-top.png"
     <div class="container-xxl">
         <div class="d-flex justify-content-center">
             <div class="text-center gray-section" >
-                <h3 class="purple-text uppercase mb-0 fs-">Why book a keynote speaker</h3>
-                <h2 class="subtitle uppercase mb-3 pt-2">Benefits of a corporate keynote talk on Radical Product Thinking.</h2>
+                <h3 class="purple-text uppercase mb-0 fs-5">Why book a keynote speaker</h3>
+                <h2 class="subtitle uppercase mb-3 pt-2 fs-3">Benefits of a corporate keynote talk on Radical Product Thinking.</h2>
             </div>
         </div>
 		
@@ -72,15 +72,15 @@ image: "/images/speaker-top.png"
         <div class="d-flex justify-content-center mb-2">
             <div class="text-center gray-section" >
                 <h3 class="purple-text uppercase  fs-5">Examples of speaking events</h3>
-                <h2 class="subtitle uppercase mb-3">in-person keynote speeches, virtual talks, or podcasts by Radhika Dutt.</h2>
+                <h2 class="subtitle uppercase mb-3 fs-3">in-person keynote speeches, virtual talks, or podcasts by Radhika Dutt.</h2>
             </div>
         </div>
         <div class="row gy-md-5 px-2 px-xxl-0 justify-content-between">
             {% for article in site.data.speaker.data%}
             <div class="col-12 col-md-4 position-relative p-0">
-                <a href="{{article.link}}" class="link black-text" target="_blank">
+                <button type="button" class="link black-text" id="{{article.id}}"   data-toggle="modal" data-target="#videoModal" data-theVideo="{{article.link}}">
                     <img src="{{article.img}}" alt="{{article.img}}" width="100%" class="d-block mb-2">
-                </a>
+                </button>
             
                 <div id="tag" style="background-color: {{article.bg}};">
                     <span class="uppercase">
@@ -101,10 +101,10 @@ image: "/images/speaker-top.png"
 
 <section class="section-padding banner-talks bg-gray" id="talks">
     <div class="container-xxl">
-        <div class="d-flex justify-content-center mb-2">
-            <div class="text-center gray-section" >
+        <div class="d-flex  justify-content-center text-center mb-2">
+            <div class="text-center gray-section " >
                 <h3 class="purple-text uppercase  fs-5">FOR YOUR SPEAKING EVENT</h3>
-                <h2 class="subtitle uppercase mb-3">Talks that engage and inspire</h2>
+                <h2 class="subtitle uppercase mb-3 fs-3">Talks that engage and inspire</h2>
                 <p class="text light text-container mb-3">These thought-provoking and inspiring keynote talks offer the right mix of inspiration and practical advice to create a lasting impact on the audience.</p>
 
             </div>
@@ -147,7 +147,7 @@ image: "/images/speaker-top.png"
         <div class="row d-flex align-items-center  gap-3 gap-lg-0 bio justify-content-between">
             <div class="col-12 col-lg-5  text-center text-lg-start ">
                 <h3 class="purple-text uppercase mb-0 fs-5">SPEAKER BIO</h3>
-                <h2 class="subtitle uppercase mb-3">Radhika Dutt</h2>
+                <h2 class="subtitle uppercase mb-3 fs-3">Radhika Dutt</h2>
                 <p class="light ">Radhika Dutt is the author of Radical Product Thinking: The New Mindset for Innovating Smarter which is being translated into several languages including Chinese and Japanese. 
                     She is an entrepreneur and product leader who has participated in four acquisitions, two of which were companies that she founded. She advises organizations from high-tech startups to government agencies on building radical products that create a fundamental change. She is currently Advisor on Product Thinking for the Monetary Authority of Singapore, Singapore’s central bank and financial regulator. Radhika has built products in a wide range of industries including broadcast, media and entertainment, telecom, advertising technology, government, consumer apps, robotics, and even wine. She serves on the board of the Association of Product Professionals and the independent publisher, Berrett Koehler. She graduated from MIT with an SB and M.Eng in Electrical Engineering, and speaks nine languages.</p>
             </div>
@@ -200,7 +200,7 @@ image: "/images/speaker-top.png"
             
             <div class="row text-center text-lg-start  mt-2">
                 <div class="col-12 col-lg-8 pb-3 pb-lg-0">
-                    <h2 class="subtitle uppercase text-white text-center text-lg-start">Book this trainings</h2>
+                    <h2 class="subtitle uppercase text-white text-center text-lg-start fs-3">Book our trainings</h2>
                 </div>
                 <div class="col-12 col-lg-4 d-flex align-items-center align-items-lg-end flex-column" >
                     <a href="/contact" type="buttom" class="uppercase btn button-book py-2">Book training</a>
@@ -257,11 +257,13 @@ image: "/images/speaker-top.png"
 
         <div class="modal-body p-0">
           <div class="embed-responsive">
-            <iframe width="100%" height="700px" id="iframeVideo" class="embed-responsive-item" src="https://www.youtube.com/embed/lXY0pGYJdaw"  allow="autoplay" ></iframe>
+            <iframe width="100%" height="700px" id="iframeVideo"  frameborder="0" class="embed-responsive-item"  allow="autoplay" allowfullscreen ></iframe>
           </div>
         </div>
-      
+        <script src="https://player.vimeo.com/api/player.js"></script>
       </div>
     </div>
   </div>
 </section>
+
+

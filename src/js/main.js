@@ -58,20 +58,55 @@ function bookTalk() {
 $(function(){
 
 	const $botonVentanaModal=$('#botonVentanaModal');
+	const $botonVentanaModal1=$('#video-1');
+	const $botonVentanaModal2=$('#video-2');
+	const $botonVentanaModal3=$('#video-3');
+	const $botonVentanaModal4=$('#video-4');
+	const $botonVentanaModal5=$('#video-5');
+	const $botonVentanaModal6=$('#video-6');
 	const $ventanaModal = $('#ventanaModal');
 	const $iframeVideo = $('#iframeVideo');
-	let videoSrc= "https://www.youtube.com/embed/oU84fFHVFvY";
+
+	
 
 	$botonVentanaModal.on('click',function(){
-		$iframeVideo.attr('src',videoSrc+"?autoplay=1");
-		$ventanaModal.modal('show');
+		video($botonVentanaModal, $iframeVideo, $ventanaModal);
 	});
 
+	$botonVentanaModal1.on('click',function(){
+		video($botonVentanaModal1, $iframeVideo, $ventanaModal);
+	});
+
+	$botonVentanaModal2.on('click',function(){
+		video($botonVentanaModal2, $iframeVideo, $ventanaModal);
+	});
+
+	$botonVentanaModal3.on('click',function(){
+		video($botonVentanaModal3, $iframeVideo, $ventanaModal);
+	});
+
+	$botonVentanaModal4.on('click',function(){
+		video($botonVentanaModal4, $iframeVideo, $ventanaModal);
+	});
+
+	$botonVentanaModal5.on('click',function(){
+		video($botonVentanaModal5, $iframeVideo, $ventanaModal);
+	});
+	$botonVentanaModal6.on('click',function(){
+		video($botonVentanaModal6, $iframeVideo, $ventanaModal);
+	});
 
 	$ventanaModal.on('hidden.bs.modal', function (event) {
 	  
 	  $iframeVideo.attr('src',null);
 
 	});
+
+
+	function video(botonVentanaModal, iframeVideo, ventanaModal)  {
+		let videoSrc = botonVentanaModal.attr('data-theVideo')
+		iframeVideo.attr('src',videoSrc+"?autoplay=1&loop=1&autopause=0");
+		ventanaModal.modal('show');
+	}
 	 
   });  

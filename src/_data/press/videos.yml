@@ -3,11 +3,13 @@
   type: Video
   source: Product Talks
   img: /images/press/video-1.png
+  available: false
 
 - title: The Art of Prioritisation
   link: https://www.youtube.com/watch?v=lTitRy0vViI
   type: Video
   source: Product Talks
+  available: false
   img: /images/press/video-2.png
 
 - title: Building Products That Are User-Centric by Design
@@ -15,3 +17,4 @@
   type: Video
   source: Product Management Festival
   img: /images/press/video-3.png
+  available: true

@@ -1,33 +1,39 @@
 
 
 - img: "/images/video-5.png"
-  link: "https://youtu.be/4VMOGp8Jp1M"
+  link: "https://www.youtube.com/embed/4VMOGp8Jp1M"
   title: In-person talk
   bg: "#FF1A4D"
+  id: "video-5"
 
 - img: "/images/video-6.png"
-  link: "https://youtu.be/dr5Yup4izMg"
+  link: "https://www.youtube.com/embed/dr5Yup4izMg"
   title: Virtual talk
   bg: "#3B5DEF"
+  id: "video-6"
 
 
 - img: "/images/podcast1.png"
-  link: "https://youtu.be/QlTpMmUX6wo"
+  link: "https://www.youtube.com/embed/QlTpMmUX6wo"
   bg: "#53B455"
   title: Podcast
+  id: "video-1"
 
 - img: "/images/video-4.png"
-  link: "https://youtu.be/oU84fFHVFvY"
+  link: "https://www.youtube.com/embed/oU84fFHVFvY"
   title: In-person talk
   bg: "#FF1A4D"
+  id: "video-4"
 
 - img: "/images/video-3.png"
-  link: "https://youtu.be/NYc4Rbgxvog"
+  link: "https://www.youtube.com/embed/NYc4Rbgxvog"
   title: Virtual talk
   bg: "#3B5DEF"
+  id: "video-3"
 
 - img: "/images/podcast2.png"
-  link: "https://vimeo.com/704668104"
+  link: "https://player.vimeo.com/video/704668104?h=c18491d98a"
   bg: "#53B455"
   title: Podcast
+  id: "video-2"
   
