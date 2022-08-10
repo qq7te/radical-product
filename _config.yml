@@ -137,6 +137,15 @@ sass:
   sass_dir: _sass
   style: compressed
 
+# Collections
+collections:
+  training_posts:
+    people: true
+    output: true
+    permalink: /:name
+  
+     
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -3,6 +3,13 @@
     {
         width: 260px;
     }
+   
+    
+    .contact-section{
+        
+        background-position-y: 50%;
+    
+    }
 }
 
 @media screen and (min-width: 470px) {
@@ -10,6 +17,9 @@ html
     {
         font-size: 20px;
     }
+
+    
+
 }
 
 @media screen and (min-width: 520px)
@@ -82,4 +92,41 @@ html
     .mid-input {
         max-width: 400px;
     }
+    
+
+}
+
+@media screen and (max-width: 868px){
+
+    .training-mid-section{
+        max-width: 60px;
+    }
+
+    .contact-section{
+        
+        background-position-y: 50%;
+    
+    }
+   
+}
+@media screen and (max-width: 991px){
+
+    .nav-item{
+       display: flex !important;
+
+    }
+    .navbar-nav{
+        margin-left: 20px !important;
+    }
+    
+
+}
+@media screen and (min-width: 1419px){
+
+    .contact-section{
+        
+        background-position-y: 0;
+    
+    }
+   
 }

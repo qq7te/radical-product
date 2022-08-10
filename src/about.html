@@ -43,7 +43,7 @@ emailInputPlaceholder: Enter your email
     <div class="container-xxl">
         <div class="row d-flex align-items-center">
             <div class="col-12 col-md-6">
-                <h6 class="purple-text uppercase">{{page.historyTag}}</h6>
+                <h6 class="purple-text uppercase fs-5">{{page.historyTag}}</h6>
                 <h2 class="subtitle uppercase">{{page.historyTitle}}</h2>
                 <p class="text light">{{page.historyCopy}}</p>
                 <p class="text light">{{page.historyCopy2}}</p>
@@ -58,7 +58,7 @@ emailInputPlaceholder: Enter your email
 <section class="section-padding">
     <div class="container-xxl">
 
-        <h6 class="purple-text uppercase">{{page.testimonialsTag}}</h6>
+        <h6 class="purple-text uppercase fs-5">{{page.testimonialsTag}}</h6>
         <h2 class="subtitle uppercase">{{page.testimonialsTitle}}</h2>
         <p class="text light mb-5">{{page.testimonialsCopy}}</p>
 
@@ -86,7 +86,7 @@ emailInputPlaceholder: Enter your email
                 <div class="col-12 col-md-6 px-5">
                     <form class="bg-white rounded p-4" name="userTestimonials" netlify>
                         <div>
-                            <h5 class="text uppercase bold mb-3">{{page.testimonialsLabel}}</h5>
+                            <h5 class="text uppercase bold mb-3 fs-5">{{page.testimonialsLabel}}</h5>
                             <textarea  class="d-block form-control w-100" name="story" id="userStory" rows="4"></textarea>
                         </div>
                         <div class="text-end">
@@ -102,7 +102,7 @@ emailInputPlaceholder: Enter your email
 
 <section class="section-padding bg-gray">
     <div class="container-xxl">
-        <h6 class="text uppercase purple-text text-center">{{page.galleryTag}}</h6>
+        <h6 class="text uppercase purple-text text-center fs-5">{{page.galleryTag}}</h6>
         <h2 class="subtitle uppercase text-center mb-5">{{page.galleryTitle}}</h2>
 
         <div class="row">
@@ -118,14 +118,19 @@ emailInputPlaceholder: Enter your email
             {% endfor %}
 
             {% for video in site.data.press.videos %}
+            {% if video.available %}
             <div class="col-12 col-md-4 mb-5">
-                <a href="{{video.link}}" class="link black-text" target="_blank">
-                    <img src="{{video.img}}" alt="" width="100%" class="d-block mb-2">
-                    <span class="gray-text light small-text badge bg-purple">{{video.type}}</span>
-                    <p class="text bold mb-0">{{video.title}}</p>
-                    <span class="gray-text light small-text">{{video.source}}</span>
-                </a>
+              
+                    <a href="{{video.link}}" class="link black-text" target="_blank">
+                        <img src="{{video.img}}" alt="" width="100%" class="d-block mb-2">
+                        <span class="gray-text light small-text badge bg-purple">{{video.type}}</span>
+                        <p class="text bold mb-0">{{video.title}}</p>
+                        <span class="gray-text light small-text">{{video.source}}</span>
+                    </a>
+               
+              
             </div>
+            {% endif %}
             {% endfor %}
 
             {% for podcast in site.data.press.podcast %}
@@ -145,7 +150,9 @@ emailInputPlaceholder: Enter your email
 <section class="bg-purple wavy-bg-img py-5">
     <div class="container-xxl white-text">
         <h2 class="subtitle uppercase">{{page.helpTitle}}</h2>
-        <p class="text light">{{page.helpCopy}}</p>
+        <p class="text light">If you want hands-on help integrating Radical Product thinking into your organization.
+            <br>
+            We offer coaching, training, and workshops to individuals and teams. Please get in touch below to start the conversation.</p>
         <div>
 
             <form action="https://radicalproduct.us10.list-manage.com/subscribe/post?u=5559a62245d86aeeefd822705&amp;id=7fc7e415ad"

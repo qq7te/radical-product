@@ -29,10 +29,10 @@ resourcesCopy: "Start working with the Radical Product Thinking methodology - th
 resourcesLinkCopy: "Get the tools you need"
 resourcesLink: "/toolkit"
 
-workshopTagline: "Radical Product Talks"
-workshopTitle: "VIDEOS FROM PAST EVENTS"
-workshopLinkCopy: "Browse workshops"
-workshopLink: "/workshops"
+mediaTagline: "Radical Product Talks"
+mediaTitle: "VIDEOS FROM PAST EVENTS"
+trainingLinkCopy: "Checkout our trainings"
+trainingLink: "/training"
 
 helpTitle: "GET HANDS-ON HELP"
 helpCopy: "If you want hands-on help integrating Radical Product thinking into your organization. We offer coaching, training, and workshops to individuals and teams. Please get in touch below to start the conversation."
@@ -139,24 +139,24 @@ helpCTA: "Let's chat"
 
 <section class="section-padding">
     <div class="container-xxl">
-        <h6 class="text uppercase purple-text text-center">{{page.workshopTagline}}</h6>
-        <h2 class="subtitle uppercase text-center">{{page.workshopTitle}}</h2>
+        <h6 class="text uppercase purple-text text-center">{{page.mediaTagline}}</h6>
+        <h2 class="subtitle uppercase text-center">{{page.mediaTitle}}</h2>
 
         <div class="row">
-            {% for workshop in site.data.workshops %}
+            {% for media in site.data.media %}
             <div class="col-12 col-md-4">
-                <a href="{{workshop.link}}" class="link black-text" target="_blank">
-                    <img src="{{workshop.thumbnail}}" alt="" width="100%" class="d-block mb-2">
-                    <span class="gray-text light">{{workshop.date}}</span>
-                    <p class="text bold">{{workshop.title}}</p>
-                    <span class="light">{{workshop.copy}}</span>
+                <a href="{{media.link}}" class="link black-text" target="_blank">
+                    <img src="{{media.thumbnail}}" alt="" width="100%" class="d-block mb-2">
+                    <span class="gray-text light">{{media.date}}</span>
+                    <p class="text bold">{{media.title}}</p>
+                    <span class="light">{{media.copy}}</span>
                 </a>
             </div>
             {% endfor %}
         </div>
 
         <div class="text-center mt-3">
-            <a href="{{page.workshopLink}}" class="pink-text link uppercase">{{page.workshopLinkCopy}} <i class="bi bi-arrow-right"></i></a>
+            <a href="{{page.trainingLink}}" class="pink-text link uppercase">{{page.trainingLinkCopy}} <i class="bi bi-arrow-right"></i></a>
         </div>
     </div>
 </section>
@@ -165,7 +165,9 @@ helpCTA: "Let's chat"
 <section class="bg-purple wavy-bg-img py-5">
     <div class="container-xxl white-text">
         <h2 class="subtitle uppercase">{{page.helpTitle}}</h2>
-        <p class="text light">{{page.helpCopy}}</p>
+        <p class="text light">If you want hands-on help integrating Radical Product thinking into your organization.
+            <br>
+            We offer coaching, training, and workshops to individuals and teams. Please get in touch below to start the conversation.</p>
         <div>
 
             <form action="https://radicalproduct.us10.list-manage.com/subscribe/post?u=5559a62245d86aeeefd822705&amp;id=7fc7e415ad"

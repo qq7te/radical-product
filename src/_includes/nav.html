@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light py-3">
 	<div class="container-xxl d-flex justify-content-between align-items-center">
 		<a class="navbar-brand" href="/">
-			<img src="../../img/logo.svg" alt="" class="logo">
+			<img src="/img/logo.svg" alt="radical-logo" class="logo">
 	  	</a>
 
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -9,22 +9,32 @@
 		</button>
 
 		<div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
-			<ul class="navbar-nav">
+			<ul class="navbar-nav gap-2">
+
+				{% for item in site.data.menu %}
+				
 				<li class="nav-item">
-					<a class="nav-link uppercase small-text light" href="/">Home</a>
+					      <a class="nav-link uppercase small-text light  
+              {% if page.url == item.link %}
+              custom-active
+              {%else%}
+                {% if page.collection == "training_posts" %}
+                  {% if item.title == "Training" && page.layout == "training" %}
+                  custom-active
+                  {%endif%}
+                {% endif %}
+              {% endif %}" href="{{item.link}}">{{item.title}}</a>
+			  <span>
+				
+			</span>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link uppercase small-text light" href="/toolkit">Toolkit</a>
+				{% endfor %}
+				<li>
+					<a href="/contact">
+                        <button  class=" primary-button px-3  py-2 text-white uppercase bg-pink mt-2 mt-lg-0 ms-lg-2" >Contact</button>
+                    </a>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link uppercase small-text light" href="/workshops">Workshops</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link uppercase small-text light" href="/about">About</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link uppercase small-text light" href="/blog">Blog</a>
-				</li>
+				
 			</ul>
 		</div>
 	</div>

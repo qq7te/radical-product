@@ -1,0 +1,125 @@
+.gray-section{
+    width: 650px;
+}
+
+#tag{
+ 
+    padding-left: 15px;
+   
+    padding-right: 20px;
+    border-radius: 0 100px 100px 0;
+
+    position: absolute;
+    top:57.7%;
+    span{
+        color: #fff;
+        font-size: 12px;
+        line-height: 43px;
+        text-align: center;
+    }
+}
+
+.banner-talks{
+    background-image: url("/images/rectangle-1.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: 100%;
+}
+
+.bio{
+    p{
+        font-size: 18px;
+    }
+}
+.download{
+    background-color:#F4F4F5;
+    gap: 16px;
+    border-radius: 10px;
+    flex: 0 0 auto;
+    width: 49%;
+  
+}
+
+.bi-download{
+    font-size: 32px;
+} 
+
+.btn-play{
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+}
+
+.modal-content{
+    background-color: transparent !important; 
+}
+
+
+
+
+
+//media querys
+
+@media screen and (min-width: 372px) {
+    #tag{
+        top:68.7%;
+        span{
+            font-size: 12px;
+            
+        }
+    }
+}
+
+@media screen and (min-width: 448px) {
+    #tag{
+        top:68.7%;
+        span{
+            font-size: 16px;
+            
+        }
+    }
+}
+@media screen and (min-width: 623px) {
+    #tag{
+        top:72.7%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        span{
+            font-size: 22px;
+            
+        }
+    }
+}
+@media screen and (min-width: 760px) {
+    #tag{
+        top:58.7%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        span{
+            font-size: 12px;
+            
+        }
+    }
+}
+@media screen and (min-width: 1100px) {
+    #tag{
+        top:65.7%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        span{
+            font-size: 16px;
+            
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .download{
+        width: 100%;
+    }
+    
+}
+
+

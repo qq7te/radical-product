@@ -1,0 +1,269 @@
+---
+layout: default
+title: Radical Speaker
+tagline: Whether you’re looking for a corporate keynote speaker or booking a speaker for a conference, you need someone to deliver a thought-provoking talk that inspires attendees, and gives them actionable takeaways that they’ll apply for years to come.
+image: "/images/speaker-top.png"
+---
+
+<header>
+    {% include nav.html %}
+</header>
+<section class=" section-padding">
+    <div class="container-xxl">
+        <div class="row d-flex align-items-center justify-content-between gap-3 gap-lg-0">
+            <div class="col-12 col-lg-6 pe-lg-5  text-center text-lg-start">
+                <h2 class="uppercase bold subtitle mb-3 fs-1">Book a <span class="pink-text">Keynote speaker</span> for your event. </h2>
+                <p class="big-text light tight-container mb-4">{{page.tagline}}</p>
+                <a href="/contact">
+                    <button  class="primary-button text-white uppercase bg-pink" >book keynote speaker</button>
+                </a>
+            </div>
+
+            <div class="col-12 col-lg-6 position-relative">
+                <img class="training-img img-fluid" src="{{page.image}}" alt="speaker-image">
+                <button class="btn-play" id="botonVentanaModal" type="button" data-toggle="modal" data-target="#videoModal" data-theVideo="https://www.youtube.com/embed/oU84fFHVFvY">
+                    <img class="speaker-img" src="/images/session-icons-pink/play.png" alt="play" width="70px">
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="section-padding bg-gray" >
+    <div class="container-xxl">
+        <div class="d-flex justify-content-center">
+            <div class="text-center gray-section" >
+                <h3 class="purple-text uppercase mb-0 fs-5">Why book a keynote speaker</h3>
+                <h2 class="subtitle uppercase mb-3 pt-2 fs-3">Benefits of a corporate keynote talk on Radical Product Thinking.</h2>
+            </div>
+        </div>
+		
+
+            <div class="mt-4" >
+                <div class="row d-flex flex-md-row-reverse align-items-center justify-content-between mb-3 mb-lg-0 ">
+                    <div class="col-12 col-md-6 d-flex justify-content-center justify-content-lg-end pe-xxl-0  ">
+                        <img src="/images/thinking.png" alt="resorces" class="img-fluid" width="533px">
+                    </div>
+        
+                    <div class="col-12 col-md-5 text-center text-md-start  ps-xxl-0">
+                        <h2 class="uppercase bold fs-4">Align your team</h2>
+                        <p class="text light">As you set a new direction for your team, a keynote talk helps you align the team. Product diseases arise when people in teams move fast, but in different directions. Speed alone isn't enough. Radical Product Thinking (RPT) gives direction to your speed.</p>
+                    </div>
+                </div>
+        
+                <div class="row d-flex flex-md-row align-items-center justify-content-end mt-3">
+                    <div class="col-12 col-md-6 text-center text-lg-start ">
+                        <img src="/images/leader-pana.png" alt="resorces" class="img-fluid" width="400px">
+                    </div>
+        
+                    <div class="col-12 col-md-5 text-center text-md-start">
+                        <h2 class="uppercase bold fs-4">Energize and inspire your team</h2>
+                        <p class="text light">Teams often get buried in tactical activities and become reactive. An inspiring keynote talk helps teams rise above the daily grind to think differently and more strategically.</p>
+                    </div>
+                </div>
+            </div>
+       
+	</div>
+</section>
+
+<section class="section-padding ">
+    <div class="container-xxl">
+        <div class="d-flex justify-content-center mb-2">
+            <div class="text-center gray-section" >
+                <h3 class="purple-text uppercase  fs-5">Examples of speaking events</h3>
+                <h2 class="subtitle uppercase mb-3 fs-3">in-person keynote speeches, virtual talks, or podcasts by Radhika Dutt.</h2>
+            </div>
+        </div>
+        <div class="row gy-md-5 px-2 px-xxl-0 justify-content-between">
+            {% for article in site.data.speaker.data%}
+            <div class="col-12 col-md-4 position-relative p-0">
+                <button type="button" class="link black-text" id="{{article.id}}"   data-toggle="modal" data-target="#videoModal" data-theVideo="{{article.link}}">
+                    <img src="{{article.img}}" alt="{{article.img}}" width="100%" class="d-block mb-2">
+                </button>
+            
+                <div id="tag" style="background-color: {{article.bg}};">
+                    <span class="uppercase">
+                        {{article.title}}
+                    </span>
+                </div>
+                
+               
+            </div>
+            {% endfor %}
+
+            
+
+         
+        </div>
+    </div>
+</section>
+
+<section class="section-padding banner-talks bg-gray" id="talks">
+    <div class="container-xxl">
+        <div class="d-flex  justify-content-center text-center mb-2">
+            <div class="text-center gray-section " >
+                <h3 class="purple-text uppercase  fs-5">FOR YOUR SPEAKING EVENT</h3>
+                <h2 class="subtitle uppercase mb-3 fs-3">Talks that engage and inspire</h2>
+                <p class="text light text-container mb-3">These thought-provoking and inspiring keynote talks offer the right mix of inspiration and practical advice to create a lasting impact on the audience.</p>
+
+            </div>
+        </div>
+       
+
+        <div class="row talks">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"  data-bs-interval="10000">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active bg-purple" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="ms-2" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="ms-2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" class="ms-2" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" class="ms-2" aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" class="ms-2" aria-label="Slide 6"></button>
+                </div>
+                <div class="carousel-inner mb-5 pb-3 overflow-visible">
+                    {% for talk in site.data.talks %}
+                        <div class="carousel-item box p-5 {% if forloop.first == true %} active{% endif %}">
+                            <div class="row d-flex align-items-center">
+                                <div class="col-12 col-md-6">
+                                    <h5 class="text bold uppercase mb-3">{{talk.title}}</h5>
+                                    <p class="small-text light">{{talk.copy}}</p>
+                                    <p class="small-text light mb-2">{{talk.copyPart2}}</p>
+                                </div>
+                                <div class="col-12 col-md-6 text-center">
+                                    <img src="{{talk.img}}" alt="" width="100%" class="d-inline-block">
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-padding">
+    <div class="container-xxl">
+        <div class="row d-flex align-items-center  gap-3 gap-lg-0 bio justify-content-between">
+            <div class="col-12 col-lg-5  text-center text-lg-start ">
+                <h3 class="purple-text uppercase mb-0 fs-5">SPEAKER BIO</h3>
+                <h2 class="subtitle uppercase mb-3 fs-3">Radhika Dutt</h2>
+                <p class="light fs-6 ">Radhika Dutt is the author of Radical Product Thinking: The New Mindset for Innovating Smarter which is being translated into several languages including Chinese and Japanese. 
+                    She is an entrepreneur and product leader who has participated in four acquisitions, two of which were companies that she founded. She advises organizations from high-tech startups to government agencies on building radical products that create a fundamental change. She is currently Advisor on Product Thinking for the Monetary Authority of Singapore, Singapore’s central bank and financial regulator. Radhika has built products in a wide range of industries including broadcast, media and entertainment, telecom, advertising technology, government, consumer apps, robotics, and even wine. She serves on the board of the Association of Product Professionals and the independent publisher, Berrett Koehler. She graduated from MIT with an SB and M.Eng in Electrical Engineering, and speaks nine languages.</p>
+            </div>
+
+            <div class="col-12 col-lg-6 ">
+                <img class="training-img img-fluid" src="/images/radhika-2.png" width="100%" alt="speaker-image">
+            </div>
+        </div>
+        <div class="d-flex flex-column flex-lg-row gap-3 gap-lg-0 justify-content-between mt-5 ">
+            <a href="/zip/ranhika-headshots.zip" class="text-decoration-none download" download>
+                <div class=" d-flex p-4  justify-content-between align-items-center flex-column flex-sm-row ">
+                    <div class="d-flex gap-2 pt-2">
+                        <i class="bi bi-download pink-text "></i>
+                        <div>
+                            <h5 class="fw-bold fs-5 m-0 text-dark">Headshots</h5>
+                            <p class="small-text  pink-text light m-0">Download</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="/images/download1.png" alt="images" class="img-fluid" width="250px">
+                    </div>
+                </div>
+            </a>
+
+            <a href="/zip/books.zip" class="text-decoration-none download" download>
+                <div class=" d-flex p-4  justify-content-between align-items-center flex-column flex-sm-row">
+                    <div class="d-flex gap-2 pt-2">
+                        <i class="bi bi-download pink-text "></i>
+                        <div>
+                            <h5 class="fw-bold fs-5 m-0 text-dark">Book Covers</h5>
+                            <p class="small-text  pink-text light m-0">Download</p>
+                        </div>
+                    </div>
+                    <div class="d-flex gap-2 img-fluid">
+                        <img src="/images/book1.jpeg" alt="images" class="img-fluid" width="50px">
+                        <img src="/images/book2.jpeg" alt="images" class="img-fluid" width="50px">
+                    </div>
+                </div>
+            </a>
+            
+
+
+          
+        </div>
+    </div>
+</section>
+<section class="bg-purple wavy-bg-img py-5">
+    <div class="container-xxl">
+        
+            
+            <div class="row text-center text-lg-start  mt-2">
+                <div class="col-12 col-lg-8 pb-3 pb-lg-0">
+                    <h2 class="subtitle uppercase text-white text-center text-lg-start fs-3">Book our trainings</h2>
+                </div>
+                <div class="col-12 col-lg-4 d-flex align-items-center align-items-lg-end flex-column" >
+                    <a href="/contact" type="buttom" class="uppercase btn button-book py-2">Book training</a>
+                </div>
+            </div>
+           
+            
+            <div class="d-flex gap-md-2 row px-3 px-lg-0 align-items-center align-items-sm-stretch justify-content-center pt-4 ">
+                {% for post in site.training_posts%}
+                        <div class="bg-white rounded-2 d-flex flex-column align-items-center  cards-button  mb-2 mb-md-0 p-3 flex-column ">
+                            
+                            <div class="align-self-xxl-start ps-xxl-3">
+                                <img src="{{post.img}}" alt="{{post.img}}" width="50px">
+                            </div>
+                            <div class="text-center text-xxl-start px-md-3 row pt-3">
+                                <div class="col-12">
+                                    <a href="{{post.permalink | prepend: site.baseurl}}" class="link pink-text ">
+                                    <h6 class="pink-text  m-0">
+                                        {%if post.titleCard %}
+                                        {{post.titleCard}}
+                                        {%else %}
+                                        {{post.title}}
+                                        {%endif%}
+                                        <i class="bi bi-arrow-right"></i>
+                                    </h6>
+                                    </a>
+                                    <p class="m-0 ">{{post.copy}}</p>
+                                </div>
+                        
+                            </div>
+                        
+                        </div>
+                {% endfor %}
+                
+                
+            </div>
+          
+          
+       
+        
+    </div>
+</section>
+
+
+<section>
+    <div class="modal fade" id="ventanaModal" tabindex="-1" role="dialog"  aria-labelledby="ventanaModalLabel" aria-hidden="true" >
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        
+        <div class="pb-2 d-flex justify-content-end">
+            <button type="button" class=" primary-button text-white uppercase bg-pink py-2 px-3"  data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-lg"></i></button>
+        </div>    
+       
+
+        <div class="modal-body p-0">
+          <div class="embed-responsive">
+            <iframe width="100%" height="700px" id="iframeVideo"  frameborder="0" class="embed-responsive-item"  allow="autoplay" allowfullscreen ></iframe>
+          </div>
+        </div>
+        <script src="https://player.vimeo.com/api/player.js"></script>
+      </div>
+    </div>
+  </div>
+</section>
+
+

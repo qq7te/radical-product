@@ -20,36 +20,93 @@ var modalHTML = `<div role="dialog" id="modal-popover" class="modal modal--is-hi
 
 
 function setUpDownloadModal() {
-  // Create and inject modal
+	// Create and inject modal
 	var modalNode = document.createElement('div')
 	modalNode.innerHTML = modalHTML;
 	document.body.appendChild(modalNode);
 
-  // Set up listener to close modal
-	document.querySelectorAll('[data-action-hook=close-modal]').forEach(function(el) {
-    el.addEventListener('click', function (e) {
-      e.preventDefault();
-      document.getElementById('modal-popover').classList.add('modal--is-hidden');
-    });
-  });
+	// Set up listener to close modal
+	document.querySelectorAll('[data-action-hook=close-modal]').forEach(function (el) {
+		el.addEventListener('click', function (e) {
+			e.preventDefault();
+			document.getElementById('modal-popover').classList.add('modal--is-hidden');
+		});
+	});
 
-  // Set up listener to trigger modal
-  document.querySelectorAll('[data-action-hook=download-toolkit]').forEach(function(el) {
-    el.addEventListener('click', function (e) {
-      e.preventDefault();
-      document.getElementById('modal-popover').classList.remove('modal--is-hidden');
-      document.getElementById('modal-popover').scrollIntoView(true);
-    });
-  });
+	// Set up listener to trigger modal
+	document.querySelectorAll('[data-action-hook=download-toolkit]').forEach(function (el) {
+		el.addEventListener('click', function (e) {
+			e.preventDefault();
+			document.getElementById('modal-popover').classList.remove('modal--is-hidden');
+			document.getElementById('modal-popover').scrollIntoView(true);
+		});
+	});
 }
 
 setUpDownloadModal();
 
-function bookTalk(){
+function bookTalk() {
 	var selectedTalk = document.getElementById("selectedTalk").value;
 	var email = document.getElementById("userEmail").value;
 	var recipient = "radhika@radicalproduct.com"
-	var formattedBody = "Hello I'm Interested in "+ selectedTalk +" \n Let's get in touch " + email ;
+	var formattedBody = "Hello I'm Interested in " + selectedTalk + " \n Let's get in touch " + email;
 	var mailToLink = "mailto:" + recipient + "?subject=Book a Talk&body=" + encodeURIComponent(formattedBody);
 	window.location.href = mailToLink;
 }
+
+
+$(function(){
+
+	const $botonVentanaModal=$('#botonVentanaModal');
+	const $botonVentanaModal1=$('#video-1');
+	const $botonVentanaModal2=$('#video-2');
+	const $botonVentanaModal3=$('#video-3');
+	const $botonVentanaModal4=$('#video-4');
+	const $botonVentanaModal5=$('#video-5');
+	const $botonVentanaModal6=$('#video-6');
+	const $ventanaModal = $('#ventanaModal');
+	const $iframeVideo = $('#iframeVideo');
+
+	
+
+	$botonVentanaModal.on('click',function(){
+		video($botonVentanaModal, $iframeVideo, $ventanaModal);
+	});
+
+	$botonVentanaModal1.on('click',function(){
+		video($botonVentanaModal1, $iframeVideo, $ventanaModal);
+	});
+
+	$botonVentanaModal2.on('click',function(){
+		video($botonVentanaModal2, $iframeVideo, $ventanaModal);
+	});
+
+	$botonVentanaModal3.on('click',function(){
+		video($botonVentanaModal3, $iframeVideo, $ventanaModal);
+	});
+
+	$botonVentanaModal4.on('click',function(){
+		video($botonVentanaModal4, $iframeVideo, $ventanaModal);
+	});
+
+	$botonVentanaModal5.on('click',function(){
+		video($botonVentanaModal5, $iframeVideo, $ventanaModal);
+	});
+	$botonVentanaModal6.on('click',function(){
+		video($botonVentanaModal6, $iframeVideo, $ventanaModal);
+	});
+
+	$ventanaModal.on('hidden.bs.modal', function (event) {
+	  
+	  $iframeVideo.attr('src',null);
+
+	});
+
+
+	function video(botonVentanaModal, iframeVideo, ventanaModal)  {
+		let videoSrc = botonVentanaModal.attr('data-theVideo')
+		iframeVideo.attr('src',videoSrc+"?autoplay=1&loop=1&autopause=0");
+		ventanaModal.modal('show');
+	}
+	 
+  });  
