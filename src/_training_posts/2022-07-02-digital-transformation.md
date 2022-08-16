@@ -15,12 +15,12 @@ titleOne: The problem statement
 problemDescription: Transformation is often interpreted as adopting Agile rituals and asking customers for feedback. But without a clear vision and strategy, teams feel pulled in different directions and begin to reject change like a human body rejects a foreign object. Digital transformation training gives you a shared vision and a systematic process for building customer-centric products to make change management easier.
 titleTwo: Diagnosis
 descriptionTitleTwo: You need this digital transformation program if your team is suffering from or at high risk of catching these product diseases
-
+descriptionDropdown: Cultivate a new mindset and align your organization.
 
 subtitleOne: Locked-In Syndrome
 descriptionSubtitleOne: Locked-into your past success, you're not getting buy-in for change because things don't seem broken.
 iconSubtitleOne: /images/session-icons-white/lock-svgrepo-com.svg
-
+iconWhite: /images/session-icons-white/computer.svg
 subtitleTwo: Narcissus complex
 descriptionSubtitleTwo: Focusing on your own goals and needs to the point of losing sight of what your customer needs.
 iconSubtitleTwo: /images/session-icons-white/person-svgrepo-com.svg

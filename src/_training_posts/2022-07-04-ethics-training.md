@@ -3,6 +3,7 @@ layout: training
 title: Product Ethics
 description: Build successful products while avoiding digital pollution or collateral damage to society. This ethics training helps you build successful products while creating equitable outcomes for society. Learn practical tools to embrace responsibility so you can build products that create the change you intend.
 descriptionCard: Build successful products while avoiding digital pollution. This training helps you embrace responsibility so you can create the change you intend.
+descriptionDropdown: Build successful products and avoid digital pollution. 
 bg: 3B5DEF
 copy: If you want to build equitable products.
 img: /images/combined-shape-3.svg
@@ -34,7 +35,7 @@ subtitleFour: Erosion of the information ecosystem
 descriptionSubtitleFour: Knowledge helps democracy thrive. Unfortunately, the spread of misinformation makes it hard to gain knowledge and tell fact from fiction.
 iconSubtitleFour: /images/session-icons-white/info.png
 
-
+iconWhite: /images/session-icons-white/flowers.svg
 
 
 
