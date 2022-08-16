@@ -5,7 +5,7 @@
     }
    
     
-    .contact-section{
+    .contact-section, .banner-home{
         
         background-position-y: 50%;
     
@@ -102,12 +102,23 @@ html
         max-width: 60px;
     }
 
-    .contact-section{
+    .contact-section , .banner-home{
         
-        background-position-y: 50%;
+        background-position-y:bottom;
     
     }
    
+}
+
+@media screen and (max-width: 920px){
+    .banner-home{
+        background-position-y: bottom;
+    }
+}
+@media screen and (min-width: 921px){
+    .banner-home{
+        background-position-y: 0;
+    }
 }
 @media screen and (max-width: 991px){
 

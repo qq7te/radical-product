@@ -16,7 +16,58 @@
         <ul class="navbar-nav gap-2">
           
           {% for item in site.data.menu %}
-         
+          {% if item.title == "Trainings" %}
+					<li class="nav-item  ">
+						
+							<div class="drop">
+								<a href="/training" class="uppercase text-decoration-none small-text light  ">
+									<div class="dropbtn nav-link  uppercase 
+									{% if page.url == item.link %}
+										custom-active 
+									{%else%}
+									{% if page.collection == "training_posts" %}
+										
+										{% if item.title == "Trainings" && page.layout == "training" %}
+											custom-active 
+										{%endif%}
+									{% endif %}
+									{% endif %}
+									">
+									Trainings <i class="bi bi-caret-down-fill"></i>
+									</div>
+								</a>
+								<div class="py-1">
+
+								</div>
+								<div class="dropdown-c bg-white">
+									<h6 class="fw-bold px-4 pt-4">
+										Radical Trainings 
+									</h6>
+									<div class="grid-content-drop ">
+										{% for item in site.training_posts %}
+													<a href="{{item.permalink}}" class="item-drop px-4 py-2 ">
+														<div>
+															<div class="training" style="background-color: #{{item.bg}};" >
+																<img src="{{item.iconWhite}}" alt="{{item.iconWhite}}" width="40px">
+															</div>
+														</div>
+														
+														<div class="bottom-nav">
+															<h6 class="pink-text m-0">{{item.title}}</h6>
+															<p  class="m-0">
+																{{item.descriptionDropdown}}
+															</p>
+														</div>
+													</a>
+											
+										{% endfor %}
+									</div>
+							
+								</div>
+						  	</div>
+						
+					</li>
+          {% else %}
             <li class="nav-item">
            
               <a class="nav-link uppercase small-text light  
@@ -30,6 +81,7 @@
                 {% endif %}
               {% endif %}" href="{{item.link}}">{{item.title}}</a>
             </li>
+            {% endif %}
           {% endfor %}
 
           <li>
