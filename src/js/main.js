@@ -58,6 +58,7 @@ function bookTalk() {
 $(function(){
 
 	const $botonVentanaModal=$('#botonVentanaModal');
+	const $botonTrainingModal=$('#botonTrainingModal');
 	const $botonVentanaModal1=$('#video-1');
 	const $botonVentanaModal2=$('#video-2');
 	const $botonVentanaModal3=$('#video-3');
@@ -71,7 +72,9 @@ $(function(){
 	const $iframeVideo = $('#iframeVideo');
 
 	
-
+	$botonTrainingModal.on('click',function(){
+		video($botonTrainingModal, $iframeVideo, $ventanaModal);
+	});
 	$botonVentanaModal.on('click',function(){
 		video($botonVentanaModal, $iframeVideo, $ventanaModal);
 	});

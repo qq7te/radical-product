@@ -22,7 +22,7 @@ aboutTitle: "Why Radical Product Thinking?"
 aboutCopy: "Iteration rules product development, but it isn’t enough to produce dramatic results. Too many good products become bloated, fragmented, directionless, and driven by irrelevant metrics. Radical Product Thinking helps you avoid these
 “product diseases” by giving you clarity around your vision and strategy, which drives prioritization, and execution."
 aboutLinkCopy: "Learn about our trainings"
-aboutLink: "/about"
+aboutLink: "/training"
 
 resourcesTag: "Radical Product Resources"
 resourcesTitle: "Innovate Smarter"
@@ -92,16 +92,21 @@ helpCTA: "Contact Us"
 <section class="section-padding">
     <div class="container-xxl">
         <div class="row text-center text-md-start">
-            <div class="col-12 col-md-6 mb-3">
-                <img src="/images/write-home.png" alt="" width="100%">    
+          
+            <div class="col-12 col-lg-6 position-relative">
+                <img src="/images/video-training-modal.png" alt="/images/video-training-modal.png" width="100%">   
+                <button class="btn-play" id="botonTrainingModal" type="button" data-toggle="modal" data-target="#videoModal" data-theVideo="https://www.youtube.com/embed/6wWspnApNdU"">
+                    <img class="speaker-img" src="/images/session-icons-pink/play.png" alt="play" width="70px">
+                </button>
             </div>
             <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
                 <h6 class="purple-text uppercase fs-5">{{page.aboutTagline}}</h6>
                 <h2 class="subtitle uppercase fs-3">{{page.aboutTitle}}</h2>
                 <p class="text light">{{page.aboutCopy}}</p>
                 <a class="link pink-text " href="{{page.aboutLink}}">{{page.aboutLinkCopy}} <i class="bi bi-arrow-right"></i></a>
-                <a class="link pink-text " href="{{page.aboutLink}}">Learn about keynote talks <i class="bi bi-arrow-right"></i></a>
+                <a class="link pink-text " href="/speaker">Learn about keynote talks <i class="bi bi-arrow-right"></i></a>
             </div>
+          
         </div>
     </div>
 </section>
