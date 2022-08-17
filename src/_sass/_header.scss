@@ -163,7 +163,7 @@
 @media screen and (min-width: 1490px) {
     .dropdown-c {
         
-        min-width: 680px;
+        min-width: 620px;
         a{
             display: flex;
             flex-direction: row;
@@ -172,7 +172,9 @@
             .nav-icon{
                 width: 80px;
             }
-            
+            .bottom-nav{
+                font-size: 13px;
+            }
         }
         
     }

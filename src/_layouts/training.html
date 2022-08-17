@@ -244,7 +244,7 @@ layout: default
         <div class="row py-4 my-1 py-lg-3 text-center text-lg-start">
             <div class="col-12 col-lg-3">
                 <h6 class="fw-bold text-white">
-                    Chel out other of the trainings
+                    Browse our other trainings
                 </h6>
             </div>
             <div class="col-12 col-lg-9 d-flex flex-column justify-content-center">
@@ -262,10 +262,11 @@ layout: default
                 <img src="{{post.img}}" alt="{{post.img}}" width="50px">
 
                 <div class="text-center text-md-start px-md-3 col-lg-8 ">
-                    <h3 class="pink-text fw-bold m-0 fs-6">
-
+                    <a href="{{post.permalink}}" class="text-decoration-none">
+                        <h3 class="pink-text fw-bold m-0 fs-6">
                         {{post.title}}
-                    </h3>
+                        </h3>
+                    </a>
                     <p class="m-0 ">{{post.copy}}</p>
                 </div>
                 <div>
