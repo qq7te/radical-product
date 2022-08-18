@@ -41,15 +41,15 @@
 									</h6>
 									<div class="grid-content-drop ">
 										{% for item in site.training_posts %}
-													<a href="{{item.permalink}}" class="item-drop px-4 py-2 ">
+													<a href="{{item.permalink}}" class="item-drop px-4 py-2 d-flex flex-row align-items-center gap-2">
 														<div>
 															<div class="training" style="background-color: #{{item.bg}};" >
 																<img src="{{item.iconWhite}}" alt="{{item.iconWhite}}" width="40px">
 															</div>
 														</div>
 														
-														<div class="bottom-nav">
-															<h6 class="pink-text m-0">{{item.title}}</h6>
+														<div class="bottom-nav text-start">
+															<h6 class="pink-text m-0 small-text">{{item.title}}</h6>
 															<p  class="m-0">
 																{{item.descriptionDropdown}}
 															</p>
