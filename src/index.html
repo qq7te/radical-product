@@ -10,7 +10,7 @@ emailInputPlaceholder: "Enter your email"
 bookTagline: "Create purpose-driven change through your product."
 bookTitle: "RADICAL PRODUCT THINKING"
 bookCTA: "Get the book"
-bookPeakCopy: "take a peek at the first few pages"
+bookPeakCopy: "Read the first few pages"
 bookPeakLink: "/pdf/excerpt.pdf"
 
 bookshopLink: "https://bookshop.org/books/radical-product-thinking-the-new-mindset-for-innovating-smarter/9781523093311"
@@ -32,8 +32,10 @@ resourcesLink: "/toolkit"
 
 mediaTagline: "Radical Product Talks"
 mediaTitle: "VIDEOS FROM PAST EVENTS"
-trainingLinkCopy: "Checkout our trainings"
+trainingLinkCopy: "Check out our trainings"
 trainingLink: "/training"
+keynoteLinkCopy: "Browse keynote talks"
+keynoteLink: "/speaker"
 
 helpTitle: "GET HANDS-ON HELP"
 helpCopy: "If you want hands-on help integrating Radical Product thinking into your organization. We offer coaching, training, and workshops to individuals and teams. Please get in touch below to start the conversation."
@@ -50,16 +52,12 @@ helpCTA: "Contact Us"
             <h1 class="uppercase bold title mb-3">Create <span class="pink-text">World-Changing</span>  products, Transforming your <span class="pink-text">vision</span> into <span class="pink-text">reality</span>.</h1>
             <p class="big-text light tight-container mb-4">{{page.tagline}}</p>
             <div>
-                
-								<div class="d-flex  flex-wrap gap-2 justify-content-center">
-									<a href="/toolkit" class="secondary-button d-inline-block pink-text uppercase bg-light-pink mt-2">Get the free toolkit</a>
-									<a href="/training"><button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="primary-button text-white uppercase bg-pink d-inline-block mt-2">Take a peek at training</button></a>
-								</div>
-				
-
+                <div class="d-flex flex-wrap gap-2 justify-content-center">
+                    <a href="/toolkit" class="text secondary-button d-inline-block pink-text uppercase bg-light-pink mt-2">Get the free toolkit</a>
+                    <a href="/training"><button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="text primary-button text-white uppercase bg-pink d-inline-block mt-2">Take a peek at training</button></a>
+                </div>
             </div>
         </div>
-        
     </div>
 </section>
 
@@ -73,12 +71,12 @@ helpCTA: "Contact Us"
             <div class="col-12 col-md-10">
                 <div class="row d-flex align-items-center py-3">
                     <div class="col-12 col-md-12 col-lg-9 mb-4 mb-lg-0">
-                        <h6 class="text light mb-0">{{page.bookTagline}}</h6>
+                        <h6 class="small-text light mb-0">{{page.bookTagline}}</h6>
                         <h2 class="subtitle pink-text uppercase bold mb-0 fs-3">{{page.bookTitle}}</h2>
                         <a href="{{page.bookPeakLink}}" class="link pink-text uppercase" download>{{page.bookPeakCopy}} <i class="bi bi-arrow-right"></i></a>
                     </div>
                     <div class="col-12 col-md-12 col-lg-3">
-                        <span class="d-block mb-0 text light">Get the book:</span>
+                        <span class="d-block mb-0 small-text light">Get the book:</span>
                         <a href="{{page.bookshopLink}}" class="bookshop white-text mb-1"><img src="/images/bookshop.png" alt="" width="50px"></a>
                         <a href="{{page.amazonLink}}" class="amazon white-text mb-1"><img src="/images/amazon.png" alt="" width="50px"></a>
                         <a href="{{page.barnesLink}}" class="barnes white-text"><img src="/images/barnes.png" alt="" width="50px"></a>
@@ -92,7 +90,6 @@ helpCTA: "Contact Us"
 <section class="section-padding">
     <div class="container-xxl">
         <div class="row text-center text-md-start">
-          
             <div class="col-12 col-lg-6 position-relative">
                 <img src="/images/video-training-modal.png" alt="/images/video-training-modal.png" width="100%">   
                 <button class="btn-play" id="botonTrainingModal" type="button" data-toggle="modal" data-target="#videoModal" data-theVideo="https://www.youtube.com/embed/6wWspnApNdU"">
@@ -100,11 +97,11 @@ helpCTA: "Contact Us"
                 </button>
             </div>
             <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
-                <h6 class="purple-text uppercase fs-5">{{page.aboutTagline}}</h6>
-                <h2 class="subtitle uppercase fs-3">{{page.aboutTitle}}</h2>
+                <h6 class="purple-text uppercase text">{{page.aboutTagline}}</h6>
+                <h2 class="subtitle uppercase subtitle">{{page.aboutTitle}}</h2>
                 <p class="text light">{{page.aboutCopy}}</p>
-                <a class="link pink-text uppercase" href="{{page.aboutLink}}">{{page.aboutLinkCopy}} <i class="bi bi-arrow-right"></i></a>
-                <a class="link pink-text uppercase " href="/speaker">Learn about keynote talks <i class="bi bi-arrow-right"></i></a>
+                <a class="link pink-text uppercase mb-2" href="{{page.aboutLink}}">{{page.aboutLinkCopy}} <i class="bi bi-arrow-right"></i></a>
+                <a class="link purple-text uppercase " href="/speaker">Learn about keynote talks <i class="bi bi-arrow-right"></i></a>
             </div>
           
         </div>
@@ -117,11 +114,9 @@ helpCTA: "Contact Us"
         
             
         <div class="row text-center text-lg-start  mt-2">
-            <div class="col-12 col-lg-8 pb-3 pb-lg-0">
-                <h2 class="subtitle uppercase text-white text-center text-lg-start fs-3">Book our trainings</h2>
-            </div>
-            <div class="col-12 col-lg-4 d-flex align-items-center align-items-lg-end flex-column" >
-                <a href="/contact" type="buttom" class="uppercase btn button-book py-2">Book training</a>
+            <div class="d-flex align-items-center justify-content-between">
+                <h2 class="subtitle uppercase text-white text-center text-lg-start fs-3 mb-0">Book our trainings</h2>
+                <a href="/contact" type="buttom" class="uppercase text btn button-book py-2">Book training</a>
             </div>
         </div>
        
@@ -135,8 +130,8 @@ helpCTA: "Contact Us"
                         </div>
                         <div class="text-center text-xxl-start px-md-3 row pt-3">
                             <div class="col-12">
-                                <a href="{{post.permalink | prepend: site.baseurl}}" class="link ">
-                                <h6 class="text-white m-0 pb-1">
+                                <a href="{{post.permalink | prepend: site.baseurl}}" class="link bold">
+                                <h6 class="text-white m-0 pb-1 semibold">
                                     {%if post.titleCard %}
                                     {{post.titleCard}}
                                     {%else %}
@@ -145,21 +140,13 @@ helpCTA: "Contact Us"
                                     <i class="bi bi-arrow-right"></i>
                                 </h6>
                                 </a>
-                                <p class="m-0 text-white fw-light">{{post.copy}}</p>
+                                <p class="m-0 text-white light small-text">{{post.copy}}</p>
                             </div>
-                    
                         </div>
-                    
                     </div>
             {% endfor %}
-            
-            
         </div>
-      
-      
-   
-    
-</div>
+    </div>
 </section>
 
 
@@ -217,8 +204,13 @@ helpCTA: "Contact Us"
             {% endfor %}
         </div>
 
-        <div class="text-center mt-3">
-            <a href="{{page.trainingLink}}" class="pink-text link uppercase fs-5">{{page.trainingLinkCopy}} <i class="bi bi-arrow-right"></i></a>
+        <div class="mt-3 d-flex flex-column mb-3">
+            <div class="text-center">
+                <a href="{{page.trainingLink}}" class="pink-text link uppercase fs-5">{{page.trainingLinkCopy}} <i class="bi bi-arrow-right"></i></a>
+            </div>
+            <div class="text-center">
+                <a href="{{page.keynoteLink}}" class="purple-text link uppercase fs-5">{{page.keynoteLinkCopy}} <i class="bi bi-arrow-right"></i></a>
+            </div>
         </div>
     </div>
 </section>
@@ -227,10 +219,10 @@ helpCTA: "Contact Us"
 <section class="bg-purple wavy-bg-img py-5">
     <div class="container-xxl white-text p-2 p-xxl-0">
         <h2 class="subtitle uppercase fs-3">{{page.helpTitle}}</h2>
-        <p class="fw-light">If you want hands-on help integrating Radical Product Thinking into your organization, we offer training, workshops, and consulting. 
+        <p class="fw-light text">If you want hands-on help integrating Radical Product Thinking into your organization, we offer training, workshops, and consulting. 
            <br> Get in touch to start the conversation.</p>
         <div>
-            <a href="/contact"><button  value="Subscribe" name="subscribe"  class="primary-button text-white uppercase bg-pink">{{page.helpCTA}}</button></a>
+            <a href="/contact"><button  value="Subscribe" name="subscribe"  class="primary-button text text-white uppercase bg-pink">{{page.helpCTA}}</button></a>
 
         </div>
     </div>

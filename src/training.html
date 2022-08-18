@@ -49,7 +49,7 @@ bookPeakLink: "/pdf/excerpt.pdf"
     <div class="container-xxl ">
         <div class=" row align-items-center text-center text-md-start">
             <div class="col-12 col-md-6  pb-4 ">
-                <h2 class="uppercase bold title fs-1 mb-3 ">Training on Radical Product Thinking gives <span
+                <h2 class="uppercase bold title mb-3 ">Training on Radical Product Thinking gives <span
                         class="pink-text">direction</span> to your <span class="pink-text">speed.</span> </h2>
                 <p class="big-text light tight-container pe-md-5 me-md-4 ">{{page.tagline}}</p>
             </div>
@@ -71,14 +71,14 @@ bookPeakLink: "/pdf/excerpt.pdf"
         <div class="row  justify-content-center pb-5 mb-5">
             {% for item in site.training_posts %}
             <div class="col-md-5 col-lg-5 col-xxl-3 d-flex justify-content-center">
-                <div class="card text-center p-0 mb-3 mb-xxl-5 mx-0">
+                <div class="card text-center p-0 mb-3 mb-xxl-5 mx-0 position-relative">
                     <div class="card-header " style="background-color: #{{item.bg}} !important;">
                         <p class="text-white m-0 py-3 px-3">{{item.copy}}</p>
                     </div>
-                    <div class="card-body pb-5 d-flex flex-column align-items-center justify-content-center pt-0">
-                        <img class="img-fluid py-4 mt-3" src="{{item.img}}" width="86px" alt="{{item.title}}">
+                    <div class="card-body pb-5 d-flex flex-column align-items-center pt-0">
+                        <img class="img-fluid py-4" src="{{item.img}}" height="50px" alt="{{item.title}}">
                         <a href="{{item.url | prepend: site.baseurl}}" class="text-decoration-none">
-                            <h3 class="card-title pink-text fs-5 ">
+                            <h3 class="text pink-text">
                                 {%if item.titleCard %}
                                 {{item.titleCard}}
                                 {%else %}
@@ -86,10 +86,12 @@ bookPeakLink: "/pdf/excerpt.pdf"
                                 {%endif%}</h3>
                         </a>
                         <div class="pb-3">
-                            <p class="card-text  ">{{item.descriptionCard}}</p>
+                            <p class="small-text">{{item.descriptionCard}}</p>
                         </div>
-                        <a href="{{item.url | prepend: site.baseurl}}" class="link pink-text ">Learn more <i class="bi bi-arrow-right"></i></a>
-    
+
+                        <div class="position-absolute bottom-0 pb-4">
+                            <a href="{{item.url | prepend: site.baseurl}}" class="link pink-text">Learn more <i class="bi bi-arrow-right"></i></a>
+                        </div>
                     </div>
     
                 </div>
@@ -116,7 +118,7 @@ bookPeakLink: "/pdf/excerpt.pdf"
           
             {% for testimonial in site.data.testimonials.trainings %}
             <div class="col-12 col-md-6 white-text p-4 pt-3">
-                <p class="text light fs-6">{{testimonial.testimonial}}</p>
+                <p class="text light">{{testimonial.testimonial}}</p>
                 <span class="small-text light fst-italic">- {{testimonial.author}}</span>
             </div>
             {% endfor %}
