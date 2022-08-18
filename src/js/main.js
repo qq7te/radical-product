@@ -58,17 +58,23 @@ function bookTalk() {
 $(function(){
 
 	const $botonVentanaModal=$('#botonVentanaModal');
+	const $botonTrainingModal=$('#botonTrainingModal');
 	const $botonVentanaModal1=$('#video-1');
 	const $botonVentanaModal2=$('#video-2');
 	const $botonVentanaModal3=$('#video-3');
 	const $botonVentanaModal4=$('#video-4');
 	const $botonVentanaModal5=$('#video-5');
 	const $botonVentanaModal6=$('#video-6');
+	const $botonVentanaModal7=$('#home-1');
+	const $botonVentanaModal8=$('#home-2');
+	const $botonVentanaModal9=$('#home-3');
 	const $ventanaModal = $('#ventanaModal');
 	const $iframeVideo = $('#iframeVideo');
 
 	
-
+	$botonTrainingModal.on('click',function(){
+		video($botonTrainingModal, $iframeVideo, $ventanaModal);
+	});
 	$botonVentanaModal.on('click',function(){
 		video($botonVentanaModal, $iframeVideo, $ventanaModal);
 	});
@@ -96,6 +102,15 @@ $(function(){
 		video($botonVentanaModal6, $iframeVideo, $ventanaModal);
 	});
 
+	$botonVentanaModal7.on('click',function(){
+		video($botonVentanaModal7, $iframeVideo, $ventanaModal);
+	});
+	$botonVentanaModal8.on('click',function(){
+		video($botonVentanaModal8, $iframeVideo, $ventanaModal);
+	});
+	$botonVentanaModal9.on('click',function(){
+		video($botonVentanaModal9, $iframeVideo, $ventanaModal);
+	});
 	$ventanaModal.on('hidden.bs.modal', function (event) {
 	  
 	  $iframeVideo.attr('src',null);

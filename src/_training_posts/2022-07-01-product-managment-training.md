@@ -3,7 +3,7 @@ layout: training
 menu: Training
 title: Product Management
 description: Level up as a team and translate your shared vision into everyday activities. This training helps product teams avoid getting stuck in tactical execution and helps teams think strategically to create tangible outcomes. 
-
+descriptionDropdown: Level up as a product team to think strategically.
 descriptionCard: Level up as a product team to think strategically and overcome being perpetually reactive and stuck in tactical execution.
 bg: 53B455
 copy: If you want to level up one or more product teams.
@@ -11,6 +11,7 @@ img: /images/combined-shape-2.svg
 permalink: /training/product-management-training/
 image: /images/product-presentation-bro.png
 image2: /images/team-spirit-bro.png
+iconWhite: /images/session-icons-white/picture1.svg
 titleOne: The problem statement
 problemDescription: Product teams can get stuck in a tactical execution mode. You may have gotten good at being Agile, but sprint after sprint you keep optimizing but find that you're just making small iterative changes instead of delivering transformative value.  
 titleTwo: Diagnosis

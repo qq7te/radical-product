@@ -15,3 +15,23 @@
   title: "Singapore as an example of a Radical Product"
   copy: ""
   thumbnail: "/images/video3.png"
+
+
+- pastEvents:
+  - bg: "#FF1A4D"
+    link: https://www.youtube.com/embed/oU84fFHVFvY
+    img: /images/video-4.png
+    title: keynote
+    id: home-1
+
+  - bg: "#3B5DEF"
+    link: https://www.youtube.com/embed/Iy_NlYuq0ME
+    img: /images/write-play.png
+    title: Workshop
+    id: home-2
+
+  - bg: "#53B455"
+    link: https://insideoutside.io/podcast/ep-273-radhika-dutt-author-o
+    img: /images/outside-inside.png
+    title: Podcast
+    id: home-3

@@ -4,6 +4,7 @@
 @import "_contact.scss";
 @import '4-layouts/training-layout.scss';
 @import "_training-page.scss";
+@import "_home.scss";
 
 
 .banner-padding {
@@ -14,13 +15,14 @@
     padding: 80px 0;
 }
 
+
 .tight-container {
     max-width: 780px;
     margin: 0 auto;
 }
 
 .pull-up {
-    margin-top: -120px;
+    margin-top: -90px;
 }
 .pull-up-training {
     margin-top: -170px;
@@ -161,10 +163,16 @@
     background-size: cover;
 }
 
+.banner-home{
+    background-image: url("/images/background-contact.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: 100%;
+}
+
 .landing-banner {
     background-image: url("/images/cover-bg.png");
     background-repeat: no-repeat;
-    background-position-y: center;
     background-size: 100%;
 }
 

@@ -18,11 +18,11 @@ html {
 }
 
 .big-text {
-    size: 1.375rem;
+    font-size: 1.375rem;
 }
 
 .text{
-    font-size: 1.125;
+    font-size: 1.125rem !important;
 }
 
 .small-text {
@@ -30,12 +30,16 @@ html {
 }
 
 .link {
-    font-size: 1rem;
+    font-size: 1.125rem;
     text-decoration: none;
 }
 
 .bold {
     font-weight: 700;
+}
+
+.semibold {
+    font-weight: 600;
 }
 
 .light {
