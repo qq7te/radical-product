@@ -1,5 +1,8 @@
 --- 
 layout: training
+pageTitle: Product Ethics Training
+metaTitle: Product Ethics Training | Build Successful Products | RPT
+metaDescription:  Ethics training program to learn resourceful tools to build successful products that avoid digital pollution. Book the training now!
 title: Product Ethics
 description: Build successful products while avoiding digital pollution or collateral damage to society. This ethics training helps you build successful products while creating equitable outcomes for society. Learn practical tools to embrace responsibility so you can build products that create the change you intend.
 descriptionCard: Build successful products while avoiding digital pollution. This training helps you embrace responsibility so you can create the change you intend.

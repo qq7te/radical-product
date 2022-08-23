@@ -1,5 +1,8 @@
 ---
 layout: training
+pageTitle: Innovation Training
+metaTitle: Innovation Training | Iterate Less & Achieve More | RPT
+metaDescription: Innovation training program to pivot fast and not lose momentum or money. Build successful products with an efficient innovation framework. Book the training!
 title: Innovation
 description: Build successful products systematically so you iterate less and achieve more. You only have 2-3 pivots before you run out of money or momentum - this innovation training helps you use them wisely.
 descriptionCard: Iterate less and achieve more. You only have 2-3 pivots before you run out of money or momentum - this training helps you use them wisely.
