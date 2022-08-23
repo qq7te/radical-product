@@ -1,6 +1,9 @@
 ---
 layout: training
 menu: Training
+pageTitle: Product Management Training
+metaTitle: Product Management Training | Vision-driven Products | RPT
+metaDescription:  Product management training for teams that need to translate vision into tangible outcomes. Avoid getting stuck in tactical execution. Book the training!
 title: Product Management
 description: Level up as a team and translate your shared vision into everyday activities. This training helps product teams avoid getting stuck in tactical execution and helps teams think strategically to create tangible outcomes. 
 descriptionDropdown: Level up as a product team to think strategically.
