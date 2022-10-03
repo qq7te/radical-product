@@ -1,26 +1,25 @@
---- 
-layout: training
+---
+layout: trainings
 pageTitle: Product Ethics Training
 metaTitle: Product Ethics Training | Build Successful Products | RPT
-metaDescription:  Ethics training program to learn resourceful tools to build successful products that avoid digital pollution. Book the training now!
+metaDescription: Ethics training program to learn resourceful tools to build successful products that avoid digital pollution. Book the training now!
 title: Product Ethics
 description: Build successful products while avoiding digital pollution or collateral damage to society. This ethics training helps you build successful products while creating equitable outcomes for society. Learn practical tools to embrace responsibility so you can build products that create the change you intend.
 descriptionCard: Build successful products while avoiding digital pollution. This training helps you embrace responsibility so you can create the change you intend.
-descriptionDropdown: Build successful products and avoid digital pollution. 
+descriptionDropdown: Build successful products and avoid digital pollution.
 bg: 3B5DEF
 copy: If you want to build equitable products.
 img: /images/combined-shape-3.svg
-permalink: /training/ethics-training/
+permalink: /trainings/ethics-training/
 
 image: /images/life-in-a-city-bro.png
 image2: /images/save-the-earth-bro.png
 
 titleOne: The problem statement
-problemDescription: Teams are increasingly aware that products often create digital pollution by inflicting collateral damage on society. They want to grow the business while building equitable products that create a positive difference to society and the world. This ethics training program will give you a step-by-step approach for building ethical and equitable products while managing the reality of your business needs. 
+problemDescription: Teams are increasingly aware that products often create digital pollution by inflicting collateral damage on society. They want to grow the business while building equitable products that create a positive difference to society and the world. This ethics training program will give you a step-by-step approach for building ethical and equitable products while managing the reality of your business needs.
 
 titleTwo: Diagnosis
 descriptionTitleTwo: Unintentionally, your product may be contributing to various types of digital pollution. Product ethics training will give you a systematic approach to build products with a cleaner digital footprint
-
 
 subtitleOne: Increasing inequality
 descriptionSubtitleOne: Business models, algorithms, and products that harm marginalized communities increase inequality which erodes confidence in democracy.
@@ -40,30 +39,26 @@ iconSubtitleFour: /images/session-icons-white/info.png
 
 iconWhite: /images/session-icons-white/flowers.svg
 
-
-
 titleThree: Benefits
 titleThreeSubtitleOne: Increased alignment
-descriptionTitleThreeSubtitleOne: Your team will be more aligned after this group exercise of crafting a shared purpose as well as an actionable plan for building world-changing products. 
+descriptionTitleThreeSubtitleOne: Your team will be more aligned after this group exercise of crafting a shared purpose as well as an actionable plan for building world-changing products.
 iconTitleThreeSubtitleOne: /images/icon-training-2.png
 
 titleThreeSubtitleTwo: Methodology for ethical product development
-descriptionTitleThreeSubtitleTwo: Even when teams want to build equitable products, it’s often not clear how you can be intentional and deliberate about it. This business ethics program will give you a step-by-step guide for baking equity into every step of building your product. 
+descriptionTitleThreeSubtitleTwo: Even when teams want to build equitable products, it’s often not clear how you can be intentional and deliberate about it. This business ethics program will give you a step-by-step guide for baking equity into every step of building your product.
 iconTitleThreeSubtitleTwo: /images/seed.png
 
 titleThreeSubtitleThree: Ethical decision-making without altruism
-descriptionTitleThreeSubtitleThree: You’ll learn how you can balance delivering on your vision and strategy while dealing with everyday decisions that require financial considerations and tradeoffs. 
+descriptionTitleThreeSubtitleThree: You’ll learn how you can balance delivering on your vision and strategy while dealing with everyday decisions that require financial considerations and tradeoffs.
 iconTitleThreeSubtitleThree: /images/directions.png
-
 
 titleFour: What the training covers
 titleFourDescription: Get this ethics training for $ 7,500 for up to 15 people for training
 titleFourDescription2: This training is delivered in the following two sessions
 
-
-list: 
+list:
   - title: Radical Vision Statements behind ethical products
-    copy: The vision will help you define the change you want to bring about through your product and identify why the status quo is unacceptable. You’ll also learn how you can use this vision for ethical decision-making while managing the reality of short-term business needs. 
+    copy: The vision will help you define the change you want to bring about through your product and identify why the status quo is unacceptable. You’ll also learn how you can use this vision for ethical decision-making while managing the reality of short-term business needs.
     img: "/images/vision.jpeg"
     learn: Learn why you need a Radical Vision Statement
     link: /vision/2021/03/19/vision-doesnt-have-to-be-hairy/
@@ -71,10 +66,10 @@ list:
     sessionicon: /images/session-icons-pink/telescope.png
 
   - title: develop a comprehensive strategy to build ethical products for an equitable world
-    copy: You’ll learn to be deliberate about addressing pain points of marginalized personas, consider whether your solutions are inclusive, and develop a business model that benefits the organization while avoiding collateral damage to society. You’ll then learn how you can measure what matters by deriving metrics from your vision and strategy. 
+    copy: You’ll learn to be deliberate about addressing pain points of marginalized personas, consider whether your solutions are inclusive, and develop a business model that benefits the organization while avoiding collateral damage to society. You’ll then learn how you can measure what matters by deriving metrics from your vision and strategy.
     img: "/images/ethics-session-2.png"
     learn: Learn why a RDCL Strategy is important
-    link: /strategy/2022/03/21/three-characteristics-of-good-product-strategy/ 
+    link: /strategy/2022/03/21/three-characteristics-of-good-product-strategy/
     session: session 2
     sessionicon: /images/session-icons-pink/route.png
 

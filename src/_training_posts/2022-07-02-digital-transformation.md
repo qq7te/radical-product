@@ -1,5 +1,5 @@
 ---
-layout: training
+layout: trainings
 pageTitle: Digital Transformation Training
 metaTitle: Digital Transformation Training | Guaranteed Methodology | RPT
 metaDescription: Digital Transformation training with a step-by-step approach for building transformative products for organizations. Book the training here!
@@ -9,7 +9,7 @@ descriptionCard: Cultivate a new mindset and create alignment across your organi
 bg: FF7E00
 copy: If you're transforming to build user-centric products.
 img: /images/computer-svgrepo-com.svg
-permalink: /training/digital-transformation-training/
+permalink: /trainings/digital-transformation-training/
 image: /images/software-integration-bro.png
 image2: /images/startup-life-bro.png
 titleOne: The problem statement

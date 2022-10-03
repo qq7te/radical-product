@@ -5,6 +5,8 @@ layout: default
     {% include nav.html %}
 </header>
 
+{% include breadcumb.html %}
+
 <section class="landing-banner section-padding">
     <div class="container-xxl">
         <div
@@ -17,11 +19,11 @@ layout: default
                 <p class="big-text light tight-container pe-md-5 me-md-4 py-3">{{page.description}}</p>
                 <div>
                     <a href="/contact"
-                        class="primary-button d-inline-block text-white uppercase bg-pink link me-lg-2">book
+                        class="primary-button d-inline-block text-white uppercase bg-pink link me-1">book
                         training</a>
-                    <a href="/training"
-                        class="secondary-button d-inline-block pink-text uppercase bg-light-pink mt-2">view all
-                        training</a>
+                    <a href="/trainings"
+                        class="secondary-button d-inline-block pink-text uppercase bg-light-pink link">view all
+                        trainings</a>
                 </div>
             </div>
             <div class="col-12 col-md-6">
@@ -279,9 +281,5 @@ layout: default
 
 
         </div>
-
-
-
-
     </div>
 </section>
