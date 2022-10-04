@@ -9,8 +9,6 @@ body>footer
 body>footer
 {
     padding: 2em;
-
-    text-align: center;
 }
 
 body>footer a
@@ -23,10 +21,40 @@ body>footer img
     max-height: 40px;
 }
 
-body>footer a,
-body>footer img
-{
-    display: block;
 
-    margin: 1em auto;
+footer {
+    span {
+        font-size: 1rem;
+        color: #dadada;
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .divider {
+        border-top: 1px solid #6c757d;
+    }
+
+    .footer-links {
+        h6 {
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            color: #6c757d;
+            margin-bottom: 5px;
+        }
+
+        a {
+            display: block;
+            text-decoration: none;
+            color: #dadada;
+            font-size: 1rem;
+            margin-bottom: 5px;
+            margin-top: 0;
+            font-weight: 300;
+        }
+    }
+
+    .icons a{
+        font-size: 1.5rem;
+        margin: 0;
+    }
 }
