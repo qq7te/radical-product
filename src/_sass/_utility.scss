@@ -311,3 +311,31 @@
     z-index: 200;
 }
 
+
+.breadcumb {
+    font-size: 0.8rem;
+    border: 1px solid #efefef;
+
+    a, a i {
+        color: #696969;
+        text-decoration: none;
+        text-transform: uppercase;
+
+        &:hover {
+            color: #FF0058;
+        }
+    }
+
+    i {
+        color: #8A8A8A;
+    }
+
+    span {
+        color: #8A8A8A;
+        text-transform: uppercase;
+    }
+}
+
+.pointer {
+    cursor: pointer;
+}

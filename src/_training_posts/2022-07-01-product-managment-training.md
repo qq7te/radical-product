@@ -1,25 +1,24 @@
 ---
-layout: training
+layout: trainings
 menu: Training
 pageTitle: Product Management Training
 metaTitle: Product Management Training | Vision-driven Products | RPT
-metaDescription:  Product management training for teams that need to translate vision into tangible outcomes. Avoid getting stuck in tactical execution. Book the training!
+metaDescription: Product management training for teams that need to translate vision into tangible outcomes. Avoid getting stuck in tactical execution. Book the training!
 title: Product Management
-description: Level up as a team and translate your shared vision into everyday activities. This training helps product teams avoid getting stuck in tactical execution and helps teams think strategically to create tangible outcomes. 
+description: Level up as a team and translate your shared vision into everyday activities. This training helps product teams avoid getting stuck in tactical execution and helps teams think strategically to create tangible outcomes.
 descriptionDropdown: Level up as a product team to think strategically.
 descriptionCard: Level up as a product team to think strategically and overcome being perpetually reactive and stuck in tactical execution.
 bg: 53B455
 copy: If you want to level up one or more product teams.
 img: /images/combined-shape-2.svg
-permalink: /training/product-management-training/
+permalink: /trainings/product-management-training/
 image: /images/product-presentation-bro.png
 image2: /images/team-spirit-bro.png
 iconWhite: /images/session-icons-white/picture1.svg
 titleOne: The problem statement
-problemDescription: Product teams can get stuck in a tactical execution mode. You may have gotten good at being Agile, but sprint after sprint you keep optimizing but find that you're just making small iterative changes instead of delivering transformative value.  
+problemDescription: Product teams can get stuck in a tactical execution mode. You may have gotten good at being Agile, but sprint after sprint you keep optimizing but find that you're just making small iterative changes instead of delivering transformative value.
 titleTwo: Diagnosis
 descriptionTitleTwo: You need this product management training program if your team is suffering from or at high risk of catching these product diseases
-
 
 subtitleOne: Strategic Swelling
 descriptionSubtitleOne: Stretched thin across many features without delivering anything at a breakthrough level.
@@ -36,7 +35,6 @@ descriptionSubtitleThree: Borrowing against the long-term vision to close short-
 subtitleFour: Hypometricemia
 descriptionSubtitleFour: Not measuring much because it's unclear how you should measure success.
 iconSubtitleFour: /images/session-icons-white/protractor-rule-svgrepo-com.svg
-
 
 titleThree: Benefits
 
@@ -56,9 +54,8 @@ titleFour: What the training covers
 titleFourDescription: Get this training for $ 10,000 for up to 15 people for training
 titleFourDescription2: This training is delivered in the following two sessions
 
-
-list: 
-  - title: craft a clear, compelling vision. 
+list:
+  - title: craft a clear, compelling vision.
     copy: This product management workshop will help you align on the problem you want to solve, why the status quo is unacceptable, and the world you want to bring about. You’ll learn to use your vision to influence others across your organization and learn a powerful tool for prioritization.
     img: "/images/vision.jpeg"
     learn: Learn why you need a Radical Vision Statement
@@ -67,10 +64,10 @@ list:
     sessionicon: /images/session-icons-pink/telescope.png
 
   - title: Translate your vision into an actionable plan
-    copy: You’ll translate your vision into an actionable plan by developing a RDCL Strategy that is centered on your user and their pain. You’ll then translate your strategy into a set of metrics to measure progress, and learn to harness Lean and Agile techniques for execution with Radical Product Thinking. 
+    copy: You’ll translate your vision into an actionable plan by developing a RDCL Strategy that is centered on your user and their pain. You’ll then translate your strategy into a set of metrics to measure progress, and learn to harness Lean and Agile techniques for execution with Radical Product Thinking.
     img: "/images/product-session-2.jpeg"
     learn: Learn why a RDCL Strategy is important
-    link: /strategy/2022/03/21/three-characteristics-of-good-product-strategy/ 
+    link: /strategy/2022/03/21/three-characteristics-of-good-product-strategy/
     session: session 2
     sessionicon: /images/session-icons-pink/route.png
 
@@ -78,4 +75,3 @@ guide: Get the Product Management Training
 cost: $ 10,000
 sessions: 2
 ---
-

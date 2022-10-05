@@ -12,3 +12,32 @@
     }
 }
 
+.question {
+
+    button {
+        background-color: transparent;
+        border: 0;
+    }
+
+    .answer {
+        font-weight: 300;
+        font-size: 1rem;
+        height: 0;
+        overflow: hidden;
+        transition: all 0.3s ease-in-out;
+
+        a {
+            color: #FF0058;
+            text-decoration: none;
+            &:hover {color: #FF0058; }
+        }
+    }
+}
+
+.question.active {
+    h5 { color: #3B5DEF;}
+    .answer {
+        padding-top: 1rem;
+        height: auto;
+    }
+}

@@ -1,0 +1,18 @@
+<div class="container-xxl p-2 p-xxl-0">
+    <div class="tight-container">
+        <h2 class="subtitle text-center mb-4">Frequently Asked Questions</h2>
+
+        <div class="faqs">
+            {% for faq in site.data.faqs %}
+                <div class="py-4 border-top question">
+                    <div class="d-flex justify-content-between align-items-center pointer">
+                        <h5 class="semibold text mb-0">{{faq.question}}</h5>
+                        <button><i class="bi bi-chevron-down"></i></button>
+                    </div>
+                    
+                    <div class="answer">{{faq.answer | markdownify}}</div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

@@ -1,0 +1,16 @@
+<section class="breadcumb py-2 mb-3">
+    <div class="container-xxl">
+        {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+
+        <a href="/">
+            <i class="bi bi-house-fill"></i>
+        </a>
+        {% for crumb in crumbs offset: 1 %}
+            {% if forloop.last %}
+            <i class="bi bi-chevron-right"></i>  <span>{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</span>
+            {% else %}
+            <i class="bi bi-chevron-right"></i> <a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a>
+            {% endif %}
+        {% endfor %}
+    </div>
+</section>
