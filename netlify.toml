@@ -1,3 +1,59 @@
 [[redirects]]
   from = "/workshops"
   to = "/trainings"
+
+[[redirects]]
+  from - "/strategy/2021/04/15/real-pain-points/"
+  to = "/blog/pain-points"
+
+[[redirects]]
+  from - "/culture/2021/05/03/hoopla-on-basecamp/"
+  to = "/blog/organizational-culture"
+
+[[redirects]]
+  from - "/vision/2021/03/19/vision-doesnt-have-to-be-hairy/"
+  to = "/blog/vision-statement"
+
+[[redirects]]
+  from - "/travels/2020/07/07/art-of-prioritization/"
+  to = "/blog/product-prioritization-framework"
+
+[[redirects]]
+  from - "/product_disease/2020/03/10/product-diseases/"
+  to = "/blog/product-development-challenges"
+
+[[redirects]]
+  from - "/case_study/transformation/2021/04/19/publishing-as-a-radical-product/"
+  to = "/blog/product-thinking"
+
+[[redirects]]
+  from - "/vision/2022/03/13/take-a-stand-to-build-visionary-products/"
+  to = "/blog/visionary-product-strategy"
+
+[[redirects]]
+  from - "/digital/pollution/2021/08/16/digital-pollution-apple-eroding-privacy/"
+  to = "/blog/consumer-data-privacy"
+
+[[redirects]]
+  from - "/ethics/digital_pollution/2020/04/30/hippocratic-oath/"
+  to = "/blog/ethics-product-development-process"
+
+[[redirects]]
+  from - "/vision/2021/08/05/foodie's-guide-to-building-successful-products/"
+  to = "/blog/successful-products"
+
+[[redirects]]
+  from - "/culture/2020/06/26/how-to-transform-company-culture-from-a-nebulous-idea-into-tangible-action/"
+  to = "/blog/toxic-work-culture"
+
+[[redirects]]
+  from - "/vision/2021/09/14/stressfree-guide-to-strategic-planning/"
+  to = "/blog/strategic-planning"
+
+[[redirects]]
+  from - "/okrs/measurement/2021/04/30/the-downsides-of-okrs/"
+  to = "/blog/okrs-criticism"
+
+[[redirects]]
+  from - "/strategy/2022/03/21/three-characteristics-of-good-product-strategy/"
+  to = "/blog/how-to-create-product-strategy"
