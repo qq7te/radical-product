@@ -1,27 +1,29 @@
 ---
 layout: post
-title:  You weren't on any mercy mission this time
-date:   2018-05-29 18:05:55 +0300
-image:  '/images/02.jpg'
-categories:   Jekyll
+title: You weren't on any mercy mission this time
+date: 2018-05-29 18:05:55 +0300
+permalink: /blog/you-werent-on-any-mercy-mission-this-time
+image: "/images/02.jpg"
+categories: Jekyll
 published: false
 featured: false
-
 ---
+
 Still, she's got a lot of spirit. I don't know, what do you think? Hokey religions and ancient weapons are no match for a good blaster at your side, kid. I can't get involved! I've got work to do! It's not that I like the Empire, I hate it, but there's nothing I can do about it right now. It's such a long way from here.
 
 ### I care. So, what do you think of her, Han?
+
 I suggest you try it again, Luke. This time, let go your conscious self and act on instinct. You are a part of the Rebel Alliance and a traitor! Take her away! Your eyes can deceive you. Don't trust them.
 
 ![My best moments]({{site.baseurl}}/images/36.jpg)
-*That was great*
+_That was great_
 
 Hokey religions and ancient weapons are no match for a good blaster at your side, kid. I suggest you try it again, Luke. This time, let go your conscious self and act on instinct. Don't be too proud of this technological terror you've constructed. The ability to destroy a planet is insignificant next to the power of the Force.
 
 Obi-Wan is here. The Force is with him. Partially, but it also obeys your commands. I call it luck. I'm trying not to, kid. Alderaan? I'm not going to Alderaan. I've got to go home. It's late, I'm in for it as it is.
 
 ![New outfit]({{site.baseurl}}/images/37.jpg)
-*Together*
+_Together_
 
 1. She must have hidden the plans in the escape pod. Send a detachment down to retrieve them, and see to it personally, Commander. There'll be no one to stop us this time!
 2. Remember, a Jedi can feel the Force flowing through him.

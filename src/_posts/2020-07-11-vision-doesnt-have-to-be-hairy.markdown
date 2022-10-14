@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "A Good Vision Doesn’t Have to Be Big and Hairy"
+title: "A Good Vision Doesn’t Have to Be Big and Hairy"
 Subtitle: Unpacking myths about what makes a good vision so we can adopt a new, radical approach.
 image: /img/lion.jpg
-date:   2021-03-19 17:51:14 +0800
+date: 2021-03-19 17:51:14 +0800
+permalink: /blog/vision-statement
 categories: Vision
 featured: true
 ---
@@ -33,15 +34,13 @@ Ironically, a BHAG was a barrier to building a good product. Instead of a BHAG, 
 
 A good vision doesn’t have to be big or hairy — it needs to be radical. A radical vision has the following three characteristics:
 
-
 1. **Center your vision on the problem**: A good vision is not about your goals or your aspirations for your company. It’s centered on the problem that you want to see solved in the world. This is why “To be the leader in” is not a good vision — being a leader is about your aspirations. It’s not what your customers need.
-
 
 2. **Test your vision with customers**: A good vision galvanizes not just your team, but also your customers. When you share your vision with customers, they should be nodding along with you.
 
 3. **Visualize the end-state**: A good vision should help you and your team visualize the end state that you want to bring about. What does the world look like when you’ve solved the problem you set out to?
 
->**A Radical Vision describes the change you want to see in the world and how you’ll bring it about.**
+> **A Radical Vision describes the change you want to see in the world and how you’ll bring it about.**
 
 Although these three characteristics make intuitive sense, I’ve found that writing such a vision is still challenging when you start with a blank sheet of paper. Think back to the last time you were in a company offsite playing vision bingo for at least half your day… Painful wasn’t it?
 
@@ -62,4 +61,3 @@ If you want to get your team or organization to write a detailed and meaningful 
       allowfullscreen="">
   </iframe>
 </div>
-
