@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Product Leadership: The Role Of Leaders In Creating Visionary Products"
+title: "Product Leadership: How to Create Visionary Products"
 date: 2022-10-27 18:05:55 +0300
 permalink: /blog/product-leadership
 image: "/img/leadershiphero.jpg"
@@ -19,7 +19,7 @@ Product leadership means scaling your thinking and spreading your influence acro
 Yes! Whether you’re an individual contributor or a manager, you’re a product leader if you exhibit the key traits of giving your team(s) the right balance of autonomy and direction.  
 <br>
 
-<h2>A visual framework for product leadership</h2>
+<h2>What makes a good product leader?</h2>
 Until now, most of us have had to figure out through trial and error what good product leadership looks like. It’s time to change that! This blog post offers a visual framework and a step-by-step process for developing the key skills you need to be a good product leader.  
 
 Essentially there are two dimensions to good product leadership:
@@ -28,10 +28,12 @@ Essentially there are two dimensions to good product leadership:
 
 When you do these two things just right, you’re able to give your team the autonomy they need and yet you have enough influence to be able to shape the output.  
 
-When you plot these two dimensions, the following styles of leadership emerge. See if you recognize these styles:
+When you plot these two dimensions, the following styles of leadership emerge. See if you recognize these styles:  
+
 <br>
 
-![Radical Product Thinking: Product Leadership]({{site.baseurl}}/img/leadership.png)
+<h2>A visual framework for product leadership</h2>
+![Radical Product Thinking: Product Leadership]({{site.baseurl}}/img/leadershipcrop.png)
 <br>
 
 
