@@ -9,17 +9,28 @@ published: true
 featured: false
 ---
 
-Most mission statements are written to sound inspiring but in reality they're too broad and fluffy to be of any practical use. In this article I’ll explain why you need to unlearn the traditional approach to writing mission statements and give you a powerful framework to effectively communicate the change you want to bring about and align your team.  
+Most mission statements are written to sound inspiring but in reality they're too broad and fluffy to be of any practical use. In this article I’ll explain why you need to unlearn the traditional approach to writing mission statements and give you a powerful framework to effectively communicate the change you want to bring about and align your team.
 
+Read on to learn more or jump to any of these sections:  
+- <a href="#tradition">The tradition: vision, mission, and values</a>  
+- <a href="#difference">Difference between a vision and mission statement</a>  
+- <a href="#rethinking">Rethinking vision and mission: write one statement</a>  
+- <a href="#fail">Why do mission statements fail?</a>  
+- <a href="#elements">What are the main elements of a mission statement?</a>  
+- <a href="#write">How to write a mission statement</a>  
+- <a href="#framework">Framework for writing a mission statement</a>  
+- <a href="#examples">Mission statement examples (the Radical Product Thinking way)</a>  
+- <a href="#mistakes">Most common mistakes when writing a mission statement</a>  
+- <a href="#faq">Frequently asked questions</a>  
 <br>
-<h2> The Tradition: Mission, Vision, and Values</h2>
+<h2 id="tradition"> The Tradition: Mission, Vision, and Values</h2>
 
 Most organizations have a triad structure of vision, mission, and values to communicate who they are and what they stand for. Although this structure was intended to offer employees clarity, this triad format has instead generated much confusion. 
 
 The difference between a vision and mission statement is often the first source of confusion when using this triad approach. Should it be the vision statement that is broader and the mission statement which offers more detail, or the other way around? In either case, you've most likely noticed that values may be written as part of this triad but don't feature in the regular discourse. 
 
 <br>
-<h2>Difference Between A Vision And Mission Statement</h2>
+<h2 id="difference">Difference Between A Vision And Mission Statement</h2>
 Traditionally, the vision statement is intended to show employees in broad and aspirational terms where the company is going and the hopes and dreams a company has. In this context, the mission statement is designed to provide a more detailed picture of the problem and is designed to be more actionable - it answers the question of how the company will bring about the vision.  
 
 
@@ -33,7 +44,7 @@ Traditionally, the vision statement is intended to show employees in broad and a
 **Mission:** Our purpose and mission is to connect, protect, explore and inspire the world through aerospace innovation.  
 <br>
 
-<h2> Rethinking Vision And Mission: Write One Statement</h2>
+<h2 id="rethinking"> Rethinking Vision And Mission: Write One Statement</h2>
 Having two separate statements just creates more cognitive load and makes employees feel like they also need to remember which statement was which. To remove the unnecessary confusion, many companies today have a single statement.  
 
 For example, Nike’s website doesn’t have a vision statement. It states its mission as:  
@@ -46,7 +57,7 @@ Whether you call it a mission or vision, the [Radical Product Thinking way]({% p
  
 <br>
 
-<h2>Why Do Mission Statements Fail?</h2>
+<h2 id="fail">Why Do Mission Statements Fail?</h2>
 Although creating a single statement is a great first step, these statements above are entirely too broad. Let’s take the example of Asana’s mission statement of helping humanity thrive by enabling all teams to work together effortlessly. This could describe Slack, or a telecom company describing its corporate phone plan, or even an events management team that organizes corporate offsites! The problem with such a statement is that pretty much anything fits.  
 
 You need a clear North Star that points the way and that acts as a filter so that when you hold up a feature against this statement and ask, “Should we do this?”, sometimes the answer should be “No! Don’t!”  
@@ -57,7 +68,7 @@ When you write mission statements that are broad and aspirational but provide li
 
 <br>
 
-<h2>What Are the Main Elements of a Mission Statement?</h2>
+<h2 id="elements">What Are the Main Elements of a Mission Statement?</h2>
 I’ve found that a good mission statement has three important elements:  
 1. **It describes the problem you want to see solved in the world.** It shouldn’t be about your aspirations for your organization at all. In fact, you know you’re on the right track if you describe a problem that you want to see solved even if you were to take yourself and your organization out of the picture.
 2. **It describes a tangible end state you can visualize.** When your goal is a tangible, visualizable end state instead of something abstract, people can internalize it and make it their own dream.
@@ -66,7 +77,7 @@ I’ve found that a good mission statement has three important elements:
 <br>  
 
 
-<h2>How To Write A Mission Statement</h2>
+<h2 id="write">How To Write A Mission Statement</h2>
 In writing your mission statement, you’ll want to condense the three elements above into one detailed statement that articulates the change you envision and how you’ll bring it about.  
 >You can learn more about [Radical Product Thinking workshops](https://www.radicalproduct.com/trainings/innovation-training/) where you can work with me to craft a compelling statement that aligns your team.  
 
@@ -83,10 +94,10 @@ To help with this, you can use the [Radical Product Thinking toolkit](https://ww
 
 <br>
 
-<h2>Framework for writing a mission statement</h2>
+<h2 id="framework">Framework for writing a mission statement</h2>
 Many teams have been inspired by Simon Sinek’s book *Start With Why* and have tried to adopt that approach for writing a mission statement.
-![Simon Sinek: The Golden Circle]({{site.baseurl}}/img/goldencircle.jpeg)  
-I agree with Sinek’s approach that tells you not to focus on your product or solution and instead focus on why your organization exists. The problem, however, is that even when you heartily believe in starting with the Why, it’s really hard to articulate the Why on a blank sheet of paper without a clear structure to guide you. If you’ve tried this exercise at a corporate offsite, most likely you have experienced the pain of feeling trapped in a never ending game of junk-word-bingo.  
+![Simon Sinek: The Golden Circle]({{site.baseurl}}/img/goldencircle.jpeg)    
+While I agree with Sinek’s approach that tells you focus on why your organization exists instead of focusing on your product or solution, the problem is that this framework doesn't provide adequate structure. Even when you heartily believe in starting with the Why, it’s really hard to articulate your Why on a blank sheet of paper with nothing to guide you. If you’ve tried this exercise at a corporate offsite, most likely you have experienced the pain of feeling trapped in a never ending game of buzzword-bingo.  
 
 Instead, the RPT approach guides you to your Why using a [fill-in-the-blanks approach](https://www.radicalproduct.com/toolkit). The first part of the RPT worksheet helps you define whose problem you’re setting out to solve and why it’s imperative that the problem must be solved. The second half of the worksheet helps you define the end state when the problem is solved and what your solution is for bringing this about.  
 
@@ -95,7 +106,7 @@ Instead, the RPT approach guides you to your Why using a [fill-in-the-blanks app
 ![Radical Product Thinking: Mission or Vision Statement]({{site.baseurl}}/img/mission.png)
 
 <br>
-<h2>Mission Statement Examples (The Radical Product Thinking Way)</h2>  
+<h2 id="examples">Mission Statement Examples (The Radical Product Thinking Way)</h2>  
 Whether you call it your vision or your mission, in the [Radical Product Thinking](https://www.radicalproduct.com/) way, your statement should be detailed and sound more like an essay than a short slogan such as “to be the leader in XYZ”. A detailed statement creates alignment and gives your team the blueprint they need to know what to build.  
 
 Here are filled out examples of the Radical Product Thinking [Mad Libs statement](https://www.radicalproduct.com/toolkit) for different types of companies:  
@@ -110,7 +121,7 @@ The following is the statement for Likelii, a B2C startup I had founded and that
    **Today when** [_creative, wholehearted, ethical people_]**, want to** [_live in financial comfort and take care of their families and loved ones_]**, they have to** [_sell their souls or overwork to make money_]**. This is unacceptable because** [_it perpetuates systems of oppression, where behavior that is harmful to people, the environment, or the future of humanity is incentivized_]**. We envision a world where** [_creative, wholehearted, ethical folks can be highly paid professionals, thereby incentivizing others to do good, and allowing creative, wholehearted, ethical individuals and organizations to use their money as medicine to connect, heal, and repair our world_]**. We are bringing this world about through** [_ethical design and consulting services that open doors in people’s minds to new ways of being, behaving, organizing, and building institutions_]**.**  
 
 <br>
-<h2>Most Common Mistakes When Writing a Mission Statement</h2>
+<h2 id="mistakes">Most Common Mistakes When Writing a Mission Statement</h2>
 Rethinking your mission statement requires unlearning a lot of traditional teaching from business schools. Here are the most common mistakes that leaders make when writing a mission statement:  
 
 <h3>1. Wordsmithing to write short and memorable mission statements</h3>  
@@ -133,7 +144,7 @@ We’ve come to believe that the leaders at the top write the mission statement 
 When you want to get your team to buy-into and internalize a shared mission, the model of a leader presenting a company mission like Moses descending with his commandments just doesn’t work. Instead you need to co-create your mission statement with your team. A facilitated workshop makes this exercise easier - you can book a [Radical Product Thinking](https://www.radicalproduct.com/trainings/product-management-training/) workshop to guide your team through such an exercise.   
 
 <br>
-<h2>Frequently asked questions</h2>
+<h2 id="faq">Frequently asked questions</h2>
 
 Here are the answers to the questions I get most often when I run workshops:
 

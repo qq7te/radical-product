@@ -66,4 +66,4 @@ To measure what matters, derive your metrics from your strategy, i.e. for each e
 
 ## Kickoff a discussion
 
-My book, Radical Product Thinking, will be on bookshelves on Sept 28th - you can use the book in a book club discussion to introduce this new approach to strategic planning in your organization. If you’re organizing such a book club discussion, I may be able to join (schedule permitting) for a Q&A session and to share a behind-the-scenes look at how the book came to be. Feel free to email me at radhika@radicalproduct.com.
+You can use the [Radical Product Thinking book](https://www.amazon.com/Radical-Product-Thinking-Mindset-Innovating-ebook/dp/B08ZNV7SW4/ref=sr_1_1?crid=7T1XHJC9CZXE&dchild=1&keywords=radical+product+thinking&qid=1622558352&sprefix=radical+product+thi%2Caps%2C155&sr=8-1) in a book club discussion to introduce this new approach to strategic planning in your organization. If you’re organizing such a book club discussion, I may be able to join (schedule permitting) for a Q&A session and to share a behind-the-scenes look at how the book came to be. Feel free to email me at radhika@radicalproduct.com.
