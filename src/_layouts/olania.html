@@ -23,6 +23,11 @@
   </footer>
 
   {% include javascripts.html %}
+
+
+  {% if page.scripts %}
+    {{ page.scripts }}
+  {% endif %}
 </body>
 
 </html>

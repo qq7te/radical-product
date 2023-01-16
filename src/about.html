@@ -10,12 +10,18 @@ pressKitLink: "/pdf/press-kit.pdf"
 
 historyTag: "THE HISTORY"
 historyTitle: "The radical product thinking history"
-historyCopy: "My journey to writing Radical Product Thinking started with a discussion about product diseases with two ex-colleagues, Geordie Kaytes and Nidhi Aggarwal. Each of us had experienced product diseases and learned hard lessons in avoiding them by being vision-driven rather than iteration-led. But without a methodology to help organizations stay vision-driven, we kept seeing good products go bad."
-historyCopy2: "In 2017, we developed Radical Product Thinking as a framework with a free downloadable toolkit to help organizations systematically build world-changing products. Today Radical Product Thinking has been adopted by organizations around the world including startups, multinationals, nonprofits, and government agencies."
+historyCopy: "My journey to writing Radical Product Thinking started with a discussion about product diseases with two
+ex-colleagues, Geordie Kaytes and Nidhi Aggarwal. Each of us had experienced product diseases and learned hard lessons
+in avoiding them by being vision-driven rather than iteration-led. But without a methodology to help organizations stay
+vision-driven, we kept seeing good products go bad."
+historyCopy2: "In 2017, we developed Radical Product Thinking as a framework with a free downloadable toolkit to help
+organizations systematically build world-changing products. Today Radical Product Thinking has been adopted by
+organizations around the world including startups, multinationals, nonprofits, and government agencies."
 
 testimonialsTag: "Testimonials"
 testimonialsTitle: "Your success is how we measure Radical Product Thinking's success. "
-testimonialsCopy: "The vision behind RPT is to make it easier for you to build dramatically better products that bring the world a little closer to the one you want to live in."
+testimonialsCopy: "The vision behind RPT is to make it easier for you to build dramatically better products that bring
+the world a little closer to the one you want to live in."
 testimonialsLabel: "Share your history with radical product thinking"
 testimonialsCTA: "Share Story"
 
@@ -23,152 +29,176 @@ galleryTag: "Articles, Podcasts & Videos"
 galleryTitle: "Get to know Radical Product Thinking"
 
 helpTitle: "GET HANDS-ON HELP"
-helpCopy: "If you want hands-on help integrating Radical Product thinking into your organization. We offer coaching, training, and workshops to individuals and teams. Please get in touch below to start the conversation."
+helpCopy: "If you want hands-on help integrating Radical Product thinking into your organization. We offer coaching,
+training, and workshops to individuals and teams. Please get in touch below to start the conversation."
 helpCTA: "Let's chat"
 emailInputPlaceholder: Enter your email
-
 ---
 
-<header>
-    {% include nav.html %}
-</header>
+<header>{% include nav.html %}</header>
 
 <section class="landing-banner banner-padding">
-    <div class="container-xxl text-center py-5">
-        <h1 class="uppercase bold title mb-3">{{page.tagline}}</h1>
-        <a href="{{page.pressKitLink}}" class="primary-button d-inline-block text-white uppercase bg-pink link" download>{{page.pressCTA}}</a>
-    </div>
+  <div class="container-xxl text-center py-5">
+    <h1 class="uppercase bold title mb-3">{{page.tagline}}</h1>
+    <a href="{{page.pressKitLink}}" class="primary-button d-inline-block text-white uppercase bg-pink link"
+      download>{{page.pressCTA}}</a>
+  </div>
 </section>
 
 <section class="section-padding bg-gray">
-    <div class="container-xxl">
-        <div class="row d-flex align-items-center">
-            <div class="col-12 col-md-6">
-                <h6 class="purple-text uppercase fs-5">{{page.historyTag}}</h6>
-                <h2 class="subtitle uppercase">{{page.historyTitle}}</h2>
-                <p class="text light">{{page.historyCopy}}</p>
-                <p class="text light">{{page.historyCopy2}}</p>
-            </div>
-            <div class="col">
-                <iframe width="100%" height="330" src="https://www.youtube.com/embed/qWkrqgNhrQg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-        </div>
+  <div class="container-xxl">
+    <div class="row d-flex align-items-center">
+      <div class="col-12 col-md-6">
+        <h6 class="purple-text uppercase fs-5">{{page.historyTag}}</h6>
+        <h2 class="subtitle uppercase">{{page.historyTitle}}</h2>
+        <p class="text light">{{page.historyCopy}}</p>
+        <p class="text light">{{page.historyCopy2}}</p>
+      </div>
+      <div class="col">
+        <iframe width="100%" height="330" src="https://www.youtube.com/embed/qWkrqgNhrQg" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
     </div>
+  </div>
 </section>
 
 <section class="section-padding">
-    <div class="container-xxl">
+  <div class="container-xxl">
+    <h6 class="purple-text uppercase fs-5">{{page.testimonialsTag}}</h6>
+    <h2 class="subtitle uppercase">{{page.testimonialsTitle}}</h2>
+    <p class="text light mb-5">{{page.testimonialsCopy}}</p>
 
-        <h6 class="purple-text uppercase fs-5">{{page.testimonialsTag}}</h6>
-        <h2 class="subtitle uppercase">{{page.testimonialsTitle}}</h2>
-        <p class="text light mb-5">{{page.testimonialsCopy}}</p>
-
-        <div class="bg-light-purple-waves">
-            <div class="row d-flex align-items-center py-5">
-                <div class="col-12 col-md-6 px-5 mb-3 mb-md-0">
-                    <div class="row talks">
-                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"  data-bs-interval="10000">
-                            <div class="carousel-indicators d-block m-0 px-2">
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active bg-purple" aria-current="true" aria-label="Slide 1"></button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="ms-2" aria-label="Slide 2"></button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="ms-2" aria-label="Slide 3"></button>
-                            </div>
-                            <div class="carousel-inner mb-5 pb-3">
-                                {% for testimonial in site.data.testimonials.radical-toolkit %}
-                                    <div class="carousel-item {% if forloop.first == true %} active{% endif %}">
-                                        <p class="text deep-purple-text">{{testimonial.testimonial}}</p>
-                                        <span class="small-text fst-italic deep-purple-text">-{{testimonial.author}}</span>
-                                    </div>
-                                {% endfor %}
-                            </div>
-                        </div>
-                    </div>
+    <div class="bg-light-purple-waves">
+      <div class="row d-flex align-items-center py-5">
+        <div class="col-12 col-md-6 px-5 mb-3 mb-md-0">
+          <div class="row talks">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="10000">
+              <div class="carousel-indicators d-block m-0 px-2">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                  class="active bg-purple" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="ms-2"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="ms-2"
+                  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner mb-5 pb-3">
+                {% for testimonial in site.data.testimonials.radical-toolkit %}
+                <div class="carousel-item {% if forloop.first == true %} active{% endif %}">
+                  <p class="text deep-purple-text">
+                    {{testimonial.testimonial}}
+                  </p>
+                  <span class="small-text fst-italic deep-purple-text">-{{testimonial.author}}</span>
                 </div>
-                <div class="col-12 col-md-6 px-5">
-                    <form class="bg-white rounded p-4" name="userTestimonials" netlify>
-                        <div>
-                            <h5 class="text uppercase bold mb-3 fs-5">{{page.testimonialsLabel}}</h5>
-                            <textarea  class="d-block form-control w-100" name="story" id="userStory" rows="4"></textarea>
-                        </div>
-                        <div class="text-end">
-                            <button type="submit" class="mt-3 primary-button text-white uppercase bg-pink" >{{page.testimonialsCTA}}</button>
-                        </div>
-                    </form>
-                </div>
-
+                {% endfor %}
+              </div>
             </div>
+          </div>
         </div>
+        <div class="col-12 col-md-6 px-5">
+          <form class="bg-white rounded p-4" name="userTestimonials" netlify>
+            <div>
+              <h5 class="text uppercase bold mb-3 fs-5">
+                {{page.testimonialsLabel}}
+              </h5>
+              <textarea class="d-block form-control w-100" name="story" id="userStory" rows="4"></textarea>
+            </div>
+            <div class="text-end">
+              <button type="submit" class="mt-3 primary-button text-white uppercase bg-pink">
+                {{page.testimonialsCTA}}
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
+  </div>
 </section>
 
 <section class="section-padding bg-gray">
-    <div class="container-xxl">
-        <h6 class="text uppercase purple-text text-center fs-5">{{page.galleryTag}}</h6>
-        <h2 class="subtitle uppercase text-center mb-5">{{page.galleryTitle}}</h2>
+  <div class="container-xxl">
+    <h6 class="text uppercase purple-text text-center fs-5">
+      {{page.galleryTag}}
+    </h6>
+    <h2 class="subtitle uppercase text-center mb-5">{{page.galleryTitle}}</h2>
 
-        <div class="row">
-            {% for article in site.data.press.articles %}
-            <div class="col-12 col-md-4 mb-5">
-                <a href="{{article.link}}" class="link black-text" target="_blank">
-                    <img src="{{article.img}}" alt="" width="100%" class="d-block mb-2">
-                    <span class="gray-text light small-text badge bg-pink">{{article.type}}</span>
-                    <h6 class="text bold mb-0">{{article.title}}</h6>
-                    <span class="gray-text light small-text">{{article.source}}</span>
-                </a>
-            </div>
-            {% endfor %}
-
-            {% for video in site.data.press.videos %}
-            {% if video.available %}
-            <div class="col-12 col-md-4 mb-5">
-              
-                    <a href="{{video.link}}" class="link black-text" target="_blank">
-                        <img src="{{video.img}}" alt="" width="100%" class="d-block mb-2">
-                        <span class="gray-text light small-text badge bg-purple">{{video.type}}</span>
-                        <p class="text bold mb-0">{{video.title}}</p>
-                        <span class="gray-text light small-text">{{video.source}}</span>
-                    </a>
-               
-              
-            </div>
-            {% endif %}
-            {% endfor %}
-
-            {% for podcast in site.data.press.podcast %}
-            <div class="col-12 col-md-4 mb-5">
-                <a href="{{podcast.link}}" class="link black-text" target="_blank">
-                    <img src="{{podcast.img}}" alt="" width="100%" class="d-block mb-2">
-                    <span class="gray-text light small-text badge bg-green">{{podcast.type}}</span>
-                    <p class="text bold mb-0">{{podcast.title}}</p>
-                    <span class="gray-text light small-text">{{podcast.source}}</span>
-                </a>
-            </div>
-            {% endfor %}
-        </div>
+    <div class="row">
+      {% for article in site.data.press.articles %}
+      <div class="col-12 col-md-4 mb-5">
+        <a href="{{article.link}}" class="link black-text" target="_blank">
+          <img src="{{article.img}}" alt="" width="100%" class="d-block mb-2" />
+          <span class="gray-text light small-text badge bg-pink">{{article.type}}</span>
+          <h6 class="text bold mb-0">{{article.title}}</h6>
+          <span class="gray-text light small-text">{{article.source}}</span>
+        </a>
+      </div>
+      {% endfor %} {% for video in site.data.press.videos %} {% if
+      video.available %}
+      <div class="col-12 col-md-4 mb-5">
+        <a href="{{video.link}}" class="link black-text" target="_blank">
+          <img src="{{video.img}}" alt="" width="100%" class="d-block mb-2" />
+          <span class="gray-text light small-text badge bg-purple">{{video.type}}</span>
+          <p class="text bold mb-0">{{video.title}}</p>
+          <span class="gray-text light small-text">{{video.source}}</span>
+        </a>
+      </div>
+      {% endif %} {% endfor %} {% for podcast in site.data.press.podcast %}
+      <div class="col-12 col-md-4 mb-5">
+        <a href="{{podcast.link}}" class="link black-text" target="_blank">
+          <img src="{{podcast.img}}" alt="" width="100%" class="d-block mb-2" />
+          <span class="gray-text light small-text badge bg-green">{{podcast.type}}</span>
+          <p class="text bold mb-0">{{podcast.title}}</p>
+          <span class="gray-text light small-text">{{podcast.source}}</span>
+        </a>
+      </div>
+      {% endfor %}
     </div>
+  </div>
 </section>
 
 <section class="bg-purple wavy-bg-img py-5">
-    <div class="container-xxl white-text">
-        <h2 class="subtitle uppercase">{{page.helpTitle}}</h2>
-        <p class="text light">If you want hands-on help integrating Radical Product thinking into your organization.
-            <br>
-            We offer coaching, training, and workshops to individuals and teams. Please get in touch below to start the conversation.</p>
-        <div>
-
-            <form action="https://radicalproduct.us10.list-manage.com/subscribe/post?u=5559a62245d86aeeefd822705&amp;id=7fc7e415ad"
-                method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate signup"
-                target="_blank" novalidate>
-                <fieldset class="d-flex flex-column flex-md-row">
-                    <input type="email" value="" name="EMAIL" class="required email text-input mid-input text light me-1 mb-2" id="mce-EMAIL" placeholder="{{page.emailInputPlaceholder}}">
-                    <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                        <input type="text" name="b_5559a62245d86aeeefd822705_7fc7e415ad" tabindex="-1" value="">
-                    </div>
-                    <div class="clear">
-                        <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="primary-button text-white uppercase bg-pink">{{page.helpCTA}}</button>
-                    </div>
-                </fieldset>
-            </form>
-        </div>
+  <div class="container-xxl white-text">
+    <h2 class="subtitle uppercase">{{page.helpTitle}}</h2>
+    <p class="text light">
+      If you want hands-on help integrating Radical Product thinking into your
+      organization.
+      <br />
+      We offer coaching, training, and workshops to individuals and teams.
+      Please get in touch below to start the conversation.
+    </p>
+    <div>
+      <form
+        action="https://radicalproduct.us10.list-manage.com/subscribe/post?u=5559a62245d86aeeefd822705&amp;id=7fc7e415ad"
+        method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate signup"
+        target="_blank" novalidate>
+        <fieldset class="d-flex flex-column flex-md-row">
+          <input type="email" value="" name="EMAIL" class="required email text-input mid-input text light me-1 mb-2"
+            id="mce-EMAIL" placeholder="{{page.emailInputPlaceholder}}" />
+          <div style="position: absolute; left: -5000px" aria-hidden="true">
+            <input type="text" name="b_5559a62245d86aeeefd822705_7fc7e415ad" tabindex="-1" value="" />
+          </div>
+          <div class="clear">
+            <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"
+              class="primary-button text-white uppercase bg-pink">
+              {{page.helpCTA}}
+            </button>
+          </div>
+        </fieldset>
+      </form>
     </div>
+  </div>
 </section>
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://www.radicalproduct.com/about/"
+    },
+    "headline": "About me | Radhika Dutt",
+    "description": ""
+  }
+</script>
