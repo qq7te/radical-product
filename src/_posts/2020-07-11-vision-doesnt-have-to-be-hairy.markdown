@@ -7,6 +7,35 @@ date: 2021-03-19 17:51:14 +0800
 permalink: /blog/vision-statement
 categories: Vision
 featured: true
+
+scripts: '<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.radicalproduct.com/blog/vision-statement"
+  },
+  "headline": "A Good Vision Doesn’t Have to Be Big and Hairy",
+  "image": "https://d33wubrfki0l68.cloudfront.net/9aa2793f3922f045d9dc33d1246af8386d3d4ef3/2a43b/img/lion.jpg",  
+  "author": {
+    "@type": "Person",
+    "name": "Radhika Dutt",
+    "url": "https://www.linkedin.com/in/radhika-dutt/"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Radical Product Thinking",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://d33wubrfki0l68.cloudfront.net/3c4dee1eba376b159a2a83d0fee95d9a2bf9de77/0b43e/img/logo.svg"
+    }
+  },
+  "datePublished": "",
+  "dateModified": "2021-03-19"
+}
+</script>'
+
 ---
 
 We’ve learned that a good vision has to be a BHAG, i.e. a Big, Hairy, Audacious Goal. The problem with having a BHAG for a vision,
