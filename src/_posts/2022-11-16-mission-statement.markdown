@@ -60,7 +60,7 @@ Whether you call it a mission or vision, the [Radical Product Thinking way]({% p
 <h2 id="fail">Why Do Mission Statements Fail?</h2>
 Although creating a single statement is a great first step, these statements above are entirely too broad. Let’s take the example of Asana’s mission statement of helping humanity thrive by enabling all teams to work together effortlessly. This could describe Slack, or a telecom company describing its corporate phone plan, or even an events management team that organizes corporate offsites! The problem with such a statement is that pretty much anything fits.  
 
-You need a clear North Star that points the way and that acts as a filter so that when you hold up a feature against this statement and ask, “Should we do this?”, sometimes the answer should be “No! Don’t!”  
+You need a clear North Star that points the way and that acts as a filter so that when you hold up an opportunity, initiative, or feature against this statement and ask, “Should we do this?”, sometimes the answer should be “No! Don’t!”  
 
 >A broad mission statement that doesn't provide adequate direction leads to a myopic focus on short-term business needs.
 
