@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -33,21 +33,16 @@ logo: /img/logo.svg
 
 source: src
 
-
-
 #-------------------------------
 # Author Settings
 author:
   name: Radhika Dutt
   bio: Product leader and entrepreneur in the Boston area. Author of Radical Product Thinking, participated in 4 exits, 2 of which were companies I founded.
-  image: 'https://medium.com/@rdutt?source=follow_footer-------------------------------------/images/01.jpg'
-  avatar: 'https://miro.medium.com/fit/c/160/160/1*d2fA3IUJpW_GNDg40ofPmA.jpeg'
+  image: "https://medium.com/@rdutt?source=follow_footer-------------------------------------/images/01.jpg"
+  avatar: "https://miro.medium.com/fit/c/160/160/1*d2fA3IUJpW_GNDg40ofPmA.jpeg"
 
 # Example of adding a new link to the section author - {name: "Github", link: "https://github.com"}
 author-social:
-
-
-
 
 #-------------------------------
 # Footer section
@@ -62,47 +57,42 @@ author-social:
 #- {icon: "ion ion-logo-github", link: "https://github.com"}
 #- {icon: "ion-logo-linkedin", link: "https://linkedin.com"}
 
-
 #-------------------------------
 # Comment Section (Disqus)
 # disqus-identifier: mr-brown # add your shortname for Disqus Comment. For example mr-brown
-
 
 #-------------------------------
 # Gallery section (Footer)
 gallery:
   name: Most Read
   images:
-    - alt: 'Minimalism'
-      url: '/images/17.jpg'
-    - alt: 'Minimalism'
-      url: '/images/07.jpg'
-    - alt: 'Minimalism'
-      url: '/images/08.jpg'
-    - alt: 'Minimalism'
-      url: '/images/22.jpg'
-    - alt: 'Minimalism'
-      url: '/images/10.jpg'
-    - alt: 'Minimalism'
-      url: '/images/21.jpg'
-    - alt: 'Minimalism'
-      url: '/images/29.jpg'
-    - alt: 'Minimalism'
-      url: '/images/30.jpg'
-    - alt: 'Minimalism'
-      url: '/images/31.jpg'
-
+    - alt: "Minimalism"
+      url: "/images/17.jpg"
+    - alt: "Minimalism"
+      url: "/images/07.jpg"
+    - alt: "Minimalism"
+      url: "/images/08.jpg"
+    - alt: "Minimalism"
+      url: "/images/22.jpg"
+    - alt: "Minimalism"
+      url: "/images/10.jpg"
+    - alt: "Minimalism"
+      url: "/images/21.jpg"
+    - alt: "Minimalism"
+      url: "/images/29.jpg"
+    - alt: "Minimalism"
+      url: "/images/30.jpg"
+    - alt: "Minimalism"
+      url: "/images/31.jpg"
 
 #-------------------------------
 # Google Analytics
 google-analytics: # Add your identifier. For example UA-99631805-1.
 
-
 #-------------------------------
 # Newsletter
 mailchimp: true # To enable the mailchimp form, use the value true. To turn off use the value false.
 mailchimp-identifier: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
-
 
 #-------------------------------
 # Build settings
@@ -110,10 +100,8 @@ markdown: kramdown
 permalink: pretty
 plugins:
   - jekyll-paginate
-  - jekyll-sitemap
   - jekyll-feed
   - jekyll-redirect-from
-
 
 paginate: 9
 paginate_path: "/blog/page:num"
@@ -121,7 +109,7 @@ paginate_path: "/blog/page:num"
 # Pages Path
 defaults:
   - scope:
-      path: '_pages'
+      path: "_pages"
     values:
       permalink: /:basename:output_ext
 
@@ -129,9 +117,9 @@ include:
   - _pages
 
 # Tags
-tag_page_dir:         tag
-tag_page_layout:      tag_page
-tag_permalink_style:  pretty
+tag_page_dir: tag
+tag_page_layout: tag_page
+tag_permalink_style: pretty
 
 sass:
   sass_dir: _sass
@@ -143,10 +131,6 @@ collections:
     people: true
     output: true
     permalink: /:name
-  
-     
-
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
