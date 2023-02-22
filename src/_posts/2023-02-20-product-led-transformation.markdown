@@ -39,7 +39,7 @@ scripts: '<script type="application/ld+json">
 
 ## What is product-led transformation?
 
-Product-led transformation means transforming your organization to being vision-driven. Traditionally, most companies have been either sales-led or engineering-led. Those that were engineering-led often built solutions in search of a problem and were often disconnected from what their customers actually needed. Sales-led companies, on the other hand, took the approach of building just about anything that would bring in revenues. If you’re been in a sales-led organization, you’ve likely experienced a focus on the short term and making customers happy for the immediate future but ultimately missing out on the large-scale opportunity.  
+Product-led transformation means transforming your organization to being vision-driven. Traditionally, most companies have been either sales-led or engineering-led. Those that were engineering-led often built solutions in search of a problem and were often disconnected from what their customers actually needed. Sales-led companies, on the other hand, took the approach of building just about anything that would bring in revenues. If you’ve been in a sales-led organization, you’ve likely experienced a focus on making customers happy in the short term but ultimately missing out on the large-scale opportunity.  
 
 Both these approaches make it hard to scale and grow companies in the long term. Product-led transformation is about being vision-driven instead of being either engineer-led or sales-led. It means transforming your company to adopt a mindset where you start with a clear vision of the problem you want to solve, and systematically translate that vision for change into reality.  
 
@@ -47,7 +47,7 @@ Both these approaches make it hard to scale and grow companies in the long term.
 
 ## Why product-led transformation gets a bad name
 
-Product-led sounds like you’re aiming for a political power-play in your organization. If the sales team or the engineering function have traditionally been the centers of power in your organization, introducing the idea of being “product-led” might be met with the same warmth as an attempted coup d’etat. To avoid a backlash from other functions in your organization it’s best to avoid the term “product-led” and instead use a term that explains what you’re really aiming for: being vision-driven.  
+The terminology of "product-led" sounds like a power-play in your organization. If the sales team or the engineering function have traditionally been the centers of power in your organization, introducing the idea of being “product-led” might be met with the same warmth as an attempted coup d’etat. To avoid a backlash from other functions in your organization it’s best to avoid the term “product-led” and instead use a term that explains what you’re really aiming for: being vision-driven.  
 
 <br>
 
@@ -60,7 +60,7 @@ DC was sales-led – they had a short-term focus on creating a yearly summer blo
 ![Batman releases]({{site.baseurl}}/img/batman1.png)
 _Batman releases over and over again_
 
-After the disaster of Batman & Robin, DC needed to do better. But instead of rethinking their product, what did they release? Another Batman movie. But at least Batman Begins (starring Christian Bale) was significantly better, and DC followed that up with The Dark Knight and The Dark Knight Rises. Perhaps once that series was done, they would release something different?  
+After the disaster of Batman & Robin, DC needed to do better. But instead of rethinking their product, what did they release? Another Batman movie. But at least Batman Begins (starring Christian Bale) was significantly better, and DC followed that up with The Dark Knight and The Dark Knight Rises. Perhaps once that series was done, they would take a crack at something new?  
 
 ![More Batman releases]({{site.baseurl}}/img/batman2.png)
 _DC stuck to the theme of Batman forever..._
@@ -71,9 +71,9 @@ No, what they released instead was Batman v Superman – a let-down of a superhe
 ![More Batman]({{site.baseurl}}/img/batman3.png)
 _Here we go again..._
 
-Nope. In 2022 DC released The Batman, yet another Batman reboot. These releases illustrate a clear pattern of being sales-led – focusing on the short-term by creating small iterations on the status quo to drive short-term revenues but completely lacking in a long-term vision.  
+Nope. In 2022 DC released The Batman, yet another Batman reboot. These releases illustrate a pattern of being sales-led – focusing on the short-term by creating small iterations on the status quo to drive short-term revenues but completely lacking in a long-term vision.  
 
-In contrast, Marvel took a vision-driven approach. Marvel was on the verge of bankruptcy in the late ‘90s having sold off its major characters such as Spiderman and X-Men. It needed to rethink its product and was systematic in translating a vision for change into reality.  
+In contrast, Marvel took a vision-driven approach. Marvel was on the verge of bankruptcy in the late ‘90s having sold off its major characters such as Spiderman and X-Men. It needed to rethink its product and the team was systematic in translating a vision for change into reality.  
 
 #### Vision:
 Kevin Feige, now President of Marvel, rose through the ranks because he studied Marvel’s comic books and had a vision for the company. Instead of relying on a couple of major characters, his vision was to create movies around a universe of interconnected characters that were true to Marvel’s comic books which are often a profound commentary on social and human issues. No other studio had attempted this before.   
@@ -83,7 +83,7 @@ But a vision was only the first step. Marvel needed a strategy that was centered
 
 The Design or solution to viewers’ needs was to build interconnected stories around a range of characters where viewers feel like they get the inside scoop on the superhero in each movie (think of the popularity of Marvel’s end-credit scenes).  
 
-In terms of Capabilities to power this Design, Marvel had to buy back some of the B-list characters they had sold off, for example Thor and Hulk, to build this universe. Finally, in terms of Logistics, they had to ask the question “how will we deliver this solution to viewers?” Their solution (movies) had to work financially – they had $500M to make 10 movies. This element of their strategy meant hiring actors such as Robert Downey Jr. who had talent but who weren’t too famous at the time to fit their business model. Compare this to DC’s approach of hiring well-known actors to play Batman – DC was steeped in the traditional view that only well-known actors and A-list superheroes would attract moviegoers to theaters.  
+In terms of Capabilities to power this Design, Marvel had to buy back some of the B-list characters they had sold off, for example Thor and Hulk, to build this universe. Finally, in terms of Logistics, they had to ask, “How will we deliver this solution to viewers?” Their solution (movies) had to work financially – they had $500M to make 10 movies. This element of their strategy meant that to fit their business model, they had to hire talented actors who weren’t too famous at the time, e.g. Robert Downey Jr. Compare this to DC’s approach of hiring well-known actors to play Batman – DC was steeped in the traditional view that only well-known actors and A-list superheroes would attract moviegoers to theaters.  
 
 #### Prioritization and roadmap:
 Marvel then translated this strategy into a set of priorities and a roadmap – they announced phases 1-4 of their character development to fans long before these movies were released. Recently Marvel announced phases 5 and 6.  
@@ -92,7 +92,7 @@ Marvel then translated this strategy into a set of priorities and a roadmap – 
 _Marvel shared a roadmap long before many movies were released_
 
 #### Hypothesis-driven execution:
-Lastly, in being vision-driven, Marvel wasn’t just launching this long-term plan hoping that it would resonate with viewers. Long before the first Iron Man movie was released in 2008, Marvel tested their hypothesis that they could make a successful movie based on an unknown comic book – that the success of the movie was determined by storytelling and not whether the character was well-known. This hypothesis was tested with the release of Blade in 1998 that was based on an unknown vampire character from the comic books. On a budget of $45 million, Blade earned $130 million worldwide and a cult following. Its success validated Marvel’s hypothesis and set the stage for the MCU.  
+Lastly, in being vision-driven, Marvel wasn’t just launching this long-term plan hoping that it would resonate with viewers. Long before the first Iron Man movie was released in 2008, The Marvel team tested their hypothesis that the success of a movie was determined by storytelling and not whether the superhero character was well-known. This hypothesis was tested with the release of Blade in 1998 that was based on an unknown vampire character from Marvel comics. On a budget of $45 million, Blade earned $130 million worldwide and a cult following. Its success validated Marvel’s hypothesis and set the stage for the MCU.  
 
 In taking this vision-driven approach, the MCU has become the highest-grossing franchise and has made Kevin Feige the highest-grossing movie producer of all time. Marvel went from bankruptcy to producing 10 out of the top 30 highest-grossing movies of all time. In comparison, in being sales-led, DC has produced only one out of the top 30 highest-grossing movies of all time.  
 
@@ -120,18 +120,18 @@ These diseases occur whenever there’s a break in the chain as you translate a 
 ### 3. Increase employee engagement and commitment:
 [Gallup polls](https://www.gallup.com/workplace/468233/employee-engagement-needs-rebound-2023.aspx) show that only 32% of full- and part-time employees are now engaged in their workplace. What’s worse is that active disengagement increased by two percentage points from 2021 and four points from 2020.  
 
-When you give employees clarity in direction through a detailed vision and strategy, you give them a shared purpose. Further, taking the Radical Product Thinking approach to prioritization and hypothesis-driven execution feels more fulfilling for employees because it leads to collective learning and seeing progress along the way as they deliver on a shared goal.  
+When you give employees clarity in direction through a detailed vision and strategy, you give them a shared purpose. And taking the Radical Product Thinking approach to prioritization and hypothesis-driven execution feels more fulfilling for employees because it leads to collective learning and seeing progress along the way as they deliver on a shared goal.  
 
 To realize these benefits, you need to develop a product mindset in your organization, in other words, you need to transform from a product to a project mindset.  
 
 <br>
 
 ## What is the difference between a project and a product mindset? 
-Many organizations that are moving towards trying to be vision-driven, i.e. product-led, recognize the importance of product management and therefore change the title of project managers to product managers. But more than a title change, what’s needed is [training](https://www.radicalproduct.com/trainings/) to change the mindset and develop a new set of skills.  
+Many organizations that want to be vision-driven, i.e. product-led, recognize the importance of product management and therefore change the title of project managers to product managers. But more than a title change, what’s needed is [training](https://www.radicalproduct.com/trainings/) to transform the mindset and develop a new set of skills.  
 
-A project manager is passionate about delivering a set of features on time and on budget. In contrast, a product manager is passionate about creating a change that she envisions (she delivers features to make progress towards the vision, the features themselves are not the end goal). The skills involved in project and product management are both important but the mindset of the project manager is fundamentally different from a product manager’s.  
+A project manager is passionate about delivering a set of features on time and on budget. In contrast, a product manager is passionate about creating a change that she envisions (she delivers features to make progress towards the vision; the features themselves are not the end goal). The skills involved in project and product management are both important but the mindset of the project manager is fundamentally different from a product manager’s.  
 
-The product mindset is a strategic way of thinking about your product as a way of creating the change you envision. It means having clarity about the change you envision and then systematically translating that into a strategy, a roadmap, and hypothesis-driven execution and measurement much like you read in the Marvel story above. The skills to take this step by step approach to see the need for change and make that a reality is essential if you want to be a vision-driven company. Building these skills across the organization is what product-led transformation is all about.  
+The product mindset is a strategic way of thinking – it means thinking about your product as a mechanism to create change. It means having clarity about the change you want to bring about and then systematically translating that into a strategy, a roadmap, and hypothesis-driven execution and measurement much like you read in the Marvel story above. The skills to take this methodical approach is essential if you want to be a vision-driven company. Building these skills across the organization is the essence of product-led transformation.  
 
 <br>
 
@@ -141,7 +141,7 @@ Many companies just recently went through an Agile transformation, so your team 
 
 The transformation to Agile ways of working helps teams innovate faster. It’s like buying a fast car – it helps you drive faster. Yes, customer feedback is important. But customer feedback is the equivalent of stopping to ask for directions while you’re in your fast car.  
 
-But when you step back for a moment, you realize that before you start driving fast or asking for feedback to know if you’re heading the right way, YOU have to know where you’re going and roughly how you’ll get there, i.e. you need a clear vision and strategy to drive your Agile iterations and ask for feedback.  
+But when you step back for a moment, you realize that before you start driving fast or asking for feedback to know if you’re heading the right way, *YOU* have to know where you’re going and roughly how you’ll get there, i.e. you need a clear vision and strategy to drive your Agile iterations and ask for feedback.  
 
 Lean and Agile alone can give you speed, but without a clear vision and strategy, speed can look like chaos. Product-led transformation means transforming the company to a product mindset where every product is driven by a clarity of vision and strategy and teams are aligned on the change they want to bring about together.  
 
@@ -150,32 +150,34 @@ Lean and Agile alone can give you speed, but without a clear vision and strategy
 
 <br>
 
-<h2 id="framework">A framework to transform into a product-led or vision-driven</h2>
+<h2 id="framework">The Radical Product Thinking framework for product-led transformation</h2>
 
 ### Transformation framework for leaders:
-If you’re a leader who wants to help transform your organization, you’ll need to start with a clear vision for transformation. Your vision should explain the problem statement and why you need to transform as an organization. Change is hard and the lack of a clear vision for why this change is needed is a key reason why [transformations often fail]({% post_url 2021-03-10-Digital-transformation%}).  
+If you’re a leader who wants to help transform your organization, you’ll need to start with a clear vision for transformation. Your vision should explain the problem statement and why you need to transform as an organization. Change is hard and the lack of a clear vision for why change is needed is a key reason why [transformations often fail]({% post_url 2021-03-10-Digital-transformation%}).  
 
-You’ll need buy-in across the organization on transformation and communicate what transformation means for each function. You can look at the Radical Product Thinking training for product-led transformation and can pick a set of trainings that meet your organization’s needs. Radical Product Thinking trainings and workshops for transformation include:
-- [Keynote talk](https://www.radicalproduct.com/speaker/) for the company to share inspiring examples of companies that have transformed and practical tips on how individuals can apply RPT ideas to transform to a product mindset
-- [Product management training](https://www.radicalproduct.com/trainings/product-management-training/) to help product teams take a vision-driven approach in translating vision into action.
-- Engineering workshops to help engineering leads and influencers in the engineering organization adopt a product mindset and understand the value of product management.
-- Sales workshops that include hands-on exercises for sales and marketing teams  to shift their thinking from a sales-led approach to a product thinking mindset.
+You’ll need buy-in across the organization on transformation and communicate what transformation means for each function. Instead of describing the product mindset in abstract terms, you'll need to get each function in the organization to experience product thinking. Here's the Radical Product Thinking approach for product-led transformation:
+- [Keynote talk](https://www.radicalproduct.com/speaker/) for the company to share inspiring examples of companies that have transformed and practical tips on how individuals can apply RPT ideas to transform to a product mindset. A thought-provoking talk creates buy-in and momentum for transformation. 
+- [Product management training](https://www.radicalproduct.com/trainings/product-management-training/) to help product teams develop a clear vision for their product and translate it into their everyday activities. Additionally, coaching and support for teams solidifies this learning for the long-term.
+- Engineering workshops to help managers, tech leads, and influencers in the engineering organization adopt a product mindset and understand the value of product management.
+- Sales workshops that include hands-on exercises for sales and marketing teams to help them shift their thinking from a sales-led approach to a product thinking mindset.
 - Leadership sessions to share learnings from across the organization and recommendations on any structural changes that might be needed to drive adoption of a product mindset.
+
+>[Contact us](https://www.radicalproduct.com/contact/) to learn about Radical Product Thinking trainings and workshops for product-led transformation -- we can customize and pick the sessions that are right for your organization.  
 
 <br>
 
 ### Transformation tips for individuals:
 If you’re an individual contributor who wants to learn more and adopt the product mindset you can work through the exercises in the following 5 steps. The [Radical Product Thinking book](https://www.amazon.com/Radical-Product-Thinking-Mindset-Innovating-ebook/dp/B08ZNV7SW4/ref=sr_1_1?crid=7T1XHJC9CZXE&dchild=1&keywords=radical+product+thinking&qid=1622558352&sprefix=radical+product+thi%2Caps%2C155&sr=8-1) gives you examples and serves as your guide as you work through these steps:  
 
-1. Define a clear vision for your product: Instead of a fluffy vision like “empowering people to do xyz”, craft a [detailed vision]({% post_url 2020-07-11-vision-doesnt-have-to-be-hairy%}) that answers the following questions: Whose world are you changing? What’s their problem and how are they solving it today? Why does their world need changing? When will you know that you’ve arrived? And how are you going to change it for them? The Radical Vision Statement is a [fill-in-the-blanks statement](https://www.radicalproduct.com/toolkit/) that helps you focus on your answers to these questions without wasting time on wordsmithing.
+1. **Define a clear vision for your product:** Instead of a fluffy vision like “empowering people to do xyz”, craft a [detailed vision]({% post_url 2020-07-11-vision-doesnt-have-to-be-hairy%}) that answers the following questions: Whose world are you changing? What’s their problem and how are they solving it today? Why does their world need changing? When will you know that you’ve arrived? And how are you going to change it for them? The Radical Vision Statement is a [fill-in-the-blanks statement](https://www.radicalproduct.com/toolkit/) that helps you focus on your answers to these questions without wasting time on wordsmithing.
 
-2. Build your strategy: Once you have a detailed vision, you need an actionable plan, i.e. a [product strategy]({% post_url 2022-03-21-three-characteristics-of-good-product-Strategy%}). You can craft a detailed product strategy that is grounded in your users’ [real (not imaginary) pain points]({% post_url 2021-04-15-real-pain-points%}). A good strategy is a living document that you can troubleshoot over time and learn from – it’s part of your [strategic planning]({% post_url 2021-09-14-stressfree-guide-to-Strategic-planning%}) process.  
+2. **Build your strategy:** Once you have a detailed vision, you need an actionable plan, i.e. a [product strategy]({% post_url 2022-03-21-three-characteristics-of-good-product-Strategy%}). You can craft a detailed product strategy that is grounded in your users’ [real (not imaginary) pain points]({% post_url 2021-04-15-real-pain-points%}). A good strategy is a living document that you can troubleshoot over time and learn from – it’s part of your [strategic planning]({% post_url 2021-09-14-stressfree-guide-to-Strategic-planning%}) process.  
 
-3. Communicate your rationale for prioritization: In order for your product to be successful, you have to balance the long-term vision against your short-term needs (survival). The [RPT approach to prioritization]({% post_url 2020-07-07-art-of-prioritization%}) helps you communicate the trade-offs as you make progress toward the vision while managing urgent business needs. It helps you scale your influence and thinking across your organization.  
+3. **Communicate your rationale for prioritization:** In order for your product to be successful, you have to balance the long-term vision against your short-term needs (survival). The [RPT approach to prioritization]({% post_url 2020-07-07-art-of-prioritization%}) helps you communicate trade-offs as you make progress toward the vision while managing urgent business needs. It helps you scale your influence and thinking across your organization.  
 
-4. Identify your hypotheses and metrics to validate them: Instead of relying on OKRs set from above or measuring popular metrics such as sales or time spent on site, you need to derive the metrics that are right for your product. For each element of your strategy, think about the [hypotheses and metrics]({% post_url 2021-04-29-the-downsides-of-OKRs%}) that'll indicate if your approach is working.  
+4. **Identify your hypotheses and metrics to validate them:** Instead of relying on OKRs set from above or measuring popular metrics such as sales or time spent on site, you need to derive the metrics that are right for your product. For each element of your strategy, think about the [hypotheses and metrics]({% post_url 2021-04-29-the-downsides-of-OKRs%}) that'll indicate if your approach is working.  
 
-5. Communicate and bring your team with you on the journey: Each of these elements of Radical Product Thinking (vision, strategy, prioritization, and execution and measurement) are designed to be communication tools. You can use each step to align your team so that instead of just speed, you have a shared sense of direction and therefore velocity.  
+5. **Communicate and bring your team with you on the journey:** Each of these elements of Radical Product Thinking (vision, strategy, prioritization, and execution and measurement) are designed to be communication tools. You can use each step to align your team so that instead of just speed, you have a shared sense of direction and therefore velocity.  
 
 Want to learn more about the product mindset and how you can transform your organization? You can read the [Radical Product Thinking book](https://www.amazon.com/Radical-Product-Thinking-Mindset-Innovating-ebook/dp/B08ZNV7SW4/ref=sr_1_1?dchild=1&keywords=radical+product&qid=1624988263&sr=8-1), [contact us](https://www.radicalproduct.com/contact/) to ask about workshops and training, or get the [free toolkit](https://www.radicalproduct.com/toolkit/).
 
