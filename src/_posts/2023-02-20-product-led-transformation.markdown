@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Product-Led Transformation"
+title: "The Guide to Product-Led Transformation"
 date: 2023-02-20 15:01:35 +0300
 permalink: /blog/product-led-transformation
 image: /img/transform.jpg
@@ -36,6 +36,7 @@ scripts: '<script type="application/ld+json">
 }
 </script>'
 ---
+If you've been thinking about product-led transformation and what that means for your organization, this article gives you a thoughtful and comprehensive guide.  
 
 ## What is product-led transformation?
 
@@ -211,6 +212,12 @@ Want to learn more about the product mindset and how you can transform your orga
 "text":"Often being customer-driven and giving customers what they are asking for is a cover for being sales-led. If you’ve experienced being in a sales-led company, you know the feeling of chasing after short-term revenues by giving customers whatever they’re asking for but feeling directionless and lacking a clear long-term vision. Being sales-led leads to common product diseases such as Obsessive Sales Disorder and makes it hard to scale your organization in the long term." }
 }, {
 "@type": "Question",
+"name": "What is product-led growth, and how is it different from sales-led growth?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text":"Product-led growth means having clarity on the long-term vision and the problem that you're setting out to solve. It means that your company's growth (and sales) is primarily driven by the progress you're making toward achieving that vision. Sales-led growth, in contrast, is more short-term driven -- examples of this include pursuing projects or customizations that aren't in-line with the long-term vision but that bring in revenues in the short-term. Sales-led growth often means trading-off the long-term vision in favor of short-term gains." }
+}, {
+"@type": "Question",
 "name": "What’s the difference between a project and a product manager?",
 "acceptedAnswer": {
 "@type": "Answer",
@@ -224,8 +231,14 @@ Want to learn more about the product mindset and how you can transform your orga
 }]
 }
 </script>
+
 ### Shouldn’t you be customer-driven instead of being product-led?
 Often being customer-driven and giving customers what they are asking for is a cover for being sales-led. If you’ve experienced being in a sales-led company, you know the feeling of chasing after short-term revenues by giving customers whatever they’re asking for but feeling directionless and lacking a clear long-term vision. Being sales-led leads to common product diseases such as Obsessive Sales Disorder and makes it hard to scale your organization in the long term.  
+
+<br>
+
+### What is product-led growth, and how is it different from sales-led growth?
+Product-led growth means having clarity on the long-term vision and the problem that you're setting out to solve. It means that your company's growth (and sales) is primarily driven by the progress you're making toward achieving that vision. Sales-led growth, in contrast, is more short-term driven -- examples of this include pursuing projects or customizations that aren't in-line with the long-term vision but that bring in revenues in the short-term. Sales-led growth often means trading-off the long-term vision in favor of short-term gains.  
 
 <br>
 
