@@ -36,7 +36,9 @@ scripts: '<script type="application/ld+json">
 }
 </script>'
 ---
-If you've been thinking about product-led transformation and what that means for your organization, this article gives you a thoughtful and comprehensive guide.  
+The industry is abuzz with the term product-led (which I find misleading). It provokes an instinctual response, "Wait, weren't we trying to be customer driven? Why product-led?" This article gives you a thoughtful and comprehensive guide on product-led transformation including why the product-led term is likely to trigger an allergic reaction in a large organization, what product-led actually means, and most importantly, how you can transform your organization to adopt a product mindset.
+
+<br>
 
 ## What is product-led transformation?
 
@@ -48,15 +50,16 @@ Both these approaches make it hard to scale and grow companies in the long term.
 
 ## Why product-led transformation gets a bad name
 
-The terminology of "product-led" sounds like a power-play in your organization. If the sales team or the engineering function have traditionally been the centers of power in your organization, introducing the idea of being “product-led” might be met with the same warmth as an attempted coup d’etat. To avoid a backlash from other functions in your organization it’s best to avoid the term “product-led” and instead use a term that explains what you’re really aiming for: being vision-driven.  
+The terminology of "product-led" sounds like a power-play in your organization. If the sales team or the engineering function have traditionally been the centers of power, introducing the idea of being “product-led” might be met with the same warmth as an attempted coup d’etat. To avoid a backlash from other functions in your organization it’s best to avoid the term “product-led” and instead use a term that explains what you’re really aiming for: being vision-driven.  
 
 <br>
 
 ## What does being product-led or vision-driven mean?
 
-The power of being product-led (i.e. vision-driven) rather than sales-led is best illustrated through a comparison between DC and Marvel.  
+The power of being ~~product-led~~ vision-driven rather than sales-led is best illustrated through a comparison between DC and Marvel.  
 
-DC was sales-led – they had a short-term focus on creating a yearly summer blockbuster. You can see this reflected in the movies they released: when Batman was a box office success in 1989, they released Batman Returns in '92, followed by Batman Forever in '95, and the worst superhero movie of all time, Batman & Robin in '97. Each release was an iteration on the theme that they had found to be successful with their customers.  
+### DC was sales-led
+DC had a short-term focus on creating a yearly summer blockbuster. You can see this reflected in the movies they released: when Batman was a box office success in 1989, they released Batman Returns in '92, followed by Batman Forever in '95, and the worst superhero movie of all time, Batman & Robin in '97. Each release was an iteration on the theme that they had found to be successful with their customers.  
 
 ![Batman releases]({{site.baseurl}}/img/batman1.png)
 _Batman releases over and over again_
@@ -74,13 +77,14 @@ _Here we go again..._
 
 Nope. In 2022 DC released The Batman, yet another Batman reboot. These releases illustrate a pattern of being sales-led – focusing on the short-term by creating small iterations on the status quo to drive short-term revenues but completely lacking in a long-term vision.  
 
-In contrast, Marvel took a vision-driven approach. Marvel was on the verge of bankruptcy in the late ‘90s having sold off its major characters such as Spiderman and X-Men. It needed to rethink its product and the team was systematic in translating a vision for change into reality.  
+### Marvel was vision-driven
+Unlike DC, Marvel took a vision-driven approach. Marvel was on the verge of bankruptcy in the late ‘90s having sold off its major characters such as Spiderman and X-Men. It needed to rethink its product and the team was systematic in translating a vision for change into reality.  
 
 #### Vision:
-Kevin Feige, now President of Marvel, rose through the ranks because he studied Marvel’s comic books and had a vision for the company. Instead of relying on a couple of major characters, his vision was to create movies around a universe of interconnected characters that were true to Marvel’s comic books which are often a profound commentary on social and human issues. No other studio had attempted this before.   
+Kevin Feige, now President of Marvel, rose through the ranks because he studied Marvel’s comic books and had a vision for the company. Instead of relying on a couple of major characters, his vision was to create movies around a universe of interconnected characters that were true to Marvel’s comic books which are often a profound commentary on society and human issues. No other studio had attempted this before.   
 
 #### Strategy:  
-But a vision was only the first step. Marvel needed a strategy that was centered on the needs of moviegoers. Described in the [RDCL Strategy]({% post_url 2022-03-21-three-characteristics-of-good-product-Strategy%}) framework, where RDCL stands for Real pain points, Design, Capabilities, and Logistics, Marvel had to start with the R by asking, “What makes a moviegoer come to the Marvel Cinematic Universe (MCU)?” The answer is that much like what interests readers in comic books, moviegoers want to feel like insiders in a universe where they see themselves reflected in different superheroes and get to know them through their stories.  
+A clear vision was only the first step. Marvel needed a strategy that was centered on the needs of moviegoers. Described in the [RDCL Strategy]({% post_url 2022-03-21-three-characteristics-of-good-product-Strategy%}) framework, where RDCL stands for Real pain points, Design, Capabilities, and Logistics, Marvel had to start with the R by asking, “What makes a moviegoer come to the Marvel Cinematic Universe (MCU)?” The answer is that much like what interests readers in comic books, moviegoers want to feel like insiders in a universe where they see themselves reflected in different superheroes and get to know them through their stories.  
 
 The Design or solution to viewers’ needs was to build interconnected stories around a range of characters where viewers feel like they get the inside scoop on the superhero in each movie (think of the popularity of Marvel’s end-credit scenes).  
 
