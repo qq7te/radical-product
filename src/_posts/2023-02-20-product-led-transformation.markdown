@@ -3,7 +3,7 @@ layout: post
 title: "The Guide to Product-Led Transformation"
 date: 2023-02-20 15:01:35 +0300
 permalink: /blog/product-led-transformation
-image: /img/transform.jpg
+image: /img/DCMarvel.png
 categories: product-led transformation
 published: true
 featured: false
