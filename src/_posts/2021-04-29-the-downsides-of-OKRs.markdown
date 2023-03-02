@@ -137,7 +137,7 @@ The Radical Product Thinking approach helps you communicate where you want to go
 
 Now that you recognize that OKRs are a Band-Aid to the real problem of an unclear vision, you can fix that. It’s time to rethink “being the leader in XYZ” and write a [Radical Vision Statement]({% post_url 2020-07-11-vision-doesnt-have-to-be-hairy%}) to help you define the who, what, why, when, and how for your product. It’ll help you and your team share a clear visualization of the end state you’re trying to bring about together.
 
-Once you have a vision, translate that into a [RDCL Strategy]({% post_url 2022-03-21-three-characteristics-of-good-product-Strategy%}) (pronounced “radical”). The RPT approach to strategy means identifying the RDCL elements: Real pain points that make someone come to your product, Design or functionality to address those pains, Capabilities that power the Design, and Logistics that help you deliver the solution to customers. You can learn more about how to craft a comprehensive strategy here.
+Once you have a vision, translate that into a [RDCL Strategy]({% post_url 2022-03-21-three-characteristics-of-good-product-Strategy%}) (pronounced “radical”). The RPT approach to strategy means identifying the RDCL elements: Real pain points that make someone come to your product, Design or functionality to address those pains, Capabilities that power the Design, and Logistics that help you deliver the solution to customers.  
 
 
 
