@@ -4,22 +4,62 @@ metaDescription: ""
 layout: default
 image: "/images/site-preview.png"
 
-tagline: "The story behind Radical Product Thinking"
+tagline: "Radhika"
 pressCTA: "Download the Press Kit"
 pressKitLink: "/pdf/press-kit.pdf"
 
-historyTag: "THE HISTORY"
-historyTitle: "The radical product thinking history"
-historyCopy: "My journey to writing Radical Product Thinking started with a discussion about product diseases with two
-ex-colleagues, Geordie Kaytes and Nidhi Aggarwal. Each of us had experienced product diseases and learned hard lessons
-in avoiding them by being vision-driven rather than iteration-led. But without a methodology to help organizations stay
-vision-driven, we kept seeing good products go bad."
-historyCopy2: "In 2017, we developed Radical Product Thinking as a framework with a free downloadable toolkit to help
-organizations systematically build world-changing products. Today Radical Product Thinking has been adopted by
-organizations around the world including startups, multinationals, nonprofits, and government agencies."
+thinkingBook: "The Radical Product Thinking book"
+bookInnovating: "The New Mindset for Innovating Smarter"
+bookDescription: "Radical Product Thinking gives organizations a repeatable methodology for
+building world-changing products - the approach has been adopted by
+organizations around the world including startups, multinationals, nonprofits,
+and government agencies. Be prepared to toss out everything you know 
+about a good vision and learn how to measure progress to create
+revolutionary products. The best part? You don't have to be a natural-born 
+visionary to produce extraordinary results."
+
+bookshopLink: "https://bookshop.org/books/radical-product-thinking-the-new-mindset-for-innovating-smarter/9781523093311"
+barnesLink: "https://www.barnesandnoble.com/s/radical%20product%20thinking"
+amazonLink: "https://www.amazon.com/Radical-Product-Thinking-Mindset-Innovating-ebook/dp/B08ZNV7SW4/ref=sr_1_1?dchild=1&keywords=radical+product&qid=1624988263&sr=8-1"
+bookPeakLink: "/pdf/excerpt.pdf"
+bookPeakCopy: "TAKE A PEEK"
+
+historyTitle: "Author of Radical Product Thinking," 
+historyTitle2: "Product Leader and Entrepreneur."
+
+historyCopy: "A globally-recognized thought leader in product management,
+Radhika is a highly engaging speaker and the author of "
+
+historyCopy2: "Radhika envisions a world where every organization can be 
+vision-driven and build world-changing products. Drawing from
+over 20 years of experience, she helps transform organizations to 
+be vision-driven through her talks, training, and consulting. Her 
+work helps leaders and individual contributors level up and 
+translate a shared vision into their everyday activities."
+
+storyRadical: "The story behind Radical"
+storyRadical2: "Product Thinking."
+
+history: "My journey to writing Radical Product Thinking started with a
+venting session discussion about product diseases with two ex-
+colleagues, Geordie Kaytes and Nidhi Aggarwal. Without a
+methodology to help organizations stay vision-driven, we kept
+seeing good products go bad."
+hiistoryCopy: "In 2017, we developed the Radical Product Thinking framework 
+and a free toolkit. Today Radical Product Thinking has been 
+adopted by organizations around the world including startups,
+multinationals, nonprofits, and government agencies."
+
+aboutLinkCopy: "Learn about our trainings"
+aboutLink: "/trainings"
+
+
+learn: "Learn more about Radhika’s work:"
+
+
 
 testimonialsTag: "Testimonials"
-testimonialsTitle: "Your success is how we measure Radical Product Thinking's success. "
+testimonialsTitle: "What Radical Product Thinkers say"
 testimonialsCopy: "The vision behind RPT is to make it easier for you to build dramatically better products that bring
 the world a little closer to the one you want to live in."
 testimonialsLabel: "Share your history with radical product thinking"
@@ -37,28 +77,80 @@ emailInputPlaceholder: Enter your email
 
 <header>{% include nav.html %}</header>
 
-<section class="landing-banner banner-padding">
-  <div class="container-xxl text-center py-5">
-    <h1 class="uppercase bold title mb-3">{{page.tagline}}</h1>
-    <a href="{{page.pressKitLink}}" class="primary-button d-inline-block text-white uppercase bg-pink link"
-      download>{{page.pressCTA}}</a>
-  </div>
+<section class="landing-about  section-padding">
+  <div class="container-xxl">
+    <div class="row d-flex flex-md-row-reverse justify-content-md-center  gap-3  text-md-start gap-md-0 ">
+      <div class="col-8 col-lg-6 d-flex justify-content-lg-end ">
+        <img class="training-img img-fluid mx-5" width="350px" src="/images/imagen_radical.png" alt="imagen_radical">
+      </div>
+      <div class="col-12 col-lg-6 text-center text-lg-start  d-flex flex-column ">
+        <h1 class="title uppercase bold pink-text mt-4">{{page.tagline}}
+          <span class="text-dark ">DUTT </span>
+        </h1>
+        <h3 class="subtitle uppercase">{{page.historyTitle}}</h3>
+        <h3 class="subtitle uppercase">{{page.historyTitle2}}</h3>
+        <p class="text light mt-4 lh-base fs-5"> {{page.historyCopy}}
+          <a href="" class="pink-text fs-5 link">Radical Product Thinking.</a>
+        </p>
+        <p class="text light lh-base fs-5"> {{page.historyCopy2}}</p>
+       
+      </div>
+   
+    </div>
+
+    <div class="row">
+
+      <span class="text-center text-lg-start fw-semibold fs-5 fs-lg-6 mb-2">{{page.learn}}</span>
+      {% for card in site.data.cards%}
+        <div class="col-sm-12 col-md-6 pt-sm-3 mb-3 mb-md-0  col-lg">
+          <div class="bg-cards p-4">
+            <div class=" text-xxl-start">
+              <h5 class="fw-semibold fs-3 mb-1"> <i class="{{card.icon}}"> </i></h5>
+              <p class="fw-semibold small-text mb-1">   {{card.title}}</p>
+              <p class="text light fs-6 small-text">{{card.description}}</p>  
+            </div>
+            <div class="col-12  text-lg-start text-primary ">
+              <a href="" class="link"> Learn More
+                <i class="{{card.link}}"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+   </div>
+ 
+   
+
+
+</div>
 </section>
 
-<section class="section-padding bg-gray">
+<section class="bg-purple wavy-bg-img py-5">
   <div class="container-xxl">
-    <div class="row d-flex align-items-center">
-      <div class="col-12 col-md-6">
-        <h6 class="purple-text uppercase fs-5">{{page.historyTag}}</h6>
-        <h2 class="subtitle uppercase">{{page.historyTitle}}</h2>
-        <p class="text light">{{page.historyCopy}}</p>
-        <p class="text light">{{page.historyCopy2}}</p>
+    <div class="row d-flex justify-content-center">
+      <div class="col-6 col-lg-4">
+          <img class="training-img img-fluid" src="/images/bookk.png" alt="book1">
       </div>
-      <div class="col">
-        <iframe width="100%" height="330" src="https://www.youtube.com/embed/qWkrqgNhrQg" title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen></iframe>
+      <div class="col-12 text-center col-md-8 text-lg-start  pt-5 px-5">
+   <h5 class= "text-white  text light fs-lg-5 mx-3">{{page.thinkingBook}} </h5>
+   <h3 class="subtitle uppercase text-white  text-lg-start fs-3 mx-3">{{page.bookInnovating}} </h3>
+   <p class="text-white text light mt-4 mx-3">{{page.bookDescription}}</p>
+   <div class="d-flex flex-column-reverse flex-lg-row gap-3 gap-lg-0 justify-content-between mt-5 mx-3">
+   <div class="d-flex pt-4  justify-content-between align-items-center ">
+    <a type="buttom" href="{{page.bookPeakLink}}" class="btn btn-primary w-100 d-flex justify-content-between gap-3 btn-lg text light rounded-pill" download>{{page.bookPeakCopy}}
+    <i class="bi bi-arrow-right"></i></a>
+    
+   </div> 
+   <div class="d-flex pt-4 justify-content-center align-items-center ">
+    <span class="d-block mb-0 text-white small-text light">GET IT ON:</span>
+    <a href="{{page.bookshopLink}}" class=" white-text mb-1 mx-1"><img src="/images/bookshop.png"
+      alt="" width="50px"></a>
+      <a href="{{page.amazonLink}}" class=" white-text mb-1 mx-1"><img src="/images/amazon.png"
+        alt="" width="50px"></a>
+   <a href="{{page.barnesLink}}" class=" white-text mx-1"><img src="/images/barnes.png" alt=""
+        width="50px"></a>
+   </div> 
+   </div>
       </div>
     </div>
   </div>
@@ -66,52 +158,64 @@ emailInputPlaceholder: Enter your email
 
 <section class="section-padding">
   <div class="container-xxl">
-    <h6 class="purple-text uppercase fs-5">{{page.testimonialsTag}}</h6>
-    <h2 class="subtitle uppercase">{{page.testimonialsTitle}}</h2>
-    <p class="text light mb-5">{{page.testimonialsCopy}}</p>
+<div class="row d-flex justify-content-between gap-3 gap-lg-0">
+  <div class="col-12 col-lg-6 pe-lg-5 d-flex flex-column  text-lg-start mt-5">
+    <h2 class="subtitle uppercase subtitle"> {{page.storyRadical}}</h2>
+    <h2 class="subtitle uppercase subtitle"> {{page.storyRadical2}}</h2>
+    <p class="text light">{{page.history}}</p>
+    <p class="text light">{{page.hiistoryCopy}}</p>
+    <a class="link pink-text uppercase mb-2" href="{{page.aboutLink}}">{{page.aboutLinkCopy}} <i
+      class="bi bi-arrow-right"></i></a>
+<a class="link purple-text uppercase " href="/speaker">Learn about keynote talks <i
+      class="bi bi-arrow-right"></i></a>
+  </div>
+  <div class="col-12 col-lg-6 position-relative d-flex ">
+    <img src="/images/video-training-modal.png" alt="/images/video-training-modal.png" width="100%">
+    <button class="btn-play" id="botonTrainingModal" type="button" data-toggle="modal"
+        data-target="#videoModal" data-theVideo="https://www.youtube.com/embed/6wWspnApNdU">
+        <img class=" speaker-img" src="/images/session-icons-pink/play.png" alt="play" width="70px">
+    </button>
+  </div>
+</div>
+  </div>
+</section>
 
-    <div class="bg-light-purple-waves">
-      <div class="row d-flex align-items-center py-5">
-        <div class="col-12 col-md-6 px-5 mb-3 mb-md-0">
-          <div class="row talks">
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="10000">
-              <div class="carousel-indicators d-block m-0 px-2">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                  class="active bg-purple" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="ms-2"
-                  aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="ms-2"
-                  aria-label="Slide 3"></button>
+<section class="section-padding bg-gray-2">
+  <div class="container-xxl">
+    <h6 class="text uppercase purple-text text-center  fs-5">
+      {{page.testimonialsTag}}
+    </h6>
+    <h2 class="subtitle uppercase text-center mb-5">{{page.testimonialsTitle}}</h2>
+  </div>
+  <div class="container-xxl">
+    <div class="row">
+      {% for testimonial in site.data.testimonials.about %}
+        <div class=" col-12 col-md-6  pt-3 position-relative">
+            <div class="bg-white p-4 bg-testimonial text  light">
+              <div>
+                  <div>
+                    <p>
+                      {{testimonial.testimonial}}
+                    </p>
+                  </div>
+                  <div class="d-flex gap-2 mt-5">
+                    <div>
+                      <img src="{{testimonial.picture}}" width="60px">
+                    </div>
+                    <div class="d-flex flex-column ">
+                      <h5 class="m-0">
+                        {{testimonial.author}}
+                      </h5>
+                      <p class="m-0 text-muted">
+                        {{testimonial.job}}
+                      </p>
+                    </div>
+                  </div>
               </div>
-              <div class="carousel-inner mb-5 pb-3">
-                {% for testimonial in site.data.testimonials.radical-toolkit %}
-                <div class="carousel-item {% if forloop.first == true %} active{% endif %}">
-                  <p class="text deep-purple-text">
-                    {{testimonial.testimonial}}
-                  </p>
-                  <span class="small-text fst-italic deep-purple-text">-{{testimonial.author}}</span>
-                </div>
-                {% endfor %}
-              </div>
             </div>
-          </div>
+            <img src="/images/quote.png" class="position-absolute "  style="top: 40px; left:30px;" alt="" width="60px"> 
         </div>
-        <div class="col-12 col-md-6 px-5">
-          <form class="bg-white rounded p-4" name="userTestimonials" netlify>
-            <div>
-              <h5 class="text uppercase bold mb-3 fs-5">
-                {{page.testimonialsLabel}}
-              </h5>
-              <textarea class="d-block form-control w-100" name="story" id="userStory" rows="4"></textarea>
-            </div>
-            <div class="text-end">
-              <button type="submit" class="mt-3 primary-button text-white uppercase bg-pink">
-                {{page.testimonialsCTA}}
-              </button>
-            </div>
-          </form>
-        </div>
-      </div>
+      {% endfor %}
     </div>
   </div>
 </section>
