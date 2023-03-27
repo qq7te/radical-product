@@ -207,10 +207,18 @@
     background-size: 100%;
 }
 
-.landing-about {
-    background-image: url("/images/background_about.png"),linear-gradient(180deg, white 30%, #EDF0FF 70%);  ;
+.landing-book {
+    background-image: url("/images/cover-bg.png"),linear-gradient(180deg, white 30%, #F5F5F6 70%);
     background-repeat: no-repeat;
     background-size: 100%;
+}
+
+
+.landing-blue {
+    background-image: url("/images/background_about.png"),linear-gradient(180deg, white 30%, #EDF0FF 100%);  ;
+    background-repeat: no-repeat;
+
+   
 }
 
 .banner-thick {
