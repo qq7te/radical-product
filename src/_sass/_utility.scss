@@ -15,7 +15,6 @@
     padding: 80px 0;
 }
 
-
 .tight-container {
     max-width: 780px;
     margin: 0 auto;
@@ -43,12 +42,23 @@
  background-color: #F4F4F5;
 }
 
+.bg-gray-2 {
+    background-color:  #FAFAFA;
+}
+
 .bg-purple {
     background-color: #3B5DEF
 }
 
 .bg-green {
     background-color: #53B455
+}
+
+.bg-blue {
+    background-color: #6676F9;
+}
+.bg-blue-blue {
+    background-color: #DCE2FF;
 }
 
 .black-text {
@@ -68,6 +78,34 @@
 .purple-text {
     color: #3B5DEF;
 }
+
+.bg-cards {
+    background-color: #DCE2FF;
+    border-radius: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    &:hover {background-color: #6676F9;
+             color: white };
+    
+}
+
+.bg-testimonial {
+    border-radius: 10px;
+    height: 100%;
+ 
+
+}
+
+.bg-cards:hover{
+    a {
+        color:white;
+    }
+ 
+}
+
+
 
 .deep-purple-text {
     color: #011D95;
@@ -174,6 +212,20 @@
     background-image: url("/images/cover-bg.png");
     background-repeat: no-repeat;
     background-size: 100%;
+}
+
+.landing-book {
+    background-image: url("/images/cover-bg.png"),linear-gradient(180deg, white 30%, #F5F5F6 70%);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+.landing-blue {
+    background-image: url("/images/background_about.png"),linear-gradient(180deg, white 30%, #EDF0FF 100%);  ;
+    background-repeat: no-repeat;
+
+   
 }
 
 .banner-thick {

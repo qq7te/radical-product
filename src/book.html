@@ -1,0 +1,225 @@
+---
+layout: default
+title: "Book a Speaker | #1 Business Speaker | RPT"
+subtitle: "and avoid the product diseases that kill innovation"
+metaDescription: "Interested in a motivational speak for your team or attendes? Book a keynote speaker for your event here!"
+tagline: "Radical Product Thinking (RPT) gives organizations a repeatable model for building world-changing products. 
+The key? Being vision-driven instead of iteration-led. R. Dutt guides readers through the five elements of the methodology (vision, strategy, prioritization, execution and measurement, and culture) to develop a clear process for translating vision into reality and turning RPT skills into muscle memory."
+
+bookshopLink: "https://bookshop.org/books/radical-product-thinking-the-new-mindset-for-innovating-smarter/9781523093311"
+barnesLink: "https://www.barnesandnoble.com/s/radical%20product%20thinking"
+amazonLink: "https://www.amazon.com/Radical-Product-Thinking-Mindset-Innovating-ebook/dp/B08ZNV7SW4/ref=sr_1_1?dchild=1&keywords=radical+product&qid=1624988263&sr=8-1"
+
+titleProduct: "applying radical product thinking"
+subtitleProduct: "How to use this book to make a big impact on your team"
+descriptionProduct: "Ut sodales, ex sit amet consectetur accumsan, nibh ex sollicitudin metus, volutpat lacinia arcu nibh vel ante. Proin dapibus dui eget justo tincidunt eleifend. Mauris porta elementum est. Nullam euismod quis libero sed convallis. Vestibulum fringilla felis nec turpis aliquam auctor a a lectus. Etiam porttitor at eros vitae posuere. Suspendisse nec mollis dolor, vel cursus leo. Integer vitae sem vitae leo pretium porta. In consequat magna purus, iaculis rhoncus velit imperdiet sit amet."
+
+titleReanding: "Reading radical product thinking"
+subtitleReanding: "Read Radical Product Thinking for your book club"
+descriptionReanding: "This book offers refreshing solutions that go against conventional wisdom. As you embrace a new mindset for innovating smarter, you want to bring others with you on the journey. A book club is a great way of introducing new ideas into an organization."
+descriptionReanding2: "These questions are designed to give you momentum for adopting a new mindset to build radical products that create the change you want to see in the world."
+
+helpTitle: "GET HANDS-ON HELP"
+helpCTA: "let's chat"
+
+image: "/images/speaker-top.png"
+---
+
+<header>
+    {% include nav.html %}
+</header>
+<section class="landing-book section-padding">
+    <div class="container-xxl">
+        <div class="row d-flex align-items-center justify-content-between gap-3 gap-lg-0">
+            <div class="col-12 col-lg-6 pe-lg-5  text-center text-lg-start">
+                <h2 class="uppercase bold title mb-3 title-size">Build visionary,  <span class="pink-text">world-changing</span>  products </h2>
+                <h5 class="uppercase bold title  mb-3"> {{page.subtitle}}</h5>
+                <p class="light tight-container mb-4">{{page.tagline}}</p>
+                <div class="d-flex align-items-center">
+                <span class="d-block mb-0  ">GET THE BOOK ON:</span>
+                <a href="{{page.bookshopLink}}" class=" white-text mb-1 mx-1"><img src="/images/bookshop.png"
+                  alt="" width="50px"></a>
+                  <a href="{{page.amazonLink}}" class=" white-text mb-1 mx-1"><img src="/images/amazon.png"
+                    alt="" width="50px"></a>
+               <a href="{{page.barnesLink}}" class=" white-text mx-1"><img src="/images/barnes.png" alt=""
+                    width="50px"></a>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-6 position-relative">
+             
+                    <img class="img-fluid" src="/images/bookk.png" alt="book" width="550px" >
+             
+            </div>
+        </div>
+    </div>
+    <div class="container-xxl">
+        <div class="row">
+          {% for testimonial in site.data.testimonials.books %}
+            <div class=" col-12 col-md-6  pt-3 position-relative">
+                <div class=" pt-4 bg-testimonial text  light">
+                  <div>
+                      <div>
+                        <p>
+                          {{testimonial.testimonial}}
+                        </p>
+                      </div>
+                      <div class="d-flex gap-2 mt-5">
+                        <div>
+                          <img src="{{testimonial.picture}}" width="60px">
+                        </div>
+                        <div class="d-flex flex-column ">
+                          <h5 class="m-0">
+                            {{testimonial.author}}
+                          </h5>
+                          <p class="m-0 text-muted">
+                            {{testimonial.job}}
+                          </p>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <img src="/images/quote.png" class="position-absolute "  style="top: 40px; left:30px;" alt="" width="60px"> 
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+</section>
+
+
+<section class="section-padding">
+    <div class="container-xxl">
+  <div class="row d-flex justify-content-between gap-3 gap-lg-0">
+    <div class="col-12 col-lg-6 pe-lg-5 d-flex flex-column  text-lg-start mt-5">
+        <h6 class="text uppercase purple-text fs-5">
+            {{page.titleProduct}}
+          </h6>
+      <h2 class="subtitle uppercase subtitle"> {{page.subtitleProduct}}</h2>
+      <p class="text light">{{page.descriptionProduct}}</p>
+    
+    
+    </div>
+    <div class="col-12 col-lg-6 position-relative d-flex ">
+      <img class="img-fluid" src="/images/resources.png" alt="resources" width="500%">
+   
+    </div>
+  </div>
+    </div>
+  </section>
+
+  <section class="section-padding bg-gray">
+    <div class="container-xxl">
+      <div class="row d-flex justify-content-center">
+        <div class="col-6 col-lg-6">
+            <img class="training-img img-fluid" width="600px"  src="/images/Rectangle23.png" alt="Rectangle23">
+        </div>
+        <div class="col-12 text-center col-md-8 col-lg-6 text-lg-start   ">
+            <h6 class="text uppercase purple-text fs-5">
+                {{page.titleReanding}}
+              </h6>
+          <h2 class="subtitle uppercase subtitle mb-4"> {{page.subtitleReanding}}</h2>
+          <p class="text light mb-4">{{page.descriptionReanding}}</p>
+          <p class="text light">{{page.descriptionReanding2}}</p>
+          <a  href="" class="link pink-text mb-5"> <i class="bi bi-cloud-download"></i>  Download Guide
+         
+          </a>
+        
+        
+        </div>
+     </div> 
+
+     </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section-padding bg-blue">
+    <div class="container-xxl">
+      <h6 class="text uppercase purple-text text-center  fs-5">
+        {{page.testimonialsTag}}
+      </h6>
+      <h2 class="subtitle uppercase text-center mb-5">{{page.testimonialsTitle}}</h2>
+    </div>
+    <div class="container-xxl">
+      <div class="row">
+        {% for testimonial in site.data.testimonials.about %}
+          <div class=" col-12 col-md-4  pt-3 position-relative">
+              <div class="bg-white p-4 bg-testimonial text  light">
+                <div>
+                    <div>
+                      <p>
+                        {{testimonial.testimonial}}
+                      </p>
+                    </div>
+                    <div class="d-flex gap-2 mt-5">
+                      <div>
+                        <img src="{{testimonial.picture}}" width="60px">
+                      </div>
+                      <div class="d-flex flex-column ">
+                        <h5 class="m-0">
+                          {{testimonial.author}}
+                        </h5>
+                        <p class="m-0 text-muted">
+                          {{testimonial.job}}
+                        </p>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  
+
+  <section class="bg-gray py-5" id="FAQs">
+    {% include faqs.html %}
+</section>
+
+  <section class="bg-purple wavy-bg-img py-5">
+    <div class="container-xxl white-text p-2 p-xxl-0">
+        <h2 class="subtitle uppercase fs-3">{{page.helpTitle}}</h2>
+        <p class="fw-light text">If you want hands-on help integrating Radical Product Thinking into your organization,
+            we offer training, workshops, and consulting.
+            <br> Get in touch to start the conversation.
+        </p>
+        <div>
+            <form
+            action="https://radicalproduct.us10.list-manage.com/subscribe/post?u=5559a62245d86aeeefd822705&amp;id=7fc7e415ad"
+            method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate signup"
+            target="_blank" novalidate>
+            <fieldset class="d-flex flex-column flex-md-row">
+              <input type="email" value="" name="EMAIL" class="required email text-input mid-input text light me-1 mb-2"
+                id="mce-EMAIL" placeholder="{{page.emailInputPlaceholder}}" />
+              <div style="position: absolute; left: -5000px" aria-hidden="true">
+                <input type="text" name="b_5559a62245d86aeeefd822705_7fc7e415ad" tabindex="-1" value="" />
+              </div>
+              <div class="clear">
+                <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"
+                  class="primary-button text-white uppercase bg-pink">
+                  {{page.helpCTA}}
+                </button>
+              </div>
+            </fieldset>
+          </form>
+
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+           
+            
+            
+
+

@@ -5,7 +5,7 @@
     }
    
     
-    .contact-section, .banner-home{
+    .contact-section, .banner-home ,.landing-about{
         
         background-position-y: 50%;
     
@@ -102,7 +102,7 @@ html
         max-width: 60px;
     }
 
-    .contact-section , .banner-home{
+    .contact-section , .banner-home, .landing-about{
         
         background-position-y:bottom;
     
@@ -134,7 +134,7 @@ html
 }
 @media screen and (min-width: 1419px){
 
-    .contact-section{
+    .contact-section, .landing-about{
         
         background-position-y: 0;
     
