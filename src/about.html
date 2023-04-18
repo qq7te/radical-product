@@ -56,7 +56,8 @@ aboutLink: "/trainings"
 
 learn: "Learn more about Radhika’s work:"
 
-
+clientstag: "Clients"
+clientsdescription: "Examples of Radical Product Clients"
 
 testimonialsTag: "Testimonials"
 testimonialsTitle: "What Radical Product Thinkers say"
@@ -156,31 +157,24 @@ emailInputPlaceholder: Enter your email
   </div>
 </section>
 
-<section class="section-padding">
+<section class="section-padding bg-blue-blue">
   <div class="container-xxl">
-<div class="row d-flex justify-content-between gap-3 gap-lg-0">
-  <div class="col-12 col-lg-6 pe-lg-5 d-flex flex-column  text-lg-start mt-5">
-    <h2 class="subtitle uppercase subtitle"> {{page.storyRadical}}</h2>
-    <h2 class="subtitle uppercase subtitle"> {{page.storyRadical2}}</h2>
-    <p class="text light">{{page.history}}</p>
-    <p class="text light">{{page.hiistoryCopy}}</p>
-    <a class="link pink-text uppercase mb-2" href="{{page.aboutLink}}">{{page.aboutLinkCopy}} <i
-      class="bi bi-arrow-right"></i></a>
-<a class="link purple-text uppercase " href="/speaker">Learn about keynote talks <i
-      class="bi bi-arrow-right"></i></a>
-  </div>
-  <div class="col-12 col-lg-6 position-relative d-flex ">
-    <img src="/images/video-training-modal.png" alt="/images/video-training-modal.png" width="100%">
-    <button class="btn-play" id="botonTrainingModal" type="button" data-toggle="modal"
-        data-target="#videoModal" data-theVideo="https://www.youtube.com/embed/qWkrqgNhrQg">
-        <img class=" speaker-img" src="/images/session-icons-pink/play.png" alt="play" width="70px">
-    </button>
+    <h6 class="text uppercase purple-text text-center  fs-5">
+      {{page.clientstag}}
+    </h6>
+    <h2 class="subtitle uppercase purple-text text-center mb-5">{{page.clientsdescription}}</h2>
+
+  <div class="d d-flex flex-wrap justify-content-center">
+  {% for clients in site.data.client%}
+    <img class="m-5" src="{{clients.img}}" height="{{clients.size}}"  alt="">
+       {% endfor %}
   </div>
 </div>
-  </div>
 </section>
 
-<section class="section-padding bg-gray-2">
+
+
+<section class="landing-banner section-padding bg-gray-2">
   <div class="container-xxl">
     <h6 class="text uppercase purple-text text-center  fs-5">
       {{page.testimonialsTag}}
@@ -220,6 +214,30 @@ emailInputPlaceholder: Enter your email
   </div>
 </section>
 
+<section class="section-padding">
+  <div class="container-xxl">
+<div class="row d-flex justify-content-between gap-3 gap-lg-0">
+  <div class="col-12 col-lg-6 pe-lg-5 d-flex flex-column  text-lg-start mt-5">
+    <h2 class="subtitle uppercase subtitle"> {{page.storyRadical}}</h2>
+    <h2 class="subtitle uppercase subtitle"> {{page.storyRadical2}}</h2>
+    <p class="text light">{{page.history}}</p>
+    <p class="text light">{{page.hiistoryCopy}}</p>
+    <a class="link pink-text uppercase mb-2" href="{{page.aboutLink}}">{{page.aboutLinkCopy}} <i
+      class="bi bi-arrow-right"></i></a> 
+<a class="link purple-text uppercase " href="/speaker">Learn about keynote talks <i
+      class="bi bi-arrow-right"></i></a>
+  </div>
+  <div class="col-12 col-lg-6 position-relative d-flex ">
+    <img src="/img/radical-about-thumbnail2.png" alt="/images/video-training-modal.png" width="100%">
+    <button class="btn-play" id="botonTrainingModal" type="button" data-toggle="modal"
+        data-target="#videoModal" data-theVideo="https://www.youtube.com/embed/qWkrqgNhrQg">
+        <img class=" speaker-img" src="/images/session-icons-pink/play.png" alt="play" width="70px">
+    </button>
+  </div>
+</div>
+  </div>
+</section>
+
 <section class="section-padding bg-gray">
   <div class="container-xxl">
     <h6 class="text uppercase purple-text text-center fs-5">
@@ -231,12 +249,13 @@ emailInputPlaceholder: Enter your email
       {% for article in site.data.press.articles %}
       <div class="col-12 col-md-4 mb-5">
         <a href="{{article.link}}" class="link black-text" target="_blank">
-          <img src="{{article.img}}" alt="" width="100%" class="d-block mb-2" />
+          <img src="{{article.img}}" alt="" width="100%" class="d-block mb-2"/>
           <span class="gray-text light small-text badge bg-pink">{{article.type}}</span>
           <h6 class="text bold mb-0">{{article.title}}</h6>
           <span class="gray-text light small-text">{{article.source}}</span>
         </a>
       </div>
+     
       {% endfor %} {% for video in site.data.press.videos %} {% if
       video.available %}
       <div class="col-12 col-md-4 mb-5">
