@@ -7,8 +7,8 @@ image: /img/dataseer2022.png
 categories: case study
 published: true
 featured: false
-metaTitle: Strategies for Product Led Transformation & Product Led-Growth | RPT
-metaDescription: Looking to understand what product led transformation is? Learn how to transform from a project to a product mindset.
+metaTitle: How Vision & Strategy Workshops Can Align Your Remote Team | RPT
+metaDescription: Learn how vision and strategy workshops can create better alignment and improve team bonding for your remote team.
 
 scripts: '<script type="application/ld+json">
 {
