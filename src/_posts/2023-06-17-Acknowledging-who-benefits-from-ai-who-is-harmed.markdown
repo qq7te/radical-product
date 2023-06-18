@@ -36,15 +36,15 @@ scripts: '<script type="application/ld+json">
 }
 </script>'
 ---
-On his pro-AI campaign, Reid Hoffman mostly talks about the benefits AI will bring, but he also [acknowledges](https://www.nytimes.com/2023/05/25/technology/reid-hoffman-artificial-intelligence.html?action=click&pgtype=Article&state=default&module=styln-artificial-intelligence&variant=show&region=BELOW_MAIN_CONTENT&block=storyline_flex_guide_recirc) that there will be downsides, “It’s not to say that there won’t be some harms in some areas,” he said. “The question is could we learn and iterate to a much better state?”  
+On his pro-AI campaign, Reid Hoffman, billionaire entrepreneur and investor, talks about the benefits AI will bring. But he also [acknowledges](https://www.nytimes.com/2023/05/25/technology/reid-hoffman-artificial-intelligence.html?action=click&pgtype=Article&state=default&module=styln-artificial-intelligence&variant=show&region=BELOW_MAIN_CONTENT&block=storyline_flex_guide_recirc) that there will be downsides, “It’s not to say that there won’t be some harms in some areas,” he said. “The question is could we learn and iterate to a much better state?”  
 
-This phrase reminded me of a scene in the movie Shrek where Lord Farquaad says with bravura to his subjects, “Some of you may die, but that’s a sacrifice I’m willing to make.”
+His stance reminded me of a scene in the movie Shrek where Lord Farquaad says with bravura to his subjects, “Some of you may die, but that’s a sacrifice I’m willing to make.”
 
 
 ![Lord Farquaad in the movie Shrek]({{site.baseurl}}/img/farquaad.jpg)
 _"Some of you may die, but that’s a sacrifice I’m willing to make." - Lord Farquaad, Shrek_
 
-At least Lord Farquaad is direct about who might come to harm: his subjects. I’ve observed that in the tech industry, we often talk about the dangers of AI in abstract terms. Take the example of Hoffman’s words of “some harms in some areas”, or the words of Sam Altman, CEO of OpenAI, at the congressional hearing, “the benefits of the tools we have deployed so far vastly outweigh the risks”. Leaders in the tech industry avoid acknowledging whom AI will harm.
+At least Lord Farquaad is direct about who might come to harm: his subjects. I’ve observed that in the tech industry, we often talk about the dangers of AI in abstract terms. Take the example of Hoffman’s words of “some harms in some areas”, or the words of Sam Altman, CEO of OpenAI, at the [congressional hearing](https://www.nytimes.com/2023/05/16/technology/openai-altman-artificial-intelligence-regulation.html), “the benefits of the tools we have deployed so far vastly outweigh the risks”. Leaders in the tech industry avoid acknowledging whom AI will harm.
 
 Some [have conjectured](https://www.nytimes.com/2023/03/12/opinion/chatbots-artificial-intelligence-future-weirdness.html) that many AI experts are intent on working on the technology despite knowing that there’s a real possibility of creating a catastrophe for humanity because they “feel that they have a responsibility to usher this new form of intelligence into the world.” While such reasoning is a great backdrop for a sci-fi novel, I believe the answer in the real world is far simpler. It just requires asking the right question: “Who benefits and who is harmed?” Let’s start with the first question.  
 
@@ -81,9 +81,9 @@ For most people working on AI, the gains from AI seem very real while the danger
 <br>
 
 ## Justifying some harms in some areas
-It’s also easy to justify this early harm by saying that we’ll iterate to fix issues that come up. This was the rationale that Altman exalted when engaging in this arms race to be the first to market with ChatGPT. But while tech leaders can claim that iteration will address harms, there's historical evidence that this approach doesn’t work well.
+It’s also easy to justify this early harm by saying that we’ll iterate to fix issues that come up. This was the rationale that Altman [exalted](https://www.nytimes.com/2023/03/31/technology/sam-altman-open-ai-chatgpt.html) when engaging in this arms race to be the first to market with ChatGPT. But while tech leaders can claim that iteration will address harms, there's historical evidence that this approach doesn’t work.
 
-Facebook caused harm by eroding democracy in several countries and helped incite violence by spreading hate speech in India, Myanmar, and Ethiopia, but the company hasn’t been able to tackle these issues effectively. The example of Facebook/ Meta shows that contrary to Hoffman’s claim, iterations don’t create a fundamentally different product or a much better state.  
+Facebook caused harm by eroding democracy in several countries and helped incite violence in [India](https://www.nytimes.com/2021/10/23/technology/facebook-india-misinformation.html), [Myanmar](https://www.nytimes.com/2018/10/15/technology/myanmar-facebook-genocide.html), and [Ethiopia](https://www.cnn.com/2021/10/25/business/ethiopia-violence-facebook-papers-cmd-intl/index.html), but the company hasn’t been able to tackle these issues effectively. The example of Facebook/ Meta shows that contrary to Hoffman’s claim, iterations don’t create a fundamentally different product or a much better state.  
 
 For most organizations, the business case for generating content and user engagement is obvious because it brings in revenues, but the business case for fixing issues to address harms to marginalized communities is weak because it’s viewed as an expense. As a result, the idea that AI companies will invest in fixing issues that create “some harms in some areas” sounds almost as convincing as Meta investing to moderate hate speech in other languages.
 
