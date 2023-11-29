@@ -49,7 +49,7 @@ Instead, take some time to work through a detailed vision for each product in yo
 
 ### 2. Craft a clear strategy
 
-You then need a RDCL (pronounced “radical”) Strategy to translate your vision into an actionable set of steps. RDCL is a mnemonic for a comprehensive set of questions that help you define your strategy and communicate it to your team:
+You then need a [RDCL (pronounced “radical”) Strategy]({% post_url 2022-03-21-three-characteristics-of-good-product-Strategy%}) to translate your vision into an actionable set of steps. RDCL is a mnemonic for a comprehensive set of questions that help you define your strategy and communicate it to your team:
 
 - **[Real Pain Point]({% post_url 2021-04-15-real-pain-points%})**: What’s the pain that makes someone engage with your product?
 - **[Design](https://medium.com/radical-product/design-connecting-your-product-to-your-users-f1ce073ca5d6)**: What’s the design or solution that solves this pain for them? What's the functionality, and look and feel?
@@ -59,7 +59,7 @@ You then need a RDCL (pronounced “radical”) Strategy to translate your visio
 
 ### 3. Measure what matters
 
-With a clear vision and strategy, you can finally measure what matters - your metrics validate whether your strategy is working and if you’re on the right track to achieving the vision that you set out to.
+With a clear vision and strategy, you can finally [measure what matters]({% post_url 2021-04-29-the-downsides-of-OKRs%}) - your metrics validate whether your strategy is working and if you’re on the right track to achieving the vision that you set out to.
 
 To measure what matters, derive your metrics from your strategy, i.e. for each element of your Design in your RDCL Strategy, what metric(s) will tell you if it’s working? While it’s tempting to measure popular metrics including revenues, daily active users, and time spent on site, the reality is each of these metrics comes with assumptions that may not be right for your business.  
 <br>
